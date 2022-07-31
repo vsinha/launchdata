@@ -22,11 +22,7 @@ func TestGeneratingUrlsForYearRange(t *testing.T) {
 	want := []UrlInfo{
 		{
 			Year: 2020,
-			Url:  "https://www.wikitable2json.com/api/List_of_spaceflight_launches_in_January%E2%80%93June_2020",
-		},
-		{
-			Year: 2020,
-			Url:  "https://www.wikitable2json.com/api/List_of_spaceflight_launches_in_July%E2%80%93December_2020",
+			Url:  "https://www.wikitable2json.com/api/2020_in_spaceflight",
 		},
 		{
 			Year: 2021,
@@ -63,7 +59,7 @@ func TestParsingDatestamp(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		got := parseTimestamp(test.rawDate, test.year)
+		got, _ := parseTimestamp(test.rawDate, test.year)
 		if !got.Equal(test.want) {
 			t.Errorf("wanted: %v, got: %v", test.want, got)
 		}

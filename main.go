@@ -12,6 +12,8 @@ import (
 	"unicode/utf8"
 
 	"github.com/sanity-io/litter"
+
+	mapset "github.com/deckarep/golang-set/v2"
 )
 
 type Response struct {
@@ -44,6 +46,8 @@ type AllLauchData struct {
 	suborbitalFlights []RocketData
 }
 
+var months mapset.Set[string] = mapset.NewSet("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+
 func shouldSkipEntry(entry []string) bool {
 	if len(entry) == 2 {
 		// this entry only contains the date and ""
@@ -56,11 +60,14 @@ func shouldSkipEntry(entry []string) bool {
 	if strings.HasPrefix(entry[0], "For flights after") {
 		return true
 	}
+	if months.Contains(entry[0]) && months.Contains(entry[1]) {
+		return true
+	}
 
 	return false
 }
 
-func parseTimestamp(raw string, year int) time.Time {
+func parseTimestamp(raw string, year int) (time.Time, error) {
 	// trim off the wiki link annotation
 	raw = strings.Split(raw, "[")[0]
 	// add the year
@@ -68,17 +75,12 @@ func parseTimestamp(raw string, year int) time.Time {
 	// there's no space between the month and the hour
 	t, err := time.Parse("2006 2 January15:04:05 MST", raw)
 	if err != nil {
-		fmt.Printf("Error parsing time: %v\n", err)
-	}
-	if t.String() == "0001-01-01 00:00:00 +0000 UTC" {
-		// try again without seconds, chinese launches seem to not
-		// have seconds
 		t, err = time.Parse("2006 2 January15:04 MST", raw)
-		if err != nil {
-			fmt.Printf("Error parsing time: %v\n", err)
-		}
 	}
-	return t
+	if err != nil {
+		t, err = time.Parse("2006 2 January MST", raw)
+	}
+	return t, err
 }
 
 func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) {
@@ -99,8 +101,13 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			// The 2nd field (index 1) is always "" for payloads and notes, because they're indented
 			// in the wiki table
 
+			timestamp, err := parseTimestamp(date, year)
+			if err != nil {
+				fmt.Errorf("Error parsing timestamp %v\n%#v", err, data[*index])
+			}
+
 			rocketData = RocketData{
-				Datetime:     parseTimestamp(date, year),
+				Datetime:     timestamp,
 				Rocket:       data[*index][1],
 				FlightNumber: data[*index][3],
 				LaunchSite:   data[*index][4],
@@ -185,7 +192,7 @@ func loadFromFile(filename string) (RawResponse, error) {
 	return response, err
 }
 
-const baseUrl = "https://www.wikitable2json.com/api/List_of_spaceflight_launches_in"
+const baseUrl = "https://www.wikitable2json.com/api"
 
 type UrlInfo struct {
 	Year int
@@ -197,8 +204,21 @@ func generateUrlsForYearRange(startYear int, endYear int) []UrlInfo {
 	var urls []UrlInfo
 
 	for y := startYear; y <= endYear; y++ {
-		urls = append(urls, UrlInfo{Year: y, Url: fmt.Sprintf("%s_January%%E2%%80%%93June_%d", baseUrl, y)})
-		urls = append(urls, UrlInfo{Year: y, Url: fmt.Sprintf("%s_July%%E2%%80%%93December_%d", baseUrl, y)})
+		if y < 2021 {
+			urls = append(urls, UrlInfo{
+				Year: y,
+				Url:  fmt.Sprintf("%s/%d_in_spaceflight", baseUrl, y),
+			})
+		} else {
+			urls = append(urls, UrlInfo{
+				Year: y,
+				Url:  fmt.Sprintf("%s/List_of_spaceflight_launches_in_January%%E2%%80%%93June_%d", baseUrl, y),
+			})
+			urls = append(urls, UrlInfo{
+				Year: y,
+				Url:  fmt.Sprintf("%s/List_of_spaceflight_launches_in_July%%E2%%80%%93December_%d", baseUrl, y),
+			})
+		}
 	}
 
 	return urls
@@ -207,6 +227,7 @@ func generateUrlsForYearRange(startYear int, endYear int) []UrlInfo {
 func getAndParse(url UrlInfo) ([]RocketData, error) {
 	response, err := get(url.Url)
 	// response, err := loadFromFile("launches-2022-jan-jun.json")
+	// litter.Dump(response)
 	if err != nil {
 		return []RocketData{}, err
 	}
@@ -217,7 +238,8 @@ func getAndParse(url UrlInfo) ([]RocketData, error) {
 }
 
 func main() {
-	urls := generateUrlsForYearRange(2021, 2022)
+	urls := generateUrlsForYearRange(2002, 2002)
+	var allLaunchData AllLauchData
 	for _, url := range urls {
 		launchData, err := getAndParse(url)
 		if err != nil {
@@ -225,6 +247,8 @@ func main() {
 			return
 		}
 		litter.Dump(launchData)
+		fmt.Printf("Parsed %d orbital launches in %d", len(launchData), url.Year)
+		allLaunchData.orbitalFlights = append(allLaunchData.orbitalFlights, launchData...)
 
 	}
 }
