@@ -2,6 +2,7 @@ package lib
 
 import (
 	"fmt"
+	"regexp"
 	"strings"
 	"time"
 	"unicode/utf8"
@@ -48,6 +49,11 @@ func parseTimestamp(raw string, year int) (time.Time, error) {
 	return t, err
 }
 
+func cleanWikilink(input string) string {
+	m := regexp.MustCompile(`\[\d+\]`)
+	return m.ReplaceAllString(input, "")
+}
+
 func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) {
 	var rocketData RocketData
 	var payloadData []PayloadData
@@ -62,28 +68,36 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			continue
 		}
 
+		for j, entry := range data[i] {
+			data[i][j] = cleanWikilink(entry)
+		}
+
 		if data[i][1] != "" {
 			// The 2nd field (index 1) is always "" for payloads and notes, because they're indented
 			// in the wiki table
 
 			timestamp, err := parseTimestamp(date, year)
 			if err != nil {
-				fmt.Errorf("Error parsing timestamp %v\n%#v", err, data[*index])
+				fmt.Println(fmt.Errorf("Error parsing timestamp %v\n%#v", err, data[*index]))
 			}
 
 			rocketData = RocketData{
-				Datetime:     timestamp,
-				Rocket:       data[*index][1],
-				FlightNumber: data[*index][3],
-				LaunchSite:   data[*index][4],
-				Lsp:          data[*index][6],
-				Payload:      []PayloadData{},
+				Datetime:              timestamp,
+				Rocket:                data[*index][1],
+				FlightNumber:          data[*index][3],
+				LaunchSite:            data[*index][4],
+				LaunchServiceProvider: data[*index][6],
+				Payload:               []PayloadData{},
 			}
 		} else if data[i][2] == data[i][3] && data[i][2] == data[i][5] {
 			// The notes entry has the same piece of data represented in indexes 2-7,
 			// so we can just check a couple of them
 			rocketData.Notes = data[i][3]
 		} else {
+			cubesat := false
+			if strings.Contains(data[i][2], "⚀") {
+				cubesat = true
+			}
 			data := PayloadData{
 				Payload:  data[i][2],
 				Operator: data[i][3],
@@ -91,6 +105,7 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 				Function: data[i][5],
 				Decay:    data[i][6],
 				Outcome:  data[i][7],
+				Cubesat:  cubesat,
 			}
 			payloadData = append(payloadData, data)
 		}

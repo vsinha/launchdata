@@ -1,6 +1,7 @@
 package lib
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -9,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	// "github.com/sanity-io/litter"
+	"github.com/sanity-io/litter"
 	"github.com/spf13/cobra"
 )
 
@@ -26,21 +27,22 @@ type PayloadData struct {
 	Function string
 	Decay    string
 	Outcome  string
+	Cubesat  bool
 }
 
 type RocketData struct {
-	Datetime     time.Time
-	Rocket       string
-	FlightNumber string
-	LaunchSite   string
-	Lsp          string
-	Notes        string
-	Payload      []PayloadData
+	Datetime              time.Time
+	Rocket                string
+	FlightNumber          string
+	LaunchSite            string
+	LaunchServiceProvider string
+	Notes                 string
+	Payload               []PayloadData
 }
 
 type AllLaunchData struct {
-	orbitalFlights    []RocketData
-	suborbitalFlights []RocketData
+	OrbitalFlights    []RocketData
+	SuborbitalFlights []RocketData
 }
 
 type RawResponse [][][]string
@@ -92,37 +94,60 @@ func getAndParse(url UrlInfo) ([]RocketData, error) {
 // TODO add support for outputting JSON
 
 func getAndParseMultipleYears(startYear int, endYear int) (AllLaunchData, error) {
-	urls := generateUrlsForYearRange(2022, 2022)
+	urls := generateUrlsForYearRange(startYear, endYear)
 	var allLaunchData AllLaunchData
 	for _, url := range urls {
 		launchData, err := getAndParse(url)
 		if err != nil {
-			return allLaunchData, err
+			fmt.Printf("Encountered an error: %v\n", err)
 		}
 		// litter.Dump(launchData)
-		fmt.Printf("Parsed %d orbital launches in %d", len(launchData), url.Year)
-		allLaunchData.orbitalFlights = append(allLaunchData.orbitalFlights, launchData...)
+		fmt.Printf("Parsed %d orbital launches in %d (%s)\n", len(launchData), url.Year, url.Url)
+		allLaunchData.OrbitalFlights = append(allLaunchData.OrbitalFlights, launchData...)
 	}
+	// fmt.Printf("%#v\n", allLaunchData)
 	return allLaunchData, nil
 }
 
 func Command() {
+	litter.Config.HomePackage = "lib"
+	litter.Config.HidePrivateFields = false
+
 	var startYear int
 	var endYear int
+	var output string
 
 	rootCmd := &cobra.Command{
 		Use:   "launchdata",
 		Short: "Launchdata - a simple CLI to transform and inspect strings",
 		Long:  `TODO`,
 		Run: func(cmd *cobra.Command, args []string) {
-			getAndParseMultipleYears(startYear, endYear)
+			results, _ := getAndParseMultipleYears(startYear, endYear)
+
+			if output != "" {
+				resultsJson, err := json.Marshal(results)
+				if err != nil {
+					panic(err)
+				}
+
+				formattedJson := &bytes.Buffer{}
+				if err := json.Indent(formattedJson, []byte(resultsJson), "", "  "); err != nil {
+					panic(err)
+				}
+
+				if err := os.WriteFile(output, formattedJson.Bytes(), 0o644); err != nil {
+					panic(err)
+				}
+			}
 		},
 	}
-	rootCmd.Flags().IntVarP(&startYear, "start", "s", 2022, "Start Year")
+	rootCmd.Flags().IntVarP(&startYear, "start", "s", 2021, "Start Year")
 	rootCmd.MarkFlagRequired("start")
 
-	rootCmd.Flags().IntVarP(&endYear, "end", "e", 2022, "End Year")
+	rootCmd.Flags().IntVarP(&endYear, "end", "e", 2021, "End Year")
 	rootCmd.MarkFlagRequired("end")
+
+	rootCmd.Flags().StringVarP(&output, "output", "o", "", "JSON output file")
 
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Fprintf(os.Stderr, "Whoops. There was an error while executing your CLI '%s'", err)
