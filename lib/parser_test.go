@@ -207,7 +207,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 			Notes:                 "STP-27VPB mission (ELaNa 29, GEARRS-3, and TechEdSat-3) for the Defense Innovation Unit. The ELaNa 29 mission consists of two CubeSats (PAN-A and PAN-B) that will autonomously rendezvous and dock in low Earth orbit.",
 			Payload: []PayloadData{
 				{
-					Payload:  "⚀  Lemur-2-Krywe (ADLER-1)",
+					Payload:  "Lemur-2-Krywe (ADLER-1)",
 					Operator: "Austrian Space Forum",
 					Orbit:    "Low Earth",
 					Function: "Space debris measurement",
@@ -216,7 +216,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 					Cubesat:  true,
 				},
 				{
-					Payload:  "⚀  GEARRS-3",
+					Payload:  "GEARRS-3",
 					Operator: "Air Force Research Center",
 					Orbit:    "Low Earth",
 					Function: "Technology demonstration",
