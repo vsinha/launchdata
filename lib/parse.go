@@ -15,6 +15,9 @@ import (
 var months mapset.Set[string] = mapset.NewSet("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 
 func shouldSkipEntry(entry []string) bool {
+	if len(entry) == 0 {
+		return true
+	}
 	if len(entry) == 2 {
 		// this entry only contains the date and ""
 		return true
@@ -29,15 +32,22 @@ func shouldSkipEntry(entry []string) bool {
 	if months.Contains(entry[0]) && months.Contains(entry[1]) {
 		return true
 	}
+	if strings.Contains(entry[3], "Upcoming launches") {
+		return true
+	}
 
 	return false
 }
 
+// TODO wrap the Time in a struct which includes an 'ok' bool,
+// to figure out whether we parsed it correctly or not.
+// I'd use Option[Time] but this is Go
 func parseTimestamp(raw string, year int) (time.Time, error) {
 	// trim off the wiki link annotation
 	raw = strings.Split(raw, "[")[0]
 	// add the year
 	raw = fmt.Sprintf("%d %s MST", year, raw)
+
 	// there's no space between the month and the hour
 	t, err := time.Parse("2006 2 January15:04:05 MST", raw)
 	if err != nil {
@@ -46,6 +56,17 @@ func parseTimestamp(raw string, year int) (time.Time, error) {
 	if err != nil {
 		t, err = time.Parse("2006 2 January MST", raw)
 	}
+	if err != nil {
+		t, err = time.Parse("2006 2 January~15:04 MST ", raw)
+	}
+
+	// Future timestamp strings will contain these terms, we can
+	// simply return no error, as it's OK to have failed to parse them
+	if err != nil &&
+		(strings.Contains(raw, "Early") || strings.Contains(raw, "Mid") || strings.Contains(raw, "Late")) {
+		return t, nil
+	}
+
 	return t, err
 }
 
@@ -65,15 +86,19 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 	var payloadData []PayloadData
 	var i int
 
-	// grab the date of the first entry
-	date := data[*index][0]
+	// grab the timestampRaw of the first entry
+	timestampRaw := data[*index][0]
+	// date = cleanWikilink(date)
+	// fmt.Printf("%#v\n", date)
 
 	// Keep checking until the date changes
-	for i = *index; i < len(data) && data[i][0] == date; i += 1 {
+	for i = *index; i < len(data) && len(data[i]) > 0 && data[i][0] == timestampRaw; i += 1 {
+
 		if shouldSkipEntry(data[i]) {
 			continue
 		}
 
+		timestampRawCleaned := cleanWikilink(timestampRaw)
 		for j, entry := range data[i] {
 			data[i][j] = cleanWikilink(entry)
 		}
@@ -82,13 +107,22 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			// The 2nd field (index 1) is always "" for payloads and notes, because they're indented
 			// in the wiki table
 
-			timestamp, err := parseTimestamp(date, year)
-			if err != nil {
-				fmt.Println(fmt.Errorf("Error parsing timestamp %v\n%#v", err, data[*index]))
+			var timestamp time.Time
+			var tbd bool
+			if strings.Contains(timestampRaw, "TBD") {
+				tbd = true
+			} else {
+				var err error
+				timestamp, err = parseTimestamp(timestampRawCleaned, year)
+				if err != nil {
+					fmt.Println(fmt.Errorf("Failed to parse timestamp %v", err))
+				}
 			}
 
 			rocketData = RocketData{
-				Datetime:              timestamp,
+				TimestampRaw:          timestampRaw,
+				Timestamp:             timestamp,
+				TBD:                   tbd,
 				Rocket:                data[*index][1],
 				FlightNumber:          data[*index][3],
 				LaunchSite:            data[*index][4],
@@ -125,6 +159,7 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 
 func parseMultipleDates(data [][]string, year int) ([]RocketData, error) {
 	var allRocketData []RocketData
+	now := time.Now()
 
 	// The first 4 entries contain the month and some other header rows
 	for index := 4; index < len(data); index++ {
@@ -132,16 +167,22 @@ func parseMultipleDates(data [][]string, year int) ([]RocketData, error) {
 		if shouldSkipEntry(data[index]) {
 			continue
 		}
+
 		rocketData, err := parseSingleDate(&index, data, year)
 		if err != nil {
 			fmt.Println(err)
 		}
-		if rocketData.Payload == nil {
+
+		// Did it launch empty?
+		if rocketData.Payload == nil && !rocketData.TBD && rocketData.Timestamp.Before(now) {
+			fmt.Println(rocketData.Timestamp)
 			fmt.Println(
-				fmt.Errorf("Parsed a rocketData with nil payload, probably something has gone wrong:\n %s\n",
+				fmt.Errorf("Parsed a rocketData with no payload, probably something has gone wrong:\n %s\n",
 					litter.Sdump(rocketData)))
 		}
+
 		allRocketData = append(allRocketData, rocketData)
 	}
+
 	return allRocketData, nil
 }

@@ -76,7 +76,7 @@ func TestCanParseSingleDateWithSinglePayload(t *testing.T) {
 
 	want := RocketData{
 		// Datetime:     "6 January21:49:10[1]",
-		Datetime:              timeParse("2022-01-06 21:49:10 +0000 MST"),
+		Timestamp:             timeParse("2022-01-06 21:49:10 +0000 MST"),
 		Rocket:                "Falcon 9 Block 5",
 		FlightNumber:          "Starlink Group 4-5",
 		LaunchSite:            "Kennedy LC-39A",
@@ -107,7 +107,7 @@ func TestCanParseSingleDateWithMultiplePayloads(t *testing.T) {
 	}
 
 	want := RocketData{
-		Datetime:              timeParse("2022-01-13 15:25:39 +0000 MST"),
+		Timestamp:             timeParse("2022-01-13 15:25:39 +0000 MST"),
 		Rocket:                "Falcon 9 Block 5",
 		FlightNumber:          "Transporter-3",
 		LaunchSite:            "Cape Canaveral SLC-40",
@@ -155,7 +155,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 
 	want := []RocketData{
 		{
-			Datetime:              timeParse("2022-01-06 21:49:10 +0000 MST"),
+			Timestamp:             timeParse("2022-01-06 21:49:10 +0000 MST"),
 			Rocket:                "Falcon 9 Block 5",
 			FlightNumber:          "Starlink Group 4-5",
 			LaunchSite:            "Kennedy LC-39A",
@@ -173,7 +173,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 			},
 		},
 		{
-			Datetime:              timeParse("2022-01-13 15:25:39 +0000 MST"),
+			Timestamp:             timeParse("2022-01-13 15:25:39 +0000 MST"),
 			Rocket:                "Falcon 9 Block 5",
 			FlightNumber:          "Transporter-3",
 			LaunchSite:            "Cape Canaveral SLC-40",
@@ -199,7 +199,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 			},
 		},
 		{
-			Datetime:              timeParse("2022-01-13 22:51:39 +0000 MST"),
+			Timestamp:             timeParse("2022-01-13 22:51:39 +0000 MST"),
 			Rocket:                "LauncherOne",
 			FlightNumber:          "\"Above the Clouds\"",
 			LaunchSite:            "Cosmic Girl, Mojave",
@@ -228,7 +228,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 		},
 
 		{
-			Datetime:              timeParse("2022-01-17 02:35:00 +0000 MST"),
+			Timestamp:             timeParse("2022-01-17 02:35:00 +0000 MST"),
 			Rocket:                "Long March 2D",
 			FlightNumber:          "2D-Y70",
 			LaunchSite:            "Taiyuan LC-9",
@@ -246,7 +246,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 			},
 		},
 		{
-			Datetime:              timeParse("2022-01-19 02:02:40 +0000 MST"),
+			Timestamp:             timeParse("2022-01-19 02:02:40 +0000 MST"),
 			Rocket:                "Falcon 9 Block 5",
 			FlightNumber:          "Starlink Group 4-6",
 			LaunchSite:            "Kennedy LC-39A",
@@ -264,7 +264,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 			},
 		},
 		{
-			Datetime:              timeParse("2022-01-21 19:00:00 +0000 MST"),
+			Timestamp:             timeParse("2022-01-21 19:00:00 +0000 MST"),
 			Rocket:                "Atlas V 511",
 			FlightNumber:          "AV-084",
 			LaunchSite:            "Cape Canaveral SLC-41",

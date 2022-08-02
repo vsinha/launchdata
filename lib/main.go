@@ -31,7 +31,9 @@ type PayloadData struct {
 }
 
 type RocketData struct {
-	Datetime              time.Time
+	TimestampRaw          string
+	Timestamp             time.Time
+	TBD                   bool
 	Rocket                string
 	FlightNumber          string
 	LaunchSite            string
