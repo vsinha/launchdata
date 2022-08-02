@@ -53,6 +53,18 @@ func (res *RawResponse) decode(reader io.Reader) error {
 	return json.NewDecoder(reader).Decode(&res)
 }
 
+func loadFromFile(filename string) (RawResponse, error) {
+	jsonfile, err := os.Open(filename)
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer jsonfile.Close()
+
+	var response RawResponse
+	err = response.decode(jsonfile)
+	return response, err
+}
+
 func get(url string) (RawResponse, error) {
 	resp, err := http.Get(url)
 	if err != nil {
@@ -65,18 +77,6 @@ func get(url string) (RawResponse, error) {
 		log.Printf("URL: %#v", url)
 		log.Printf("Response: \n %#v", resp.Body)
 	}
-	return response, err
-}
-
-func loadFromFile(filename string) (RawResponse, error) {
-	jsonfile, err := os.Open(filename)
-	if err != nil {
-		fmt.Println(err)
-	}
-	defer jsonfile.Close()
-
-	var response RawResponse
-	err = response.decode(jsonfile)
 	return response, err
 }
 
@@ -93,8 +93,6 @@ func getAndParse(url UrlInfo) ([]RocketData, error) {
 	return launchData, err
 }
 
-// TODO add support for outputting JSON
-
 func getAndParseMultipleYears(startYear int, endYear int) (AllLaunchData, error) {
 	urls := generateUrlsForYearRange(startYear, endYear)
 	var allLaunchData AllLaunchData
@@ -103,21 +101,39 @@ func getAndParseMultipleYears(startYear int, endYear int) (AllLaunchData, error)
 		if err != nil {
 			fmt.Printf("Encountered an error: %v\n", err)
 		}
-		// litter.Dump(launchData)
+
 		fmt.Printf("Parsed %d orbital launches in %d (%s)\n", len(launchData), url.Year, url.Url)
 		allLaunchData.OrbitalFlights = append(allLaunchData.OrbitalFlights, launchData...)
 	}
-	// fmt.Printf("%#v\n", allLaunchData)
 	return allLaunchData, nil
 }
 
+func writeJsonFile(contents interface{}, filename string) error {
+	res, err := json.Marshal(contents)
+	if err != nil {
+		return err
+	}
+
+	formattedJson := &bytes.Buffer{}
+	if err := json.Indent(formattedJson, []byte(res), "", "  "); err != nil {
+		return err
+	}
+
+	if err := os.WriteFile(filename, formattedJson.Bytes(), 0o644); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+// TODO Add a command for loading from file instead of doing an http request
 func Command() {
 	litter.Config.HomePackage = "lib"
 	litter.Config.HidePrivateFields = false
 
 	var startYear int
 	var endYear int
-	var output string
+	var outputFilename string
 
 	rootCmd := &cobra.Command{
 		Use:   "launchdata",
@@ -126,18 +142,8 @@ func Command() {
 		Run: func(cmd *cobra.Command, args []string) {
 			results, _ := getAndParseMultipleYears(startYear, endYear)
 
-			if output != "" {
-				resultsJson, err := json.Marshal(results)
-				if err != nil {
-					panic(err)
-				}
-
-				formattedJson := &bytes.Buffer{}
-				if err := json.Indent(formattedJson, []byte(resultsJson), "", "  "); err != nil {
-					panic(err)
-				}
-
-				if err := os.WriteFile(output, formattedJson.Bytes(), 0o644); err != nil {
+			if outputFilename != "" {
+				if err := writeJsonFile(results, outputFilename); err != nil {
 					panic(err)
 				}
 			}
@@ -149,7 +155,7 @@ func Command() {
 	rootCmd.Flags().IntVarP(&endYear, "end", "e", 2021, "End Year")
 	rootCmd.MarkFlagRequired("end")
 
-	rootCmd.Flags().StringVarP(&output, "output", "o", "", "JSON output file")
+	rootCmd.Flags().StringVarP(&outputFilename, "output", "o", "", "JSON output file")
 
 	if err := rootCmd.Execute(); err != nil {
 		fmt.Fprintf(os.Stderr, "Whoops. There was an error while executing your CLI '%s'", err)
