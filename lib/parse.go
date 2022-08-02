@@ -54,6 +54,12 @@ func cleanWikilink(input string) string {
 	return m.ReplaceAllString(input, "")
 }
 
+func cleanCubesatAnnotation(input string) string {
+	s := strings.Replace(input, "⚀", "", 1)
+	s = strings.TrimSpace(s)
+	return s
+}
+
 func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) {
 	var rocketData RocketData
 	var payloadData []PayloadData
@@ -97,6 +103,7 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			cubesat := false
 			if strings.Contains(data[i][2], "⚀") {
 				cubesat = true
+				data[i][2] = cleanCubesatAnnotation(data[i][2])
 			}
 			data := PayloadData{
 				Payload:  data[i][2],
