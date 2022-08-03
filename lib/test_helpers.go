@@ -16,6 +16,7 @@ func timeParse(timeString string) time.Time {
 }
 
 func verify(t *testing.T, got interface{}) {
+	// Suggested by go-cmp maintainer: https://github.com/google/go-cmp/issues/224#issuecomment-650429859
 	transformJSON := cmp.FilterValues(func(x, y []byte) bool {
 		return json.Valid(x) && json.Valid(y)
 	}, cmp.Transformer("ParseJSON", func(in []byte) (out interface{}) {
@@ -32,8 +33,7 @@ func verify(t *testing.T, got interface{}) {
 		golden.Set(t, gotJson)
 	}
 
-	var want []byte
-	want = golden.Get(t)
+	want := golden.Get(t)
 
 	if diff := cmp.Diff(gotJson, want, transformJSON); diff != "" {
 		t.Errorf("diff (-got,+want:\n%s", diff)
