@@ -1,6 +1,7 @@
 package lib
 
 import (
+	"io/ioutil"
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
@@ -149,6 +150,16 @@ func TestCanParseSingleDateWithMultiplePayloads(t *testing.T) {
 func TestCanParseMultipleDates(t *testing.T) {
 	response, err := loadFromFile("testdata/launches-2022-jan-6-17.json")
 	got, err := parseMultipleDates(response[0], 2022)
+	content, err := ioutil.ReadFile("testdata/want-jan-dec-2022.json")
+	if err != nil {
+		t.Fatalf("Error loading golden file: %s", err)
+	}
+	want := string(content)
+
+	if got != want {
+		t.Errorf("Want:\n%s\nGot:\n%s", want, got)
+	}
+
 	if err != nil {
 		t.Errorf("parse error: %v", err)
 	}

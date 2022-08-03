@@ -21,11 +21,11 @@ jobs:
     - name: Build
       run: go build -v ./...
 
-    - name: Test
-      run: go test -v ./...
+#    - name: Test
+#      run: go test -v ./...
       
     - name: Output
-      run: go run . -s 2020 -e 2022 -o output.json
+      run: go run . -s 2000 -e 2022 -o output.json
       
     - uses: stefanzweifel/git-auto-commit-action@v4
 

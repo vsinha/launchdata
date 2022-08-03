@@ -108,14 +108,22 @@ func getAndParseMultipleYears(startYear int, endYear int) (AllLaunchData, error)
 	return allLaunchData, nil
 }
 
-func writeJsonFile(contents interface{}, filename string) error {
+func toJson(contents interface{}) (*bytes.Buffer, error) {
 	res, err := json.Marshal(contents)
 	if err != nil {
-		return err
+		return nil, err
 	}
 
 	formattedJson := &bytes.Buffer{}
 	if err := json.Indent(formattedJson, []byte(res), "", "  "); err != nil {
+		return nil, err
+	}
+	return formattedJson, nil
+}
+
+func writeJsonFile(contents interface{}, filename string) error {
+	formattedJson, err := toJson(contents)
+	if err != nil {
 		return err
 	}
 
