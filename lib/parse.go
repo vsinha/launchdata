@@ -43,21 +43,28 @@ func shouldSkipEntry(entry []string) bool {
 // to figure out whether we parsed it correctly or not.
 // I'd use Option[Time] but this is Go
 func parseTimestamp(raw string, year int) (time.Time, error) {
-	// trim off the wiki link annotation
-	raw = strings.Split(raw, "[")[0]
+	// add the year
+	raw = fmt.Sprintf("%d %s", year, raw)
+	raw = strings.TrimSpace(raw)
 
 	t, err := time.Parse("2006 2 January~15:04 MST", raw)
-
-	// add the year
-	raw = fmt.Sprintf("%d %s MST", year, raw)
 	if err != nil {
-		t, err = time.Parse("2006 2 January15:04:05 MST", raw)
+		t, err = time.Parse("2006 2 January15:04 (UTC)", raw)
 	}
 	if err != nil {
-		t, err = time.Parse("2006 2 January15:04 MST", raw)
+		t, err = time.Parse("2006 2 January15:04:05 (UTC)", raw)
 	}
 	if err != nil {
-		t, err = time.Parse("2006 2 January MST", raw)
+		t, err = time.Parse("2006 2 January~15:04", raw)
+	}
+	if err != nil {
+		t, err = time.Parse("2006 2 January15:04:05", raw)
+	}
+	if err != nil {
+		t, err = time.Parse("2006 2 January15:04", raw)
+	}
+	if err != nil {
+		t, err = time.Parse("2006 2 January", raw)
 	}
 
 	// Future timestamp strings will contain these terms, we can
