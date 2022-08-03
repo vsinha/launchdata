@@ -1,7 +1,5 @@
 # Launchdata 🚀
 
----
-
 [![Go](https://github.com/vsinha/launchdata/actions/workflows/go.yml/badge.svg)](https://github.com/vsinha/launchdata/actions/workflows/go.yml)
 
 Wikipedia has a lot of interesting data about rocket launches, but it's hard to
