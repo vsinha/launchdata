@@ -21,8 +21,8 @@ jobs:
     - name: Build
       run: go build -v ./...
 
-#    - name: Test
-#      run: go test -v ./...
+    - name: Test
+      run: go test -v ./...
       
     - name: Output
       run: go run . -s 2000 -e 2022 -o output.json
