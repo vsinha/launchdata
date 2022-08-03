@@ -45,19 +45,19 @@ func shouldSkipEntry(entry []string) bool {
 func parseTimestamp(raw string, year int) (time.Time, error) {
 	// trim off the wiki link annotation
 	raw = strings.Split(raw, "[")[0]
+
+	t, err := time.Parse("2006 2 January~15:04 MST", raw)
+
 	// add the year
 	raw = fmt.Sprintf("%d %s MST", year, raw)
-
-	// there's no space between the month and the hour
-	t, err := time.Parse("2006 2 January15:04:05 MST", raw)
+	if err != nil {
+		t, err = time.Parse("2006 2 January15:04:05 MST", raw)
+	}
 	if err != nil {
 		t, err = time.Parse("2006 2 January15:04 MST", raw)
 	}
 	if err != nil {
 		t, err = time.Parse("2006 2 January MST", raw)
-	}
-	if err != nil {
-		t, err = time.Parse("2006 2 January~15:04 MST ", raw)
 	}
 
 	// Future timestamp strings will contain these terms, we can
