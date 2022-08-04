@@ -43,32 +43,35 @@ func shouldSkipEntry(entry []string) bool {
 // to figure out whether we parsed it correctly or not.
 // I'd use Option[Time] but this is Go
 func parseTimestamp(raw string, year int) (time.Time, error) {
-	// add the year
-	raw = fmt.Sprintf("%d %s", year, raw)
+	raw = cleanWikilink(raw)
 	raw = strings.TrimSpace(raw)
 
-	t, err := time.Parse("2006 2 January~15:04 MST", raw)
-	if err != nil {
-		t, err = time.Parse("2006 2 January15:04 (UTC)", raw)
-	}
-	if err != nil {
-		t, err = time.Parse("2006 2 January15:04:05 (UTC)", raw)
-	}
-	if err != nil {
-		t, err = time.Parse("2006 2 January~15:04", raw)
-	}
-	if err != nil {
-		t, err = time.Parse("2006 2 January15:04:05", raw)
-	}
-	if err != nil {
-		t, err = time.Parse("2006 2 January15:04", raw)
-	}
-	if err != nil {
-		t, err = time.Parse("2006 2 January", raw)
+	// add the year
+	if !strings.HasPrefix(raw, fmt.Sprint(year)) {
+		raw = fmt.Sprintf("%d %s", year, raw)
 	}
 
-	// Future timestamp strings will contain these terms, we can
-	// simply return no error, as it's OK to have failed to parse them
+	formats := []string{
+		"2006 2 January~15:04 MST",
+		"2006 2 January15:04 (UTC)",
+		"2006 2 January15:04:05 (UTC)",
+		"2006 2 January~15:04",
+		"2006 2 January15:04:05",
+		"2006 2 January15:04",
+		"2006 2 January",
+	}
+
+	var t time.Time
+	err := fmt.Errorf("Haven't attempted any parsing yet")
+	for i := 0; i < len(formats) && err != nil; i++ {
+		t, err = time.Parse(formats[i], raw)
+	}
+
+	// TODO add a check to see if the time is still "0001-01-01T00:00:00Z", log
+	// an error or something if it is
+
+	// Future timestamp strings will contain these terms, we can simply return
+	// no error, as it's OK to have failed to parse them
 	if err != nil &&
 		(strings.Contains(raw, "Early") || strings.Contains(raw, "Mid") || strings.Contains(raw, "Late")) {
 		return t, nil
