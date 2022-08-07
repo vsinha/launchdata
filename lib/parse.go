@@ -103,8 +103,6 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 
 	// grab the timestampRaw of the first entry
 	timestampRaw := data[*index][0]
-	// date = cleanWikilink(date)
-	// fmt.Printf("%#v\n", date)
 
 	// Keep checking until the date changes
 	for i = *index; i < len(data) && len(data[i]) > 0 && data[i][0] == timestampRaw; i += 1 {
@@ -174,7 +172,6 @@ func parseMultipleDates(data [][]string, year int) ([]RocketData, error) {
 
 	// The first 4 entries contain the month and some other header rows
 	for index := 4; index < len(data); index++ {
-		// fmt.Printf("Parsing:\n%s\n", litter.Sdump(data[index]))
 		if shouldSkipEntry(data[index]) {
 			continue
 		}
