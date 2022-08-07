@@ -1,0 +1,155 @@
+[
+  {
+    "TimestampRaw": "6 January21:49:10[1]",
+    "Timestamp": "2022-01-06T21:49:10Z",
+    "TBD": false,
+    "Rocket": "Falcon 9 Block 5",
+    "FlightNumber": "Starlink Group 4-5",
+    "LaunchSite": "Kennedy LC-39A",
+    "LaunchServiceProvider": "SpaceX",
+    "Notes": "",
+    "Payload": [
+      {
+        "Payload": "Starlink × 49",
+        "Operator": "SpaceX",
+        "Orbit": "Low Earth",
+        "Function": "Communications",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      }
+    ]
+  },
+  {
+    "TimestampRaw": "13 January15:25:39[2]",
+    "Timestamp": "2022-01-13T15:25:39Z",
+    "TBD": false,
+    "Rocket": "Falcon 9 Block 5",
+    "FlightNumber": "Transporter-3",
+    "LaunchSite": "Cape Canaveral SLC-40",
+    "LaunchServiceProvider": "SpaceX",
+    "Notes": "Dedicated SmallSat Rideshare mission to sun-synchronous orbit, designated Transporter-3.",
+    "Payload": [
+      {
+        "Payload": "ION SCV-004 Elysian Eleonora",
+        "Operator": "D-Orbit",
+        "Orbit": "Low Earth (SSO)",
+        "Function": "CubeSat deployer",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      },
+      {
+        "Payload": "Alba Cluster 3That time of year",
+        "Operator": "Alba Orbital",
+        "Orbit": "Low Earth (SSO)",
+        "Function": "PocketQube dispenser",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      }
+    ]
+  },
+  {
+    "TimestampRaw": "13 January22:51:39[46][47]",
+    "Timestamp": "2022-01-13T22:51:39Z",
+    "TBD": false,
+    "Rocket": "LauncherOne",
+    "FlightNumber": "\"Above the Clouds\"",
+    "LaunchSite": "Cosmic Girl, Mojave",
+    "LaunchServiceProvider": "Virgin Orbit",
+    "Notes": "STP-27VPB mission (ELaNa 29, GEARRS-3, and TechEdSat-3) for the Defense Innovation Unit. The ELaNa 29 mission consists of two CubeSats (PAN-A and PAN-B) that will autonomously rendezvous and dock in low Earth orbit.",
+    "Payload": [
+      {
+        "Payload": "Lemur-2-Krywe (ADLER-1)",
+        "Operator": "Austrian Space Forum",
+        "Orbit": "Low Earth",
+        "Function": "Space debris measurement",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": true
+      },
+      {
+        "Payload": "GEARRS-3",
+        "Operator": "Air Force Research Center",
+        "Orbit": "Low Earth",
+        "Function": "Technology demonstration",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": true
+      }
+    ]
+  },
+  {
+    "TimestampRaw": "17 January02:35[51]",
+    "Timestamp": "2022-01-17T02:35:00Z",
+    "TBD": false,
+    "Rocket": "Long March 2D",
+    "FlightNumber": "2D-Y70",
+    "LaunchSite": "Taiyuan LC-9",
+    "LaunchServiceProvider": "CASC",
+    "Notes": "",
+    "Payload": [
+      {
+        "Payload": "Shiyan-13",
+        "Operator": "CAS",
+        "Orbit": "Low Earth (SSO)",
+        "Function": "Technology demonstration",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      }
+    ]
+  },
+  {
+    "TimestampRaw": "19 January02:02:40[52]",
+    "Timestamp": "2022-01-19T02:02:40Z",
+    "TBD": false,
+    "Rocket": "Falcon 9 Block 5",
+    "FlightNumber": "Starlink Group 4-6",
+    "LaunchSite": "Kennedy LC-39A",
+    "LaunchServiceProvider": "SpaceX",
+    "Notes": "",
+    "Payload": [
+      {
+        "Payload": "Starlink × 49",
+        "Operator": "SpaceX",
+        "Orbit": "Low Earth",
+        "Function": "Communications",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      }
+    ]
+  },
+  {
+    "TimestampRaw": "21 January19:00:00[53]",
+    "Timestamp": "2022-01-21T19:00:00Z",
+    "TBD": false,
+    "Rocket": "Atlas V 511",
+    "FlightNumber": "AV-084",
+    "LaunchSite": "Cape Canaveral SLC-41",
+    "LaunchServiceProvider": "ULA",
+    "Notes": "First and only flight of the 511 configuration for Atlas V.",
+    "Payload": [
+      {
+        "Payload": "USSF-8 / GSSAP-5",
+        "Operator": "U.S. Space Force",
+        "Orbit": "Geosynchronous",
+        "Function": "Space surveillance",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      },
+      {
+        "Payload": "USSF-8 / GSSAP-6",
+        "Operator": "U.S. Space Force",
+        "Orbit": "Geosynchronous",
+        "Function": "Space surveillance",
+        "Decay": "In orbit",
+        "Outcome": "Operational",
+        "Cubesat": false
+      }
+    ]
+  }
+]
