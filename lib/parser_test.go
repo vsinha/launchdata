@@ -108,3 +108,13 @@ func TestCanParseMultipleDates(t *testing.T) {
 
 	verify(t, got)
 }
+
+func TestCanParseFullWikiPage(t *testing.T) {
+	response, err := loadFromFile("testdata/launches-2022-jan-jun.json")
+	require.NoError(t, err)
+
+	got, err := parseMultipleDates(response[0], 2022)
+	require.NoError(t, err)
+
+	verify(t, got)
+}
