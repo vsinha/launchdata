@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path"
 	"time"
 
 	"github.com/sanity-io/litter"
@@ -49,6 +50,8 @@ type AllLaunchData struct {
 
 type RawResponse [][][]string
 
+var dryrun bool
+
 func (res *RawResponse) decode(reader io.Reader) error {
 	return json.NewDecoder(reader).Decode(&res)
 }
@@ -66,12 +69,18 @@ func loadFromFile(filename string) (RawResponse, error) {
 }
 
 func get(url string) (RawResponse, error) {
+	var response RawResponse
+
+	if dryrun {
+		fmt.Printf("Dry run: Would request %s\n", url)
+		return response, nil
+	}
+
 	resp, err := http.Get(url)
 	if err != nil {
 		return nil, err
 	}
 
-	var response RawResponse
 	err = response.decode(resp.Body)
 	if err != nil {
 		log.Printf("URL: %#v", url)
@@ -127,6 +136,11 @@ func writeJsonFile(contents interface{}, filename string) error {
 		return err
 	}
 
+	if dryrun {
+		fmt.Printf("Dry run: would output file %s\n", filename)
+		return nil
+	}
+
 	if err := os.WriteFile(filename, formattedJson.Bytes(), 0o644); err != nil {
 		return err
 	}
@@ -134,39 +148,89 @@ func writeJsonFile(contents interface{}, filename string) error {
 	return nil
 }
 
+func getAndWrite(startYear int, endYear int, filename string) {
+	if dryrun {
+		fmt.Printf("Dry run: would get and write file %s\n", filename)
+		return
+	}
+
+	results, _ := getAndParseMultipleYears(startYear, endYear)
+
+	if filename != "" {
+		fmt.Printf("Writing %s\n", filename)
+		if err := writeJsonFile(results, filename); err != nil {
+			panic(err)
+		}
+	}
+}
+
+func cmdCacheAll() *cobra.Command {
+	var outputDir string
+	cmdCacheAll := &cobra.Command{
+		Use:   "all",
+		Short: "Download all historical launch data from wikipedia",
+		Long:  `TODO`,
+		Run: func(cmd *cobra.Command, args []string) {
+			from := 1951
+			to := 2022
+			fmt.Printf("Caching all files from %d to %d\n", from, to)
+			for i := from; i <= to; i++ {
+				filename := path.Join(outputDir, fmt.Sprintf("launchdata-%d.json", i))
+				getAndWrite(i, i, filename)
+			}
+		},
+	}
+	cmdCacheAll.Flags().StringVar(&outputDir, "output-dir", "./data", "output directory")
+
+	return cmdCacheAll
+}
+
+func cmdCache() *cobra.Command {
+	var year int
+	var startYear int
+	var endYear int
+	var outputFilename string
+
+	cmdCache := &cobra.Command{
+		Use:   "cache",
+		Short: "Download launch data from wikipedia and cache it locally",
+		Long:  `TODO`,
+		Run: func(cmd *cobra.Command, args []string) {
+			if cmd.Flags().Changed("startYear") {
+				getAndWrite(startYear, endYear, outputFilename)
+			} else {
+				getAndWrite(year, year, outputFilename)
+			}
+		},
+	}
+	cmdCache.Flags().IntVarP(&startYear, "start", "s", 2021, "Start Year")
+	cmdCache.Flags().IntVarP(&endYear, "end", "e", 2021, "End Year")
+	cmdCache.MarkFlagsRequiredTogether("start", "end")
+
+	cmdCache.Flags().IntVarP(&year, "year", "y", 2021, "Specify a single year")
+	cmdCache.MarkFlagsMutuallyExclusive("year", "start")
+
+	cmdCache.Flags().StringVarP(&outputFilename, "output", "o", "", "JSON output file")
+
+	cmdCacheAll := cmdCacheAll()
+	cmdCache.AddCommand(cmdCacheAll)
+
+	return cmdCache
+}
+
 // TODO Add a command for loading from file instead of doing an http request
 func Command() {
 	litter.Config.HomePackage = "lib"
 	litter.Config.HidePrivateFields = false
 
-	var startYear int
-	var endYear int
-	var outputFilename string
+	cmdCache := cmdCache()
 
 	rootCmd := &cobra.Command{
 		Use:   "launchdata",
-		Short: "Launchdata - a simple CLI to transform and inspect strings",
-		Long:  `TODO`,
-		Run: func(cmd *cobra.Command, args []string) {
-			results, _ := getAndParseMultipleYears(startYear, endYear)
-
-			if outputFilename != "" {
-				if err := writeJsonFile(results, outputFilename); err != nil {
-					panic(err)
-				}
-			}
-		},
+		Short: "Launchdata 🚀\nA tool to download and examine rocket launch data from Wikipedia",
 	}
-	rootCmd.Flags().IntVarP(&startYear, "start", "s", 2021, "Start Year")
-	rootCmd.MarkFlagRequired("start")
+	rootCmd.PersistentFlags().BoolVar(&dryrun, "dry-run", false, "Don't actually take any actions")
 
-	rootCmd.Flags().IntVarP(&endYear, "end", "e", 2021, "End Year")
-	rootCmd.MarkFlagRequired("end")
-
-	rootCmd.Flags().StringVarP(&outputFilename, "output", "o", "", "JSON output file")
-
-	if err := rootCmd.Execute(); err != nil {
-		fmt.Fprintf(os.Stderr, "Whoops. There was an error while executing your CLI '%s'", err)
-		os.Exit(1)
-	}
+	rootCmd.AddCommand(cmdCache)
+	rootCmd.Execute()
 }
