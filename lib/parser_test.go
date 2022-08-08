@@ -11,16 +11,16 @@ import (
 
 func TestCleanWikilink(t *testing.T) {
 	tests := []struct {
-		test string
-		want string
+		input string
+		want  string
 	}{
-		{test: "1 March21:38:00[97]", want: "1 March21:38:00"},
-		{test: "foo[0][2]", want: "foo"},
-		{test: "foo[hello][2]", want: "foo[hello]"},
+		{"1 March21:38:00[97]", "1 March21:38:00"},
+		{"foo[0][2]", "foo"},
+		{"foo[hello][2]", "foo[hello]"},
 	}
 
 	for _, test := range tests {
-		got := cleanWikilink(test.test)
+		got := cleanWikilink(test.input)
 		if !(got == test.want) {
 			t.Errorf("wanted: %v, got: %v", test.want, got)
 		}

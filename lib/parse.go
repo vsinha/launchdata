@@ -62,9 +62,12 @@ func parseTimestamp(raw string, year int) (time.Time, error) {
 	}
 
 	var t time.Time
-	err := fmt.Errorf("Haven't attempted any parsing yet")
-	for i := 0; i < len(formats) && err != nil; i++ {
-		t, err = time.Parse(formats[i], raw)
+	err := fmt.Errorf("no parser user") // <-- error strings should be lower case https://github.com/golang/go/wiki/CodeReviewComments#error-strings
+	for _, format := range formats {
+		t, err = time.Parse(format, raw)
+		if err == nil {
+			break
+		}
 	}
 
 	// TODO add a check to see if the time is still "0001-01-01T00:00:00Z", log
@@ -80,17 +83,18 @@ func parseTimestamp(raw string, year int) (time.Time, error) {
 	return t, err
 }
 
+var wikiLinkRemovalRegex = regexp.MustCompile(`\[\d+\]`)
+
 func cleanWikilink(input string) string {
-	m := regexp.MustCompile(`\[\d+\]`)
-	return m.ReplaceAllString(input, "")
+	return wikiLinkRemovalRegex.ReplaceAllString(input, "")
 }
 
 func checkIfCubesat(input string) (string, bool) {
 	isCubesat := false
 	if strings.ContainsAny(input, "⚀▫") {
 		isCubesat = true
-		input = strings.Replace(input, "⚀", "", 1)
-		input = strings.Replace(input, "▫", "", 1)
+		input = strings.ReplaceAll(input, "⚀", "")
+		input = strings.ReplaceAll(input, "▫", "")
 		input = strings.TrimSpace(input)
 	}
 	return input, isCubesat
@@ -100,6 +104,10 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 	var rocketData RocketData
 	var payloadData []PayloadData
 	var i int
+
+	if len(data[*index]) < 1 {
+		return rocketData, fmt.Errorf("No data for year %d, index %d", year, index)
+	}
 
 	// grab the timestampRaw of the first entry
 	timestampRaw := data[*index][0]
@@ -132,6 +140,10 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 				}
 			}
 
+			if len(data[i]) < 7 {
+				continue
+			}
+
 			rocketData = RocketData{
 				TimestampRaw:          timestampRaw,
 				Timestamp:             timestamp,
@@ -147,6 +159,11 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			// so we can just check a couple of them
 			rocketData.Notes = data[i][3]
 		} else {
+
+			if len(data[i]) < 8 {
+				continue
+			}
+
 			payload, cubesat := checkIfCubesat(data[i][2])
 			data := PayloadData{
 				Payload:  payload,

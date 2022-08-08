@@ -1,0 +1,68 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": false,
+      "Rocket": "",
+      "FlightNumber": "",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "Apogee: 101 kilometres (63 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NRL",
+          "Orbit": "Suborbital",
+          "Function": "Sunfollower / Solar UV",
+          "Decay": "2 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 February",
+      "Timestamp": "1954-02-20T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Véronique-NA",
+      "FlightNumber": "",
+      "LaunchSite": "Hammaguir Bechar",
+      "LaunchServiceProvider": "LRBA",
+      "Notes": "Apogee: 29 kilometres (18 mi), maiden flight of the Véronique-NA",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "LRBA",
+          "Orbit": "Suborbital",
+          "Function": "Test flight",
+          "Decay": "20 February",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "21 February",
+      "Timestamp": "1954-02-21T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Véronique-NA",
+      "FlightNumber": "",
+      "LaunchSite": "Hammaguir Bechar",
+      "LaunchServiceProvider": "LRBA",
+      "Notes": "Apogee: 135 kilometres (84 mi), first French spaceflight",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "LRBA",
+          "Orbit": "Suborbital",
+          "Function": "Test flight",
+          "Decay": "21 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}

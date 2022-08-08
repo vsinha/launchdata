@@ -1,0 +1,68 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": false,
+      "Rocket": "",
+      "FlightNumber": "",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "Retired on 5 May 2001 and moved to a graveyard orbit",
+      "Payload": [
+        {
+          "Payload": "GOES 2",
+          "Operator": "NOAA",
+          "Orbit": "Current: GraveyardOperational: Geostationary",
+          "Function": "Weather",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 August14:29:44",
+      "Timestamp": "1977-08-20T14:29:44Z",
+      "TBD": false,
+      "Rocket": "Titan IIIE",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-41",
+      "LaunchServiceProvider": "",
+      "Notes": "Spacecraft flew past Jupiter, Saturn, Uranus and Neptune, first spacecraft to visit Uranus and Neptune",
+      "Payload": [
+        {
+          "Payload": "Voyager 2",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric to Galactocentric",
+          "Function": "Planetary",
+          "Decay": "In orbit",
+          "Outcome": "SuccessfulOperational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "5 September12:56:01",
+      "Timestamp": "1977-09-05T12:56:01Z",
+      "TBD": false,
+      "Rocket": "Titan IIIE",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-41",
+      "LaunchServiceProvider": "",
+      "Notes": "Final flight of Titan IIIE, spacecraft flew past Jupiter and Saturn",
+      "Payload": [
+        {
+          "Payload": "Voyager 1",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric to Galactocentric",
+          "Function": "Planetary",
+          "Decay": "In orbit",
+          "Outcome": "SuccessfulOperational",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}

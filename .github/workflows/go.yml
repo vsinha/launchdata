@@ -25,11 +25,7 @@ jobs:
       run: go test -v ./...
       
     - name: Output
-      run: |
-        go run . -s 1990 -e 1999 -o data/launchdata-1990s.json
-        go run . -s 2000 -e 2009 -o data/launchdata-2000s.json
-        go run . -s 2010 -e 2019 -o data/launchdata-2010s.json
-        go run . -s 2020 -e 2022 -o data/launchdata-2020s.json
+      run: go run . cache all --output-dir ./data
 
     - uses: stefanzweifel/git-auto-commit-action@v4
 

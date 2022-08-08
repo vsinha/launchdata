@@ -1,0 +1,215 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": false,
+      "Rocket": "",
+      "FlightNumber": "",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "Missed Moon due to premature cutoff of upper stage caused by control system malfunction. First spacecraft to be placed in Heliocentric orbit.",
+      "Payload": [
+        {
+          "Payload": "Mechta (Luna 1/E1-4)",
+          "Operator": "MVS",
+          "Orbit": "Intended: HEO to Lunar impactAchieved: Heliocentric",
+          "Function": "Lunar impactor",
+          "Decay": "In orbit",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "10 January11:00",
+      "Timestamp": "1959-01-10T11:00:00Z",
+      "TBD": false,
+      "Rocket": "A-1",
+      "FlightNumber": "",
+      "LaunchSite": "Ostrov Kheysa",
+      "LaunchServiceProvider": "MVS",
+      "Notes": "Apogee: 100 kilometres (62 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "MVS",
+          "Orbit": "Suborbital",
+          "Function": "IonosphericAeronomy",
+          "Decay": "10 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "16 January04:00",
+      "Timestamp": "1959-01-16T04:00:00Z",
+      "TBD": false,
+      "Rocket": "SM-65B Atlas",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Apogee: 100 kilometres (62 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "16 January",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 January15:42",
+      "Timestamp": "1959-01-19T15:42:00Z",
+      "TBD": false,
+      "Rocket": "UGM-27 Polaris AX",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-25A",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "Apogee: 200 kilometres (120 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "19 January",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "22 January00:10",
+      "Timestamp": "1959-01-22T00:10:00Z",
+      "TBD": false,
+      "Rocket": "PGM-19 Jupiter",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-5",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Apogee: 500 kilometres (310 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "22 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "23 January",
+      "Timestamp": "1959-01-23T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Thor DM-18 Able-II",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "RVX-1",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "REV test",
+          "Decay": "23 January",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "27 January17:00",
+      "Timestamp": "1959-01-27T17:00:00Z",
+      "TBD": false,
+      "Rocket": "Daniel",
+      "FlightNumber": "",
+      "LaunchSite": "CERES",
+      "LaunchServiceProvider": "ONERA",
+      "Notes": "Apogee: 127 kilometres (79 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "ONERA",
+          "Orbit": "Suborbital",
+          "Function": "Aeronomy",
+          "Decay": "27 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "27 January23:34",
+      "Timestamp": "1959-01-27T23:34:00Z",
+      "TBD": false,
+      "Rocket": "SM-65C Atlas",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-12",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Apogee: 990 kilometres (620 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "27 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "28 January",
+      "Timestamp": "1959-01-28T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Nike-Cajun",
+      "FlightNumber": "",
+      "LaunchSite": "Wallops Island",
+      "LaunchServiceProvider": "ARPA",
+      "Notes": "Apogee: 122 kilometres (76 mi)",
+      "Payload": [
+        {
+          "Payload": "Beacon Test 4",
+          "Operator": "ARPA/NASA",
+          "Orbit": "Suborbital",
+          "Function": "Technology",
+          "Decay": "28 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "30 January22:53",
+      "Timestamp": "1959-01-30T22:53:00Z",
+      "TBD": false,
+      "Rocket": "PGM-17 Thor DM-18A",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Apogee: 520 kilometres (320 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "30 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}

@@ -1,0 +1,461 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "12 January11:55",
+      "Timestamp": "1986-01-12T11:55:00Z",
+      "TBD": false,
+      "Rocket": "Space Shuttle Columbia",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with seven astronauts; Maiden flight of the Getaway Special Bridge",
+      "Payload": [
+        {
+          "Payload": "STS-61-C",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Satellite deployment",
+          "Decay": "18 January13:58",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Satcom K1",
+          "Operator": "RCA Americom",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "MSL-2",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Columbia)",
+          "Function": "Microgravity experiments",
+          "Decay": "18 January13:58",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Getaway Special Bridge",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Columbia)",
+          "Function": "Getaway Special carrier",
+          "Decay": "18 January13:58",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "28 January16:38",
+      "Timestamp": "1986-01-28T16:38:00Z",
+      "TBD": false,
+      "Rocket": "Space Shuttle  Challenger",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39B",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Space Shuttle Challenger disaster; Vehicle disintegrated at + 73 seconds from an O-ring failure in the right SRB.All seven astronauts were killed, including Christa McAuliffe, the intended first Teacher in Space.First Shuttle launch from LC-39B.",
+      "Payload": [
+        {
+          "Payload": "STS-51-L",
+          "Operator": "NASA",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Satellite deployment",
+          "Decay": "+ 73 seconds",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "TDRS-B",
+          "Operator": "NASA",
+          "Orbit": "Intended: Geosynchronous",
+          "Function": "Communications",
+          "Decay": "+ 73 seconds",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SPARTAN 203",
+          "Operator": "NASA",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Examine Halley's Comet",
+          "Decay": "+ 73 seconds",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "9 February10:06",
+      "Timestamp": "1986-02-09T10:06:00Z",
+      "TBD": false,
+      "Rocket": "Atlas H",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "USA-15 (NOSS-8)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "USA-16 (NOSS)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "USA-17 (NOSS)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "USA-18 (NOSS)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 February21:28",
+      "Timestamp": "1986-02-19T21:28:00Z",
+      "TBD": false,
+      "Rocket": "Proton-K",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "Core module of the Mir space station",
+      "Payload": [
+        {
+          "Payload": "DOS-7 (Mir Core)",
+          "Operator": "",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Space station",
+          "Decay": "23 March 200105:07",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "22 February01:44",
+      "Timestamp": "1986-02-22T01:44:00Z",
+      "TBD": false,
+      "Rocket": "Ariane 1",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "Final flight of Ariane 1SPOT 1 retired on 31 December 1990 and orbit was lowered to a disposal orbit in 2003Viking is the first Swedish satellite, and operations concluded on 12 May 1987",
+      "Payload": [
+        {
+          "Payload": "SPOT 1",
+          "Operator": "CNES",
+          "Orbit": "Sun-synchronous",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Viking",
+          "Operator": "SSC",
+          "Orbit": "Sun-synchronous",
+          "Function": "Plasma research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "13 March12:33",
+      "Timestamp": "1986-03-13T12:33:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed orbital flight with two cosmonauts; Final crewed spaceflight to Salyut 7 and the first to Mir.Final flight of the Soyuz-T spacecraft.Only spacecraft to dock with two space stations during one flight.",
+      "Payload": [
+        {
+          "Payload": "Soyuz T-15",
+          "Operator": "",
+          "Orbit": "Low Earth(Salyut 7 and Mir)",
+          "Function": "Salyut 7 EO-5Mir EO-1",
+          "Decay": "16 July12:34",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 March10:08",
+      "Timestamp": "1986-03-19T10:08:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Progress 25",
+          "Operator": "",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Logistics",
+          "Decay": "21 April00:48",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "28 March23:30",
+      "Timestamp": "1986-03-28T23:30:00Z",
+      "TBD": false,
+      "Rocket": "Ariane 3",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "Brasilsat-A2 was retired on 6 March 2004 and moved 200 kilometres (120 mi) higher to a graveyard orbit",
+      "Payload": [
+        {
+          "Payload": "GStar 2",
+          "Operator": "GTE Spacenet",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Brasilsat-A2",
+          "Operator": "Embratel",
+          "Orbit": "Current: GraveyardOperational: Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "18 April17:45",
+      "Timestamp": "1986-04-18T17:45:00Z",
+      "TBD": false,
+      "Rocket": "Titan 34D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "",
+      "Notes": "SRM burnthrough, exploded 8.5 seconds after launchFinal flight of the KH-9 spacecraft",
+      "Payload": [
+        {
+          "Payload": "KH-9-20",
+          "Operator": "NRO",
+          "Orbit": "Intended: Sun-synchronous",
+          "Function": "Reconnaissance",
+          "Decay": "+ 8.5 seconds",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SSF-D-6",
+          "Operator": "NRO",
+          "Orbit": "Intended: Sun-synchronous",
+          "Function": "ELINT",
+          "Decay": "+ 8.5 seconds",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "23 April19:40",
+      "Timestamp": "1986-04-23T19:40:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Progress 26",
+          "Operator": "",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Logistics",
+          "Decay": "23 June18:41",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "3 May22:18",
+      "Timestamp": "1986-05-03T22:18:00Z",
+      "TBD": false,
+      "Rocket": "Delta 3914",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral Air Force Station Launch Complex 17A",
+      "LaunchServiceProvider": "McDonnell Douglas",
+      "Notes": "Rocket destroyed 71 sec. after liftoff due to engine shutdown; First launch from CCAFS after Space Shuttle Challenger disaster",
+      "Payload": [
+        {
+          "Payload": "GOES-G",
+          "Operator": "NOAA, NASA",
+          "Orbit": "Geostationary",
+          "Function": "Weather satellite",
+          "Decay": "3 May",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "21 May08:21",
+      "Timestamp": "1986-05-21T08:21:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Soyuz-TM spacecraft; Uncrewed test flight",
+      "Payload": [
+        {
+          "Payload": "Soyuz TM-1",
+          "Operator": "",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Test flight",
+          "Decay": "30 May04:26",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "31 May00:53",
+      "Timestamp": "1986-05-31T00:53:00Z",
+      "TBD": false,
+      "Rocket": "Ariane 2",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "Maiden flight of Ariane 2; Third stage failed to ignite",
+      "Payload": [
+        {
+          "Payload": "Intelsat 514",
+          "Operator": "Intelsat",
+          "Orbit": "Intended: Geosynchronous",
+          "Function": "Communications",
+          "Decay": "31 May",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "28 August08:02",
+      "Timestamp": "1986-08-28T08:02:00Z",
+      "TBD": false,
+      "Rocket": "Molniya-M/2BL",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1774 (Oko)",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Missile defence",
+          "Decay": "2 November 201015:14",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "17 September15:52",
+      "Timestamp": "1986-09-17T15:52:00Z",
+      "TBD": false,
+      "Rocket": "Atlas E/Star-37S-ISS",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NOAA-10 (NOAA-G)",
+          "Operator": "NOAA",
+          "Orbit": "Sun-synchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "14 November00:23",
+      "Timestamp": "1986-11-14T00:23:00Z",
+      "TBD": false,
+      "Rocket": "Scout G-1",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-5",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Polar BEAR P87-1",
+          "Operator": "US Air Force/STP",
+          "Orbit": "Low Earth (Polar)",
+          "Function": "",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "5 December02:30",
+      "Timestamp": "1986-12-05T02:30:00Z",
+      "TBD": false,
+      "Rocket": "Atlas G",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-36B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "USA-20 (FLTSATCOM 7)",
+          "Operator": "US Navy",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}
