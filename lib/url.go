@@ -6,7 +6,7 @@ import (
 
 const (
 	baseUrl     = "https://www.wikitable2json.com/api"
-	baseWikiUrl = "https://en.wikipedia.org/wiki/"
+	baseWikiUrl = "https://en.wikipedia.org/wiki"
 )
 
 type UrlInfo struct {
