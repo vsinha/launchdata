@@ -1,0 +1,191 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "11 February",
+      "Timestamp": "1970-02-11T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Lambda-4S",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima",
+      "LaunchServiceProvider": "Japan",
+      "Notes": "First satellite launched by Japan",
+      "Payload": [
+        {
+          "Payload": "Ohsumi",
+          "Operator": "Tokyo University",
+          "Orbit": "Low Earth",
+          "Function": "Technology",
+          "Decay": "2 August 2003",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "3 March21:15",
+      "Timestamp": "1970-03-03T21:15:00Z",
+      "TBD": false,
+      "Rocket": "Black Arrow",
+      "FlightNumber": "",
+      "LaunchSite": "Woomera",
+      "LaunchServiceProvider": "RAE",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RAE",
+          "Orbit": "Low Earth",
+          "Function": "Test LV",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "11 April19:13",
+      "Timestamp": "1970-04-11T19:13:00Z",
+      "TBD": false,
+      "Rocket": "Saturn V (C-5)",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Explosion in Service Module crippled spacecraft, resulting in mission abort. Mission aborted due to CSM malfunction. LM used to help bring crew back to Earth.",
+      "Payload": [
+        {
+          "Payload": "Apollo 13 CSM Odyssey",
+          "Operator": "NASA",
+          "Orbit": "Intended: Lunar orbit  Actual: Lunar free return",
+          "Function": "Crewed lunar orbit.",
+          "Decay": "15 April 1970",
+          "Outcome": "Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Apollo 13 LM Aquarius",
+          "Operator": "NASA",
+          "Orbit": "Intended: Lunar landing  Actual: Lunar free return",
+          "Function": "Crewed lunar landing",
+          "Decay": "15 April 1970",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "24 April",
+      "Timestamp": "1970-04-24T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Long March 1 Rocket",
+      "FlightNumber": "",
+      "LaunchSite": "Jiuquan",
+      "LaunchServiceProvider": "PRC",
+      "Notes": "First satellite launched by China",
+      "Payload": [
+        {
+          "Payload": "Dong Fang Hong I",
+          "Operator": "PRC",
+          "Orbit": "Low Earth",
+          "Function": "Test satellite",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "1 June19:00",
+      "Timestamp": "1970-06-01T19:00:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz (R-7/A-2)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "First British attempt to launch a satellite. Failed to reach orbit after premature 2nd stage cutout.",
+      "Payload": [
+        {
+          "Payload": "Soyuz 9",
+          "Operator": "RVSN",
+          "Orbit": "Low Earth",
+          "Function": "Crewed Orbital Spaceflight",
+          "Decay": "19 June 1970  11:58",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orba",
+          "Operator": "RAE",
+          "Orbit": "Low Earth",
+          "Function": "Micrometeoroid detection satellite",
+          "Decay": "In orbit",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "12 September13:25",
+      "Timestamp": "1970-09-12T13:25:00Z",
+      "TBD": false,
+      "Rocket": "Proton-K/D",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur 81/23",
+      "LaunchServiceProvider": "",
+      "Notes": "First uncrewed lunar sample return, first Soviet lunar sample return",
+      "Payload": [
+        {
+          "Payload": "Luna 16",
+          "Operator": "",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar lander",
+          "Decay": "24 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 October19:55",
+      "Timestamp": "1970-10-20T19:55:00Z",
+      "TBD": false,
+      "Rocket": "Proton-K/D",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur 81/23",
+      "LaunchServiceProvider": "",
+      "Notes": "Final circumlunar flight of the Zond program.",
+      "Payload": [
+        {
+          "Payload": "Zond 8",
+          "Operator": "",
+          "Orbit": "Highly elliptical",
+          "Function": "Spacecraft test",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "12 December10:54",
+      "Timestamp": "1970-12-12T10:54:00Z",
+      "TBD": false,
+      "Rocket": "Scout B",
+      "FlightNumber": "",
+      "LaunchSite": "San Marco mobile range, Kenya",
+      "LaunchServiceProvider": "CNR",
+      "Notes": "First satellite dedicated to X-ray astronomy.",
+      "Payload": [
+        {
+          "Payload": "Uhuru",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "X-ray astronomy",
+          "Decay": "5 April 1979",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}

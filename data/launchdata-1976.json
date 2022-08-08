@@ -1,0 +1,179 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": false,
+      "Rocket": "",
+      "FlightNumber": "",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "Achieved a closest approach to the Sun of 43.432 million km (0.29 AU) on 17 April 1976, the closest approach achieved by an artificial satellite; it was succeeded by the Parker Solar Probe in 2018.",
+      "Payload": [
+        {
+          "Payload": "Helios-B",
+          "Operator": "NASA / DFVLR",
+          "Orbit": "Heliocentric",
+          "Function": "Solar probe",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "15 March01:25:40[1]",
+      "Timestamp": "1976-03-15T01:25:40Z",
+      "TBD": false,
+      "Rocket": "Titan III(23)C",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "LES-8 was decommissioned in 2004; LES-9, the last Lincoln Experimental Satellite, continued functioning for 44 years and was finally decommissioned in 2020.",
+      "Payload": [
+        {
+          "Payload": "LES-8",
+          "Operator": "MIT Lincoln Laboratory",
+          "Orbit": "Geosynchronous",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "LES-9",
+          "Operator": "MIT Lincoln Laboratory",
+          "Orbit": "Geosynchronous",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SOLRAD 11A",
+          "Operator": "NRL",
+          "Orbit": "Geosynchronous",
+          "Function": "Heliophysics",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SOLRAD 11B",
+          "Operator": "NRL",
+          "Orbit": "Geosynchronous",
+          "Function": "Heliophysics",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "22 June18:04:00",
+      "Timestamp": "1976-06-22T18:04:00Z",
+      "TBD": false,
+      "Rocket": "Proton-K",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "",
+      "Notes": "Visited by three crews, one of which failed to dock",
+      "Payload": [
+        {
+          "Payload": "Salyut 5 (Almaz OPS-3)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Space station",
+          "Decay": "8 August 1977",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "6 July12:08:45",
+      "Timestamp": "1976-07-06T12:08:45Z",
+      "TBD": false,
+      "Rocket": "Soyuz",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts, final flight of Soyuz 11A511, returned early due to crew illness",
+      "Payload": [
+        {
+          "Payload": "Soyuz 21",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 5)",
+          "Function": "Salyut expedition",
+          "Decay": "24 August18:32:17",
+          "Outcome": "Partial mission failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "9 August12:08:45",
+      "Timestamp": "1976-08-09T12:08:45Z",
+      "TBD": false,
+      "Rocket": "Proton-K/D",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur 81/23",
+      "LaunchServiceProvider": "",
+      "Notes": "Third uncrewed lunar sample return, Third Soviet lunar sample return",
+      "Payload": [
+        {
+          "Payload": "Luna 24",
+          "Operator": "",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar lander",
+          "Decay": "22 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "15 September09:48:30",
+      "Timestamp": "1976-09-15T09:48:30Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts",
+      "Payload": [
+        {
+          "Payload": "Soyuz 22",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Salyut expedition",
+          "Decay": "23 September07:40:47",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "14 October17:39:18",
+      "Timestamp": "1976-10-14T17:39:18Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts, failed to dock with Salyut 5",
+      "Payload": [
+        {
+          "Payload": "Soyuz 23",
+          "Operator": "",
+          "Orbit": "Low Earth (Intended: Salyut 5)",
+          "Function": "Salyut expedition",
+          "Decay": "16 October17:45:53",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}

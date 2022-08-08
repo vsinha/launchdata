@@ -1,0 +1,545 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "20 January17:26",
+      "Timestamp": "1983-01-20T17:26:00Z",
+      "TBD": false,
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1437 (Tselina-D 39)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "4 January 202200:04",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "9 February13:47",
+      "Timestamp": "1983-02-09T13:47:00Z",
+      "TBD": false,
+      "Rocket": "Atlas H",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3E",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Atlas H",
+      "Payload": [
+        {
+          "Payload": "OPS-0252 (NOSS 5)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "2 March09:37",
+      "Timestamp": "1983-03-02T09:37:00Z",
+      "TBD": false,
+      "Rocket": "Proton-K",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1443 (TKS-3) FGB",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 7)",
+          "Function": "Logistics",
+          "Decay": "19 September00:28",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos-1443 (TKS-3) VA",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 7)",
+          "Function": "Sample return",
+          "Decay": "23 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "28 March15:52",
+      "Timestamp": "1983-03-28T15:52:00Z",
+      "TBD": false,
+      "Rocket": "Atlas E/Star-37S-ISS",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3W",
+      "LaunchServiceProvider": "",
+      "Notes": "Spacecraft failed in June 1984",
+      "Payload": [
+        {
+          "Payload": "NOAA-8 (NOAA-E)",
+          "Operator": "NOAA",
+          "Orbit": "Sun-synchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "4 April18:30",
+      "Timestamp": "1983-04-04T18:30:00Z",
+      "TBD": false,
+      "Rocket": "Space Shuttle Challenger",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with four astronauts; Maiden flight of Space Shuttle Challenger",
+      "Payload": [
+        {
+          "Payload": "STS-6",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Satellite deployment",
+          "Decay": "9 April18:53",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "TDRS-1 (TDRS-A)",
+          "Operator": "NASA",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "15 April18:45",
+      "Timestamp": "1983-04-15T18:45:00Z",
+      "TBD": false,
+      "Rocket": "Titan 24B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS-2925 (KH-8-53)",
+          "Operator": "NRO",
+          "Orbit": "Sun-synchronous",
+          "Function": "Reconnaissance",
+          "Decay": "21 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 April13:10",
+      "Timestamp": "1983-04-20T13:10:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed orbital flight with three cosmonauts; Failed to dock with Salyut 7",
+      "Payload": [
+        {
+          "Payload": "Soyuz T-8",
+          "Operator": "",
+          "Orbit": "Low EarthPlanned: Docked to Salyut 7",
+          "Function": "Salyut 7 EO-2",
+          "Decay": "22 April13:28",
+          "Outcome": "Docking failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 May22:26",
+      "Timestamp": "1983-05-19T22:26:00Z",
+      "TBD": false,
+      "Rocket": "Atlas-Centaur SLV-3D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-36A",
+      "LaunchServiceProvider": "",
+      "Notes": "Final flight of Atlas-Centaur SLV-3D",
+      "Payload": [
+        {
+          "Payload": "Intelsat 506",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "9 June23:23",
+      "Timestamp": "1983-06-09T23:23:00Z",
+      "TBD": false,
+      "Rocket": "Atlas H",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS-6432 (NOSS 6)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "16 June11:59",
+      "Timestamp": "1983-06-16T11:59:00Z",
+      "TBD": false,
+      "Rocket": "Ariane 1",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA",
+      "LaunchServiceProvider": "CNES",
+      "Notes": "Eutelsat 1F1 retired in 1996",
+      "Payload": [
+        {
+          "Payload": "Eutelsat 1F1",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Oscar 10",
+          "Operator": "AMSAT",
+          "Orbit": "Geosynchronous transfer",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "18 June11:33",
+      "Timestamp": "1983-06-18T11:33:00Z",
+      "TBD": false,
+      "Rocket": "Space Shuttle Challenger",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with five astronauts; including the first female American astronaut, Sally RideAnik C2 retired 7 January 1998",
+      "Payload": [
+        {
+          "Payload": "STS-7",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Satellite deployment",
+          "Decay": "24 June14:56",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Anik C2",
+          "Operator": "Telesat Canada",
+          "Orbit": "Current: GraveyardOperational: Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Palapa B1",
+          "Operator": "Telkom Indonesia",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SPAS-I",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Challenger)",
+          "Function": "Microgravity research",
+          "Decay": "24 June14:56",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OSTA-2",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Challenger)",
+          "Function": "Scientific experiments",
+          "Decay": "24 June14:56",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 June18:45",
+      "Timestamp": "1983-06-20T18:45:00Z",
+      "TBD": false,
+      "Rocket": "Titan 34D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS-0721 (KH-9-18)",
+          "Operator": "NRO",
+          "Orbit": "Sun-synchronous",
+          "Function": "Reconnaissance",
+          "Decay": "21 March 1984",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS-3899 (SSF-C-7)",
+          "Operator": "NRO",
+          "Orbit": "Sun-synchronous",
+          "Function": "ELINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "27 June09:12",
+      "Timestamp": "1983-06-27T09:12:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed orbital flight with two cosmonauts",
+      "Payload": [
+        {
+          "Payload": "Soyuz T-9",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 7)",
+          "Function": "Salyut 7 EO-2",
+          "Decay": "23 November19:58",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "14 July10:21",
+      "Timestamp": "1983-07-14T10:21:00Z",
+      "TBD": false,
+      "Rocket": "Atlas E/SGS-2",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GPS-8",
+          "Operator": "US Air Force",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "31 July15:41",
+      "Timestamp": "1983-07-31T15:41:00Z",
+      "TBD": false,
+      "Rocket": "Titan 34B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS-7304 (Jumpseat 7)",
+          "Operator": "NRO",
+          "Orbit": "Molniya",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "17 August12:08",
+      "Timestamp": "1983-08-17T12:08:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Progress 17",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 7)",
+          "Function": "Logistics",
+          "Decay": "17 September23:43",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "30 August06:32",
+      "Timestamp": "1983-08-30T06:32:00Z",
+      "TBD": false,
+      "Rocket": "Space Shuttle Challenger",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with five astronauts",
+      "Payload": [
+        {
+          "Payload": "STS-8",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Satellite deployment",
+          "Decay": "5 September07:40",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "INSAT 1B",
+          "Operator": "ISRO",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Payload Flight Test Article",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Challenger)",
+          "Function": "Payload compatibility testing",
+          "Decay": "5 September07:40",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 October00:45",
+      "Timestamp": "1983-10-19T00:45:00Z",
+      "TBD": false,
+      "Rocket": "Ariane 1",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA",
+      "LaunchServiceProvider": "CNES",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Intelsat 507",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 October09:59",
+      "Timestamp": "1983-10-20T09:59:00Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Progress 18",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 7)",
+          "Function": "Logistics",
+          "Decay": "16 November04:18",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "18 November06:32",
+      "Timestamp": "1983-11-18T06:32:00Z",
+      "TBD": false,
+      "Rocket": "Atlas E/Star-37S-ISS",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-3W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "DMSP 5D-2 F7",
+          "Operator": "US Air Force",
+          "Orbit": "Sun-synchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "28 November16:00",
+      "Timestamp": "1983-11-28T16:00:00Z",
+      "TBD": false,
+      "Rocket": "Space Shuttle  Columbia",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with six astronauts; Maiden flight of Spacelab Long Module",
+      "Payload": [
+        {
+          "Payload": "STS-9",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Microgravity research",
+          "Decay": "8 December23:47",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Spacelab Long Module 1",
+          "Operator": "NASA/ESRO",
+          "Orbit": "Low Earth (Columbia)",
+          "Function": "Microgravity research",
+          "Decay": "8 December23:47",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}
