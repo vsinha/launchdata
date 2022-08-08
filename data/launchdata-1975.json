@@ -1,0 +1,263 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "10 January21:43:37",
+      "Timestamp": "1975-01-10T21:43:37Z",
+      "TBD": false,
+      "Rocket": "Soyuz",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts, first mission to Salyut 4",
+      "Payload": [
+        {
+          "Payload": "Soyuz 17",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 4)",
+          "Function": "Salyut expedition",
+          "Decay": "19 February11:03",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "5 April11:04:54",
+      "Timestamp": "1975-04-05T11:04:54Z",
+      "TBD": false,
+      "Rocket": "Soyuz",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts, first and second core stages failed to separate, flight aborted and crew returned on suborbital trajectory",
+      "Payload": [
+        {
+          "Payload": "Soyuz 7K-T #39",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth (Salyut 4)",
+          "Function": "Salyut expedition",
+          "Decay": "11:26",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "9 April23:58:02",
+      "Timestamp": "1975-04-09T23:58:02Z",
+      "TBD": false,
+      "Rocket": "Delta 1410",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GEOS-3",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Geodesy",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 April",
+      "Timestamp": "1975-04-19T00:00:00Z",
+      "TBD": false,
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar",
+      "LaunchServiceProvider": "Soviet Interkosmos programme",
+      "Notes": "First Indian satellite; payload failed 4–5 days after launch",
+      "Payload": [
+        {
+          "Payload": "Aryabhatta",
+          "Operator": "ISRO",
+          "Orbit": "Low Earth",
+          "Function": "X-ray astronomy, aeronomics, and solar physics studies",
+          "Decay": "11 February 1992",
+          "Outcome": "Launch success, payload partial failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "7 May22:45:01",
+      "Timestamp": "1975-05-07T22:45:01Z",
+      "TBD": false,
+      "Rocket": "Scout F-1",
+      "FlightNumber": "",
+      "LaunchSite": "San Marco mobile range, Kenya",
+      "LaunchServiceProvider": "CRS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SAS 3",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "X-ray astronomy",
+          "Decay": "9 April 1979",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "24 May14:58:10",
+      "Timestamp": "1975-05-24T14:58:10Z",
+      "TBD": false,
+      "Rocket": "Soyuz",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts, final mission to Salyut 4",
+      "Payload": [
+        {
+          "Payload": "Soyuz 18",
+          "Operator": "",
+          "Orbit": "Low Earth (Salyut 4)",
+          "Function": "Salyut expedition",
+          "Decay": "26 July14:18",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "15 July14:58:10",
+      "Timestamp": "1975-07-15T14:58:10Z",
+      "TBD": false,
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Crewed flight with two cosmonauts, Soviet contribution to the Apollo Soyuz Test Project",
+      "Payload": [
+        {
+          "Payload": "Soyuz 19",
+          "Operator": "",
+          "Orbit": "Low Earth (Apollo)",
+          "Function": "International docking",
+          "Decay": "21 July10:50",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "15 July19:50:01",
+      "Timestamp": "1975-07-15T19:50:01Z",
+      "TBD": false,
+      "Rocket": "Saturn IB",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Crewed flight with three astronauts, American contribution to the Apollo Soyuz Test Project, final flight of the Apollo programme and the Saturn rocket",
+      "Payload": [
+        {
+          "Payload": "Apollo",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Soyuz 19)",
+          "Function": "International docking",
+          "Decay": "24 July21:18",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "DM-2",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Apollo)",
+          "Function": "Docking adaptor",
+          "Decay": "2 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "20 August21:22:00",
+      "Timestamp": "1975-08-20T21:22:00Z",
+      "TBD": false,
+      "Rocket": "Titan IIIE",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-41",
+      "LaunchServiceProvider": "",
+      "Notes": "Lander landed in Chryse Planitia, becoming the first US spacecraft to land on Mars. It operated until 11 November 1982 when communications were lost due to an erroneous command being sent to the spacecraft. Orbiter was deactivated on 17 August 1980.",
+      "Payload": [
+        {
+          "Payload": "Viking 1 Orbiter",
+          "Operator": "NASA",
+          "Orbit": "Areocentric",
+          "Function": "Mars orbiter",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Viking 1 Lander",
+          "Operator": "NASA",
+          "Orbit": "Areocentric",
+          "Function": "Mars lander",
+          "Decay": "20 July 197611:53:06",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "9 September18:39:00",
+      "Timestamp": "1975-09-09T18:39:00Z",
+      "TBD": false,
+      "Rocket": "Titan IIIE",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-41",
+      "LaunchServiceProvider": "",
+      "Notes": "Lander landed in Utopia Planitia and operated until its batteries failed on 11 April 1980. Orbiter was deactivated on 25 July 1978.",
+      "Payload": [
+        {
+          "Payload": "Viking 2 Orbiter",
+          "Operator": "NASA",
+          "Orbit": "Areocentric",
+          "Function": "Mars orbiter",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Viking 2 Lander",
+          "Operator": "NASA",
+          "Orbit": "Areocentric",
+          "Function": "Mars lander",
+          "Decay": "3 September 197622:58:20",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "16 October22:40:00",
+      "Timestamp": "1975-10-16T22:40:00Z",
+      "TBD": false,
+      "Rocket": "Delta 2914",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "First operational geostationary weather satellite. Deactivated on March 7, 1985",
+      "Payload": [
+        {
+          "Payload": "GOES 1",
+          "Operator": "NOAA",
+          "Orbit": "Geostationary",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}

@@ -101,6 +101,10 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 	var payloadData []PayloadData
 	var i int
 
+	if len(data[*index]) < 1 {
+		return rocketData, fmt.Errorf("No data for year %d, index %d", year, index)
+	}
+
 	// grab the timestampRaw of the first entry
 	timestampRaw := data[*index][0]
 
@@ -132,6 +136,10 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 				}
 			}
 
+			if len(data[i]) < 7 {
+				continue
+			}
+
 			rocketData = RocketData{
 				TimestampRaw:          timestampRaw,
 				Timestamp:             timestamp,
@@ -147,6 +155,11 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			// so we can just check a couple of them
 			rocketData.Notes = data[i][3]
 		} else {
+
+			if len(data[i]) < 8 {
+				continue
+			}
+
 			payload, cubesat := checkIfCubesat(data[i][2])
 			data := PayloadData{
 				Payload:  payload,

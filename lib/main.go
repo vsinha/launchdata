@@ -111,7 +111,7 @@ func getAndParseMultipleYears(startYear int, endYear int) (AllLaunchData, error)
 			fmt.Printf("Encountered an error: %v\n", err)
 		}
 
-		fmt.Printf("Parsed %d orbital launches in %d (%s)\n", len(launchData), url.Year, url.Url)
+		fmt.Printf("Parsed %d orbital launches in %d (%s, %s)\n", len(launchData), url.Year, url.Url, url.WikiUrl)
 		allLaunchData.OrbitalFlights = append(allLaunchData.OrbitalFlights, launchData...)
 	}
 	return allLaunchData, nil

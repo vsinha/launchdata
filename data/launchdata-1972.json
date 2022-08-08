@@ -1,0 +1,68 @@
+{
+  "OrbitalFlights": [
+    {
+      "TimestampRaw": "",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": false,
+      "Rocket": "",
+      "FlightNumber": "",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "Second uncrewed lunar sample return mission",
+      "Payload": [
+        {
+          "Payload": "Luna 16 Return capsule",
+          "Operator": "",
+          "Orbit": "Highly elliptical",
+          "Function": "Sample return",
+          "Decay": "25 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "24 April01:25:47",
+      "Timestamp": "1972-04-24T01:25:47Z",
+      "TBD": false,
+      "Rocket": "Lunar Module Ascent Stage",
+      "FlightNumber": "",
+      "LaunchSite": "Descartes Highlands (Luna)",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Carrying two astronauts back to CSM after lunar landing",
+      "Payload": [
+        {
+          "Payload": "Apollo 16 LM",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric (CSM)",
+          "Function": "Crewed",
+          "Decay": "Unknown",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "14 December22:54:37",
+      "Timestamp": "1972-12-14T22:54:37Z",
+      "TBD": false,
+      "Rocket": "Lunar Module Ascent Stage",
+      "FlightNumber": "",
+      "LaunchSite": "Taurus-Littrow (Luna)",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Carrying two astronauts back to CSM after lunar landing",
+      "Payload": [
+        {
+          "Payload": "Apollo 17 LM",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric (CSM)",
+          "Function": "Crewed",
+          "Decay": "15 December06:50",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
+  "SuborbitalFlights": null
+}
