@@ -1,5 +1,5 @@
 run:
-    go run . -s 2020 -e 2022
+    go run . cache -s 2020 -e 2022
 
 test:
     go test ./...

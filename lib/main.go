@@ -52,8 +52,9 @@ type RawResponse [][][]string
 
 var dryrun bool
 
-func (res *RawResponse) decode(reader io.Reader) error {
-	return json.NewDecoder(reader).Decode(&res)
+func newRawResponse(r io.Reader) (RawResponse, error) {
+	var res RawResponse
+	return res, json.NewDecoder(r).Decode(&res)
 }
 
 func loadFromFile(filename string) (RawResponse, error) {
@@ -63,8 +64,7 @@ func loadFromFile(filename string) (RawResponse, error) {
 	}
 	defer jsonfile.Close()
 
-	var response RawResponse
-	err = response.decode(jsonfile)
+	response, err := newRawResponse(jsonfile)
 	return response, err
 }
 
@@ -81,18 +81,21 @@ func get(url string) (RawResponse, error) {
 		return nil, err
 	}
 
-	err = response.decode(resp.Body)
+	response, err = newRawResponse(resp.Body)
 	if err != nil {
 		log.Printf("URL: %#v", url)
 		log.Printf("Response: \n %#v", resp.Body)
 	}
+
+	if err := resp.Body.Close(); err != nil {
+		log.Printf("Error closing http body: %v", err)
+	}
+
 	return response, err
 }
 
 func getAndParse(url UrlInfo) ([]RocketData, error) {
 	response, err := get(url.Url)
-	// response, err := loadFromFile("launches-2022-jan-jun.json")
-	// litter.Dump(response)
 	if err != nil {
 		return []RocketData{}, err
 	}
