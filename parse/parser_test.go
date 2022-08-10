@@ -1,4 +1,4 @@
-package lib
+package parse
 
 import (
 	"encoding/json"
@@ -7,6 +7,8 @@ import (
 	golden "github.com/jimeh/go-golden"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"launchdata/jsonio"
 )
 
 func TestCleanWikilink(t *testing.T) {
@@ -70,7 +72,7 @@ func TestSkippingIrrelevantEntries(t *testing.T) {
 }
 
 func TestCanParseSingleDateWithSinglePayload(t *testing.T) {
-	response, err := loadFromFile("testdata/launches-2022-jan-6.json")
+	response, err := jsonio.LoadFromFile("testdata/launches-2022-jan-6.json")
 	require.NoError(t, err)
 
 	index := 0
@@ -89,7 +91,7 @@ func TestCanParseSingleDateWithSinglePayload(t *testing.T) {
 }
 
 func TestCanParseSingleDateWithMultiplePayloads(t *testing.T) {
-	response, err := loadFromFile("testdata/launches-2022-jan-13.json")
+	response, err := jsonio.LoadFromFile("testdata/launches-2022-jan-13.json")
 	require.NoError(t, err)
 	index := 0
 
@@ -100,7 +102,7 @@ func TestCanParseSingleDateWithMultiplePayloads(t *testing.T) {
 }
 
 func TestCanParseMultipleDates(t *testing.T) {
-	response, err := loadFromFile("testdata/launches-2022-jan-6-17.json")
+	response, err := jsonio.LoadFromFile("testdata/launches-2022-jan-6-17.json")
 	require.NoError(t, err)
 
 	got, err := parseMultipleDates(response[0], 2022)
@@ -110,7 +112,7 @@ func TestCanParseMultipleDates(t *testing.T) {
 }
 
 func TestCanParseFullWikiPage(t *testing.T) {
-	response, err := loadFromFile("testdata/launches-2022-jan-jun.json")
+	response, err := jsonio.LoadFromFile("testdata/launches-2022-jan-jun.json")
 	require.NoError(t, err)
 
 	got, err := parseMultipleDates(response[0], 2022)

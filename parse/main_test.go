@@ -1,13 +1,15 @@
-package lib
+package parse
 
 import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+
+	"launchdata/jsonio"
 )
 
 func TestCanLoadFile(t *testing.T) {
-	response, err := loadFromFile("testdata/launches-2022-jan-jun.json")
+	response, err := jsonio.LoadFromFile("testdata/launches-2022-jan-jun.json")
 	if err != nil {
 		t.Errorf("%v", err)
 	}

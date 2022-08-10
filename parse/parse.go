@@ -1,4 +1,4 @@
-package lib
+package parse
 
 import (
 	"fmt"
@@ -9,8 +9,37 @@ import (
 
 	"github.com/sanity-io/litter"
 
+	"launchdata/jsonio"
+
 	mapset "github.com/deckarep/golang-set/v2"
 )
+
+type PayloadData struct {
+	Payload  string
+	Operator string
+	Orbit    string
+	Function string
+	Decay    string
+	Outcome  string
+	Cubesat  bool
+}
+
+type RocketData struct {
+	TimestampRaw          string
+	Timestamp             time.Time
+	TBD                   bool
+	Rocket                string
+	FlightNumber          string
+	LaunchSite            string
+	LaunchServiceProvider string
+	Notes                 string
+	Payload               []PayloadData
+}
+
+type AllLaunchData struct {
+	OrbitalFlights    []RocketData
+	SuborbitalFlights []RocketData
+}
 
 var months mapset.Set[string] = mapset.NewSet("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
 
@@ -210,4 +239,46 @@ func parseMultipleDates(data [][]string, year int) ([]RocketData, error) {
 	}
 
 	return allRocketData, nil
+}
+
+func getAndParse(url UrlInfo) ([]RocketData, error) {
+	response, err := jsonio.Get(url.Url)
+	if err != nil {
+		return []RocketData{}, err
+	}
+
+	launchData, err := parseMultipleDates(response[0], url.Year)
+
+	return launchData, err
+}
+
+func getAndParseMultipleYears(startYear int, endYear int) (AllLaunchData, error) {
+	urls := generateUrlsForYearRange(startYear, endYear)
+	var allLaunchData AllLaunchData
+	for _, url := range urls {
+		launchData, err := getAndParse(url)
+		if err != nil {
+			fmt.Printf("Encountered an error: %v\n", err)
+		}
+
+		fmt.Printf("Parsed %d orbital launches in %d (%s, %s)\n", len(launchData), url.Year, url.Url, url.WikiUrl)
+		allLaunchData.OrbitalFlights = append(allLaunchData.OrbitalFlights, launchData...)
+	}
+	return allLaunchData, nil
+}
+
+func GetAndWrite(startYear int, endYear int, filename string) {
+	// if dryrun {
+	// 	fmt.Printf("Dry run: would get and write file %s\n", filename)
+	// 	return
+	// }
+
+	results, _ := getAndParseMultipleYears(startYear, endYear)
+
+	if filename != "" {
+		fmt.Printf("Writing %s\n", filename)
+		if err := jsonio.WriteJsonFile(results, filename); err != nil {
+			panic(err)
+		}
+	}
 }

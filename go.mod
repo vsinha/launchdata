@@ -1,4 +1,4 @@
-module github.com/vsinha/launchdata
+module launchdata
 
 go 1.18
 

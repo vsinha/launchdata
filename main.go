@@ -1,9 +1,12 @@
 package main
 
 import (
-	"github.com/vsinha/launchdata/lib"
+	"launchdata/cmd"
 )
 
 func main() {
-	lib.Command()
+	rootCmd := cmd.Root()
+	if err := rootCmd.Execute(); err != nil {
+		panic(err)
+	}
 }
