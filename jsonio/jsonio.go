@@ -8,6 +8,8 @@ import (
 	"log"
 	"net/http"
 	"os"
+
+	"launchdata/config"
 )
 
 type RawResponse [][][]string
@@ -28,13 +30,13 @@ func LoadFromFile(filename string) (RawResponse, error) {
 	return response, err
 }
 
-func Get(url string) (RawResponse, error) {
+func Get(config config.Config, url string) (RawResponse, error) {
 	var response RawResponse
 
-	// if cmd.dryrun {
-	// 	fmt.Printf("Dry run: Would request %s\n", url)
-	// 	return response, nil
-	// }
+	if config.DryRun {
+		fmt.Printf("Dry run: Would request %s\n", url)
+		return response, nil
+	}
 
 	resp, err := http.Get(url)
 	if err != nil {
@@ -67,16 +69,16 @@ func toJson(contents interface{}) (*bytes.Buffer, error) {
 	return formattedJson, nil
 }
 
-func WriteJsonFile(contents interface{}, filename string) error {
+func WriteJsonFile(config config.Config, contents interface{}, filename string) error {
 	formattedJson, err := toJson(contents)
 	if err != nil {
 		return err
 	}
 
-	// if dryrun {
-	// 	fmt.Printf("Dry run: would output file %s\n", filename)
-	// 	return nil
-	// }
+	if config.DryRun {
+		fmt.Printf("Dry run: would output file %s\n", filename)
+		return nil
+	}
 
 	if err := os.WriteFile(filename, formattedJson.Bytes(), 0o644); err != nil {
 		return err

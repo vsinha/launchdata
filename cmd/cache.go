@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"path"
 
+	"launchdata/config"
 	"launchdata/parse"
 
 	"github.com/spf13/cobra"
@@ -16,12 +17,13 @@ func cmdCacheAll() *cobra.Command {
 		Short: "Download all historical launch data from wikipedia",
 		Long:  `TODO`,
 		Run: func(cmd *cobra.Command, args []string) {
+			config := config.Init(cmd)
 			from := 1951
 			to := 2022
 			fmt.Printf("Caching all files from %d to %d\n", from, to)
 			for i := from; i <= to; i++ {
 				filename := path.Join(outputDir, fmt.Sprintf("launchdata-%d.json", i))
-				parse.GetAndWrite(i, i, filename)
+				parse.GetAndWrite(config, i, i, filename)
 			}
 		},
 	}
@@ -41,10 +43,11 @@ func cmdCache() *cobra.Command {
 		Short: "Download launch data from wikipedia and cache it locally",
 		Long:  `TODO`,
 		Run: func(cmd *cobra.Command, args []string) {
+			config := config.Init(cmd)
 			if cmd.Flags().Changed("startYear") {
-				parse.GetAndWrite(startYear, endYear, outputFilename)
+				parse.GetAndWrite(config, startYear, endYear, outputFilename)
 			} else {
-				parse.GetAndWrite(year, year, outputFilename)
+				parse.GetAndWrite(config, year, year, outputFilename)
 			}
 		},
 	}
