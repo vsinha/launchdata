@@ -1,7 +1,9 @@
 package parse
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 	"regexp"
 	"strings"
 	"time"
@@ -39,6 +41,18 @@ type RocketData struct {
 type AllLaunchData struct {
 	OrbitalFlights    []RocketData
 	SuborbitalFlights []RocketData
+}
+
+func LoadLaunchDataFromFile(filename string) (AllLaunchData, error) {
+	jsonfile, err := os.Open(filename)
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer jsonfile.Close()
+
+	var response AllLaunchData
+	json.NewDecoder(jsonfile).Decode(&response)
+	return response, err
 }
 
 var months mapset.Set[string] = mapset.NewSet("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
@@ -91,7 +105,7 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 	var i int
 
 	if len(data[*index]) < 1 {
-		return rocketData, fmt.Errorf("No data for year %d, index %d", year, index)
+		return rocketData, fmt.Errorf("no data for year %d, index %d", year, index)
 	}
 
 	// grab the timestampRaw of the first entry
@@ -121,7 +135,7 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 				var err error
 				timestamp, err = parseTimestamp(timestampRawCleaned, year)
 				if err != nil {
-					fmt.Println(fmt.Errorf("Failed to parse timestamp %v", err))
+					fmt.Println(fmt.Errorf("failed to parse timestamp %v", err))
 				}
 			}
 
@@ -187,7 +201,7 @@ func parseMultipleDates(data [][]string, year int) ([]RocketData, error) {
 		if rocketData.Payload == nil && !rocketData.TBD && rocketData.Timestamp.Before(now) {
 			fmt.Println(rocketData.Timestamp)
 			fmt.Println(
-				fmt.Errorf("Parsed a rocketData with no payload, probably something has gone wrong:\n %s\n",
+				fmt.Errorf("parsed a rocketData with no payload, probably something has gone wrong:\n %s",
 					litter.Sdump(rocketData)))
 		}
 

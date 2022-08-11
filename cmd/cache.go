@@ -32,7 +32,7 @@ func cmdCacheAll() *cobra.Command {
 	return cmdCacheAll
 }
 
-func cmdCache() *cobra.Command {
+func cacheCmd() *cobra.Command {
 	var year int
 	var startYear int
 	var endYear int
