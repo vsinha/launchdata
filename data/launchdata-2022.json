@@ -4086,7 +4086,28 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "29 August12:33[79]",
+      "TimestampRaw": "28 August01:52[79]",
+      "Timestamp": "2022-08-28T01:52:00Z",
+      "TBD": false,
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "Starlink Group 4-23",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Starlink × 53",
+          "Operator": "SpaceX",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "29 August12:33[80]",
       "Timestamp": "2022-08-29T12:33:00Z",
       "TBD": false,
       "Rocket": "SLS Block 1",
@@ -4197,7 +4218,7 @@
       ]
     },
     {
-      "TimestampRaw": "29 August[81][82]",
+      "TimestampRaw": "29 August[82][83]",
       "Timestamp": "2022-08-29T00:00:00Z",
       "TBD": false,
       "Rocket": "RS1",
@@ -4218,7 +4239,7 @@
       ]
     },
     {
-      "TimestampRaw": "Late August[83][84]",
+      "TimestampRaw": "Late August[84][85]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -4239,7 +4260,7 @@
       ]
     },
     {
-      "TimestampRaw": "Late August[85]",
+      "TimestampRaw": "Late August[86]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Kuaizhou 1A",
@@ -4290,7 +4311,7 @@
       ]
     },
     {
-      "TimestampRaw": "August (TBD)[88]",
+      "TimestampRaw": "August (TBD)[89]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -4303,27 +4324,6 @@
           "Payload": "Starlink × 46",
           "Operator": "SpaceX",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "TimestampRaw": "August (TBD)[89]",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 4-23",
-      "LaunchSite": "Kennedy LC-39A",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Starlink × 53",
-          "Operator": "SpaceX",
-          "Orbit": "Low Earth",
           "Function": "Communications",
           "Decay": "",
           "Outcome": "",
@@ -5161,7 +5161,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "MISTUBA",
+          "Payload": "MITSUBA",
           "Operator": "Kyushu Institute of Technology",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
