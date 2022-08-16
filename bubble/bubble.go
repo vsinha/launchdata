@@ -9,8 +9,9 @@ import (
 	"launchdata/parse"
 	"launchdata/slices"
 
+	"launchdata/list"
+
 	"github.com/charmbracelet/bubbles/key"
-	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 )
