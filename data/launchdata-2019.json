@@ -2882,7 +2882,7 @@
       "FlightNumber": "F9-076",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "The ELaNa 25B and 28 missions were launched on this resupply flight. EdgeCube, CIRiS, MakerSat-1, VPM, and MiniCarb were deployed from Cygnus NG-12 after its departure from the ISS. AzTechSat-1, CryoCube 1, SORTIE, and QARMAN were deployed from the ISS on 19 February 2020.",
+      "Notes": "The ELaNa 25B and 28 missions were launched on this resupply flight. EdgeCube, CIRiS, MakerSat-1, VPM, ORCA-2, ORCA-8 and MiniCarb were deployed from Cygnus NG-12 after its departure from the ISS. AzTechSat-1, CryoCube 1, SORTIE, and QARMAN were deployed from the ISS on 19 February 2020.",
       "Payload": [
         {
           "Payload": "SpaceX CRS-19",
@@ -2903,30 +2903,21 @@
           "Cubesat": true
         },
         {
-          "Payload": "CryoCube 1",
-          "Operator": "NASA",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "23 November 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "SORTIE",
-          "Operator": "ASTRA LLC",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "CIRiS",
           "Operator": "USU",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "CryoCube 1",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "23 November 2021",
+          "Outcome": "Successful",
           "Cubesat": true
         },
         {
@@ -2939,6 +2930,42 @@
           "Cubesat": true
         },
         {
+          "Payload": "MakerSat-1",
+          "Operator": "NNU",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "MiniCarb (CNGB)",
+          "Operator": "LLNL / GSFC",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "ORCA-2",
+          "Operator": "DARPA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "ORCA-8",
+          "Operator": "DARPA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "8 August 2022",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
           "Payload": "QARMAN",
           "Operator": "Von Karman Institute",
           "Orbit": "Low Earth",
@@ -2948,8 +2975,8 @@
           "Cubesat": true
         },
         {
-          "Payload": "MakerSat-1",
-          "Operator": "NNU",
+          "Payload": "SORTIE",
+          "Operator": "ASTRA LLC",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -2964,20 +2991,11 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
-        },
-        {
-          "Payload": "MiniCarb (CNGB)",
-          "Operator": "LLNL / GSFC",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
         }
       ]
     },
     {
-      "TimestampRaw": "6 December08:18[386]",
+      "TimestampRaw": "6 December08:18[387]",
       "Timestamp": "2019-12-06T08:18:00Z",
       "TBD": false,
       "Rocket": "Electron",
@@ -3052,7 +3070,7 @@
       ]
     },
     {
-      "TimestampRaw": "6 December09:34:11[402]",
+      "TimestampRaw": "6 December09:34:11[403]",
       "Timestamp": "2019-12-06T09:34:11Z",
       "TBD": false,
       "Rocket": "Soyuz-2.1a",
@@ -3073,7 +3091,7 @@
       ]
     },
     {
-      "TimestampRaw": "7 December02:55[405]",
+      "TimestampRaw": "7 December02:55[406]",
       "Timestamp": "2019-12-07T02:55:00Z",
       "TBD": false,
       "Rocket": "Kuaizhou 1A",
@@ -3094,7 +3112,7 @@
       ]
     },
     {
-      "TimestampRaw": "7 December08:52[405]",
+      "TimestampRaw": "7 December08:52[406]",
       "Timestamp": "2019-12-07T08:52:00Z",
       "TBD": false,
       "Rocket": "Kuaizhou 1A",
@@ -3160,7 +3178,7 @@
       ]
     },
     {
-      "TimestampRaw": "11 December08:54:48[407]",
+      "TimestampRaw": "11 December08:54:48[408]",
       "Timestamp": "2019-12-11T08:54:48Z",
       "TBD": false,
       "Rocket": "Soyuz-2.1b / Fregat-M",
@@ -3181,7 +3199,7 @@
       ]
     },
     {
-      "TimestampRaw": "11 December09:55[408][409]",
+      "TimestampRaw": "11 December09:55[409][410]",
       "Timestamp": "2019-12-11T09:55:00Z",
       "TBD": false,
       "Rocket": "PSLV-QL",
@@ -3256,7 +3274,7 @@
       ]
     },
     {
-      "TimestampRaw": "16 December07:22[423]",
+      "TimestampRaw": "16 December07:22[424]",
       "Timestamp": "2019-12-16T07:22:00Z",
       "TBD": false,
       "Rocket": "Long March 3B / YZ-1",
@@ -3286,7 +3304,7 @@
       ]
     },
     {
-      "TimestampRaw": "17 December00:10[424]",
+      "TimestampRaw": "17 December00:10[425]",
       "Timestamp": "2019-12-17T00:10:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -3307,7 +3325,7 @@
       ]
     },
     {
-      "TimestampRaw": "18 December08:54:20[427]",
+      "TimestampRaw": "18 December08:54:20[428]",
       "Timestamp": "2019-12-18T08:54:20Z",
       "TBD": false,
       "Rocket": "Soyuz ST-A / Fregat-M",
@@ -3364,7 +3382,7 @@
       ]
     },
     {
-      "TimestampRaw": "20 December03:22:29[434][435][436]",
+      "TimestampRaw": "20 December03:22:29[435][436][437]",
       "Timestamp": "2019-12-20T03:22:29Z",
       "TBD": false,
       "Rocket": "Long March 4B",
@@ -3457,7 +3475,7 @@
       ]
     },
     {
-      "TimestampRaw": "20 December11:36:43[448]",
+      "TimestampRaw": "20 December11:36:43[449]",
       "Timestamp": "2019-12-20T11:36:43Z",
       "TBD": false,
       "Rocket": "Atlas V N22",
@@ -3478,7 +3496,7 @@
       ]
     },
     {
-      "TimestampRaw": "24 December12:03[451]",
+      "TimestampRaw": "24 December12:03[452]",
       "Timestamp": "2019-12-24T12:03:00Z",
       "TBD": false,
       "Rocket": "Proton-M / DM-03",
@@ -3499,7 +3517,7 @@
       ]
     },
     {
-      "TimestampRaw": "26 December23:11:57[19][452]",
+      "TimestampRaw": "26 December23:11:57[19][453]",
       "Timestamp": "2019-12-26T23:11:57Z",
       "TBD": false,
       "Rocket": "Rokot / Briz-KM",
@@ -3547,7 +3565,7 @@
       ]
     },
     {
-      "TimestampRaw": "27 December12:45[16][456]",
+      "TimestampRaw": "27 December12:45[16][457]",
       "Timestamp": "2019-12-27T12:45:00Z",
       "TBD": false,
       "Rocket": "Long March 5",
