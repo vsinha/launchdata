@@ -7,6 +7,7 @@ import (
 	"launchdata/cli"
 	"launchdata/config"
 	"launchdata/parse"
+	"launchdata/slices"
 
 	"github.com/charmbracelet/bubbles/key"
 	"github.com/charmbracelet/bubbles/list"
@@ -33,9 +34,22 @@ type item struct {
 	data parse.RocketData
 }
 
-func (i item) Title() string       { return i.data.Rocket }
-func (i item) Description() string { return i.data.FlightNumber }
-func (i item) FilterValue() string { return i.Title() }
+func (i item) Title() string {
+	return fmt.Sprintf("%s (%s)",
+		i.data.Rocket,
+		i.data.FlightNumber)
+}
+
+func (i item) Description() string {
+	return fmt.Sprintf("%v, %s, %s",
+		i.data.Timestamp.Format("01-02-2006"),
+		i.data.LaunchServiceProvider,
+		i.data.LaunchSite)
+}
+
+func (i item) FilterValue() string {
+	return fmt.Sprintf("%v", i.data)
+}
 
 var _ list.Item = (*item)(nil)
 
@@ -46,6 +60,8 @@ type listKeyMap struct {
 	togglePagination key.Binding
 	toggleHelpMenu   key.Binding
 	insertItem       key.Binding
+	nextPage         key.Binding
+	prevPage         key.Binding
 }
 
 func newListKeyMap() *listKeyMap {
@@ -74,6 +90,14 @@ func newListKeyMap() *listKeyMap {
 			key.WithKeys("H"),
 			key.WithHelp("H", "toggle help"),
 		),
+		nextPage: key.NewBinding(
+			key.WithKeys("ctrl+d"),
+			key.WithHelp("ctrl+d", "next page"),
+		),
+		prevPage: key.NewBinding(
+			key.WithKeys("ctrl+u"),
+			key.WithHelp("Ctrl+U", "previous page"),
+		),
 	}
 }
 
@@ -97,8 +121,7 @@ func newModel(year int) model {
 	for _, r := range entries.OrbitalFlights {
 		items = append(items, item{data: r})
 	}
-
-	// height, _ := terminal.Height()
+	slices.Reverse(items)
 
 	delegate := newItemDelegate(delegateKeys)
 	l := list.New(items, delegate, 0, 0)
@@ -112,6 +135,8 @@ func newModel(year int) model {
 			listKeys.toggleStatusBar,
 			listKeys.togglePagination,
 			listKeys.toggleHelpMenu,
+			listKeys.nextPage,
+			listKeys.prevPage,
 		}
 	}
 
@@ -127,6 +152,8 @@ func (m model) Init() tea.Cmd {
 }
 
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
+	var cmds []tea.Cmd
+
 	switch msg := msg.(type) {
 	case tea.WindowSizeMsg:
 		h, v := appStyle.GetFrameSize()
@@ -143,7 +170,7 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		switch {
 		case key.Matches(msg, m.keys.toggleSpinner):
 			cmd := m.list.ToggleSpinner()
-			return m, cmd
+			cmds = append(cmds, cmd)
 
 		case key.Matches(msg, m.keys.toggleTitleBar):
 			v := !m.list.ShowTitle()
@@ -164,17 +191,19 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.list.SetShowHelp(!m.list.ShowHelp())
 			return m, nil
 
+		case key.Matches(msg, m.keys.prevPage):
+			m.list.Paginator.PrevPage()
+
+		case key.Matches(msg, m.keys.nextPage):
+			m.list.Paginator.NextPage()
 		}
-		// switch keypress := msg.String(); keypress {
-		// case "ctrl+c":
-		// 	// m.quitting = true
-		// 	return m, tea.Quit
-		// }
 	}
 
-	var cmd tea.Cmd
-	m.list, cmd = m.list.Update(msg)
-	return m, cmd
+	newlist, cmd := m.list.Update(msg)
+	m.list = newlist
+	cmds = append(cmds, cmd)
+
+	return m, tea.Batch(cmds...)
 }
 
 func (m model) View() string {

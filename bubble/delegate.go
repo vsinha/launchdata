@@ -6,8 +6,13 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 )
 
-func newItemDelegate(keys *delegateKeyMap) list.DefaultDelegate {
-	d := list.NewDefaultDelegate()
+type MyDelegate struct {
+	list.DefaultDelegate
+	chosen bool
+}
+
+func newItemDelegate(keys *delegateKeyMap) MyDelegate {
+	d := MyDelegate{list.NewDefaultDelegate(), false}
 
 	d.SetSpacing(0)
 
