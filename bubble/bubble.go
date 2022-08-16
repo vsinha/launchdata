@@ -83,12 +83,11 @@ type model struct {
 	delegateKeys *delegateKeyMap
 }
 
-func newModel() model {
+func newModel(year int) model {
 	var (
 		delegateKeys = newDelegateKeyMap()
 		listKeys     = newListKeyMap()
 	)
-	year := 2020
 	entries, err := parse.LoadLaunchDataFromFile(fmt.Sprintf("./data/launchdata-%d.json", year))
 	if err != nil {
 		panic(err)
@@ -189,10 +188,10 @@ func (m model) View() string {
 	// return "\n" + m.list.View()
 }
 
-func Run(config *config.Config) {
+func Run(config *config.Config, year int) {
 	cli.ClearScreen()
 
-	p := tea.NewProgram(newModel(), tea.WithAltScreen())
+	p := tea.NewProgram(newModel(year), tea.WithAltScreen())
 
 	if err := p.Start(); err != nil {
 		fmt.Println("Error running program:", err)
