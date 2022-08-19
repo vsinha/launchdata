@@ -15,10 +15,10 @@ func (i item) FilterValue() string { return "" }
 
 type itemDelegate struct{}
 
-func (d itemDelegate) Height() int                          { return 1 }
-func (d itemDelegate) Spacing() int                         { return 0 }
-func (d itemDelegate) Update(msg tea.Msg, m *Model) tea.Cmd { return nil }
-func (d itemDelegate) Render(w io.Writer, m Model, index int, listItem Item) {
+func (d itemDelegate) Height() int                                { return 1 }
+func (d itemDelegate) Spacing() int                               { return 0 }
+func (d itemDelegate) Update(msg tea.Msg, m *Model[item]) tea.Cmd { return nil }
+func (d itemDelegate) Render(w io.Writer, m Model[item], index int, listItem Item) {
 	i, ok := listItem.(item)
 	if !ok {
 		return
@@ -29,13 +29,13 @@ func (d itemDelegate) Render(w io.Writer, m Model, index int, listItem Item) {
 }
 
 func TestStatusBarItemName(t *testing.T) {
-	list := New([]Item{item("foo"), item("bar")}, itemDelegate{}, 10, 10)
+	list := New[item]([]item{item("foo"), item("bar")}, itemDelegate{}, 10, 10)
 	expected := "2 items"
 	if !strings.Contains(list.statusView(), expected) {
 		t.Fatalf("Error: expected view to contain %s", expected)
 	}
 
-	list.SetItems([]Item{item("foo")})
+	list.SetItems([]item{item("foo")})
 	expected = "1 item"
 	if !strings.Contains(list.statusView(), expected) {
 		t.Fatalf("Error: expected view to contain %s", expected)
@@ -43,7 +43,7 @@ func TestStatusBarItemName(t *testing.T) {
 }
 
 func TestStatusBarWithoutItems(t *testing.T) {
-	list := New([]Item{}, itemDelegate{}, 10, 10)
+	list := New[item]([]item{}, itemDelegate{}, 10, 10)
 
 	expected := "No items"
 	if !strings.Contains(list.statusView(), expected) {
@@ -52,7 +52,7 @@ func TestStatusBarWithoutItems(t *testing.T) {
 }
 
 func TestCustomStatusBarItemName(t *testing.T) {
-	list := New([]Item{item("foo"), item("bar")}, itemDelegate{}, 10, 10)
+	list := New[item]([]item{item("foo"), item("bar")}, itemDelegate{}, 10, 10)
 	list.SetStatusBarItemName("connection", "connections")
 
 	expected := "2 connections"
@@ -60,13 +60,13 @@ func TestCustomStatusBarItemName(t *testing.T) {
 		t.Fatalf("Error: expected view to contain %s", expected)
 	}
 
-	list.SetItems([]Item{item("foo")})
+	list.SetItems([]item{item("foo")})
 	expected = "1 connection"
 	if !strings.Contains(list.statusView(), expected) {
 		t.Fatalf("Error: expected view to contain %s", expected)
 	}
 
-	list.SetItems([]Item{})
+	list.SetItems([]item{})
 	expected = "No connections"
 	if !strings.Contains(list.statusView(), expected) {
 		t.Fatalf("Error: expected view to contain %s", expected)
