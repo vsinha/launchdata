@@ -3326,7 +3326,7 @@
       "FlightNumber": "F9-164",
       "LaunchSite": "Kennedy LC-39A",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "The ELaNa 45 mission, consisting of five CubeSats, was launched on this flight. TUMnanoSAT is Moldova's first satellite.",
+      "Notes": "The ELaNa 45 mission, consisting of five CubeSats, was launched on this flight. TUMnanoSAT is Moldova's first satellite. TUMnanoSAT, FUTABA, and HSU-SAT1 were deployed into orbit from the ISS on 12 August 2022.",
       "Payload": [
         {
           "Payload": "SpaceX CRS-25",
@@ -3379,16 +3379,16 @@
           "Orbit": "Low Earth",
           "Function": "Education",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
-          "Payload": "HSU-SAT-1",
+          "Payload": "HSU-SAT1",
           "Operator": "Happy Science University",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -3406,7 +3406,7 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         }
       ]
@@ -3752,7 +3752,7 @@
       "FlightNumber": "F9-168",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "Korea Pathfinder Lunar Orbiter (KPLO). In 2018, Tesla promised to launch a novel reward as part of its updated referral program for new Tesla Owners to send a photo of their choice to space. “Launch Your Photo into Deep Space Orbit” reward would involve the company laser-etching any photo of the owner’s choice and sending it to deep space. As can be seen on Tesla’s official page for the referral program, it sent a photo mosaic to space on this mission that forms the iconic image of Starman and his Tesla Roadster that flew on Falcon Heavy test flight with the Earth in the background. This mosaic was bolted to the Falcon9 2nd stage.",
+      "Notes": "Korea Pathfinder Lunar Orbiter (KPLO). A laser-etched photo mosaic of Starman and his Tesla Roadster, composed of user-sent images from Tesla's \"Launch Your Photo into Deep Space Orbit\" reward for their referral program, was bolted to the Falcon 9 second stage.",
       "Payload": [
         {
           "Payload": "Danuri (KPLO)",
@@ -3766,7 +3766,7 @@
       ]
     },
     {
-      "TimestampRaw": "7 August03:48[37]",
+      "TimestampRaw": "7 August03:48[36]",
       "Timestamp": "2022-08-07T03:48:00Z",
       "TBD": false,
       "Rocket": "SSLV",
@@ -3796,7 +3796,7 @@
       ]
     },
     {
-      "TimestampRaw": "9 August04:11[40]",
+      "TimestampRaw": "9 August04:11[39]",
       "Timestamp": "2022-08-09T04:11:00Z",
       "TBD": false,
       "Rocket": "Ceres-1",
@@ -3827,7 +3827,7 @@
           "Payload": "Donghai-1",
           "Operator": "ASES Space",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Remote sensing",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -3835,7 +3835,7 @@
       ]
     },
     {
-      "TimestampRaw": "9 August05:52:38[42]",
+      "TimestampRaw": "9 August05:52:38[41]",
       "Timestamp": "2022-08-09T05:52:38Z",
       "TBD": false,
       "Rocket": "Soyuz-2.1b / Fregat",
@@ -3982,8 +3982,8 @@
       ]
     },
     {
-      "TimestampRaw": "10 August02:14[74]",
-      "Timestamp": "2022-08-10T02:14:00Z",
+      "TimestampRaw": "10 August02:14:40[73]",
+      "Timestamp": "2022-08-10T02:14:40Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
       "FlightNumber": "Starlink Group 4-26",
@@ -4003,7 +4003,7 @@
       ]
     },
     {
-      "TimestampRaw": "10 August04:50[75]",
+      "TimestampRaw": "10 August04:50[74]",
       "Timestamp": "2022-08-10T04:50:00Z",
       "TBD": false,
       "Rocket": "Long March 6",
@@ -4013,7 +4013,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Jilin-1 Gaofen-03D 09, 35-43",
+          "Payload": "Jilin-1 Gaofen-03D 09, 35–43",
           "Operator": "Chang Guang Satellite Technology",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -4022,7 +4022,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Jilin-1 Hongwai-01A 01-06",
+          "Payload": "Jilin-1 Hongwai-01A 01–06",
           "Operator": "Chang Guang Satellite Technology",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -4033,7 +4033,7 @@
       ]
     },
     {
-      "TimestampRaw": "12 August21:40:20[76]",
+      "TimestampRaw": "12 August21:40:20[75]",
       "Timestamp": "2022-08-12T21:40:20Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -4054,8 +4054,47 @@
       ]
     },
     {
-      "TimestampRaw": "19 August19:24[74][74]",
-      "Timestamp": "2022-08-19T19:24:00Z",
+      "TimestampRaw": "19 August17:35[76]",
+      "Timestamp": "2022-08-19T17:35:00Z",
+      "TBD": false,
+      "Rocket": "Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": "Xichang",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Yaogan 35-04A",
+          "Operator": "CAS",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Yaogan 35-04B",
+          "Operator": "CAS",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Yaogan 35-04C",
+          "Operator": "CAS",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "19 August19:21[77][78]",
+      "Timestamp": "2022-08-19T19:21:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
       "FlightNumber": "Starlink Group 4-27",
@@ -4075,7 +4114,18 @@
       ]
     },
     {
-      "TimestampRaw": "25 August[77][78]",
+      "TimestampRaw": "22 August03:05[76]",
+      "Timestamp": "2022-08-22T03:05:00Z",
+      "TBD": false,
+      "Rocket": "Long March 11",
+      "FlightNumber": "",
+      "LaunchSite": "Xichang",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "TBA",
+      "Payload": null
+    },
+    {
+      "TimestampRaw": "25 August[79][80]",
       "Timestamp": "2022-08-25T00:00:00Z",
       "TBD": false,
       "Rocket": "Long March 7A",
@@ -4086,7 +4136,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "28 August01:52[79]",
+      "TimestampRaw": "28 August01:52[77][81]",
       "Timestamp": "2022-08-28T01:52:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -4107,7 +4157,7 @@
       ]
     },
     {
-      "TimestampRaw": "29 August12:33[80]",
+      "TimestampRaw": "29 August12:33[82]",
       "Timestamp": "2022-08-29T12:33:00Z",
       "TBD": false,
       "Rocket": "SLS Block 1",
@@ -4218,40 +4268,19 @@
       ]
     },
     {
-      "TimestampRaw": "29 August[82][83]",
-      "Timestamp": "2022-08-29T00:00:00Z",
-      "TBD": false,
-      "Rocket": "RS1",
-      "FlightNumber": "",
-      "LaunchSite": "Kodiak LP-3C",
-      "LaunchServiceProvider": "ABL",
-      "Notes": "First flight of RS1.",
-      "Payload": [
-        {
-          "Payload": "TBA",
-          "Operator": "TBA",
-          "Orbit": "Low Earth",
-          "Function": "TBA",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
-    },
-    {
-      "TimestampRaw": "Late August[84][85]",
+      "TimestampRaw": "Late August[77]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 4-20",
-      "LaunchSite": "Cape Canaveral SLC-40",
+      "FlightNumber": "Starlink Group 3-4",
+      "LaunchSite": "Vandenberg SLC-4E",
       "LaunchServiceProvider": "SpaceX",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Starlink × 53",
+          "Payload": "Starlink × 46",
           "Operator": "SpaceX",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (SSO)",
           "Function": "Communications",
           "Decay": "",
           "Outcome": "",
@@ -4260,7 +4289,7 @@
       ]
     },
     {
-      "TimestampRaw": "Late August[86]",
+      "TimestampRaw": "Late August[84]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Kuaizhou 1A",
@@ -4290,49 +4319,58 @@
       ]
     },
     {
-      "TimestampRaw": "August (TBD)[74]",
+      "TimestampRaw": "Early September[77]",
       "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
-      "Rocket": "Delta IV Heavy",
-      "FlightNumber": "D-387",
-      "LaunchSite": "Vandenberg SLC-6",
-      "LaunchServiceProvider": "ULA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "NROL-91 / (KH-11 19)",
-          "Operator": "NRO",
-          "Orbit": "Low Earth",
-          "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "TimestampRaw": "August (TBD)[89]",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
+      "TBD": false,
       "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 3-4",
-      "LaunchSite": "Vandenberg SLC-4E",
+      "FlightNumber": "Starlink Group 4-20",
+      "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
+      "Notes": "Sherpa-LTC2 carries Boeing's Varuna-TDM as a hosted payload.",
       "Payload": [
         {
-          "Payload": "Starlink × 46",
+          "Payload": "Starlink × ?",
           "Operator": "SpaceX",
-          "Orbit": "Low Earth (SSO)",
+          "Orbit": "Low Earth",
           "Function": "Communications",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
+        },
+        {
+          "Payload": "Sherpa-LTC2",
+          "Operator": "Spaceflight, Inc.",
+          "Orbit": "Low Earth",
+          "Function": "Space tug",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
         }
       ]
     },
     {
-      "TimestampRaw": "6 September[90]",
+      "TimestampRaw": "6 September22:00[87][88]",
+      "Timestamp": "2022-09-06T22:00:00Z",
+      "TBD": false,
+      "Rocket": "RS1",
+      "FlightNumber": "",
+      "LaunchSite": "Kodiak LP-3C",
+      "LaunchServiceProvider": "ABL",
+      "Notes": "First flight of RS1.",
+      "Payload": [
+        {
+          "Payload": "TBA",
+          "Operator": "TBA",
+          "Orbit": "Low Earth",
+          "Function": "TBA",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "6 September[77]",
       "Timestamp": "2022-09-06T00:00:00Z",
       "TBD": false,
       "Rocket": "Ariane 5 ECA",
@@ -4353,7 +4391,7 @@
       ]
     },
     {
-      "TimestampRaw": "7 September[91][92]",
+      "TimestampRaw": "7 September[77][89]",
       "Timestamp": "2022-09-07T00:00:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -4383,7 +4421,7 @@
       ]
     },
     {
-      "TimestampRaw": "8 September[93]",
+      "TimestampRaw": "8 September[90]",
       "Timestamp": "2022-09-08T00:00:00Z",
       "TBD": false,
       "Rocket": "LauncherOne",
@@ -4458,7 +4496,7 @@
       ]
     },
     {
-      "TimestampRaw": "11 September[108][109]",
+      "TimestampRaw": "11 September[105][106]",
       "Timestamp": "2022-09-11T00:00:00Z",
       "TBD": false,
       "Rocket": "Firefly Alpha",
@@ -4515,7 +4553,7 @@
       ]
     },
     {
-      "TimestampRaw": "Mid September[113][114]",
+      "TimestampRaw": "Mid September[110][111]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Electron",
@@ -4536,7 +4574,7 @@
       ]
     },
     {
-      "TimestampRaw": "21 September13:54[115]",
+      "TimestampRaw": "21 September13:54[112]",
       "Timestamp": "2022-09-21T13:54:00Z",
       "TBD": false,
       "Rocket": "Soyuz-2.1a",
@@ -4557,37 +4595,7 @@
       ]
     },
     {
-      "TimestampRaw": "24 September[74][116]",
-      "Timestamp": "2022-09-24T00:00:00Z",
-      "TBD": false,
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-4E",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "First of two launches for the Space Development Agency's Tranche 0 Transport and Tracking Layer.",
-      "Payload": [
-        {
-          "Payload": "Transport Layer Tranche 0 × 10",
-          "Operator": "SDA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Military communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Tracking Layer Tranche 0 × 4",
-          "Operator": "SDA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Military communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "TimestampRaw": "29 September18:00[118][119]",
+      "TimestampRaw": "29 September18:00[113][114]",
       "Timestamp": "2022-09-29T18:00:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -4608,20 +4616,29 @@
       ]
     },
     {
-      "TimestampRaw": "Late September[120]",
-      "Timestamp": "0001-01-01T00:00:00Z",
+      "TimestampRaw": "29 September[115][116]",
+      "Timestamp": "2022-09-29T00:00:00Z",
       "TBD": false,
-      "Rocket": "Soyuz-2.1b / Fregat",
+      "Rocket": "Falcon 9 Block 5",
       "FlightNumber": "",
-      "LaunchSite": "Vostochny Site 1S",
-      "LaunchServiceProvider": "Roscosmos",
-      "Notes": "First mission of the Luna-Glob Moon exploration programme, landing near Boguslawsky crater.",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "First of two launches for the Space Development Agency's Tranche 0 Transport and Tracking Layer.",
       "Payload": [
         {
-          "Payload": "Luna 25",
-          "Operator": "IKI RAN",
-          "Orbit": "TLI to lunar surface",
-          "Function": "Lunar lander",
+          "Payload": "Transport Layer Tranche 0 × 4",
+          "Operator": "SDA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Military communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Tracking Layer Tranche 0 × 4",
+          "Operator": "SDA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Military communications",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
@@ -4629,9 +4646,9 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[74][121]",
+      "TimestampRaw": "Late September[77][118]",
       "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
+      "TBD": false,
       "Rocket": "Atlas V 531",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -4659,20 +4676,20 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[122][123]",
+      "TimestampRaw": "Late September[119]",
       "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
-      "Rocket": "Falcon 9 Block 5",
+      "TBD": false,
+      "Rocket": "Soyuz-2.1b / Fregat",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral or Kennedy",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "To be launched as rideshare payload on a Starlink mission. Sherpa-LTC2 carries Boeing's Varuna-TDM as hosted payload.",
+      "LaunchSite": "Vostochny Site 1S",
+      "LaunchServiceProvider": "Roscosmos",
+      "Notes": "First mission of the Luna-Glob Moon exploration programme, landing near Boguslawsky crater.",
       "Payload": [
         {
-          "Payload": "Sherpa-LTC2",
-          "Operator": "Spaceflight, Inc.",
-          "Orbit": "Low Earth",
-          "Function": "Space tug",
+          "Payload": "Luna 25",
+          "Operator": "IKI RAN",
+          "Orbit": "TLI to lunar surface",
+          "Function": "Lunar lander",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
@@ -4680,7 +4697,28 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[124]",
+      "TimestampRaw": "September (TBD)[77]",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": true,
+      "Rocket": "Delta IV Heavy",
+      "FlightNumber": "D-387",
+      "LaunchSite": "Vandenberg SLC-6",
+      "LaunchServiceProvider": "ULA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NROL-91 / (KH-11 19)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "September (TBD)[122]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -4701,29 +4739,20 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[125]",
+      "TimestampRaw": "September (TBD)[123]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-40",
+      "FlightNumber": "Starlink Group 4-35",
+      "LaunchSite": "Cape Canaveral or Kennedy",
       "LaunchServiceProvider": "SpaceX",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "WorldView Legion 1",
-          "Operator": "Maxar Technologies",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "WorldView Legion 2",
-          "Operator": "Maxar Technologies",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
+          "Payload": "Starlink × ?",
+          "Operator": "SpaceX",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
@@ -4731,7 +4760,7 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[126][127]",
+      "TimestampRaw": "September (TBD)[124][125]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Jielong 3",
@@ -4742,7 +4771,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "September (TBD)[129]",
+      "TimestampRaw": "September (TBD)[127]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "LauncherOne",
@@ -4772,7 +4801,7 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[136]",
+      "TimestampRaw": "September (TBD)[134]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1b / Fregat",
@@ -4793,7 +4822,7 @@
       ]
     },
     {
-      "TimestampRaw": "September (TBD)[137]",
+      "TimestampRaw": "September (TBD)[135]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "TBA",
@@ -4832,7 +4861,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[138][139]",
+      "TimestampRaw": "Q3 (TBD)[136][137]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -4862,7 +4891,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[140]",
+      "TimestampRaw": "Q3 (TBD)[138]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Hapith V",
@@ -4873,7 +4902,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "Q3 (TBD)[141]",
+      "TimestampRaw": "Q3 (TBD)[139]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "LauncherOne",
@@ -4894,7 +4923,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[143]",
+      "TimestampRaw": "Q3 (TBD)[141]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 6",
@@ -4924,7 +4953,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[144][145]",
+      "TimestampRaw": "Q3 (TBD)[142][143]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "PSLV-CA",
@@ -4972,7 +5001,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[153]",
+      "TimestampRaw": "Q3 (TBD)[151]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1b / Fregat",
@@ -4993,7 +5022,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[154]",
+      "TimestampRaw": "Q3 (TBD)[152]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1b / Fregat",
@@ -5014,7 +5043,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[155]",
+      "TimestampRaw": "Q3 (TBD)[153]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Starship",
@@ -5035,7 +5064,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[157][158]",
+      "TimestampRaw": "Q3 (TBD)[155][156]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Terran 1",
@@ -5056,7 +5085,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q3 (TBD)[126]",
+      "TimestampRaw": "Q3 (TBD)[124]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Zhuque-2",
@@ -5067,7 +5096,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "Q3 (TBD)[159][160]",
+      "TimestampRaw": "Q3 (TBD)[157][158]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "TBA",
@@ -5106,7 +5135,7 @@
       ]
     },
     {
-      "TimestampRaw": "7 October00:47[161][162]",
+      "TimestampRaw": "7 October00:47[159][160]",
       "Timestamp": "2022-10-07T00:47:00Z",
       "TBD": false,
       "Rocket": "Epsilon",
@@ -5181,6 +5210,27 @@
       ]
     },
     {
+      "TimestampRaw": "10 October05:30[161]",
+      "Timestamp": "2022-10-10T05:30:00Z",
+      "TBD": false,
+      "Rocket": "Electron",
+      "FlightNumber": "",
+      "LaunchSite": "Mahia LC-1A",
+      "LaunchServiceProvider": "Rocket Lab",
+      "Notes": "Orbital Test Bed (OTB) satellite carrying the Argos-4 Advanced Data Collection System (A-DCS) hosted payload.",
+      "Payload": [
+        {
+          "Payload": "GAzelle (Argos-4)",
+          "Operator": "NOAA / CNES",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
       "TimestampRaw": "12 October[163]",
       "Timestamp": "2022-10-12T00:00:00Z",
       "TBD": false,
@@ -5202,14 +5252,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 October[74][164]",
+      "TimestampRaw": "15 October[77][164]",
       "Timestamp": "2022-10-15T00:00:00Z",
       "TBD": false,
       "Rocket": "Antares 230+",
       "FlightNumber": "",
       "LaunchSite": "MARS LP-0A",
       "LaunchServiceProvider": "Northrop Grumman",
-      "Notes": "",
+      "Notes": "SeaLion and UtProSat-1 are part of the Very Low Earth Orbit (VLEO) mission and will be deployed from the second stage of the rocket.",
       "Payload": [
         {
           "Payload": "Cygnus NG-18",
@@ -5228,11 +5278,29 @@
           "Decay": "",
           "Outcome": "",
           "Cubesat": true
+        },
+        {
+          "Payload": "SeaLion",
+          "Operator": "ODU / USCGA",
+          "Orbit": "Low Earth",
+          "Function": "Communication",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "UtProSat-1",
+          "Operator": "Virginia Tech",
+          "Orbit": "Low Earth",
+          "Function": "Communication",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
         }
       ]
     },
     {
-      "TimestampRaw": "20 October [167][168][169]",
+      "TimestampRaw": "20 October [168][169][170]",
       "Timestamp": "2022-10-20T00:00:00Z",
       "TBD": false,
       "Rocket": "Long March 2D",
@@ -5253,7 +5321,7 @@
       ]
     },
     {
-      "TimestampRaw": "22 October[170][171]",
+      "TimestampRaw": "22 October[171][172]",
       "Timestamp": "2022-10-22T00:00:00Z",
       "TBD": false,
       "Rocket": "Soyuz-2.1b / Fregat",
@@ -5301,7 +5369,7 @@
       ]
     },
     {
-      "TimestampRaw": "26 October00:19[172]",
+      "TimestampRaw": "26 October00:19[173]",
       "Timestamp": "2022-10-26T00:19:00Z",
       "TBD": false,
       "Rocket": "Soyuz-2.1a",
@@ -5322,7 +5390,7 @@
       ]
     },
     {
-      "TimestampRaw": "October (TBD)[173]",
+      "TimestampRaw": "October (TBD)[174]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -5352,7 +5420,37 @@
       ]
     },
     {
-      "TimestampRaw": "October (TBD)[174][175]",
+      "TimestampRaw": "October (TBD)[77][175]",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": true,
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "O3b mPOWER FM21",
+          "Operator": "SES S.A.",
+          "Orbit": "Medium Earth",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "O3b mPOWER FM22",
+          "Operator": "SES S.A.",
+          "Orbit": "Medium Earth",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "October (TBD)[177][178]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV Mk III",
@@ -5373,7 +5471,7 @@
       ]
     },
     {
-      "TimestampRaw": "October (TBD)[176][74]",
+      "TimestampRaw": "October (TBD)[77][179]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 5B",
@@ -5394,7 +5492,7 @@
       ]
     },
     {
-      "TimestampRaw": "1 November[177]",
+      "TimestampRaw": "1 November[180]",
       "Timestamp": "2022-11-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Atlas V 401",
@@ -5424,7 +5522,7 @@
       ]
     },
     {
-      "TimestampRaw": "Early November[178]",
+      "TimestampRaw": "Early November[181]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -5454,7 +5552,7 @@
       ]
     },
     {
-      "TimestampRaw": "Late November[179][180]",
+      "TimestampRaw": "Late November[182][183]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Ariane 5 ECA",
@@ -5475,7 +5573,7 @@
       ]
     },
     {
-      "TimestampRaw": "Late November[183][184]",
+      "TimestampRaw": "Late November[186][187]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": false,
       "Rocket": "Proton-M / Briz-M",
@@ -5496,7 +5594,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[185][74]",
+      "TimestampRaw": "November (TBD)[188]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -5650,10 +5748,10 @@
           "Cubesat": false
         },
         {
-          "Payload": "Astrocast × ?",
+          "Payload": "Astrocast × 4",
           "Operator": "Astrocast SA",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Communications",
+          "Function": "IoT",
           "Decay": "",
           "Outcome": "",
           "Cubesat": true
@@ -5817,7 +5915,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[227][228]",
+      "TimestampRaw": "November (TBD)[228][229]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -5838,7 +5936,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[74][229]",
+      "TimestampRaw": "November (TBD)[77][230]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon Heavy",
@@ -5859,7 +5957,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[109][230]",
+      "TimestampRaw": "November (TBD)[106][231]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Firefly Alpha",
@@ -5943,7 +6041,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[127]",
+      "TimestampRaw": "November (TBD)[125]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Jielong 3",
@@ -5954,7 +6052,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "November (TBD)[78]",
+      "TimestampRaw": "November (TBD)[80]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 7",
@@ -6020,7 +6118,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[241]",
+      "TimestampRaw": "November (TBD)[242]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 7",
@@ -6041,7 +6139,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[242][145]",
+      "TimestampRaw": "November (TBD)[243][143]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "SSLV",
@@ -6089,7 +6187,7 @@
       ]
     },
     {
-      "TimestampRaw": "November (TBD)[244]",
+      "TimestampRaw": "November (TBD)[245]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Vega-C",
@@ -6119,7 +6217,7 @@
       ]
     },
     {
-      "TimestampRaw": "8 December[245]",
+      "TimestampRaw": "8 December[246]",
       "Timestamp": "2022-12-08T00:00:00Z",
       "TBD": false,
       "Rocket": "Atlas V N22",
@@ -6140,7 +6238,7 @@
       ]
     },
     {
-      "TimestampRaw": "22 December[227][74]",
+      "TimestampRaw": "22 December[77][228]",
       "Timestamp": "2022-12-22T00:00:00Z",
       "TBD": false,
       "Rocket": "Falcon 9 Block 5",
@@ -6206,7 +6304,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[257]",
+      "TimestampRaw": "December (TBD)[258]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Electron",
@@ -6227,7 +6325,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[258][259]",
+      "TimestampRaw": "December (TBD)[259][260]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6248,7 +6346,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[260]",
+      "TimestampRaw": "December (TBD)[261]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6269,7 +6367,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[261]",
+      "TimestampRaw": "December (TBD)[262]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6293,36 +6391,6 @@
       "TimestampRaw": "December (TBD)[125]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "WorldView Legion 3",
-          "Operator": "Maxar Technologies",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "WorldView Legion 4",
-          "Operator": "Maxar Technologies",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "TimestampRaw": "December (TBD)[127]",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
       "Rocket": "Jielong 3",
       "FlightNumber": "Y3",
       "LaunchSite": "Launch Platform, Yellow Sea",
@@ -6331,7 +6399,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "December (TBD)[134][262]",
+      "TimestampRaw": "December (TBD)[132][263]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "LauncherOne",
@@ -6352,7 +6420,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[176]",
+      "TimestampRaw": "December (TBD)[179]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 2F",
@@ -6373,7 +6441,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[78]",
+      "TimestampRaw": "December (TBD)[80]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 7A",
@@ -6384,7 +6452,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "December (TBD)[263][264]",
+      "TimestampRaw": "December (TBD)[264][265]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March TBA",
@@ -6405,7 +6473,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[265]",
+      "TimestampRaw": "December (TBD)[266]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Vikram 1",
@@ -6426,7 +6494,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[266][267]",
+      "TimestampRaw": "December (TBD)[267][268]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Vulcan Centaur VC2S",
@@ -6447,7 +6515,7 @@
       ]
     },
     {
-      "TimestampRaw": "December (TBD)[269]",
+      "TimestampRaw": "December (TBD)[270]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "ZK-2",
@@ -6458,7 +6526,7 @@
       "Payload": null
     },
     {
-      "TimestampRaw": "Q4 (TBD)[270]",
+      "TimestampRaw": "Q4 (TBD)[271]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Angara 1.2",
@@ -6479,7 +6547,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[273][274]",
+      "TimestampRaw": "Q4 (TBD)[274][275]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Ariane 5 ECA",
@@ -6509,7 +6577,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[275]",
+      "TimestampRaw": "Q4 (TBD)[276]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Ariane 5 ECA",
@@ -6530,7 +6598,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[277]",
+      "TimestampRaw": "Q4 (TBD)[278]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Ariane 5 ECA",
@@ -6551,7 +6619,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[278]",
+      "TimestampRaw": "Q4 (TBD)[279]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Atlas V",
@@ -6572,7 +6640,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[279][280]",
+      "TimestampRaw": "Q4 (TBD)[280][281]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6593,7 +6661,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[74][281]",
+      "TimestampRaw": "Q4 (TBD)[77][282]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6614,33 +6682,15 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[284]",
+      "TimestampRaw": "Q4 (TBD)[175]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchSite": "Cape Canaveral or Kennedy",
       "LaunchServiceProvider": "SpaceX",
       "Notes": "",
       "Payload": [
-        {
-          "Payload": "O3b mPOWER FM21",
-          "Operator": "SES S.A.",
-          "Orbit": "Medium Earth",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "O3b mPOWER FM22",
-          "Operator": "SES S.A.",
-          "Orbit": "Medium Earth",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
         {
           "Payload": "O3b mPOWER FM23",
           "Operator": "SES S.A.",
@@ -6680,7 +6730,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[286]",
+      "TimestampRaw": "Q4 (TBD)[285]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6710,7 +6760,7 @@
       ]
     },
     {
-      "TimestampRaw": "Q4 (TBD)[121]",
+      "TimestampRaw": "Q4 (TBD)[118]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -6733,6 +6783,66 @@
           "Operator": "SES S.A.",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "Q4 (TBD)[77][287]",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": true,
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "WorldView Legion 1",
+          "Operator": "Maxar Technologies",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "WorldView Legion 2",
+          "Operator": "Maxar Technologies",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "TimestampRaw": "Q4 (TBD)[287]",
+      "Timestamp": "0001-01-01T00:00:00Z",
+      "TBD": true,
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "WorldView Legion 3",
+          "Operator": "Maxar Technologies",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "WorldView Legion 4",
+          "Operator": "Maxar Technologies",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
@@ -7129,28 +7239,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[336]",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": true,
-      "Rocket": "Electron",
-      "FlightNumber": "",
-      "LaunchSite": "Mahia LC-1A",
-      "LaunchServiceProvider": "Rocket Lab",
-      "Notes": "Orbital Test Bed (OTB) satellite carrying the Argos-4 Advanced Data Collection System (A-DCS) hosted payload.",
-      "Payload": [
-        {
-          "Payload": "OTB-3 / Argos-4",
-          "Operator": "NOAA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "TimestampRaw": "H2 2022 (TBD)[338]",
+      "TimestampRaw": "H2 2022 (TBD)[336]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Eris",
@@ -7171,7 +7260,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[344]",
+      "TimestampRaw": "2022 (TBD)[342]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -7192,7 +7281,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[259][345]",
+      "TimestampRaw": "2022 (TBD)[260][343]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon 9 Block 5",
@@ -7240,7 +7329,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[74]",
+      "TimestampRaw": "2022 (TBD)[77]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Falcon Heavy",
@@ -7297,7 +7386,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[350]",
+      "TimestampRaw": "2022 (TBD)[348]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV",
@@ -7318,7 +7407,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[351][352]",
+      "TimestampRaw": "2022 (TBD)[349][350]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV Mk III (?)",
@@ -7339,7 +7428,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[351]",
+      "TimestampRaw": "2022 (TBD)[349]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV",
@@ -7360,7 +7449,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[351][353]",
+      "TimestampRaw": "2022 (TBD)[349][351]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV",
@@ -7381,7 +7470,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[354]",
+      "TimestampRaw": "2022 (TBD)[352]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV Mk II",
@@ -7402,7 +7491,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[355]",
+      "TimestampRaw": "2022 (TBD)[353]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV Mk II",
@@ -7423,7 +7512,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[352]",
+      "TimestampRaw": "2022 (TBD)[350]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "GSLV Mk III",
@@ -7444,7 +7533,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[162]",
+      "TimestampRaw": "2022 (TBD)[160]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "H-IIA",
@@ -7465,7 +7554,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[359][360]",
+      "TimestampRaw": "2022 (TBD)[357][358]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "H3-22S",
@@ -7486,7 +7575,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[361]",
+      "TimestampRaw": "2022 (TBD)[359]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Jielong 1",
@@ -7516,7 +7605,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[362]",
+      "TimestampRaw": "2022 (TBD)[360]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 2C",
@@ -7537,7 +7626,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[367]",
+      "TimestampRaw": "2022 (TBD)[365]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 3B / YZ-1",
@@ -7567,7 +7656,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[368]",
+      "TimestampRaw": "2022 (TBD)[366]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 3B / YZ-1",
@@ -7597,7 +7686,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[369]",
+      "TimestampRaw": "2022 (TBD)[367]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 3B / YZ-1",
@@ -7627,7 +7716,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[370]",
+      "TimestampRaw": "2022 (TBD)[368]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 4C",
@@ -7657,7 +7746,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[372]",
+      "TimestampRaw": "2022 (TBD)[370]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 4C",
@@ -7678,7 +7767,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[362]",
+      "TimestampRaw": "2022 (TBD)[360]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Long March 6",
@@ -7717,7 +7806,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[374]",
+      "TimestampRaw": "2022 (TBD)[372]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Prime",
@@ -7738,7 +7827,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[375]",
+      "TimestampRaw": "2022 (TBD)[373]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "PSLV",
@@ -7759,11 +7848,11 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[376][377]",
+      "TimestampRaw": "2022 (TBD)[374][375]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "PSLV",
-      "FlightNumber": "C54",
+      "FlightNumber": "",
       "LaunchSite": "Satish Dhawan",
       "LaunchServiceProvider": "ISRO",
       "Notes": "",
@@ -7819,7 +7908,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[380]",
+      "TimestampRaw": "2022 (TBD)[378]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Simorgh",
@@ -7840,7 +7929,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[381][382]",
+      "TimestampRaw": "2022 (TBD)[379][380]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Simorgh",
@@ -7861,7 +7950,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[383]",
+      "TimestampRaw": "2022 (TBD)[381]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1a / Fregat (?)",
@@ -7891,7 +7980,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[387]",
+      "TimestampRaw": "2022 (TBD)[385]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1a / Fregat",
@@ -7912,7 +8001,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[390]",
+      "TimestampRaw": "2022 (TBD)[388]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1a / Fregat",
@@ -7933,7 +8022,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[393]",
+      "TimestampRaw": "2022 (TBD)[391]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz-2.1b",
@@ -7954,7 +8043,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[396]",
+      "TimestampRaw": "2022 (TBD)[394]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Soyuz ST-B / Fregat-MT (?)",
@@ -8002,7 +8091,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[397]",
+      "TimestampRaw": "2022 (TBD)[395]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Terran 1",
@@ -8023,7 +8112,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[398]",
+      "TimestampRaw": "2022 (TBD)[396]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Terran 1",
@@ -8044,7 +8133,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[399]",
+      "TimestampRaw": "2022 (TBD)[397]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Terran 1",
@@ -8065,7 +8154,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[400]",
+      "TimestampRaw": "2022 (TBD)[398]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Terran 1",
@@ -8086,7 +8175,7 @@
       ]
     },
     {
-      "TimestampRaw": "2022 (TBD)[401]",
+      "TimestampRaw": "2022 (TBD)[399]",
       "Timestamp": "0001-01-01T00:00:00Z",
       "TBD": true,
       "Rocket": "Terran 1",
