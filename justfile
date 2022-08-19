@@ -10,5 +10,8 @@ smoke:
 test:
     go test ./...
 
+cache-all:
+    go run . cache all --output-dir ./data
+
 test-accept:
     GOLDEN_UPDATE=true go test ./...
