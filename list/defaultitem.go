@@ -81,10 +81,10 @@ type DefaultItem interface {
 //
 // Settings ShortHelpFunc and FullHelpFunc is optional. They can can be set to
 // include items in the list's default short and full help menus.
-type DefaultDelegate struct {
+type DefaultDelegate[I Item] struct {
 	ShowDescription bool
 	Styles          DefaultItemStyles
-	UpdateFunc      func(tea.Msg, *Model) tea.Cmd
+	UpdateFunc      func(tea.Msg, *Model[I]) tea.Cmd
 	ShortHelpFunc   func() []key.Binding
 	FullHelpFunc    func() [][]key.Binding
 	height          int
@@ -92,8 +92,8 @@ type DefaultDelegate struct {
 }
 
 // NewDefaultDelegate creates a new delegate with default styles.
-func NewDefaultDelegate() DefaultDelegate {
-	return DefaultDelegate{
+func NewDefaultDelegate[I Item]() DefaultDelegate[I] {
+	return DefaultDelegate[I]{
 		ShowDescription: true,
 		Styles:          NewDefaultItemStyles(),
 		height:          2,
@@ -102,14 +102,14 @@ func NewDefaultDelegate() DefaultDelegate {
 }
 
 // SetHeight sets delegate's preferred height.
-func (d *DefaultDelegate) SetHeight(i int) {
+func (d *DefaultDelegate[I]) SetHeight(i int) {
 	d.height = i
 }
 
 // Height returns the delegate's preferred height.
 // This has effect only if ShowDescription is true,
 // otherwise height is always 1.
-func (d DefaultDelegate) Height() int {
+func (d DefaultDelegate[I]) Height() int {
 	if d.ShowDescription {
 		return d.height
 	}
@@ -117,17 +117,17 @@ func (d DefaultDelegate) Height() int {
 }
 
 // SetSpacing set the delegate's spacing.
-func (d *DefaultDelegate) SetSpacing(i int) {
+func (d *DefaultDelegate[I]) SetSpacing(i int) {
 	d.spacing = i
 }
 
 // Spacing returns the delegate's spacing.
-func (d DefaultDelegate) Spacing() int {
+func (d DefaultDelegate[I]) Spacing() int {
 	return d.spacing
 }
 
 // Update checks whether the delegate's UpdateFunc is set and calls it.
-func (d DefaultDelegate) Update(msg tea.Msg, m *Model) tea.Cmd {
+func (d DefaultDelegate[I]) Update(msg tea.Msg, m *Model[I]) tea.Cmd {
 	if d.UpdateFunc == nil {
 		return nil
 	}
@@ -135,7 +135,7 @@ func (d DefaultDelegate) Update(msg tea.Msg, m *Model) tea.Cmd {
 }
 
 // Render prints an item.
-func (d DefaultDelegate) Render(w io.Writer, m Model, index int, item Item) {
+func (d DefaultDelegate[I]) Render(w io.Writer, m Model[I], index int, item Item) {
 	var (
 		title, desc  string
 		matchedRunes []int
@@ -211,7 +211,7 @@ func (d DefaultDelegate) Render(w io.Writer, m Model, index int, item Item) {
 }
 
 // ShortHelp returns the delegate's short help.
-func (d DefaultDelegate) ShortHelp() []key.Binding {
+func (d DefaultDelegate[I]) ShortHelp() []key.Binding {
 	if d.ShortHelpFunc != nil {
 		return d.ShortHelpFunc()
 	}
@@ -219,7 +219,7 @@ func (d DefaultDelegate) ShortHelp() []key.Binding {
 }
 
 // FullHelp returns the delegate's full help.
-func (d DefaultDelegate) FullHelp() [][]key.Binding {
+func (d DefaultDelegate[I]) FullHelp() [][]key.Binding {
 	if d.FullHelpFunc != nil {
 		return d.FullHelpFunc()
 	}

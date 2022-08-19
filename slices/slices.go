@@ -20,3 +20,27 @@ func Reversed[E any](a []E) []E {
 
 	return b
 }
+
+func Insert[S ~[]E, E any](slice S, index int, v ...E) S {
+	tot := len(slice) + len(v)
+	if tot <= cap(slice) {
+		s2 := slice[:tot]
+		copy(s2[index+len(v):], slice[index:])
+		copy(s2[index:], v)
+		return s2
+	}
+	s2 := make(S, tot)
+	copy(s2, slice[:index])
+	copy(s2[index:], v)
+	copy(s2[index+len(v):], slice[index:])
+	return s2
+}
+
+// Delete removes the elements s[i:j] from s, returning the modified slice.
+// Delete panics if s[i:j] is not a valid slice of s.
+// Delete modifies the contents of the slice s; it does not create a new slice.
+// Delete is O(len(s)-(j-i)), so if many items must be deleted, it is better to
+// make a single call deleting them all together than to delete one at a time.
+func Delete[S ~[]E, E any](slice S, i, j int) S {
+	return append(slice[:i], slice[j:]...)
+}

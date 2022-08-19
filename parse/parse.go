@@ -38,6 +38,14 @@ type RocketData struct {
 	Payload               []PayloadData
 }
 
+func (r *RocketData) Render() string {
+	formatted, err := jsonio.FormattedJson(r)
+	if err != nil {
+		fmt.Println(fmt.Errorf("Error when formatting json: %v", err))
+	}
+	return formatted.String()
+}
+
 type AllLaunchData struct {
 	OrbitalFlights    []RocketData
 	SuborbitalFlights []RocketData

@@ -7,24 +7,27 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 )
 
-type MyDelegate struct {
-	list.DefaultDelegate
-	chosen bool
-}
+// type MyDelegate struct {
+// 	list.DefaultDelegate[item]
+// 	chosen bool
+// }
 
-func newItemDelegate(keys *delegateKeyMap) MyDelegate {
-	d := MyDelegate{list.NewDefaultDelegate(), false}
+// var _ list.DefaultDelegate[item] = (*MyDelegate)(nil)
+
+func newItemDelegate(keys *delegateKeyMap) list.DefaultDelegate[MyItem] {
+	// d := MyDelegate{list.NewDefaultDelegate[item](), false}
+	d := list.NewDefaultDelegate[MyItem]()
 
 	d.SetSpacing(0)
 
-	d.UpdateFunc = func(msg tea.Msg, m *list.Model) tea.Cmd {
+	d.UpdateFunc = func(msg tea.Msg, m *list.Model[MyItem]) tea.Cmd {
 		var title string
 
-		if i, ok := m.SelectedItem().(item); ok {
-			title = i.Title()
-		} else {
-			return nil
-		}
+		// if i := m.SelectedItem(); i != nil {
+		// 	title = i.Title()
+		// } else {
+		// 	return nil
+		// }
 
 		switch msg := msg.(type) {
 		case tea.KeyMsg:

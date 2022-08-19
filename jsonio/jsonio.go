@@ -56,7 +56,7 @@ func Get(config config.Config, url string) (RawResponse, error) {
 	return response, err
 }
 
-func toJson(contents interface{}) (*bytes.Buffer, error) {
+func FormattedJson(contents interface{}) (*bytes.Buffer, error) {
 	res, err := json.Marshal(contents)
 	if err != nil {
 		return nil, err
@@ -70,7 +70,7 @@ func toJson(contents interface{}) (*bytes.Buffer, error) {
 }
 
 func WriteJsonFile(config config.Config, contents interface{}, filename string) error {
-	formattedJson, err := toJson(contents)
+	formattedJson, err := FormattedJson(contents)
 	if err != nil {
 		return err
 	}

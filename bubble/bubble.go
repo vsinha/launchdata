@@ -12,6 +12,7 @@ import (
 	"launchdata/list"
 
 	"github.com/charmbracelet/bubbles/key"
+	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 )
@@ -30,29 +31,6 @@ var (
 				Foreground(lipgloss.AdaptiveColor{Light: "#04B575", Dark: "#04B575"}).
 				Render
 )
-
-type item struct {
-	data parse.RocketData
-}
-
-func (i item) Title() string {
-	return fmt.Sprintf("%s (%s)",
-		i.data.Rocket,
-		i.data.FlightNumber)
-}
-
-func (i item) Description() string {
-	return fmt.Sprintf("%v, %s, %s",
-		i.data.Timestamp.Format("01-02-2006"),
-		i.data.LaunchServiceProvider,
-		i.data.LaunchSite)
-}
-
-func (i item) FilterValue() string {
-	return fmt.Sprintf("%v", i.data)
-}
-
-var _ list.Item = (*item)(nil)
 
 type listKeyMap struct {
 	toggleSpinner    key.Binding
@@ -103,7 +81,9 @@ func newListKeyMap() *listKeyMap {
 }
 
 type model struct {
-	list         list.Model
+	items        []MyItem
+	list         list.Model[MyItem]
+	viewport     viewport.Model
 	keys         *listKeyMap
 	delegateKeys *delegateKeyMap
 }
@@ -118,14 +98,14 @@ func newModel(year int) model {
 		panic(err)
 	}
 
-	var items []list.Item
+	var items []MyItem
 	for _, r := range entries.OrbitalFlights {
-		items = append(items, item{data: r})
+		items = append(items, MyItem{data: r})
 	}
 	slices.Reverse(items)
 
 	delegate := newItemDelegate(delegateKeys)
-	l := list.New(items, delegate, 0, 0)
+	l := list.New[MyItem](items, delegate, 0, 0)
 	l.Title = fmt.Sprintf("Launches in %d", year)
 	l.Styles.Title = titleStyle
 	l.AdditionalFullHelpKeys = func() []key.Binding {
@@ -141,8 +121,12 @@ func newModel(year int) model {
 		}
 	}
 
+	viewport := viewport.New(0, 0)
+
 	return model{
+		items:        items,
 		list:         l,
+		viewport:     viewport,
 		keys:         listKeys,
 		delegateKeys: delegateKeys,
 	}
@@ -200,22 +184,29 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 		}
 	}
 
-	newlist, cmd := m.list.Update(msg)
-	m.list = newlist
+	list, cmd := m.list.Update(msg)
+	m.list = list
+	cmds = append(cmds, cmd)
+
+	if i := m.list.SelectedItem(); i != nil {
+		m.viewport.SetContent(i.data.Render())
+	} else {
+		m.viewport.SetContent("")
+	}
+
+	viewport, cmd := m.viewport.Update(msg)
+	m.viewport = viewport
 	cmds = append(cmds, cmd)
 
 	return m, tea.Batch(cmds...)
 }
 
 func (m model) View() string {
-	return appStyle.Render(m.list.View())
-	// if m.choice != "" {
-	// 	return quitTextStyle.Render(fmt.Sprintf("%s? Sounds good to me.", m.choice))
-	// }
-	// if m.quitting {
-	// 	return quitTextStyle.Render("Not hungry? That’s cool.")
-	// }
-	// return "\n" + m.list.View()
+	list := m.list.View()
+	view := m.viewport.View()
+	str := lipgloss.JoinHorizontal(lipgloss.Bottom, list, view)
+
+	return appStyle.Render(str)
 }
 
 func Run(config *config.Config, year int) {

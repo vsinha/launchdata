@@ -2,9 +2,9 @@ package list
 
 import "github.com/charmbracelet/bubbles/key"
 
-// KeyMap defines keybindings. It satisfies to the help.KeyMap interface, which
+// KeyMappings defines keybindings. It satisfies to the help.KeyMappings interface, which
 // is used to render the menu menu.
-type KeyMap struct {
+type KeyMappings struct {
 	// Keybindings used when browsing the list.
 	CursorUp    key.Binding
 	CursorDown  key.Binding
@@ -31,8 +31,8 @@ type KeyMap struct {
 }
 
 // DefaultKeyMap returns a default set of keybindings.
-func DefaultKeyMap() KeyMap {
-	return KeyMap{
+func DefaultKeyMap() KeyMappings {
+	return KeyMappings{
 		// Browsing.
 		CursorUp: key.NewBinding(
 			key.WithKeys("up", "k"),
