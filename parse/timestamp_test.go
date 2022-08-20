@@ -17,7 +17,7 @@ func TestParsingDatestamp(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		got, _ := parseTimestamp(test.input, test.year)
+		got, _ := parseTimestampFormat(test.input, test.year)
 		want := timeParse(test.want)
 		if !got.Equal(want) {
 			t.Errorf("wanted: %v, got: %v", want, got)

@@ -1,15 +1,40 @@
 package parse
 
 import (
+	"errors"
 	"fmt"
 	"strings"
 	"time"
 )
 
-// TODO wrap the Time in a struct which includes an 'ok' bool,
-// to figure out whether we parsed it correctly or not.
-// I'd use Option[Time] but this is Go
-func parseTimestamp(raw string, year int) (time.Time, error) {
+type TimeData struct {
+	TimestampRaw   string
+	TimestampClean string
+	Timestamp      time.Time
+	Tbd            bool
+	ParsedOk       bool
+	ParseErr       error
+}
+
+func (t TimeData) LaunchedAlready(now time.Time) bool {
+	return !t.Tbd && t.ParsedOk && t.Timestamp.Before(now)
+}
+
+func (t TimeData) DateString() string {
+	if !t.ParsedOk {
+		return t.TimestampClean
+	}
+	return t.Timestamp.Format("2006-01-02")
+}
+
+func (t TimeData) TimeString() string {
+	if !t.ParsedOk {
+		return t.TimestampClean
+	}
+	return t.Timestamp.Format("2006-01-02 15:04 (UTC)")
+}
+
+func parseTimestampFormat(raw string, year int) (time.Time, error) {
 	raw = cleanWikilink(raw)
 	raw = strings.TrimSpace(raw)
 
@@ -37,15 +62,41 @@ func parseTimestamp(raw string, year int) (time.Time, error) {
 		}
 	}
 
-	// TODO add a check to see if the time is still "0001-01-01T00:00:00Z", log
-	// an error or something if it is
-
-	// Future timestamp strings will contain these terms, we can simply return
-	// no error, as it's OK to have failed to parse them
+	// Future timestamp strings will contain these terms, we can simply return no error, as it's OK to have failed to parse them
 	if err != nil &&
 		(strings.Contains(raw, "Early") || strings.Contains(raw, "Mid") || strings.Contains(raw, "Late")) {
-		return t, nil
+		return t, errors.New("failed to parse, contains early/mid/late")
+	}
+
+	if t.String() == "0001-01-01T00:00:00Z" {
+		return t, errors.New("failed to parse, resulted in default date")
 	}
 
 	return t, err
+}
+
+func parseTimestamp(raw string, year int) TimeData {
+	var timestamp time.Time
+	var tbd bool
+	var err error
+
+	cleaned := cleanWikilink(raw)
+
+	if strings.Contains(raw, "TBD") {
+		tbd = true
+		err = errors.New("TBD")
+	} else {
+		timestamp, err = parseTimestampFormat(cleaned, year)
+	}
+
+	time := TimeData{
+		TimestampRaw:   raw,
+		TimestampClean: cleaned,
+		Timestamp:      timestamp,
+		Tbd:            tbd,
+		ParsedOk:       err == nil,
+		ParseErr:       err,
+	}
+
+	return time
 }

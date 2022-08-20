@@ -900,11 +900,11 @@ func (m Model[I]) ShortHelp() []key.Binding {
 
 	// If the delegate implements the help.KeyMap interface add the short help
 	// items to the short help after the cursor movement keys.
-	if !filtering {
-		// if b, ok := m.delegate.(help.KeyMap); ok {
-		// 	kb = append(kb, b.ShortHelp()...)
-		// }
-	}
+	// if !filtering {
+	// if b, ok := m.delegate.(help.KeyMap); ok {
+	// 	kb = append(kb, b.ShortHelp()...)
+	// }
+	// }
 
 	kb = append(kb,
 		m.KeyMap.Filter,
@@ -939,11 +939,11 @@ func (m Model[I]) FullHelp() [][]key.Binding {
 
 	// If the delegate implements the help.KeyMap interface add full help
 	// keybindings to a special section of the full help.
-	if !filtering {
-		// if b, ok := m.delegate.(help.KeyMap); ok {
-		// 	kb = append(kb, b.FullHelp()...)
-		// }
-	}
+	// if !filtering {
+	// if b, ok := m.delegate.(help.KeyMap); ok {
+	// 	kb = append(kb, b.FullHelp()...)
+	// }
+	// }
 
 	listLevelBindings := []key.Binding{
 		m.KeyMap.Filter,

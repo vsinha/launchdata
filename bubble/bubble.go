@@ -15,7 +15,7 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"golang.org/x/crypto/ssh/terminal"
+	"golang.org/x/term"
 )
 
 // const listHeight = 14
@@ -115,7 +115,7 @@ func newModel(year int) model {
 	}
 	slices.Reverse(items)
 
-	width, height, err := terminal.GetSize(0)
+	width, height, _ := term.GetSize(0)
 	height = height - 5
 	listWidth := int(float32(width) * 0.5)
 

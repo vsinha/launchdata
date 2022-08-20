@@ -21,7 +21,7 @@ func (i MyItem) Title() string {
 
 func (i MyItem) Description() string {
 	return fmt.Sprintf("%v, %s, %s",
-		i.data.Timestamp.Format("01-02-2006"),
+		i.data.Timestamp.DateString(),
 		i.data.LaunchServiceProvider,
 		i.data.LaunchSite)
 }

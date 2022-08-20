@@ -27,9 +27,7 @@ type PayloadData struct {
 }
 
 type RocketData struct {
-	TimestampRaw          string
-	Timestamp             time.Time
-	TBD                   bool
+	Timestamp             TimeData
 	Rocket                string
 	FlightNumber          string
 	LaunchSite            string
@@ -41,7 +39,7 @@ type RocketData struct {
 func (r *RocketData) Render() string {
 	formatted, err := jsonio.FormattedJson(r)
 	if err != nil {
-		fmt.Println(fmt.Errorf("Error when formatting json: %v", err))
+		fmt.Println(fmt.Errorf("error when formatting json: %v", err))
 	}
 	return formatted.String()
 }
@@ -126,7 +124,6 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			continue
 		}
 
-		timestampRawCleaned := cleanWikilink(timestampRaw)
 		for j, entry := range data[i] {
 			data[i][j] = cleanWikilink(entry)
 		}
@@ -135,26 +132,14 @@ func parseSingleDate(index *int, data [][]string, year int) (RocketData, error) 
 			// The 2nd field (index 1) is always "" for payloads and notes, because they're indented
 			// in the wiki table
 
-			var timestamp time.Time
-			var tbd bool
-			if strings.Contains(timestampRaw, "TBD") {
-				tbd = true
-			} else {
-				var err error
-				timestamp, err = parseTimestamp(timestampRawCleaned, year)
-				if err != nil {
-					fmt.Println(fmt.Errorf("failed to parse timestamp %v", err))
-				}
-			}
-
 			if len(data[i]) < 7 {
 				continue
 			}
 
+			time := parseTimestamp(timestampRaw, year)
+
 			rocketData = RocketData{
-				TimestampRaw:          timestampRaw,
-				Timestamp:             timestamp,
-				TBD:                   tbd,
+				Timestamp:             time,
 				Rocket:                data[*index][1],
 				FlightNumber:          data[*index][3],
 				LaunchSite:            data[*index][4],
@@ -206,7 +191,7 @@ func parseMultipleDates(data [][]string, year int) ([]RocketData, error) {
 		}
 
 		// Did it launch empty?
-		if rocketData.Payload == nil && !rocketData.TBD && rocketData.Timestamp.Before(now) {
+		if rocketData.Payload == nil && rocketData.Timestamp.LaunchedAlready(now) {
 			fmt.Println(rocketData.Timestamp)
 			fmt.Println(
 				fmt.Errorf("parsed a rocketData with no payload, probably something has gone wrong:\n %s",

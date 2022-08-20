@@ -1,8 +1,13 @@
 [
   {
-    "TimestampRaw": "6 January21:49:10[1]",
-    "Timestamp": "2022-01-06T21:49:10Z",
-    "TBD": false,
+    "Timestamp": {
+      "TimestampRaw": "6 January21:49:10[1]",
+      "TimestampClean": "6 January21:49:10",
+      "Timestamp": "2022-01-06T21:49:10Z",
+      "Tbd": false,
+      "ParsedOk": true,
+      "ParseErr": null
+    },
     "Rocket": "Falcon 9 Block 5",
     "FlightNumber": "Starlink Group 4-5",
     "LaunchSite": "Kennedy LC-39A",
@@ -21,9 +26,14 @@
     ]
   },
   {
-    "TimestampRaw": "13 January15:25:39[2]",
-    "Timestamp": "2022-01-13T15:25:39Z",
-    "TBD": false,
+    "Timestamp": {
+      "TimestampRaw": "13 January15:25:39[2]",
+      "TimestampClean": "13 January15:25:39",
+      "Timestamp": "2022-01-13T15:25:39Z",
+      "Tbd": false,
+      "ParsedOk": true,
+      "ParseErr": null
+    },
     "Rocket": "Falcon 9 Block 5",
     "FlightNumber": "Transporter-3",
     "LaunchSite": "Cape Canaveral SLC-40",
@@ -51,9 +61,14 @@
     ]
   },
   {
-    "TimestampRaw": "13 January22:51:39[46][47]",
-    "Timestamp": "2022-01-13T22:51:39Z",
-    "TBD": false,
+    "Timestamp": {
+      "TimestampRaw": "13 January22:51:39[46][47]",
+      "TimestampClean": "13 January22:51:39",
+      "Timestamp": "2022-01-13T22:51:39Z",
+      "Tbd": false,
+      "ParsedOk": true,
+      "ParseErr": null
+    },
     "Rocket": "LauncherOne",
     "FlightNumber": "\"Above the Clouds\"",
     "LaunchSite": "Cosmic Girl, Mojave",
@@ -81,9 +96,14 @@
     ]
   },
   {
-    "TimestampRaw": "17 January02:35[51]",
-    "Timestamp": "2022-01-17T02:35:00Z",
-    "TBD": false,
+    "Timestamp": {
+      "TimestampRaw": "17 January02:35[51]",
+      "TimestampClean": "17 January02:35",
+      "Timestamp": "2022-01-17T02:35:00Z",
+      "Tbd": false,
+      "ParsedOk": true,
+      "ParseErr": null
+    },
     "Rocket": "Long March 2D",
     "FlightNumber": "2D-Y70",
     "LaunchSite": "Taiyuan LC-9",
@@ -102,9 +122,14 @@
     ]
   },
   {
-    "TimestampRaw": "19 January02:02:40[52]",
-    "Timestamp": "2022-01-19T02:02:40Z",
-    "TBD": false,
+    "Timestamp": {
+      "TimestampRaw": "19 January02:02:40[52]",
+      "TimestampClean": "19 January02:02:40",
+      "Timestamp": "2022-01-19T02:02:40Z",
+      "Tbd": false,
+      "ParsedOk": true,
+      "ParseErr": null
+    },
     "Rocket": "Falcon 9 Block 5",
     "FlightNumber": "Starlink Group 4-6",
     "LaunchSite": "Kennedy LC-39A",
@@ -123,9 +148,14 @@
     ]
   },
   {
-    "TimestampRaw": "21 January19:00:00[53]",
-    "Timestamp": "2022-01-21T19:00:00Z",
-    "TBD": false,
+    "Timestamp": {
+      "TimestampRaw": "21 January19:00:00[53]",
+      "TimestampClean": "21 January19:00:00",
+      "Timestamp": "2022-01-21T19:00:00Z",
+      "Tbd": false,
+      "ParsedOk": true,
+      "ParseErr": null
+    },
     "Rocket": "Atlas V 511",
     "FlightNumber": "AV-084",
     "LaunchSite": "Cape Canaveral SLC-41",

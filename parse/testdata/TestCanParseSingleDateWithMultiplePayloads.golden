@@ -1,7 +1,12 @@
 {
-  "TimestampRaw": "13 January15:25:39[2]",
-  "Timestamp": "2022-01-13T15:25:39Z",
-  "TBD": false,
+  "Timestamp": {
+    "TimestampRaw": "13 January15:25:39[2]",
+    "TimestampClean": "13 January15:25:39",
+    "Timestamp": "2022-01-13T15:25:39Z",
+    "Tbd": false,
+    "ParsedOk": true,
+    "ParseErr": null
+  },
   "Rocket": "Falcon 9 Block 5",
   "FlightNumber": "Transporter-3",
   "LaunchSite": "Cape Canaveral SLC-40",

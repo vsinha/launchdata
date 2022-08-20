@@ -24,7 +24,7 @@ func browseCmd() *cobra.Command {
 				return errors.New("requires a year (1950-2022)")
 			}
 			if _, err := strconv.Atoi(args[0]); err != nil {
-				return errors.New(fmt.Sprintf("%q looks like it's not a year. Try 2021.\n", args[0]))
+				return fmt.Errorf("%q looks like it's not a year. Try 2021", args[0])
 			}
 			return nil
 		},
