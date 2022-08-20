@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "13 January",
-      "Timestamp": "1957-01-13T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "13 January",
+        "TimestampClean": "13 January",
+        "Timestamp": "1957-01-13T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 January",
-      "Timestamp": "1957-01-14T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 January",
+        "TimestampClean": "14 January",
+        "Timestamp": "1957-01-14T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 January",
-      "Timestamp": "1957-01-15T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 January",
+        "TimestampClean": "15 January",
+        "Timestamp": "1957-01-15T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "X-17",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-3",
@@ -85,9 +105,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 January",
-      "Timestamp": "1957-01-19T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 January",
+        "TimestampClean": "19 January",
+        "Timestamp": "1957-01-19T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-5M",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -106,9 +131,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 January",
-      "Timestamp": "1957-01-24T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 January",
+        "TimestampClean": "24 January",
+        "Timestamp": "1957-01-24T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "HJ-Nike",
       "FlightNumber": "",
       "LaunchSite": "Wallops Island",
@@ -127,9 +157,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 January",
-      "Timestamp": "1957-01-26T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 January",
+        "TimestampClean": "26 January",
+        "Timestamp": "1957-01-26T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "XSM-75 Thor",
       "FlightNumber": "101",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -148,9 +183,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 January",
-      "Timestamp": "1957-01-29T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 January",
+        "TimestampClean": "29 January",
+        "Timestamp": "1957-01-29T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "X-17",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-3",

@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 January08:25",
-      "Timestamp": "1978-01-20T08:25:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 January08:25",
+        "TimestampClean": "20 January08:25",
+        "Timestamp": "1978-01-20T08:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "2 March15:28:10",
-      "Timestamp": "1978-03-02T15:28:10Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "2 March15:28:10",
+        "TimestampClean": "2 March15:28:10",
+        "Timestamp": "1978-03-02T15:28:10Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 May13:13:00",
-      "Timestamp": "1978-05-20T13:13:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 May13:13:00",
+        "TimestampClean": "20 May13:13:00",
+        "Timestamp": "1978-05-20T13:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas SLV-3D Centaur",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-36A",
@@ -85,9 +105,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 June20:16:45",
-      "Timestamp": "1978-06-15T20:16:45Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 June20:16:45",
+        "TimestampClean": "15 June20:16:45",
+        "Timestamp": "1978-06-15T20:16:45Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -106,9 +131,14 @@
       ]
     },
     {
-      "TimestampRaw": "16 June10:49",
-      "Timestamp": "1978-06-16T10:49:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "16 June10:49",
+        "TimestampClean": "16 June10:49",
+        "Timestamp": "1978-06-16T10:49:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta 2914",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -127,9 +157,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 June15:27:21",
-      "Timestamp": "1978-06-27T15:27:21Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 June15:27:21",
+        "TimestampClean": "27 June15:27:21",
+        "Timestamp": "1978-06-27T15:27:21Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -148,9 +183,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 August07:33",
-      "Timestamp": "1978-08-08T07:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 August07:33",
+        "TimestampClean": "8 August07:33",
+        "Timestamp": "1978-08-08T07:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas SLV-3D Centaur",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-36A",
@@ -205,9 +245,14 @@
       ]
     },
     {
-      "TimestampRaw": "12 August14:12:00",
-      "Timestamp": "1978-08-12T14:12:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "12 August14:12:00",
+        "TimestampClean": "12 August14:12:00",
+        "Timestamp": "1978-08-12T14:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta 2914",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -226,9 +271,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 August14:51:30",
-      "Timestamp": "1978-08-26T14:51:30Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 August14:51:30",
+        "TimestampClean": "26 August14:51:30",
+        "Timestamp": "1978-08-26T14:51:30Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -247,9 +297,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 October23:09:30",
-      "Timestamp": "1978-10-03T23:09:30Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 October23:09:30",
+        "TimestampClean": "3 October23:09:30",
+        "Timestamp": "1978-10-03T23:09:30Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",

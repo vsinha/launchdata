@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 August14:29:44",
-      "Timestamp": "1977-08-20T14:29:44Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 August14:29:44",
+        "TimestampClean": "20 August14:29:44",
+        "Timestamp": "1977-08-20T14:29:44Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan IIIE",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-41",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "5 September12:56:01",
-      "Timestamp": "1977-09-05T12:56:01Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "5 September12:56:01",
+        "TimestampClean": "5 September12:56:01",
+        "Timestamp": "1977-09-05T12:56:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan IIIE",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-41",

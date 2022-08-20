@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 June21:38:16",
-      "Timestamp": "1988-06-07T21:38:16Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 June21:38:16",
+        "TimestampClean": "7 June21:38:16",
+        "Timestamp": "1988-06-07T21:38:16Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 June11:19",
-      "Timestamp": "1988-06-15T11:19:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 June11:19",
+        "TimestampClean": "15 June11:19",
+        "Timestamp": "1988-06-15T11:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 44LP",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -82,9 +97,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 July17:38",
-      "Timestamp": "1988-07-07T17:38:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 July17:38",
+        "TimestampClean": "7 July17:38",
+        "Timestamp": "1988-07-07T17:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K",
       "FlightNumber": "",
       "LaunchSite": "Baikonur site LC200/39",
@@ -112,9 +132,14 @@
       ]
     },
     {
-      "TimestampRaw": "12 July17:01",
-      "Timestamp": "1988-07-12T17:01:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "12 July17:01",
+        "TimestampClean": "12 July17:01",
+        "Timestamp": "1988-07-12T17:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K",
       "FlightNumber": "",
       "LaunchSite": "Baikonur site LC200/40",
@@ -151,9 +176,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 August04:23:11",
-      "Timestamp": "1988-08-29T04:23:11Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 August04:23:11",
+        "TimestampClean": "29 August04:23:11",
+        "Timestamp": "1988-08-29T04:23:11Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -172,9 +202,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 September15:37:00",
-      "Timestamp": "1988-09-29T15:37:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 September15:37:00",
+        "TimestampClean": "29 September15:37:00",
+        "Timestamp": "1988-09-29T15:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle Discovery",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
@@ -202,9 +237,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 November03:00:02",
-      "Timestamp": "1988-11-15T03:00:02Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 November03:00:02",
+        "TimestampClean": "15 November03:00:02",
+        "Timestamp": "1988-11-15T03:00:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Energia",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 110/37",
@@ -232,9 +272,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 November14:49:34",
-      "Timestamp": "1988-11-26T14:49:34Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 November14:49:34",
+        "TimestampClean": "26 November14:49:34",
+        "Timestamp": "1988-11-26T14:49:34Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -253,9 +298,14 @@
       ]
     },
     {
-      "TimestampRaw": "2 December14:30:34",
-      "Timestamp": "1988-12-02T14:30:34Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "2 December14:30:34",
+        "TimestampClean": "2 December14:30:34",
+        "Timestamp": "1988-12-02T14:30:34Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle  Atlantis",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
@@ -283,9 +333,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 December00:33",
-      "Timestamp": "1988-12-11T00:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 December00:33",
+        "TimestampClean": "11 December00:33",
+        "Timestamp": "1988-12-11T00:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 44LP",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",

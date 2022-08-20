@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "15 January16:24:59[3]",
-      "Timestamp": "2013-01-15T16:24:59Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 January16:24:59[3]",
+        "TimestampClean": "15 January16:24:59",
+        "Timestamp": "2013-01-15T16:24:59Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Rokot / Briz-KM",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -40,9 +45,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 January04:40:00",
-      "Timestamp": "2013-01-27T04:40:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 January04:40:00",
+        "TimestampClean": "27 January04:40:00",
+        "Timestamp": "2013-01-27T04:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "H-IIA 202",
       "FlightNumber": "",
       "LaunchSite": "Tanegashima LA-Y1",
@@ -70,9 +80,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 January07:00:00",
-      "Timestamp": "2013-01-30T07:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 January07:00:00",
+        "TimestampClean": "30 January07:00:00",
+        "Timestamp": "2013-01-30T07:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Naro-1",
       "FlightNumber": "",
       "LaunchSite": "Naro LC-1",
@@ -91,9 +106,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 January01:48:00",
-      "Timestamp": "2013-01-31T01:48:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 January01:48:00",
+        "TimestampClean": "31 January01:48:00",
+        "Timestamp": "2013-01-31T01:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 401",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -112,9 +132,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 February06:56:00",
-      "Timestamp": "2013-02-01T06:56:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 February06:56:00",
+        "TimestampClean": "1 February06:56:00",
+        "Timestamp": "2013-02-01T06:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Zenit-3SL",
       "FlightNumber": "",
       "LaunchSite": "Odyssey",
@@ -133,9 +158,14 @@
       ]
     },
     {
-      "TimestampRaw": "6 February16:04:24",
-      "Timestamp": "2013-02-06T16:04:24Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "6 February16:04:24",
+        "TimestampClean": "6 February16:04:24",
+        "Timestamp": "2013-02-06T16:04:24Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-2.1a / Fregat",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",
@@ -199,9 +229,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 February21:36:07",
-      "Timestamp": "2013-02-07T21:36:07Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 February21:36:07",
+        "TimestampClean": "7 February21:36:07",
+        "Timestamp": "2013-02-07T21:36:07Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 5 ECA",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-3",
@@ -229,9 +264,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 February14:41:46",
-      "Timestamp": "2013-02-11T14:41:46Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 February14:41:46",
+        "TimestampClean": "11 February14:41:46",
+        "Timestamp": "2013-02-11T14:41:46Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -250,9 +290,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 February18:02:00",
-      "Timestamp": "2013-02-11T18:02:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 February18:02:00",
+        "TimestampClean": "11 February18:02:00",
+        "Timestamp": "2013-02-11T18:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 401",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3E",
@@ -271,9 +316,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 February12:31",
-      "Timestamp": "2013-02-25T12:31:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 February12:31",
+        "TimestampClean": "25 February12:31",
+        "Timestamp": "2013-02-25T12:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "PSLV-CA",
       "FlightNumber": "",
       "LaunchSite": "Satish Dhawan FLP",
@@ -346,9 +396,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 March15:10:13",
-      "Timestamp": "2013-03-01T15:10:13Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 March15:10:13",
+        "TimestampClean": "1 March15:10:13",
+        "Timestamp": "2013-03-01T15:10:13Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Falcon 9 v1.0",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-40",
@@ -367,9 +422,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 March21:21:00",
-      "Timestamp": "2013-03-19T21:21:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 March21:21:00",
+        "TimestampClean": "19 March21:21:00",
+        "Timestamp": "2013-03-19T21:21:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 401",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -388,9 +448,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 March19:06:48",
-      "Timestamp": "2013-03-26T19:06:48Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 March19:06:48",
+        "TimestampClean": "26 March19:06:48",
+        "Timestamp": "2013-03-26T19:06:48Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -409,9 +474,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 March20:43:20",
-      "Timestamp": "2013-03-28T20:43:20Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 March20:43:20",
+        "TimestampClean": "28 March20:43:20",
+        "Timestamp": "2013-03-28T20:43:20Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-FG",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -430,9 +500,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 April18:36:00",
-      "Timestamp": "2013-04-15T18:36:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 April18:36:00",
+        "TimestampClean": "15 April18:36:00",
+        "Timestamp": "2013-04-15T18:36:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -451,9 +526,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 April10:00:00",
-      "Timestamp": "2013-04-19T10:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 April10:00:00",
+        "TimestampClean": "19 April10:00:00",
+        "Timestamp": "2013-04-19T10:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-2.1a",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",
@@ -526,9 +606,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 April21:00:02",
-      "Timestamp": "2013-04-21T21:00:02Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 April21:00:02",
+        "TimestampClean": "21 April21:00:02",
+        "Timestamp": "2013-04-21T21:00:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Antares 110",
       "FlightNumber": "",
       "LaunchSite": "MARS LP-0A",
@@ -583,9 +668,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 April10:12:16",
-      "Timestamp": "2013-04-24T10:12:16Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 April10:12:16",
+        "TimestampClean": "24 April10:12:16",
+        "Timestamp": "2013-04-24T10:12:16Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -604,9 +694,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 April04:13:04",
-      "Timestamp": "2013-04-26T04:13:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 April04:13:04",
+        "TimestampClean": "26 April04:13:04",
+        "Timestamp": "2013-04-26T04:13:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2D",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan SLS-2",
@@ -652,9 +747,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 April05:23:41",
-      "Timestamp": "2013-04-26T05:23:41Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 April05:23:41",
+        "TimestampClean": "26 April05:23:41",
+        "Timestamp": "2013-04-26T05:23:41Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-2.1b / Fregat",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/4",
@@ -673,9 +773,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 May16:06:04",
-      "Timestamp": "2013-05-01T16:06:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 May16:06:04",
+        "TimestampClean": "1 May16:06:04",
+        "Timestamp": "2013-05-01T16:06:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 3B/E",
       "FlightNumber": "",
       "LaunchSite": "Xichang LC-2",
@@ -694,9 +799,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 May02:06:31",
-      "Timestamp": "2013-05-07T02:06:31Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 May02:06:31",
+        "TimestampClean": "7 May02:06:31",
+        "Timestamp": "2013-05-07T02:06:31Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Vega",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELV",
@@ -733,9 +843,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 May16:02:00",
-      "Timestamp": "2013-05-14T16:02:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 May16:02:00",
+        "TimestampClean": "14 May16:02:00",
+        "Timestamp": "2013-05-14T16:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -754,9 +869,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 May21:38:00",
-      "Timestamp": "2013-05-15T21:38:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 May21:38:00",
+        "TimestampClean": "15 May21:38:00",
+        "Timestamp": "2013-05-15T21:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 401",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -775,9 +895,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 May00:27:00",
-      "Timestamp": "2013-05-25T00:27:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 May00:27:00",
+        "TimestampClean": "25 May00:27:00",
+        "Timestamp": "2013-05-25T00:27:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta IV-M+ (5,4)",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-37B",
@@ -796,9 +921,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 May20:31:24",
-      "Timestamp": "2013-05-28T20:31:24Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 May20:31:24",
+        "TimestampClean": "28 May20:31:24",
+        "Timestamp": "2013-05-28T20:31:24Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-FG",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -817,9 +947,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 June09:18:31",
-      "Timestamp": "2013-06-03T09:18:31Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 June09:18:31",
+        "TimestampClean": "3 June09:18:31",
+        "Timestamp": "2013-06-03T09:18:31Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -838,9 +973,14 @@
       ]
     },
     {
-      "TimestampRaw": "5 June21:52:11",
-      "Timestamp": "2013-06-05T21:52:11Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "5 June21:52:11",
+        "TimestampClean": "5 June21:52:11",
+        "Timestamp": "2013-06-05T21:52:11Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 5 ES",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-3",
@@ -859,9 +999,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 June18:37:59",
-      "Timestamp": "2013-06-07T18:37:59Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 June18:37:59",
+        "TimestampClean": "7 June18:37:59",
+        "Timestamp": "2013-06-07T18:37:59Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-2.1b",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/4",
@@ -880,9 +1025,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 June09:38:02",
-      "Timestamp": "2013-06-11T09:38:02Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 June09:38:02",
+        "TimestampClean": "11 June09:38:02",
+        "Timestamp": "2013-06-11T09:38:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2F",
       "FlightNumber": "Y10",
       "LaunchSite": "Jiuquan SLS-1",
@@ -901,9 +1051,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 June17:28:48",
-      "Timestamp": "2013-06-25T17:28:48Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 June17:28:48",
+        "TimestampClean": "25 June17:28:48",
+        "Timestamp": "2013-06-25T17:28:48Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-2.1b",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",
@@ -922,9 +1077,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 June19:27:03",
-      "Timestamp": "2013-06-25T19:27:03Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 June19:27:03",
+        "TimestampClean": "25 June19:27:03",
+        "Timestamp": "2013-06-25T19:27:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-STB / Fregat",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELS",
@@ -970,9 +1130,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 June16:53:00",
-      "Timestamp": "2013-06-27T16:53:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 June16:53:00",
+        "TimestampClean": "27 June16:53:00",
+        "Timestamp": "2013-06-27T16:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Strela",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 175/59",
@@ -991,9 +1156,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 June02:27:46",
-      "Timestamp": "2013-06-28T02:27:46Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 June02:27:46",
+        "TimestampClean": "28 June02:27:46",
+        "Timestamp": "2013-06-28T02:27:46Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Pegasus-XL",
       "FlightNumber": "",
       "LaunchSite": "Stargazer, Vandenberg",
@@ -1012,9 +1182,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 July18:11",
-      "Timestamp": "2013-07-01T18:11:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 July18:11",
+        "TimestampClean": "1 July18:11",
+        "Timestamp": "2013-07-01T18:11:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "PSLV-XL",
       "FlightNumber": "",
       "LaunchSite": "Satish Dhawan FLP",
@@ -1033,9 +1208,14 @@
       ]
     },
     {
-      "TimestampRaw": "2 July02:38:22",
-      "Timestamp": "2013-07-02T02:38:22Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "2 July02:38:22",
+        "TimestampClean": "2 July02:38:22",
+        "Timestamp": "2013-07-02T02:38:22Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / DM-03 Enhanced",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/24",
@@ -1072,9 +1252,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 July09:27:03",
-      "Timestamp": "2013-07-15T09:27:03Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 July09:27:03",
+        "TimestampClean": "15 July09:27:03",
+        "Timestamp": "2013-07-15T09:27:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2C",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan SLS-2",
@@ -1093,9 +1278,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 July13:00:00",
-      "Timestamp": "2013-07-19T13:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 July13:00:00",
+        "TimestampClean": "19 July13:00:00",
+        "Timestamp": "2013-07-19T13:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 551",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -1114,9 +1304,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 July23:37:55",
-      "Timestamp": "2013-07-19T23:37:55Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 July23:37:55",
+        "TimestampClean": "19 July23:37:55",
+        "Timestamp": "2013-07-19T23:37:55Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4C",
       "FlightNumber": "",
       "LaunchSite": "Taiyuan LC-9",
@@ -1153,9 +1348,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 July19:54:07",
-      "Timestamp": "2013-07-25T19:54:07Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 July19:54:07",
+        "TimestampClean": "25 July19:54:07",
+        "Timestamp": "2013-07-25T19:54:07Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 5 ECA",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-3",
@@ -1183,9 +1383,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 July20:45:08",
-      "Timestamp": "2013-07-27T20:45:08Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 July20:45:08",
+        "TimestampClean": "27 July20:45:08",
+        "Timestamp": "2013-07-27T20:45:08Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",
@@ -1204,9 +1409,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 August19:48:46",
-      "Timestamp": "2013-08-03T19:48:46Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 August19:48:46",
+        "TimestampClean": "3 August19:48:46",
+        "Timestamp": "2013-08-03T19:48:46Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "H-IIB",
       "FlightNumber": "",
       "LaunchSite": "Tanegashima LA-Y2",
@@ -1261,9 +1471,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 August00:29:00",
-      "Timestamp": "2013-08-08T00:29:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 August00:29:00",
+        "TimestampClean": "8 August00:29:00",
+        "Timestamp": "2013-08-08T00:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta IV-M+ (5,4)",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-37B",
@@ -1282,9 +1497,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 August14:39:13",
-      "Timestamp": "2013-08-22T14:39:13Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 August14:39:13",
+        "TimestampClean": "22 August14:39:13",
+        "Timestamp": "2013-08-22T14:39:13Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Dnepr",
       "FlightNumber": "",
       "LaunchSite": "Dombarovsky Site 13",
@@ -1303,9 +1523,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 August18:03:00",
-      "Timestamp": "2013-08-28T18:03:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 August18:03:00",
+        "TimestampClean": "28 August18:03:00",
+        "Timestamp": "2013-08-28T18:03:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta IV Heavy",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-6",
@@ -1324,9 +1549,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 August20:30:07",
-      "Timestamp": "2013-08-29T20:30:07Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 August20:30:07",
+        "TimestampClean": "29 August20:30:07",
+        "Timestamp": "2013-08-29T20:30:07Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 5 ECA",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-3",
@@ -1354,9 +1584,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 August20:05:00",
-      "Timestamp": "2013-08-31T20:05:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 August20:05:00",
+        "TimestampClean": "31 August20:05:00",
+        "Timestamp": "2013-08-31T20:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Zenit-3SLB",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 45/1",
@@ -1375,9 +1610,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 September19:16",
-      "Timestamp": "2013-09-01T19:16:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 September19:16",
+        "TimestampClean": "1 September19:16",
+        "Timestamp": "2013-09-01T19:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4C",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan SLS-2",
@@ -1414,9 +1654,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 September03:27:00",
-      "Timestamp": "2013-09-07T03:27:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 September03:27:00",
+        "TimestampClean": "7 September03:27:00",
+        "Timestamp": "2013-09-07T03:27:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Minotaur V",
       "FlightNumber": "",
       "LaunchSite": "MARS LP-0B",
@@ -1435,9 +1680,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 September23:23:04",
-      "Timestamp": "2013-09-11T23:23:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 September23:23:04",
+        "TimestampClean": "11 September23:23:04",
+        "Timestamp": "2013-09-11T23:23:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Rokot / Briz-KM",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -1474,9 +1724,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 September05:00:00",
-      "Timestamp": "2013-09-14T05:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 September05:00:00",
+        "TimestampClean": "14 September05:00:00",
+        "Timestamp": "2013-09-14T05:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Epsilon",
       "FlightNumber": "Epsilon-1",
       "LaunchSite": "Uchinoura",
@@ -1495,9 +1750,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 September08:10:00",
-      "Timestamp": "2013-09-18T08:10:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 September08:10:00",
+        "TimestampClean": "18 September08:10:00",
+        "Timestamp": "2013-09-18T08:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 531",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -1516,9 +1776,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 September14:58:02",
-      "Timestamp": "2013-09-18T14:58:02Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 September14:58:02",
+        "TimestampClean": "18 September14:58:02",
+        "Timestamp": "2013-09-18T14:58:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Antares 110",
       "FlightNumber": "",
       "LaunchSite": "MARS LP-0A",
@@ -1537,9 +1802,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 September03:07:11",
-      "Timestamp": "2013-09-23T03:07:11Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 September03:07:11",
+        "TimestampClean": "23 September03:07:11",
+        "Timestamp": "2013-09-23T03:07:11Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4C",
       "FlightNumber": "",
       "LaunchSite": "Taiyuan LC-9",
@@ -1558,9 +1828,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 September04:37[16]",
-      "Timestamp": "2013-09-25T04:37:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 September04:37[16]",
+        "TimestampClean": "25 September04:37",
+        "Timestamp": "2013-09-25T04:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kuaizhou",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan",
@@ -1579,9 +1854,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 September20:58:50",
-      "Timestamp": "2013-09-25T20:58:50Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 September20:58:50",
+        "TimestampClean": "25 September20:58:50",
+        "Timestamp": "2013-09-25T20:58:50Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-FG",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -1600,9 +1880,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 September16:00:00",
-      "Timestamp": "2013-09-29T16:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 September16:00:00",
+        "TimestampClean": "29 September16:00:00",
+        "Timestamp": "2013-09-29T16:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Falcon 9 v1.1",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-4E",
@@ -1666,9 +1951,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 September21:38:10",
-      "Timestamp": "2013-09-29T21:38:10Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 September21:38:10",
+        "TimestampClean": "29 September21:38:10",
+        "Timestamp": "2013-09-29T21:38:10Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -1687,9 +1977,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 October03:50:03",
-      "Timestamp": "2013-10-25T03:50:03Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 October03:50:03",
+        "TimestampClean": "25 October03:50:03",
+        "Timestamp": "2013-10-25T03:50:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4B",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan SLS-2",
@@ -1708,9 +2003,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 October18:08:54",
-      "Timestamp": "2013-10-25T18:08:54Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 October18:08:54",
+        "TimestampClean": "25 October18:08:54",
+        "Timestamp": "2013-10-25T18:08:54Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -1729,9 +2029,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 October02:50:04",
-      "Timestamp": "2013-10-29T02:50:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 October02:50:04",
+        "TimestampClean": "29 October02:50:04",
+        "Timestamp": "2013-10-29T02:50:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2C",
       "FlightNumber": "",
       "LaunchSite": "Taiyuan LC-9",
@@ -1750,9 +2055,14 @@
       ]
     },
     {
-      "TimestampRaw": "5 November09:08[22]",
-      "Timestamp": "2013-11-05T09:08:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "5 November09:08[22]",
+        "TimestampClean": "5 November09:08",
+        "Timestamp": "2013-11-05T09:08:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "PSLV-XL",
       "FlightNumber": "",
       "LaunchSite": "Satish Dhawan FLP",
@@ -1771,9 +2081,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 November04:14:15",
-      "Timestamp": "2013-11-07T04:14:15Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 November04:14:15",
+        "TimestampClean": "7 November04:14:15",
+        "Timestamp": "2013-11-07T04:14:15Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-FG",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -1792,9 +2107,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 November23:46:00",
-      "Timestamp": "2013-11-11T23:46:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 November23:46:00",
+        "TimestampClean": "11 November23:46:00",
+        "Timestamp": "2013-11-11T23:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/24",
@@ -1813,9 +2133,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 November18:28:00",
-      "Timestamp": "2013-11-18T18:28:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 November18:28:00",
+        "TimestampClean": "18 November18:28:00",
+        "Timestamp": "2013-11-18T18:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 401",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
@@ -1834,9 +2159,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 November01:15:00[24]",
-      "Timestamp": "2013-11-20T01:15:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 November01:15:00[24]",
+        "TimestampClean": "20 November01:15:00",
+        "Timestamp": "2013-11-20T01:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Minotaur I",
       "FlightNumber": "",
       "LaunchSite": "MARS LP-0B",
@@ -2116,9 +2446,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 November03:31:04",
-      "Timestamp": "2013-11-20T03:31:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 November03:31:04",
+        "TimestampClean": "20 November03:31:04",
+        "Timestamp": "2013-11-20T03:31:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4C",
       "FlightNumber": "",
       "LaunchSite": "Taiyuan LC-9",
@@ -2137,9 +2472,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 November07:10:16[81]",
-      "Timestamp": "2013-11-21T07:10:16Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 November07:10:16[81]",
+        "TimestampClean": "21 November07:10:16",
+        "Timestamp": "2013-11-21T07:10:16Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Dnepr",
       "FlightNumber": "",
       "LaunchSite": "Dombarovsky Site 370/13",
@@ -2446,9 +2786,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 November12:02:29",
-      "Timestamp": "2013-11-22T12:02:29Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 November12:02:29",
+        "TimestampClean": "22 November12:02:29",
+        "Timestamp": "2013-11-22T12:02:29Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Rokot / Briz-KM",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -2485,9 +2830,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 November02:12:04",
-      "Timestamp": "2013-11-25T02:12:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 November02:12:04",
+        "TimestampClean": "25 November02:12:04",
+        "Timestamp": "2013-11-25T02:12:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2D",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan SLS-2",
@@ -2506,9 +2856,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 November20:53:06",
-      "Timestamp": "2013-11-25T20:53:06Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 November20:53:06",
+        "TimestampClean": "25 November20:53:06",
+        "Timestamp": "2013-11-25T20:53:06Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 31/6",
@@ -2527,9 +2882,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 December17:30:00 [86]",
-      "Timestamp": "2013-12-01T17:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 December17:30:00 [86]",
+        "TimestampClean": "1 December17:30:00 ",
+        "Timestamp": "2013-12-01T17:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 3B",
       "FlightNumber": "",
       "LaunchSite": "Xichang LC-2",
@@ -2557,9 +2917,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 December22:41:00",
-      "Timestamp": "2013-12-03T22:41:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 December22:41:00",
+        "TimestampClean": "3 December22:41:00",
+        "Timestamp": "2013-12-03T22:41:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Falcon 9 v1.1",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-40",
@@ -2578,9 +2943,14 @@
       ]
     },
     {
-      "TimestampRaw": "6 December07:14:30",
-      "Timestamp": "2013-12-06T07:14:30Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "6 December07:14:30",
+        "TimestampClean": "6 December07:14:30",
+        "Timestamp": "2013-12-06T07:14:30Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas V 501",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3E",
@@ -2707,9 +3077,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 December12:12:00",
-      "Timestamp": "2013-12-08T12:12:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 December12:12:00",
+        "TimestampClean": "8 December12:12:00",
+        "Timestamp": "2013-12-08T12:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -2728,9 +3103,14 @@
       ]
     },
     {
-      "TimestampRaw": "9 December03:26",
-      "Timestamp": "2013-12-09T03:26:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "9 December03:26",
+        "TimestampClean": "9 December03:26",
+        "Timestamp": "2013-12-09T03:26:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4B",
       "FlightNumber": "",
       "LaunchSite": "Taiyuan LC-9",
@@ -2749,9 +3129,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 December09:12:19",
-      "Timestamp": "2013-12-19T09:12:19Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 December09:12:19",
+        "TimestampClean": "19 December09:12:19",
+        "Timestamp": "2013-12-19T09:12:19Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz ST-B / Fregat-MT",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELS",
@@ -2770,9 +3155,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 December16:42:04",
-      "Timestamp": "2013-12-20T16:42:04Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 December16:42:04",
+        "TimestampClean": "20 December16:42:04",
+        "Timestamp": "2013-12-20T16:42:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 3B/E",
       "FlightNumber": "",
       "LaunchSite": "Xichang LC-2",
@@ -2791,9 +3181,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 December00:31:55",
-      "Timestamp": "2013-12-25T00:31:55Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 December00:31:55",
+        "TimestampClean": "25 December00:31:55",
+        "Timestamp": "2013-12-25T00:31:55Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Rokot / Briz-KM",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -2839,9 +3234,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 December10:49:56",
-      "Timestamp": "2013-12-26T10:49:56Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 December10:49:56",
+        "TimestampClean": "26 December10:49:56",
+        "Timestamp": "2013-12-26T10:49:56Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-M / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/24",
@@ -2860,9 +3260,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 December12:30:00",
-      "Timestamp": "2013-12-28T12:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 December12:30:00",
+        "TimestampClean": "28 December12:30:00",
+        "Timestamp": "2013-12-28T12:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-2-1v / Volga",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/4",

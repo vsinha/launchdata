@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "10 January15:48",
-      "Timestamp": "1958-01-10T15:48:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "10 January15:48",
+        "TimestampClean": "10 January15:48",
+        "Timestamp": "1958-01-10T15:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "SM-65A Atlas",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-12",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 January",
-      "Timestamp": "1958-01-11T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 January",
+        "TimestampClean": "11 January",
+        "Timestamp": "1958-01-11T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "UGM-27 Polaris TV",
       "FlightNumber": "",
       "LaunchSite": "Point Mugu",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "17 January",
-      "Timestamp": "1958-01-17T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "17 January",
+        "TimestampClean": "17 January",
+        "Timestamp": "1958-01-17T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "UGM-27 Polaris TV",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-3",
@@ -85,9 +105,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 January19:12",
-      "Timestamp": "1958-01-25T19:12:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 January19:12",
+        "TimestampClean": "25 January19:12",
+        "Timestamp": "1958-01-25T19:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Nike-Cajun",
       "FlightNumber": "",
       "LaunchSite": "Churchill",
@@ -106,9 +131,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 January04:18:56",
-      "Timestamp": "1958-01-26T04:18:56Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 January04:18:56",
+        "TimestampClean": "26 January04:18:56",
+        "Timestamp": "1958-01-26T04:18:56Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee-150 (Hi)",
       "FlightNumber": "",
       "LaunchSite": "Churchill",
@@ -127,9 +157,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 January06:04",
-      "Timestamp": "1958-01-27T06:04:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 January06:04",
+        "TimestampClean": "27 January06:04",
+        "Timestamp": "1958-01-27T06:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Nike-Cajun",
       "FlightNumber": "",
       "LaunchSite": "Churchill",
@@ -148,9 +183,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 January18:49",
-      "Timestamp": "1958-01-27T18:49:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 January18:49",
+        "TimestampClean": "27 January18:49",
+        "Timestamp": "1958-01-27T18:49:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee",
       "FlightNumber": "",
       "LaunchSite": "Churchill",
@@ -169,9 +209,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 January20:16",
-      "Timestamp": "1958-01-28T20:16:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 January20:16",
+        "TimestampClean": "28 January20:16",
+        "Timestamp": "1958-01-28T20:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "PGM-17 Thor DM-18",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -190,9 +235,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 January19:06",
-      "Timestamp": "1958-01-29T19:06:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 January19:06",
+        "TimestampClean": "29 January19:06",
+        "Timestamp": "1958-01-29T19:06:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Nike-Cajun",
       "FlightNumber": "",
       "LaunchSite": "Churchill",
@@ -211,9 +261,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 January22:15",
-      "Timestamp": "1958-01-29T22:15:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 January22:15",
+        "TimestampClean": "29 January22:15",
+        "Timestamp": "1958-01-29T22:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-7 Semyorka",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",

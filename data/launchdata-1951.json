@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 January22:55",
-      "Timestamp": "1951-01-22T22:55:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 January22:55",
+        "TimestampClean": "22 January22:55",
+        "Timestamp": "1951-01-22T22:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee RTV-N-10",
       "FlightNumber": "",
       "LaunchSite": "White Sands LC-35",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 January15:00",
-      "Timestamp": "1951-01-25T15:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 January15:00",
+        "TimestampClean": "25 January15:00",
+        "Timestamp": "1951-01-25T15:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee RTV-N-10",
       "FlightNumber": "",
       "LaunchSite": "White Sands LC-35",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 January",
-      "Timestamp": "1951-01-29T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 January",
+        "TimestampClean": "29 January",
+        "Timestamp": "1951-01-29T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -85,9 +105,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 January",
-      "Timestamp": "1951-01-30T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 January",
+        "TimestampClean": "30 January",
+        "Timestamp": "1951-01-30T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -106,9 +131,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 January",
-      "Timestamp": "1951-01-31T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 January",
+        "TimestampClean": "31 January",
+        "Timestamp": "1951-01-31T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",

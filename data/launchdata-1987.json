@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "12 February06:40",
-      "Timestamp": "1987-02-12T06:40:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "12 February06:40",
+        "TimestampClean": "12 February06:40",
+        "Timestamp": "1987-02-12T06:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan 34B/Agena-D",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-4W",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 February23:05",
-      "Timestamp": "1987-02-26T23:05:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 February23:05",
+        "TimestampClean": "26 February23:05",
+        "Timestamp": "1987-02-26T23:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta 3914",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 March23:05",
-      "Timestamp": "1987-03-20T23:05:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 March23:05",
+        "TimestampClean": "20 March23:05",
+        "Timestamp": "1987-03-20T23:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta-3920",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17",
@@ -85,9 +105,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 March00:16:16",
-      "Timestamp": "1987-03-31T00:16:16Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 March00:16:16",
+        "TimestampClean": "31 March00:16:16",
+        "Timestamp": "1987-03-31T00:16:16Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -115,9 +140,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 May17:30:01",
-      "Timestamp": "1987-05-15T17:30:01Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 May17:30:01",
+        "TimestampClean": "15 May17:30:01",
+        "Timestamp": "1987-05-15T17:30:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Energia",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 250",
@@ -136,9 +166,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 June",
-      "Timestamp": "1987-06-08T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 June",
+        "TimestampClean": "8 June",
+        "Timestamp": "1987-06-08T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "RH-300 Mk II",
       "FlightNumber": "",
       "LaunchSite": "Sriharikota",
@@ -157,9 +192,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 July01:59:17",
-      "Timestamp": "1987-07-22T01:59:17Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 July01:59:17",
+        "TimestampClean": "22 July01:59:17",
+        "Timestamp": "1987-07-22T01:59:17Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -178,9 +218,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 November02:19:00",
-      "Timestamp": "1987-11-21T02:19:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 November02:19:00",
+        "TimestampClean": "21 November02:19:00",
+        "Timestamp": "1987-11-21T02:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 2",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -199,9 +244,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 December11:18:03",
-      "Timestamp": "1987-12-21T11:18:03Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 December11:18:03",
+        "TimestampClean": "21 December11:18:03",
+        "Timestamp": "1987-12-21T11:18:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
