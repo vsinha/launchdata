@@ -47,6 +47,8 @@ type listKeyMap struct {
 	toggleHelpMenu   key.Binding
 	insertItem       key.Binding
 	switchFocus      key.Binding
+	quit             key.Binding
+	forceQuit        key.Binding
 }
 
 func newListKeyMap() *listKeyMap {
@@ -79,6 +81,12 @@ func newListKeyMap() *listKeyMap {
 			key.WithKeys("tab"),
 			key.WithHelp("tab", "switch focus"),
 		),
+		// Quitting.
+		quit: key.NewBinding(
+			key.WithKeys("q", "esc"),
+			key.WithHelp("q", "quit"),
+		),
+		forceQuit: key.NewBinding(key.WithKeys("ctrl+c")),
 	}
 }
 
@@ -115,6 +123,7 @@ func newModel(year int) model {
 	l := list.New[MyItem](items, delegate, listWidth, height)
 	l.Title = fmt.Sprintf("Launches in %d", year)
 	l.Styles.Title = titleStyle
+	l.DisableQuitKeybindings()
 	l.AdditionalFullHelpKeys = func() []key.Binding {
 		return []key.Binding{
 			listKeys.toggleSpinner,
@@ -185,6 +194,12 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		case key.Matches(msg, m.keys.switchFocus):
 			m.listFocused = !m.listFocused
+
+		case key.Matches(msg, m.keys.forceQuit):
+			return m, tea.Quit
+
+		case key.Matches(msg, m.keys.quit):
+			return m, tea.Quit
 		}
 	}
 
