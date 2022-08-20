@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 February",
-      "Timestamp": "1954-02-20T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 February",
+        "TimestampClean": "20 February",
+        "Timestamp": "1954-02-20T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Véronique-NA",
       "FlightNumber": "",
       "LaunchSite": "Hammaguir Bechar",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 February",
-      "Timestamp": "1954-02-21T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 February",
+        "TimestampClean": "21 February",
+        "Timestamp": "1954-02-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Véronique-NA",
       "FlightNumber": "",
       "LaunchSite": "Hammaguir Bechar",

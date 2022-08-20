@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "10 January11:00",
-      "Timestamp": "1959-01-10T11:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "10 January11:00",
+        "TimestampClean": "10 January11:00",
+        "Timestamp": "1959-01-10T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "A-1",
       "FlightNumber": "",
       "LaunchSite": "Ostrov Kheysa",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "16 January04:00",
-      "Timestamp": "1959-01-16T04:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "16 January04:00",
+        "TimestampClean": "16 January04:00",
+        "Timestamp": "1959-01-16T04:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "SM-65B Atlas",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-14",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 January15:42",
-      "Timestamp": "1959-01-19T15:42:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 January15:42",
+        "TimestampClean": "19 January15:42",
+        "Timestamp": "1959-01-19T15:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "UGM-27 Polaris AX",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-25A",
@@ -85,9 +105,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 January00:10",
-      "Timestamp": "1959-01-22T00:10:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 January00:10",
+        "TimestampClean": "22 January00:10",
+        "Timestamp": "1959-01-22T00:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "PGM-19 Jupiter",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-5",
@@ -106,9 +131,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 January",
-      "Timestamp": "1959-01-23T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 January",
+        "TimestampClean": "23 January",
+        "Timestamp": "1959-01-23T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Thor DM-18 Able-II",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -127,9 +157,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 January17:00",
-      "Timestamp": "1959-01-27T17:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 January17:00",
+        "TimestampClean": "27 January17:00",
+        "Timestamp": "1959-01-27T17:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Daniel",
       "FlightNumber": "",
       "LaunchSite": "CERES",
@@ -148,9 +183,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 January23:34",
-      "Timestamp": "1959-01-27T23:34:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 January23:34",
+        "TimestampClean": "27 January23:34",
+        "Timestamp": "1959-01-27T23:34:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "SM-65C Atlas",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-12",
@@ -169,9 +209,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 January",
-      "Timestamp": "1959-01-28T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 January",
+        "TimestampClean": "28 January",
+        "Timestamp": "1959-01-28T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Nike-Cajun",
       "FlightNumber": "",
       "LaunchSite": "Wallops Island",
@@ -190,9 +235,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 January22:53",
-      "Timestamp": "1959-01-30T22:53:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 January22:53",
+        "TimestampClean": "30 January22:53",
+        "Timestamp": "1959-01-30T22:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "PGM-17 Thor DM-18A",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",

@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 January21:28[2]",
-      "Timestamp": "1967-01-14T21:28:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 January21:28[2]",
+        "TimestampClean": "14 January21:28",
+        "Timestamp": "1967-01-14T21:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Thor-Agena D",
       "FlightNumber": "",
       "LaunchSite": "SLC-2W, Vandenberg AFB",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 January14:19[2]",
-      "Timestamp": "1967-01-18T14:19:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 January14:19[2]",
+        "TimestampClean": "18 January14:19",
+        "Timestamp": "1967-01-18T14:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan IIIC",
       "FlightNumber": "",
       "LaunchSite": "SLC-41, Cape Canaveral",
@@ -127,9 +142,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 January12:39[2]",
-      "Timestamp": "1967-01-19T12:39:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 January12:39[2]",
+        "TimestampClean": "19 January12:39",
+        "Timestamp": "1967-01-19T12:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Vostok-2 (rocket)",
       "FlightNumber": "",
       "LaunchSite": "Pu-41/1, Plesetsk",
@@ -148,9 +168,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 January13:55[2]",
-      "Timestamp": "1967-01-25T13:55:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 January13:55[2]",
+        "TimestampClean": "25 January13:55",
+        "Timestamp": "1967-01-25T13:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-36ORB",
       "FlightNumber": "",
       "LaunchSite": "Pad 164/36, Baikonur",
@@ -169,9 +194,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 January17:31[2]",
-      "Timestamp": "1967-01-26T17:31:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 January17:31[2]",
+        "TimestampClean": "26 January17:31",
+        "Timestamp": "1967-01-26T17:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta E",
       "FlightNumber": "",
       "LaunchSite": "SLC-2E, Vandenberg AFB",
@@ -190,9 +220,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 January12:45[2]",
-      "Timestamp": "1967-01-31T12:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 January12:45[2]",
+        "TimestampClean": "31 January12:45",
+        "Timestamp": "1967-01-31T12:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Scout B",
       "FlightNumber": "",
       "LaunchSite": "SLC-5, Vandenberg AFB",

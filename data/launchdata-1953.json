@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "12 February07:09",
-      "Timestamp": "1953-02-12T07:09:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "12 February07:09",
+        "TimestampClean": "12 February07:09",
+        "Timestamp": "1953-02-12T07:09:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee RTV-N-10",
       "FlightNumber": "",
       "LaunchSite": "White Sands LC-35",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 February06:50",
-      "Timestamp": "1953-02-18T06:50:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 February06:50",
+        "TimestampClean": "18 February06:50",
+        "Timestamp": "1953-02-18T06:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee XASR-SC-2",
       "FlightNumber": "",
       "LaunchSite": "White Sands LC-35",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 February17:42",
-      "Timestamp": "1953-02-18T17:42:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 February17:42",
+        "TimestampClean": "18 February17:42",
+        "Timestamp": "1953-02-18T17:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Aerobee RTV-A-1a",
       "FlightNumber": "",
       "LaunchSite": "Holloman LC-A",

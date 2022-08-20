@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 April01:25:47",
-      "Timestamp": "1972-04-24T01:25:47Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 April01:25:47",
+        "TimestampClean": "24 April01:25:47",
+        "Timestamp": "1972-04-24T01:25:47Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Lunar Module Ascent Stage",
       "FlightNumber": "",
       "LaunchSite": "Descartes Highlands (Luna)",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 December22:54:37",
-      "Timestamp": "1972-12-14T22:54:37Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 December22:54:37",
+        "TimestampClean": "14 December22:54:37",
+        "Timestamp": "1972-12-14T22:54:37Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Lunar Module Ascent Stage",
       "FlightNumber": "",
       "LaunchSite": "Taurus-Littrow (Luna)",

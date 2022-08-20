@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "17 January",
-      "Timestamp": "1956-01-17T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "17 January",
+        "TimestampClean": "17 January",
+        "Timestamp": "1956-01-17T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-5M",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -43,9 +53,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 January",
-      "Timestamp": "1956-01-20T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 January",
+        "TimestampClean": "20 January",
+        "Timestamp": "1956-01-20T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "X-17",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-3",
@@ -64,9 +79,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 January",
-      "Timestamp": "1956-01-21T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 January",
+        "TimestampClean": "21 January",
+        "Timestamp": "1956-01-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
@@ -94,9 +114,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 January",
-      "Timestamp": "1956-01-24T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 January",
+        "TimestampClean": "24 January",
+        "Timestamp": "1956-01-24T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "R-1",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",

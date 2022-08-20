@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "1 January00:07 (UTC)[1]",
-      "Timestamp": "1990-01-01T00:07:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 January00:07 (UTC)[1]",
+        "TimestampClean": "1 January00:07 (UTC)",
+        "Timestamp": "1990-01-01T00:07:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Commercial Titan III",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-40",
@@ -31,9 +36,14 @@
       ]
     },
     {
-      "TimestampRaw": "9 January12:35 (UTC)[4]",
-      "Timestamp": "1990-01-09T12:35:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "9 January12:35 (UTC)[4]",
+        "TimestampClean": "9 January12:35 (UTC)",
+        "Timestamp": "1990-01-09T12:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle Columbia",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39A",
@@ -61,9 +71,14 @@
       ]
     },
     {
-      "TimestampRaw": "17 January14:45 (UTC)[8]",
-      "Timestamp": "1990-01-17T14:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "17 January14:45 (UTC)[8]",
+        "TimestampClean": "17 January14:45 (UTC)",
+        "Timestamp": "1990-01-17T14:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -82,9 +97,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 January12:52 (UTC)[9]",
-      "Timestamp": "1990-01-18T12:52:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 January12:52 (UTC)[9]",
+        "TimestampClean": "18 January12:52 (UTC)",
+        "Timestamp": "1990-01-18T12:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -103,9 +123,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 January01:35 (UTC)[11]",
-      "Timestamp": "1990-01-22T01:35:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 January01:35 (UTC)[11]",
+        "TimestampClean": "22 January01:35 (UTC)",
+        "Timestamp": "1990-01-22T01:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 (40)",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -178,9 +203,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 January02:52",
-      "Timestamp": "1990-01-23T02:52:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 January02:52",
+        "TimestampClean": "23 January02:52",
+        "Timestamp": "1990-01-23T02:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/ML",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -199,9 +229,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 January11:46",
-      "Timestamp": "1990-01-24T11:46:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 January11:46",
+        "TimestampClean": "24 January11:46",
+        "Timestamp": "1990-01-24T11:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Mu-3S-II",
       "FlightNumber": "",
       "LaunchSite": "Uchinoura",
@@ -229,9 +264,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 January22:55:01 (UTC)[17][18]",
-      "Timestamp": "1990-01-24T22:55:01Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 January22:55:01 (UTC)[17][18]",
+        "TimestampClean": "24 January22:55:01 (UTC)",
+        "Timestamp": "1990-01-24T22:55:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -250,9 +290,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 January17:15 (UTC)[18]",
-      "Timestamp": "1990-01-25T17:15:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 January17:15 (UTC)[18]",
+        "TimestampClean": "25 January17:15 (UTC)",
+        "Timestamp": "1990-01-25T17:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 16/2",
@@ -271,9 +316,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 January11:20 (UTC)[18]",
-      "Timestamp": "1990-01-30T11:20:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 January11:20 (UTC)[18]",
+        "TimestampClean": "30 January11:20 (UTC)",
+        "Timestamp": "1990-01-30T11:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32",
@@ -292,9 +342,14 @@
       ]
     },
     {
-      "TimestampRaw": "4 February12:27:03 (UTC)[18]",
-      "Timestamp": "1990-02-04T12:27:03Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "4 February12:27:03 (UTC)[18]",
+        "TimestampClean": "4 February12:27:03 (UTC)",
+        "Timestamp": "1990-02-04T12:27:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 3",
       "FlightNumber": "",
       "LaunchSite": "Xichang LC-1",
@@ -313,9 +368,14 @@
       ]
     },
     {
-      "TimestampRaw": "6 February16:30",
-      "Timestamp": "1990-02-06T16:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "6 February16:30",
+        "TimestampClean": "6 February16:30",
+        "Timestamp": "1990-02-06T16:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 132/2",
@@ -334,9 +394,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 February01:33",
-      "Timestamp": "1990-02-07T01:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 February01:33",
+        "TimestampClean": "7 February01:33",
+        "Timestamp": "1990-02-07T01:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "H-I",
       "FlightNumber": "",
       "LaunchSite": "Tanegashima LA-N",
@@ -373,9 +438,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 February06:16",
-      "Timestamp": "1990-02-11T06:16:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 February06:16",
+        "TimestampClean": "11 February06:16",
+        "Timestamp": "1990-02-11T06:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -394,9 +464,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 February16:15:01 (UTC)[21][18]",
-      "Timestamp": "1990-02-14T16:15:01Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 February16:15:01 (UTC)[21][18]",
+        "TimestampClean": "14 February16:15:01 (UTC)",
+        "Timestamp": "1990-02-14T16:15:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6920-8",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -424,9 +499,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 February07:52",
-      "Timestamp": "1990-02-15T07:52:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 February07:52",
+        "TimestampClean": "15 February07:52",
+        "Timestamp": "1990-02-15T07:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
@@ -445,9 +525,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 February23:17",
-      "Timestamp": "1990-02-22T23:17:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 February23:17",
+        "TimestampClean": "22 February23:17",
+        "Timestamp": "1990-02-22T23:17:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 (44L)",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -475,9 +560,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 February20:59",
-      "Timestamp": "1990-02-27T20:59:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 February20:59",
+        "TimestampClean": "27 February20:59",
+        "Timestamp": "1990-02-27T20:59:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 132/2",
@@ -496,9 +586,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 February00:55",
-      "Timestamp": "1990-02-28T00:55:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 February00:55",
+        "TimestampClean": "28 February00:55",
+        "Timestamp": "1990-02-28T00:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32/2",
@@ -517,9 +612,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 February07:50",
-      "Timestamp": "1990-02-28T07:50:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 February07:50",
+        "TimestampClean": "28 February07:50",
+        "Timestamp": "1990-02-28T07:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle  Atlantis",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39A",
@@ -547,9 +647,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 February23:10",
-      "Timestamp": "1990-02-28T23:10:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 February23:10",
+        "TimestampClean": "28 February23:10",
+        "Timestamp": "1990-02-28T23:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -568,9 +673,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 March11:52",
-      "Timestamp": "1990-03-14T11:52:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 March11:52",
+        "TimestampClean": "14 March11:52",
+        "Timestamp": "1990-03-14T11:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Commercial Titan III",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-40",
@@ -589,9 +699,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 March15:27",
-      "Timestamp": "1990-03-14T15:27:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 March15:27",
+        "TimestampClean": "14 March15:27",
+        "Timestamp": "1990-03-14T15:27:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 90/20",
@@ -610,9 +725,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 March00:25",
-      "Timestamp": "1990-03-20T00:25:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 March00:25",
+        "TimestampClean": "20 March00:25",
+        "Timestamp": "1990-03-20T00:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -631,9 +751,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 March07:20",
-      "Timestamp": "1990-03-22T07:20:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 March07:20",
+        "TimestampClean": "22 March07:20",
+        "Timestamp": "1990-03-22T07:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -652,9 +777,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 March02:45",
-      "Timestamp": "1990-03-26T02:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 March02:45",
+        "TimestampClean": "26 March02:45",
+        "Timestamp": "1990-03-26T02:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -673,9 +803,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 March16:40",
-      "Timestamp": "1990-03-27T16:40:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 March16:40",
+        "TimestampClean": "27 March16:40",
+        "Timestamp": "1990-03-27T16:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/2BL",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -694,9 +829,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 April12:02",
-      "Timestamp": "1990-04-03T12:02:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 April12:02",
+        "TimestampClean": "3 April12:02",
+        "Timestamp": "1990-04-03T12:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Shavit",
       "FlightNumber": "",
       "LaunchSite": "Palmachim",
@@ -715,9 +855,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 April",
-      "Timestamp": "1990-04-03T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 April",
+        "TimestampClean": "3 April",
+        "Timestamp": "1990-04-03T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43",
@@ -736,9 +881,14 @@
       ]
     },
     {
-      "TimestampRaw": "5 April19:10",
-      "Timestamp": "1990-04-05T19:10:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "5 April19:10",
+        "TimestampClean": "5 April19:10",
+        "Timestamp": "1990-04-05T19:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Pegasus",
       "FlightNumber": "",
       "LaunchSite": "Balls 8 Edwards",
@@ -766,9 +916,14 @@
       ]
     },
     {
-      "TimestampRaw": "6 April03:13",
-      "Timestamp": "1990-04-06T03:13:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "6 April03:13",
+        "TimestampClean": "6 April03:13",
+        "Timestamp": "1990-04-06T03:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -850,9 +1005,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 April13:30",
-      "Timestamp": "1990-04-07T13:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 April13:30",
+        "TimestampClean": "7 April13:30",
+        "Timestamp": "1990-04-07T13:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 3",
       "FlightNumber": "",
       "LaunchSite": "Xichang LC-1",
@@ -871,9 +1031,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 April15:00",
-      "Timestamp": "1990-04-11T15:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 April15:00",
+        "TimestampClean": "11 April15:00",
+        "Timestamp": "1990-04-11T15:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas-E/Altair-3A",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3W",
@@ -910,9 +1075,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 April17:00",
-      "Timestamp": "1990-04-11T17:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 April17:00",
+        "TimestampClean": "11 April17:00",
+        "Timestamp": "1990-04-11T17:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/3",
@@ -931,9 +1101,14 @@
       ]
     },
     {
-      "TimestampRaw": "13 April18:53",
-      "Timestamp": "1990-04-13T18:53:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "13 April18:53",
+        "TimestampClean": "13 April18:53",
+        "Timestamp": "1990-04-13T18:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur",
@@ -952,9 +1127,14 @@
       ]
     },
     {
-      "TimestampRaw": "13 April22:28",
-      "Timestamp": "1990-04-13T22:28:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "13 April22:28",
+        "TimestampClean": "13 April22:28",
+        "Timestamp": "1990-04-13T22:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925-8",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -973,9 +1153,14 @@
       ]
     },
     {
-      "TimestampRaw": "17 April08:00",
-      "Timestamp": "1990-04-17T08:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "17 April08:00",
+        "TimestampClean": "17 April08:00",
+        "Timestamp": "1990-04-17T08:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -994,9 +1179,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 April18:41",
-      "Timestamp": "1990-04-20T18:41:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 April18:41",
+        "TimestampClean": "20 April18:41",
+        "Timestamp": "1990-04-20T18:41:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -1015,9 +1205,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 April12:33",
-      "Timestamp": "1990-04-24T12:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 April12:33",
+        "TimestampClean": "24 April12:33",
+        "Timestamp": "1990-04-24T12:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle  Discovery",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
@@ -1045,9 +1240,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 April13:00",
-      "Timestamp": "1990-04-25T13:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 April13:00",
+        "TimestampClean": "25 April13:00",
+        "Timestamp": "1990-04-25T13:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 132/2",
@@ -1066,9 +1266,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 April01:37",
-      "Timestamp": "1990-04-26T01:37:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 April01:37",
+        "TimestampClean": "26 April01:37",
+        "Timestamp": "1990-04-26T01:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/ML",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1087,9 +1292,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 April11:37",
-      "Timestamp": "1990-04-28T11:37:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 April11:37",
+        "TimestampClean": "28 April11:37",
+        "Timestamp": "1990-04-28T11:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/2BL",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1108,9 +1318,14 @@
       ]
     },
     {
-      "TimestampRaw": "5 May20:44",
-      "Timestamp": "1990-05-05T20:44:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "5 May20:44",
+        "TimestampClean": "5 May20:44",
+        "Timestamp": "1990-05-05T20:44:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -1129,9 +1344,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 May18:39",
-      "Timestamp": "1990-05-07T18:39:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 May18:39",
+        "TimestampClean": "7 May18:39",
+        "Timestamp": "1990-05-07T18:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1150,9 +1370,14 @@
       ]
     },
     {
-      "TimestampRaw": "9 May17:50",
-      "Timestamp": "1990-05-09T17:50:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "9 May17:50",
+        "TimestampClean": "9 May17:50",
+        "Timestamp": "1990-05-09T17:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Scout G-1",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-5",
@@ -1180,9 +1405,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 May09:55",
-      "Timestamp": "1990-05-15T09:55:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 May09:55",
+        "TimestampClean": "15 May09:55",
+        "Timestamp": "1990-05-15T09:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur",
@@ -1201,9 +1431,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 May08:32",
-      "Timestamp": "1990-05-19T08:32:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 May08:32",
+        "TimestampClean": "19 May08:32",
+        "Timestamp": "1990-05-19T08:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/40",
@@ -1240,9 +1475,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 May05:14",
-      "Timestamp": "1990-05-22T05:14:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 May05:14",
+        "TimestampClean": "22 May05:14",
+        "Timestamp": "1990-05-22T05:14:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Zenit-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 45/2",
@@ -1261,9 +1501,14 @@
       ]
     },
     {
-      "TimestampRaw": "29 May07:19",
-      "Timestamp": "1990-05-29T07:19:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "29 May07:19",
+        "TimestampClean": "29 May07:19",
+        "Timestamp": "1990-05-29T07:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/4",
@@ -1282,9 +1527,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 May10:33",
-      "Timestamp": "1990-05-31T10:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 May10:33",
+        "TimestampClean": "31 May10:33",
+        "Timestamp": "1990-05-31T10:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -1303,9 +1553,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 June21:48",
-      "Timestamp": "1990-06-01T21:48:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 June21:48",
+        "TimestampClean": "1 June21:48",
+        "Timestamp": "1990-06-01T21:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6920-10",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -1324,9 +1579,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 June05:21",
-      "Timestamp": "1990-06-08T05:21:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 June05:21",
+        "TimestampClean": "8 June05:21",
+        "Timestamp": "1990-06-08T05:21:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan IVA (405)",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-41",
@@ -1372,9 +1632,14 @@
       ]
     },
     {
-      "TimestampRaw": "12 June05:52",
-      "Timestamp": "1990-06-12T05:52:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "12 June05:52",
+        "TimestampClean": "12 June05:52",
+        "Timestamp": "1990-06-12T05:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta 4925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -1393,9 +1658,14 @@
       ]
     },
     {
-      "TimestampRaw": "13 June01:07",
-      "Timestamp": "1990-06-13T01:07:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "13 June01:07",
+        "TimestampClean": "13 June01:07",
+        "Timestamp": "1990-06-13T01:07:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/ML",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1414,9 +1684,14 @@
       ]
     },
     {
-      "TimestampRaw": "19 June08:45",
-      "Timestamp": "1990-06-19T08:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "19 June08:45",
+        "TimestampClean": "19 June08:45",
+        "Timestamp": "1990-06-19T08:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1435,9 +1710,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 June23:36",
-      "Timestamp": "1990-06-20T23:36:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 June23:36",
+        "TimestampClean": "20 June23:36",
+        "Timestamp": "1990-06-20T23:36:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/40",
@@ -1456,9 +1736,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 June20:45",
-      "Timestamp": "1990-06-21T20:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 June20:45",
+        "TimestampClean": "21 June20:45",
+        "Timestamp": "1990-06-21T20:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/2BL",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/3",
@@ -1477,9 +1762,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 June11:19",
-      "Timestamp": "1990-06-23T11:19:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 June11:19",
+        "TimestampClean": "23 June11:19",
+        "Timestamp": "1990-06-23T11:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Commercial Titan III",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-40",
@@ -1498,9 +1788,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 June22:30",
-      "Timestamp": "1990-06-27T22:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 June22:30",
+        "TimestampClean": "27 June22:30",
+        "Timestamp": "1990-06-27T22:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32",
@@ -1519,9 +1814,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 July",
-      "Timestamp": "1990-07-03T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 July",
+        "TimestampClean": "3 July",
+        "Timestamp": "1990-07-03T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 16/2",
@@ -1540,9 +1840,14 @@
       ]
     },
     {
-      "TimestampRaw": "11 July10:00",
-      "Timestamp": "1990-07-11T10:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "11 July10:00",
+        "TimestampClean": "11 July10:00",
+        "Timestamp": "1990-07-11T10:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -1561,9 +1866,14 @@
       ]
     },
     {
-      "TimestampRaw": "16 July00:40",
-      "Timestamp": "1990-07-16T00:40:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "16 July00:40",
+        "TimestampClean": "16 July00:40",
+        "Timestamp": "1990-07-16T00:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2E",
       "FlightNumber": "",
       "LaunchSite": "Xichang LC-2",
@@ -1591,9 +1901,14 @@
       ]
     },
     {
-      "TimestampRaw": "17 July09:29",
-      "Timestamp": "1990-07-17T09:29:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "17 July09:29",
+        "TimestampClean": "17 July09:29",
+        "Timestamp": "1990-07-17T09:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/3",
@@ -1612,9 +1927,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 July21:46",
-      "Timestamp": "1990-07-18T21:46:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 July21:46",
+        "TimestampClean": "18 July21:46",
+        "Timestamp": "1990-07-18T21:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -1633,9 +1953,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 July08:40",
-      "Timestamp": "1990-07-20T08:40:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 July08:40",
+        "TimestampClean": "20 July08:40",
+        "Timestamp": "1990-07-20T08:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1654,9 +1979,14 @@
       ]
     },
     {
-      "TimestampRaw": "24 July22:25",
-      "Timestamp": "1990-07-24T22:25:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "24 July22:25",
+        "TimestampClean": "24 July22:25",
+        "Timestamp": "1990-07-24T22:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 (44L)",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -1684,9 +2014,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 July18:13",
-      "Timestamp": "1990-07-25T18:13:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 July18:13",
+        "TimestampClean": "25 July18:13",
+        "Timestamp": "1990-07-25T18:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/2BL",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1705,9 +2040,14 @@
       ]
     },
     {
-      "TimestampRaw": "25 July19:21",
-      "Timestamp": "1990-07-25T19:21:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "25 July19:21",
+        "TimestampClean": "25 July19:21",
+        "Timestamp": "1990-07-25T19:21:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas I",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-36B",
@@ -1726,9 +2066,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 July00:06",
-      "Timestamp": "1990-07-30T00:06:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 July00:06",
+        "TimestampClean": "30 July00:06",
+        "Timestamp": "1990-07-30T00:06:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32/1",
@@ -1747,9 +2092,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 August09:32",
-      "Timestamp": "1990-08-01T09:32:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 August09:32",
+        "TimestampClean": "1 August09:32",
+        "Timestamp": "1990-08-01T09:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -1768,9 +2118,14 @@
       ]
     },
     {
-      "TimestampRaw": "2 August05:39",
-      "Timestamp": "1990-08-02T05:39:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "2 August05:39",
+        "TimestampClean": "2 August05:39",
+        "Timestamp": "1990-08-02T05:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -1789,9 +2144,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 August19:45",
-      "Timestamp": "1990-08-03T19:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 August19:45",
+        "TimestampClean": "3 August19:45",
+        "Timestamp": "1990-08-03T19:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1810,9 +2170,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 August04:15",
-      "Timestamp": "1990-08-08T04:15:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 August04:15",
+        "TimestampClean": "8 August04:15",
+        "Timestamp": "1990-08-08T04:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32",
@@ -1876,9 +2241,14 @@
       ]
     },
     {
-      "TimestampRaw": "9 August20:18",
-      "Timestamp": "1990-08-09T20:18:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "9 August20:18",
+        "TimestampClean": "9 August20:18",
+        "Timestamp": "1990-08-09T20:18:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -1897,9 +2267,14 @@
       ]
     },
     {
-      "TimestampRaw": "10 August20:18",
-      "Timestamp": "1990-08-10T20:18:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "10 August20:18",
+        "TimestampClean": "10 August20:18",
+        "Timestamp": "1990-08-10T20:18:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/ML",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -1918,9 +2293,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 August04:00",
-      "Timestamp": "1990-08-15T04:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 August04:00",
+        "TimestampClean": "15 August04:00",
+        "Timestamp": "1990-08-15T04:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -1939,9 +2319,14 @@
       ]
     },
     {
-      "TimestampRaw": "16 August09:54",
-      "Timestamp": "1990-08-16T09:54:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "16 August09:54",
+        "TimestampClean": "16 August09:54",
+        "Timestamp": "1990-08-16T09:54:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 43/4",
@@ -1960,9 +2345,14 @@
       ]
     },
     {
-      "TimestampRaw": "18 August00:42",
-      "Timestamp": "1990-08-18T00:42:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "18 August00:42",
+        "TimestampClean": "18 August00:42",
+        "Timestamp": "1990-08-18T00:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -1981,9 +2371,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 August16:17",
-      "Timestamp": "1990-08-23T16:17:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 August16:17",
+        "TimestampClean": "23 August16:17",
+        "Timestamp": "1990-08-23T16:17:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 90/20",
@@ -2002,9 +2397,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 August07:49",
-      "Timestamp": "1990-08-28T07:49:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 August07:49",
+        "TimestampClean": "28 August07:49",
+        "Timestamp": "1990-08-28T07:49:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/2BL",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2023,9 +2423,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 August09:05",
-      "Timestamp": "1990-08-28T09:05:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 August09:05",
+        "TimestampClean": "28 August09:05",
+        "Timestamp": "1990-08-28T09:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "H-1",
       "FlightNumber": "",
       "LaunchSite": "Tanegashima LA-N",
@@ -2044,9 +2449,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 August15:45",
-      "Timestamp": "1990-08-28T15:45:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 August15:45",
+        "TimestampClean": "28 August15:45",
+        "Timestamp": "1990-08-28T15:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -2065,9 +2475,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 August22:46",
-      "Timestamp": "1990-08-30T22:46:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 August22:46",
+        "TimestampClean": "30 August22:46",
+        "Timestamp": "1990-08-30T22:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 (44LP)",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -2095,9 +2510,14 @@
       ]
     },
     {
-      "TimestampRaw": "31 August08:00",
-      "Timestamp": "1990-08-31T08:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "31 August08:00",
+        "TimestampClean": "31 August08:00",
+        "Timestamp": "1990-08-31T08:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2116,9 +2536,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 September00:53",
-      "Timestamp": "1990-09-03T00:53:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 September00:53",
+        "TimestampClean": "3 September00:53",
+        "Timestamp": "1990-09-03T00:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 4A",
       "FlightNumber": "",
       "LaunchSite": "Taiyuan LC-1",
@@ -2155,9 +2580,14 @@
       ]
     },
     {
-      "TimestampRaw": "7 September11:59",
-      "Timestamp": "1990-09-07T11:59:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "7 September11:59",
+        "TimestampClean": "7 September11:59",
+        "Timestamp": "1990-09-07T11:59:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 16/2",
@@ -2176,9 +2606,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 September05:59",
-      "Timestamp": "1990-09-14T05:59:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 September05:59",
+        "TimestampClean": "14 September05:59",
+        "Timestamp": "1990-09-14T05:59:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -2197,9 +2632,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 September20:16",
-      "Timestamp": "1990-09-20T20:16:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 September20:16",
+        "TimestampClean": "20 September20:16",
+        "Timestamp": "1990-09-20T20:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/ML",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2218,9 +2658,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 September10:37",
-      "Timestamp": "1990-09-27T10:37:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 September10:37",
+        "TimestampClean": "27 September10:37",
+        "Timestamp": "1990-09-27T10:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -2239,9 +2684,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 September07:30",
-      "Timestamp": "1990-09-28T07:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 September07:30",
+        "TimestampClean": "28 September07:30",
+        "Timestamp": "1990-09-28T07:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32",
@@ -2260,9 +2710,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 October11:00",
-      "Timestamp": "1990-10-01T11:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 October11:00",
+        "TimestampClean": "1 October11:00",
+        "Timestamp": "1990-10-01T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -2281,9 +2736,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 October21:56",
-      "Timestamp": "1990-10-01T21:56:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 October21:56",
+        "TimestampClean": "1 October21:56",
+        "Timestamp": "1990-10-01T21:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -2302,9 +2762,14 @@
       ]
     },
     {
-      "TimestampRaw": "4 October",
-      "Timestamp": "1990-10-04T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "4 October",
+        "TimestampClean": "4 October",
+        "Timestamp": "1990-10-04T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Zenit-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 45/2",
@@ -2323,9 +2788,14 @@
       ]
     },
     {
-      "TimestampRaw": "5 October06:14",
-      "Timestamp": "1990-10-05T06:14:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "5 October06:14",
+        "TimestampClean": "5 October06:14",
+        "Timestamp": "1990-10-05T06:14:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Long March 2C",
       "FlightNumber": "",
       "LaunchSite": "Jiuquan LA-2B",
@@ -2344,9 +2814,14 @@
       ]
     },
     {
-      "TimestampRaw": "6 October11:47",
-      "Timestamp": "1990-10-06T11:47:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "6 October11:47",
+        "TimestampClean": "6 October11:47",
+        "Timestamp": "1990-10-06T11:47:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle Discovery",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
@@ -2374,9 +2849,14 @@
       ]
     },
     {
-      "TimestampRaw": "12 October22:58",
-      "Timestamp": "1990-10-12T22:58:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "12 October22:58",
+        "TimestampClean": "12 October22:58",
+        "Timestamp": "1990-10-12T22:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 (44L)",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -2404,9 +2884,14 @@
       ]
     },
     {
-      "TimestampRaw": "16 October19:00",
-      "Timestamp": "1990-10-16T19:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "16 October19:00",
+        "TimestampClean": "16 October19:00",
+        "Timestamp": "1990-10-16T19:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2425,9 +2910,14 @@
       ]
     },
     {
-      "TimestampRaw": "30 October23:16",
-      "Timestamp": "1990-10-30T23:16:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "30 October23:16",
+        "TimestampClean": "30 October23:16",
+        "Timestamp": "1990-10-30T23:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 6925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17B",
@@ -2446,9 +2936,14 @@
       ]
     },
     {
-      "TimestampRaw": "3 November14:40",
-      "Timestamp": "1990-11-03T14:40:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "3 November14:40",
+        "TimestampClean": "3 November14:40",
+        "Timestamp": "1990-11-03T14:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
@@ -2467,9 +2962,14 @@
       ]
     },
     {
-      "TimestampRaw": "13 November00:37",
-      "Timestamp": "1990-11-13T00:37:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "13 November00:37",
+        "TimestampClean": "13 November00:37",
+        "Timestamp": "1990-11-13T00:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan IVA (402)/IUS",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-41",
@@ -2488,9 +2988,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 November06:33",
-      "Timestamp": "1990-11-14T06:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 November06:33",
+        "TimestampClean": "14 November06:33",
+        "Timestamp": "1990-11-14T06:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 90/20",
@@ -2509,9 +3014,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 November23:48",
-      "Timestamp": "1990-11-15T23:48:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 November23:48",
+        "TimestampClean": "15 November23:48",
+        "Timestamp": "1990-11-15T23:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle Atlantis",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39A",
@@ -2548,9 +3058,14 @@
       ]
     },
     {
-      "TimestampRaw": "16 November16:30",
-      "Timestamp": "1990-11-16T16:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "16 November16:30",
+        "TimestampClean": "16 November16:30",
+        "Timestamp": "1990-11-16T16:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2569,9 +3084,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 November02:33",
-      "Timestamp": "1990-11-20T02:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 November02:33",
+        "TimestampClean": "20 November02:33",
+        "Timestamp": "1990-11-20T02:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/2BL",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2590,9 +3110,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 November23:11",
-      "Timestamp": "1990-11-20T23:11:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 November23:11",
+        "TimestampClean": "20 November23:11",
+        "Timestamp": "1990-11-20T23:11:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Ariane 4 (42P)",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
@@ -2620,9 +3145,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 November03:51",
-      "Timestamp": "1990-11-23T03:51:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 November03:51",
+        "TimestampClean": "23 November03:51",
+        "Timestamp": "1990-11-23T03:51:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Molniya-M/ML",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2641,9 +3171,14 @@
       ]
     },
     {
-      "TimestampRaw": "23 November13:22",
-      "Timestamp": "1990-11-23T13:22:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "23 November13:22",
+        "TimestampClean": "23 November13:22",
+        "Timestamp": "1990-11-23T13:22:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
@@ -2662,9 +3197,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 November21:39",
-      "Timestamp": "1990-11-26T21:39:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 November21:39",
+        "TimestampClean": "26 November21:39",
+        "Timestamp": "1990-11-26T21:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Delta II 7925",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
@@ -2683,9 +3223,14 @@
       ]
     },
     {
-      "TimestampRaw": "28 November16:33",
-      "Timestamp": "1990-11-28T16:33:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "28 November16:33",
+        "TimestampClean": "28 November16:33",
+        "Timestamp": "1990-11-28T16:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32",
@@ -2704,9 +3249,14 @@
       ]
     },
     {
-      "TimestampRaw": "1 December15:57",
-      "Timestamp": "1990-12-01T15:57:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "1 December15:57",
+        "TimestampClean": "1 December15:57",
+        "Timestamp": "1990-12-01T15:57:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Atlas-E/Star-37",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3W",
@@ -2725,9 +3275,14 @@
       ]
     },
     {
-      "TimestampRaw": "2 December06:49",
-      "Timestamp": "1990-12-02T06:49:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "2 December06:49",
+        "TimestampClean": "2 December06:49",
+        "Timestamp": "1990-12-02T06:49:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Space Shuttle Columbia",
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
@@ -2746,9 +3301,14 @@
       ]
     },
     {
-      "TimestampRaw": "2 December08:13",
-      "Timestamp": "1990-12-02T08:13:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "2 December08:13",
+        "TimestampClean": "2 December08:13",
+        "Timestamp": "1990-12-02T08:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -2767,9 +3327,14 @@
       ]
     },
     {
-      "TimestampRaw": "4 December00:48",
-      "Timestamp": "1990-12-04T00:48:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "4 December00:48",
+        "TimestampClean": "4 December00:48",
+        "Timestamp": "1990-12-04T00:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 90/20",
@@ -2788,9 +3353,14 @@
       ]
     },
     {
-      "TimestampRaw": "4 December18:30",
-      "Timestamp": "1990-12-04T18:30:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "4 December18:30",
+        "TimestampClean": "4 December18:30",
+        "Timestamp": "1990-12-04T18:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2809,9 +3379,14 @@
       ]
     },
     {
-      "TimestampRaw": "8 December02:43",
-      "Timestamp": "1990-12-08T02:43:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "8 December02:43",
+        "TimestampClean": "8 December02:43",
+        "Timestamp": "1990-12-08T02:43:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
@@ -2848,9 +3423,14 @@
       ]
     },
     {
-      "TimestampRaw": "10 December07:54",
-      "Timestamp": "1990-12-10T07:54:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "10 December07:54",
+        "TimestampClean": "10 December07:54",
+        "Timestamp": "1990-12-10T07:54:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
@@ -2869,9 +3449,14 @@
       ]
     },
     {
-      "TimestampRaw": "20 December11:35",
-      "Timestamp": "1990-12-20T11:35:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "20 December11:35",
+        "TimestampClean": "20 December11:35",
+        "Timestamp": "1990-12-20T11:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
@@ -2890,9 +3475,14 @@
       ]
     },
     {
-      "TimestampRaw": "21 December06:20",
-      "Timestamp": "1990-12-21T06:20:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "21 December06:20",
+        "TimestampClean": "21 December06:20",
+        "Timestamp": "1990-12-21T06:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur",
@@ -2911,9 +3501,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 December07:28",
-      "Timestamp": "1990-12-22T07:28:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 December07:28",
+        "TimestampClean": "22 December07:28",
+        "Timestamp": "1990-12-22T07:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Tsyklon-3",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 32",
@@ -2977,9 +3572,14 @@
       ]
     },
     {
-      "TimestampRaw": "26 December11:10",
-      "Timestamp": "1990-12-26T11:10:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "26 December11:10",
+        "TimestampClean": "26 December11:10",
+        "Timestamp": "1990-12-26T11:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
@@ -2998,9 +3598,14 @@
       ]
     },
     {
-      "TimestampRaw": "27 December11:08",
-      "Timestamp": "1990-12-27T11:08:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "27 December11:08",
+        "TimestampClean": "27 December11:08",
+        "Timestamp": "1990-12-27T11:08:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",

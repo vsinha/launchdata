@@ -1,9 +1,14 @@
 {
   "OrbitalFlights": [
     {
-      "TimestampRaw": "",
-      "Timestamp": "0001-01-01T00:00:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
       "Rocket": "",
       "FlightNumber": "",
       "LaunchSite": "",
@@ -22,9 +27,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 March01:25:40[1]",
-      "Timestamp": "1976-03-15T01:25:40Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 March01:25:40[1]",
+        "TimestampClean": "15 March01:25:40",
+        "Timestamp": "1976-03-15T01:25:40Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Titan III(23)C",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-40",
@@ -70,9 +80,14 @@
       ]
     },
     {
-      "TimestampRaw": "22 June18:04:00",
-      "Timestamp": "1976-06-22T18:04:00Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "22 June18:04:00",
+        "TimestampClean": "22 June18:04:00",
+        "Timestamp": "1976-06-22T18:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
@@ -91,9 +106,14 @@
       ]
     },
     {
-      "TimestampRaw": "6 July12:08:45",
-      "Timestamp": "1976-07-06T12:08:45Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "6 July12:08:45",
+        "TimestampClean": "6 July12:08:45",
+        "Timestamp": "1976-07-06T12:08:45Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -112,9 +132,14 @@
       ]
     },
     {
-      "TimestampRaw": "9 August12:08:45",
-      "Timestamp": "1976-08-09T12:08:45Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "9 August12:08:45",
+        "TimestampClean": "9 August12:08:45",
+        "Timestamp": "1976-08-09T12:08:45Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Proton-K/D",
       "FlightNumber": "",
       "LaunchSite": "Baikonur 81/23",
@@ -133,9 +158,14 @@
       ]
     },
     {
-      "TimestampRaw": "15 September09:48:30",
-      "Timestamp": "1976-09-15T09:48:30Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "15 September09:48:30",
+        "TimestampClean": "15 September09:48:30",
+        "Timestamp": "1976-09-15T09:48:30Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
@@ -154,9 +184,14 @@
       ]
     },
     {
-      "TimestampRaw": "14 October17:39:18",
-      "Timestamp": "1976-10-14T17:39:18Z",
-      "TBD": false,
+      "Timestamp": {
+        "TimestampRaw": "14 October17:39:18",
+        "TimestampClean": "14 October17:39:18",
+        "Timestamp": "1976-10-14T17:39:18Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 1/5",
