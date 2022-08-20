@@ -5,6 +5,8 @@ import (
 
 	"launchdata/list"
 	"launchdata/parse"
+
+	"github.com/charmbracelet/lipgloss"
 )
 
 type MyItem struct {
@@ -26,6 +28,10 @@ func (i MyItem) Description() string {
 
 func (i MyItem) FilterValue() string {
 	return fmt.Sprintf("%v", i.data)
+}
+
+func (i MyItem) Render(width int) string {
+	return lipgloss.NewStyle().Width(80).Render(i.data.Render())
 }
 
 var _ list.Item = (*MyItem)(nil)

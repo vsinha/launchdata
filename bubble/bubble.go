@@ -15,6 +15,7 @@ import (
 	"github.com/charmbracelet/bubbles/viewport"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
+	"golang.org/x/crypto/ssh/terminal"
 )
 
 // const listHeight = 14
@@ -30,6 +31,12 @@ var (
 	statusMessageStyle = lipgloss.NewStyle().
 				Foreground(lipgloss.AdaptiveColor{Light: "#04B575", Dark: "#04B575"}).
 				Render
+
+	viewportStyle = lipgloss.NewStyle().
+			Align(lipgloss.Left).
+			Padding(0, 1)
+
+	listWrapperStyle = lipgloss.NewStyle().Width(80).BorderStyle(lipgloss.HiddenBorder())
 )
 
 type listKeyMap struct {
@@ -39,8 +46,7 @@ type listKeyMap struct {
 	togglePagination key.Binding
 	toggleHelpMenu   key.Binding
 	insertItem       key.Binding
-	nextPage         key.Binding
-	prevPage         key.Binding
+	switchFocus      key.Binding
 }
 
 func newListKeyMap() *listKeyMap {
@@ -69,13 +75,9 @@ func newListKeyMap() *listKeyMap {
 			key.WithKeys("H"),
 			key.WithHelp("H", "toggle help"),
 		),
-		nextPage: key.NewBinding(
-			key.WithKeys("ctrl+d"),
-			key.WithHelp("ctrl+d", "next page"),
-		),
-		prevPage: key.NewBinding(
-			key.WithKeys("ctrl+u"),
-			key.WithHelp("Ctrl+U", "previous page"),
+		switchFocus: key.NewBinding(
+			key.WithKeys("tab"),
+			key.WithHelp("tab", "switch focus"),
 		),
 	}
 }
@@ -83,6 +85,7 @@ func newListKeyMap() *listKeyMap {
 type model struct {
 	items        []MyItem
 	list         list.Model[MyItem]
+	listFocused  bool
 	viewport     viewport.Model
 	keys         *listKeyMap
 	delegateKeys *delegateKeyMap
@@ -104,8 +107,12 @@ func newModel(year int) model {
 	}
 	slices.Reverse(items)
 
+	width, height, err := terminal.GetSize(0)
+	height = height - 5
+	listWidth := int(float32(width) * 0.5)
+
 	delegate := newItemDelegate(delegateKeys)
-	l := list.New[MyItem](items, delegate, 0, 0)
+	l := list.New[MyItem](items, delegate, listWidth, height)
 	l.Title = fmt.Sprintf("Launches in %d", year)
 	l.Styles.Title = titleStyle
 	l.AdditionalFullHelpKeys = func() []key.Binding {
@@ -116,16 +123,16 @@ func newModel(year int) model {
 			listKeys.toggleStatusBar,
 			listKeys.togglePagination,
 			listKeys.toggleHelpMenu,
-			listKeys.nextPage,
-			listKeys.prevPage,
 		}
 	}
 
-	viewport := viewport.New(0, 0)
+	viewport := viewport.New(width-listWidth, height)
+	viewport.Style = viewportStyle
 
 	return model{
 		items:        items,
 		list:         l,
+		listFocused:  true,
 		viewport:     viewport,
 		keys:         listKeys,
 		delegateKeys: delegateKeys,
@@ -176,37 +183,45 @@ func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 			m.list.SetShowHelp(!m.list.ShowHelp())
 			return m, nil
 
-		case key.Matches(msg, m.keys.prevPage):
-			m.list.Paginator.PrevPage()
-
-		case key.Matches(msg, m.keys.nextPage):
-			m.list.Paginator.NextPage()
+		case key.Matches(msg, m.keys.switchFocus):
+			m.listFocused = !m.listFocused
 		}
 	}
 
-	list, cmd := m.list.Update(msg)
-	m.list = list
-	cmds = append(cmds, cmd)
+	if m.listFocused {
+		list, cmd := m.list.Update(msg)
+		m.list = list
+		cmds = append(cmds, cmd)
+	}
 
 	if i := m.list.SelectedItem(); i != nil {
-		m.viewport.SetContent(i.data.Render())
+		m.viewport.SetContent(i.Render(80))
 	} else {
 		m.viewport.SetContent("")
 	}
 
-	viewport, cmd := m.viewport.Update(msg)
-	m.viewport = viewport
-	cmds = append(cmds, cmd)
+	if !m.listFocused {
+		viewport, cmd := m.viewport.Update(msg)
+		m.viewport = viewport
+		cmds = append(cmds, cmd)
+	}
 
 	return m, tea.Batch(cmds...)
 }
 
 func (m model) View() string {
-	list := m.list.View()
-	view := m.viewport.View()
-	str := lipgloss.JoinHorizontal(lipgloss.Bottom, list, view)
+	if m.listFocused {
+		listWrapperStyle.BorderStyle(lipgloss.RoundedBorder())
+		m.viewport.Style.BorderStyle(lipgloss.HiddenBorder())
+	} else {
+		listWrapperStyle.BorderStyle(lipgloss.HiddenBorder())
+		m.viewport.Style.BorderStyle(lipgloss.RoundedBorder())
+	}
 
-	return appStyle.Render(str)
+	list := listWrapperStyle.Render(m.list.View())
+	view := m.viewport.View()
+
+	return lipgloss.JoinHorizontal(lipgloss.Left, list, view)
 }
 
 func Run(config *config.Config, year int) {
