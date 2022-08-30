@@ -4736,9 +4736,51 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 August12:33[84]",
-        "TimestampClean": "29 August12:33",
-        "Timestamp": "2022-08-29T12:33:00Z",
+        "TimestampRaw": "31 August05:40[84][85]",
+        "TimestampClean": "31 August05:40",
+        "Timestamp": "2022-08-31T05:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "Starlink Group 3-4",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Starlink × 46",
+          "Operator": "SpaceX",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 September[86]",
+        "TimestampClean": "2 September",
+        "Timestamp": "2022-09-02T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 4C",
+      "FlightNumber": "",
+      "LaunchSite": "Jiuquan SLS-2",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "TBA",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 September16:48[87]",
+        "TimestampClean": "2 September16:48",
+        "Timestamp": "2022-09-02T16:48:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -4852,49 +4894,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "31 August05:40[87][88]",
-        "TimestampClean": "31 August05:40",
-        "Timestamp": "2022-08-31T05:40:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 3-4",
-      "LaunchSite": "Vandenberg SLC-4E",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Starlink × 46",
-          "Operator": "SpaceX",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 September[89]",
-        "TimestampClean": "2 September",
-        "Timestamp": "2022-09-02T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Long March 4C",
-      "FlightNumber": "",
-      "LaunchSite": "Jiuquan SLS-2",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "TBA",
-      "Payload": null
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 September00:32[88]",
+        "TimestampRaw": "5 September00:32[85]",
         "TimestampClean": "5 September00:32",
         "Timestamp": "2022-09-05T00:32:00Z",
         "Tbd": false,
@@ -4964,7 +4964,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 September21:45[88]",
+        "TimestampRaw": "6 September21:45[85]",
         "TimestampClean": "6 September21:45",
         "Timestamp": "2022-09-06T21:45:00Z",
         "Tbd": false,
@@ -5016,7 +5016,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 September[88][96]",
+        "TimestampRaw": "7 September[85][96]",
         "TimestampClean": "7 September",
         "Timestamp": "2022-09-07T00:00:00Z",
         "Tbd": false,
@@ -5349,7 +5349,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late September[88][125]",
+        "TimestampRaw": "Late September[85][125]",
         "TimestampClean": "Late September",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6096,7 +6096,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 October[88][171]",
+        "TimestampRaw": "15 October[85][171]",
         "TimestampClean": "15 October",
         "Timestamp": "2022-10-15T00:00:00Z",
         "Tbd": false,
@@ -6289,7 +6289,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[88][181]",
+        "TimestampRaw": "October (TBD)[85][181]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6350,7 +6350,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[88][185]",
+        "TimestampRaw": "October (TBD)[85][185]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6838,7 +6838,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[88][236]",
+        "TimestampRaw": "November (TBD)[85][236]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7180,7 +7180,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 December[88][254]",
+        "TimestampRaw": "22 December[85][254]",
         "TimestampClean": "22 December",
         "Timestamp": "2022-12-22T00:00:00Z",
         "Tbd": false,
@@ -7698,7 +7698,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[88][289]",
+        "TimestampRaw": "Q4 (TBD)[85][289]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7847,7 +7847,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[88][294]",
+        "TimestampRaw": "Q4 (TBD)[85][294]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8465,7 +8465,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[88]",
+        "TimestampRaw": "2022 (TBD)[85]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
