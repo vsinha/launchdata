@@ -4928,9 +4928,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 September01:20:10[90]",
-        "TimestampClean": "11 September01:20:10",
-        "Timestamp": "2022-09-11T01:20:10Z",
+        "TimestampRaw": "11 September01:20:00[93]",
+        "TimestampClean": "11 September01:20:00",
+        "Timestamp": "2022-09-11T01:20:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -4946,115 +4946,42 @@
           "Operator": "SpaceX",
           "Orbit": "Low Earth",
           "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
           "Payload": "BlueWalker 3",
           "Operator": "AST SpaceMobile",
-          "Orbit": "Low Earth (SSO)",
+          "Orbit": "Low Earth",
           "Function": "CommunicationsTechnology demonstration",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 September22:00[93][94]",
-        "TimestampClean": "11 September22:00",
-        "Timestamp": "2022-09-11T22:00:00Z",
+        "TimestampRaw": "13 September13:20[94]",
+        "TimestampClean": "13 September13:20",
+        "Timestamp": "2022-09-13T13:20:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Firefly Alpha",
-      "FlightNumber": "FLTA002",
-      "LaunchSite": "Vandenberg SLC-2W",
-      "LaunchServiceProvider": "Firefly / ALS",
-      "Notes": "\"To The Black\". Second orbital launch attempt, reflying several payloads lost in the previous launch attempt.",
-      "Payload": [
-        {
-          "Payload": "TechEdSat-15 (TES-15)",
-          "Operator": "NASA Ames / SJSU",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "TIS Serenity",
-          "Operator": "Teachers in Space, Inc.",
-          "Orbit": "Low Earth",
-          "Function": "Education",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "PicoBus",
-          "Operator": "Libre Space Foundation",
-          "Orbit": "Low Earth",
-          "Function": "PocketQube deployer",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "FOSSASAT-1B",
-          "Operator": "FOSSA Systems",
-          "Orbit": "Low Earth",
-          "Function": "LoRa technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "GENESIS-L",
-          "Operator": "AMSAT-EA",
-          "Orbit": "Low Earth",
-          "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "GENESIS-N",
-          "Operator": "AMSAT-EA",
-          "Orbit": "Low Earth",
-          "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "QUBIK-1",
-          "Operator": "Libre Space Foundation",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "QUBIK-2",
-          "Operator": "Libre Space Foundation",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
+      "Rocket": "Long March 7A",
+      "FlightNumber": "",
+      "LaunchSite": "Wenchang LC-2",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "TBA",
+      "Payload": null
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 September02:53:20[90]",
-        "TimestampClean": "12 September02:53:20",
-        "Timestamp": "2022-09-12T02:53:20Z",
+        "TimestampRaw": "14 September02:30[90]",
+        "TimestampClean": "14 September02:30",
+        "Timestamp": "2022-09-14T02:30:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -5078,23 +5005,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 September13:20[96]",
-        "TimestampClean": "13 September13:20",
-        "Timestamp": "2022-09-13T13:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Long March 7A",
-      "FlightNumber": "",
-      "LaunchSite": "Wenchang LC-2",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "TBA",
-      "Payload": null
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "14 September20:30[97]",
+        "TimestampRaw": "14 September20:30[95]",
         "TimestampClean": "14 September20:30",
         "Timestamp": "2022-09-14T20:30:00Z",
         "Tbd": false,
@@ -5120,7 +5031,87 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 September22:00[98][99]",
+        "TimestampRaw": "Mid September22:00[96][97]",
+        "TimestampClean": "Mid September22:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {}
+      },
+      "Rocket": "Firefly Alpha",
+      "FlightNumber": "FLTA002",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "Firefly / ALS",
+      "Notes": "\"To The Black\". Second orbital launch attempt, reflying several payloads lost in the previous launch attempt. Libre Space Foundation's PicoBus will deploy 5 PocketQubes.",
+      "Payload": [
+        {
+          "Payload": "TechEdSat-15 (TES-15)",
+          "Operator": "NASA Ames / SJSU",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "TIS Serenity",
+          "Operator": "Teachers in Space, Inc.",
+          "Orbit": "Low Earth",
+          "Function": "Education",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "FOSSASAT-1B",
+          "Operator": "FOSSA Systems",
+          "Orbit": "Low Earth",
+          "Function": "LoRa technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "GENESIS-G/ASTROLAND-1",
+          "Operator": "AMSAT-EA",
+          "Orbit": "Low Earth",
+          "Function": "Amateur radio",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "GENESIS-J/ASTROLAND-2",
+          "Operator": "AMSAT-EA",
+          "Orbit": "Low Earth",
+          "Function": "Amateur radio",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "QUBIK-3",
+          "Operator": "Libre Space Foundation",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "QUBIK-4",
+          "Operator": "Libre Space Foundation",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 September22:00[101][102]",
         "TimestampClean": "19 September22:00",
         "Timestamp": "2022-09-19T22:00:00Z",
         "Tbd": false,
@@ -5146,7 +5137,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 September[90][100]",
+        "TimestampRaw": "19 September[90][103]",
         "TimestampClean": "19 September",
         "Timestamp": "2022-09-19T00:00:00Z",
         "Tbd": false,
@@ -5198,7 +5189,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 September10:47[101]",
+        "TimestampRaw": "23 September10:47[104]",
         "TimestampClean": "23 September10:47",
         "Timestamp": "2022-09-23T10:47:00Z",
         "Tbd": false,
@@ -5314,7 +5305,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September20:50[104]",
+        "TimestampRaw": "24 September20:50[107]",
         "TimestampClean": "24 September20:50",
         "Timestamp": "2022-09-24T20:50:00Z",
         "Tbd": false,
@@ -5340,7 +5331,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 September[107][108]",
+        "TimestampRaw": "29 September[110][111]",
         "TimestampClean": "29 September",
         "Timestamp": "2022-09-29T00:00:00Z",
         "Tbd": false,
@@ -5375,7 +5366,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 September[90][110]",
+        "TimestampRaw": "30 September[90][113]",
         "TimestampClean": "30 September",
         "Timestamp": "2022-09-30T00:00:00Z",
         "Tbd": false,
@@ -5410,7 +5401,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late September[90][111]",
+        "TimestampRaw": "Late September[90][114]",
         "TimestampClean": "Late September",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -5436,7 +5427,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late September[112]",
+        "TimestampRaw": "Late September[115]",
         "TimestampClean": "Late September",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -5462,7 +5453,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[113][114]",
+        "TimestampRaw": "September (TBD)[116][117]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5478,7 +5469,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[116]",
+        "TimestampRaw": "September (TBD)[119]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5558,7 +5549,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[131]",
+        "TimestampRaw": "September (TBD)[134]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5593,7 +5584,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[138]",
+        "TimestampRaw": "September (TBD)[141]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5619,7 +5610,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[139]",
+        "TimestampRaw": "September (TBD)[142]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5663,7 +5654,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[140][141]",
+        "TimestampRaw": "Q3 (TBD)[143][144]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5698,7 +5689,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[142]",
+        "TimestampRaw": "Q3 (TBD)[145]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5714,7 +5705,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[143]",
+        "TimestampRaw": "Q3 (TBD)[146]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5740,7 +5731,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[145]",
+        "TimestampRaw": "Q3 (TBD)[148]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5775,7 +5766,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[146][147]",
+        "TimestampRaw": "Q3 (TBD)[149][150]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5828,7 +5819,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[155]",
+        "TimestampRaw": "Q3 (TBD)[158]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5854,7 +5845,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[156]",
+        "TimestampRaw": "Q3 (TBD)[159]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5880,7 +5871,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[157]",
+        "TimestampRaw": "Q3 (TBD)[160]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5906,7 +5897,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[159][160]",
+        "TimestampRaw": "Q3 (TBD)[162][163]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5932,7 +5923,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[113]",
+        "TimestampRaw": "Q3 (TBD)[116]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5948,7 +5939,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[161][162]",
+        "TimestampRaw": "Q3 (TBD)[164][165]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5992,7 +5983,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 October16:45[163]",
+        "TimestampRaw": "3 October16:45[166]",
         "TimestampClean": "3 October16:45",
         "Timestamp": "2022-10-03T16:45:00Z",
         "Tbd": false,
@@ -6018,7 +6009,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3–5 October[164]",
+        "TimestampRaw": "3–5 October[167]",
         "TimestampClean": "3–5 October",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6050,7 +6041,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 October00:47[165][166]",
+        "TimestampRaw": "7 October00:47[168][169]",
         "TimestampClean": "7 October00:47",
         "Timestamp": "2022-10-07T00:47:00Z",
         "Tbd": false,
@@ -6130,7 +6121,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "8 October[167][168]",
+        "TimestampRaw": "8 October[170][171]",
         "TimestampClean": "8 October",
         "Timestamp": "2022-10-08T00:00:00Z",
         "Tbd": false,
@@ -6165,7 +6156,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 October05:30[169]",
+        "TimestampRaw": "10 October05:30[172]",
         "TimestampClean": "10 October05:30",
         "Timestamp": "2022-10-10T05:30:00Z",
         "Tbd": false,
@@ -6191,7 +6182,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 October[171]",
+        "TimestampRaw": "12 October[174]",
         "TimestampClean": "12 October",
         "Timestamp": "2022-10-12T00:00:00Z",
         "Tbd": false,
@@ -6217,7 +6208,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 October[90][172]",
+        "TimestampRaw": "15 October[90][175]",
         "TimestampClean": "15 October",
         "Timestamp": "2022-10-15T00:00:00Z",
         "Tbd": false,
@@ -6270,7 +6261,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 October[176][177]",
+        "TimestampRaw": "20 October[179][180]",
         "TimestampClean": "20 October",
         "Timestamp": "2022-10-20T00:00:00Z",
         "Tbd": false,
@@ -6296,7 +6287,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 October[178][179]",
+        "TimestampRaw": "22 October[181][182]",
         "TimestampClean": "22 October",
         "Timestamp": "2022-10-22T00:00:00Z",
         "Tbd": false,
@@ -6349,7 +6340,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 October00:19[180]",
+        "TimestampRaw": "26 October00:19[183]",
         "TimestampClean": "26 October00:19",
         "Timestamp": "2022-10-26T00:19:00Z",
         "Tbd": false,
@@ -6375,7 +6366,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[181]",
+        "TimestampRaw": "October (TBD)[184]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6463,7 +6454,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[186][187]",
+        "TimestampRaw": "October (TBD)[189][190]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6489,7 +6480,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[188]",
+        "TimestampRaw": "October (TBD)[191]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6524,7 +6515,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 November[189]",
+        "TimestampRaw": "1 November[192]",
         "TimestampClean": "1 November",
         "Timestamp": "2022-11-01T00:00:00Z",
         "Tbd": false,
@@ -6559,7 +6550,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Early November[190]",
+        "TimestampRaw": "Early November[193]",
         "TimestampClean": "Early November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6620,7 +6611,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 November[90][191]",
+        "TimestampRaw": "21 November[90][194]",
         "TimestampClean": "21 November",
         "Timestamp": "2022-11-21T00:00:00Z",
         "Tbd": false,
@@ -6655,7 +6646,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[192][193]",
+        "TimestampRaw": "Late November[195][196]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6681,7 +6672,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[90][194]",
+        "TimestampRaw": "November (TBD)[90][197]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6716,7 +6707,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[94][196]",
+        "TimestampRaw": "November (TBD)[199][200]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6805,7 +6796,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[114]",
+        "TimestampRaw": "November (TBD)[117]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6821,7 +6812,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[200]",
+        "TimestampRaw": "November (TBD)[204]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6892,7 +6883,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[208]",
+        "TimestampRaw": "November (TBD)[212]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6918,7 +6909,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[209][147]",
+        "TimestampRaw": "November (TBD)[213][150]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6971,7 +6962,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[211]",
+        "TimestampRaw": "November (TBD)[215]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6997,7 +6988,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 December[212]",
+        "TimestampRaw": "5 December[216]",
         "TimestampClean": "5 December",
         "Timestamp": "2022-12-05T00:00:00Z",
         "Tbd": false,
@@ -7023,7 +7014,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[90][213]",
+        "TimestampRaw": "December (TBD)[90][217]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7067,7 +7058,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[217][218]",
+        "TimestampRaw": "December (TBD)[221][222]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7093,7 +7084,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[219]",
+        "TimestampRaw": "December (TBD)[223]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7451,7 +7442,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[265][266]",
+        "TimestampRaw": "December (TBD)[269][270]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7477,7 +7468,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[267]",
+        "TimestampRaw": "December (TBD)[271]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7503,7 +7494,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[268]",
+        "TimestampRaw": "December (TBD)[272]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7529,7 +7520,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[114]",
+        "TimestampRaw": "December (TBD)[117]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7545,7 +7536,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[136][269]",
+        "TimestampRaw": "December (TBD)[139][273]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7571,7 +7562,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[270]",
+        "TimestampRaw": "December (TBD)[274]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7597,7 +7588,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[200]",
+        "TimestampRaw": "December (TBD)[204]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7613,7 +7604,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[271][272]",
+        "TimestampRaw": "December (TBD)[275][276]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7639,7 +7630,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[273]",
+        "TimestampRaw": "December (TBD)[277]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7665,7 +7656,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[274][275]",
+        "TimestampRaw": "December (TBD)[278][279]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7691,7 +7682,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[277]",
+        "TimestampRaw": "December (TBD)[281]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7707,7 +7698,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[278]",
+        "TimestampRaw": "Q4 (TBD)[282]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7733,7 +7724,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[281][282]",
+        "TimestampRaw": "Q4 (TBD)[285][286]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7759,7 +7750,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[90][283]",
+        "TimestampRaw": "Q4 (TBD)[90][287]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7785,7 +7776,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[194]",
+        "TimestampRaw": "Q4 (TBD)[197]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7838,7 +7829,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[286]",
+        "TimestampRaw": "Q4 (TBD)[290]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7873,7 +7864,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[288]",
+        "TimestampRaw": "Q4 (TBD)[292]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7908,7 +7899,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[90][289]",
+        "TimestampRaw": "Q4 (TBD)[90][293]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7943,7 +7934,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[289]",
+        "TimestampRaw": "Q4 (TBD)[293]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7978,7 +7969,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[90][290]",
+        "TimestampRaw": "Q4 (TBD)[90][294]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8004,7 +7995,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[291][292]",
+        "TimestampRaw": "Q4 (TBD)[295][296]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8048,7 +8039,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[303][304]",
+        "TimestampRaw": "Q4 (TBD)[307][308]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8074,7 +8065,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[308]",
+        "TimestampRaw": "Q4 (TBD)[312]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8100,7 +8091,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[311]",
+        "TimestampRaw": "Q4 (TBD)[315]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8126,7 +8117,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[312]",
+        "TimestampRaw": "Q4 (TBD)[316]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8152,7 +8143,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[313]",
+        "TimestampRaw": "Q4 (TBD)[317]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8178,7 +8169,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[314]",
+        "TimestampRaw": "Q4 (TBD)[318]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8204,7 +8195,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[317][318]",
+        "TimestampRaw": "Q4 (TBD)[321][322]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8266,7 +8257,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[322]",
+        "TimestampRaw": "Q4 (TBD)[326]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8292,7 +8283,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[324]",
+        "TimestampRaw": "2022 (TBD)[328]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8308,7 +8299,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[325][326]",
+        "TimestampRaw": "2022 (TBD)[329][330]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8334,7 +8325,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[327]",
+        "TimestampRaw": "2022 (TBD)[331]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8360,7 +8351,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[330][331]",
+        "TimestampRaw": "2022 (TBD)[334][335]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8386,7 +8377,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[332]",
+        "TimestampRaw": "2022 (TBD)[336]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8421,7 +8412,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "H2 2022 (TBD)[333]",
+        "TimestampRaw": "H2 2022 (TBD)[337]",
         "TimestampClean": "H2 2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8447,7 +8438,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[339]",
+        "TimestampRaw": "2022 (TBD)[343]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8473,7 +8464,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[266][340]",
+        "TimestampRaw": "2022 (TBD)[270][344]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8526,7 +8517,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[341]",
+        "TimestampRaw": "2022 (TBD)[345]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8552,7 +8543,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[342][343]",
+        "TimestampRaw": "2022 (TBD)[346][347]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8578,7 +8569,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[342]",
+        "TimestampRaw": "2022 (TBD)[346]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8604,7 +8595,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[342][344]",
+        "TimestampRaw": "2022 (TBD)[346][348]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8630,7 +8621,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[345]",
+        "TimestampRaw": "2022 (TBD)[349]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8656,7 +8647,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[346]",
+        "TimestampRaw": "2022 (TBD)[350]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8682,7 +8673,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[343]",
+        "TimestampRaw": "2022 (TBD)[347]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8708,7 +8699,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[166]",
+        "TimestampRaw": "2022 (TBD)[169]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8734,7 +8725,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[350][351]",
+        "TimestampRaw": "2022 (TBD)[354][355]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8760,7 +8751,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[352]",
+        "TimestampRaw": "2022 (TBD)[356]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8795,7 +8786,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[353]",
+        "TimestampRaw": "2022 (TBD)[357]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8821,7 +8812,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[358]",
+        "TimestampRaw": "2022 (TBD)[362]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8856,7 +8847,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[359]",
+        "TimestampRaw": "2022 (TBD)[363]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8891,7 +8882,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[360]",
+        "TimestampRaw": "2022 (TBD)[364]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8926,7 +8917,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[361]",
+        "TimestampRaw": "2022 (TBD)[365]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8961,7 +8952,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[363]",
+        "TimestampRaw": "2022 (TBD)[367]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8987,7 +8978,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[353]",
+        "TimestampRaw": "2022 (TBD)[357]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9031,7 +9022,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[365]",
+        "TimestampRaw": "2022 (TBD)[369]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9057,7 +9048,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[366]",
+        "TimestampRaw": "2022 (TBD)[370]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9083,7 +9074,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[367][368]",
+        "TimestampRaw": "2022 (TBD)[371][372]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9109,7 +9100,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[305]",
+        "TimestampRaw": "2022 (TBD)[309]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9153,7 +9144,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[371]",
+        "TimestampRaw": "2022 (TBD)[375]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9179,7 +9170,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[372][373]",
+        "TimestampRaw": "2022 (TBD)[376][377]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9205,7 +9196,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[374]",
+        "TimestampRaw": "2022 (TBD)[378]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9240,7 +9231,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[378]",
+        "TimestampRaw": "2022 (TBD)[382]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9266,7 +9257,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[381]",
+        "TimestampRaw": "2022 (TBD)[385]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9292,7 +9283,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[384]",
+        "TimestampRaw": "2022 (TBD)[388]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9318,7 +9309,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[387]",
+        "TimestampRaw": "2022 (TBD)[391]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9371,7 +9362,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[388]",
+        "TimestampRaw": "2022 (TBD)[392]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9397,7 +9388,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[389]",
+        "TimestampRaw": "2022 (TBD)[393]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9423,7 +9414,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[390]",
+        "TimestampRaw": "2022 (TBD)[394]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9449,7 +9440,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[391]",
+        "TimestampRaw": "2022 (TBD)[395]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9475,7 +9466,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[392]",
+        "TimestampRaw": "2022 (TBD)[396]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
