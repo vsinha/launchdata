@@ -5015,9 +5015,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 September01:05[95]",
-        "TimestampClean": "17 September01:05",
-        "Timestamp": "2022-09-17T01:05:00Z",
+        "TimestampRaw": "19 September00:18[95]",
+        "TimestampClean": "19 September00:18",
+        "Timestamp": "2022-09-19T00:18:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -5041,38 +5041,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 September17:56[89]",
-        "TimestampClean": "19 September17:56",
-        "Timestamp": "2022-09-19T17:56:00Z",
+        "TimestampRaw": "19–27 September22:00[96][97]",
+        "TimestampClean": "19–27 September22:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 4-35",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Starlink × 54",
-          "Operator": "SpaceX",
-          "Orbit": "Low Earth",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 19–27 September22:00",
+          "LayoutElem": " ",
+          "ValueElem": "–27 September22:00",
+          "Message": ""
         }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "19 September22:00[96][97]",
-        "TimestampClean": "19 September22:00",
-        "Timestamp": "2022-09-19T22:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
       },
       "Rocket": "RS1",
       "FlightNumber": "",
@@ -5174,32 +5154,6 @@
       "LaunchServiceProvider": "CASC",
       "Notes": "TBA",
       "Payload": null
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "26 September22:38[89]",
-        "TimestampClean": "26 September22:38",
-        "Timestamp": "2022-09-26T22:38:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 4-36",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Starlink × 54",
-          "Operator": "SpaceX",
-          "Orbit": "Low Earth",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
     },
     {
       "Timestamp": {
@@ -5425,6 +5379,41 @@
           "Payload": "SES-21",
           "Operator": "SES S.A.",
           "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "Late September[89]",
+        "TimestampClean": "Late September",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {}
+      },
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "Starlink Group 4-35",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Starlink × 54",
+          "Operator": "SpaceX",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Starlink × 54",
+          "Operator": "SpaceX",
+          "Orbit": "Low Earth",
           "Function": "Communications",
           "Decay": "",
           "Outcome": "",
