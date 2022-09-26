@@ -5119,19 +5119,38 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September~22:53[101]",
-        "TimestampClean": "24 September~22:53",
-        "Timestamp": "2022-09-24T22:53:00Z",
+        "TimestampRaw": "24 September22:55[101]",
+        "TimestampClean": "24 September22:55",
+        "Timestamp": "2022-09-24T22:55:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": "Kuaizhou 1A",
-      "FlightNumber": "Y14",
+      "FlightNumber": "Y18",
       "LaunchSite": "Taiyuan",
       "LaunchServiceProvider": "ExPace",
-      "Notes": "TBA",
-      "Payload": null
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Shiyan-14",
+          "Operator": "CAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Shiyan-15",
+          "Operator": "CAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
     },
     {
       "Timestamp": {
@@ -5161,7 +5180,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 September~13:40[101][103]",
+        "TimestampRaw": "26 September~13:40[103][104]",
         "TimestampClean": "26 September~13:40",
         "Timestamp": "2022-09-26T13:40:00Z",
         "Tbd": false,
@@ -5205,7 +5224,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 September~23:50[101]",
+        "TimestampRaw": "26 September~23:50[103]",
         "TimestampClean": "26 September~23:50",
         "Timestamp": "2022-09-26T23:50:00Z",
         "Tbd": false,
@@ -5221,7 +5240,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 September07:01–09:00[104]",
+        "TimestampRaw": "30 September07:01–09:00[105]",
         "TimestampClean": "30 September07:01–09:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -5307,7 +5326,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 September21:36[108]",
+        "TimestampRaw": "30 September21:36[109]",
         "TimestampClean": "30 September21:36",
         "Timestamp": "2022-09-30T21:36:00Z",
         "Tbd": false,
@@ -5368,7 +5387,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[109]",
+        "TimestampRaw": "September (TBD)[110]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5394,7 +5413,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[110]",
+        "TimestampRaw": "September (TBD)[111]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5438,7 +5457,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[111][112]",
+        "TimestampRaw": "Q3 (TBD)[112][113]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5473,7 +5492,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[113]",
+        "TimestampRaw": "Q3 (TBD)[114]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5489,7 +5508,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[114]",
+        "TimestampRaw": "Q3 (TBD)[115]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5524,7 +5543,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[115]",
+        "TimestampRaw": "Q3 (TBD)[116]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5550,7 +5569,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[116]",
+        "TimestampRaw": "Q3 (TBD)[117]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5576,7 +5595,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[117]",
+        "TimestampRaw": "Q3 (TBD)[118]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5592,7 +5611,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[118][119]",
+        "TimestampRaw": "Q3 (TBD)[119][120]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5636,7 +5655,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 October18:52[120][121]",
+        "TimestampRaw": "2 October18:52[121][122]",
         "TimestampClean": "2 October18:52",
         "Timestamp": "2022-10-02T18:52:00Z",
         "Tbd": false,
@@ -5752,7 +5771,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 October16:46[124]",
+        "TimestampRaw": "3 October16:46[125]",
         "TimestampClean": "3 October16:46",
         "Timestamp": "2022-10-03T16:46:00Z",
         "Tbd": false,
@@ -5778,7 +5797,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3–5 October[125]",
+        "TimestampRaw": "3–5 October[126]",
         "TimestampClean": "3–5 October",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -5810,7 +5829,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 October17:04[126]",
+        "TimestampRaw": "5 October17:04[127]",
         "TimestampClean": "5 October17:04",
         "Timestamp": "2022-10-05T17:04:00Z",
         "Tbd": false,
@@ -5871,7 +5890,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 October00:47[129][130]",
+        "TimestampRaw": "7 October00:47[130][131]",
         "TimestampClean": "7 October00:47",
         "Timestamp": "2022-10-07T00:47:00Z",
         "Tbd": false,
@@ -5951,7 +5970,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 October22:00[131][132]",
+        "TimestampRaw": "10 October22:00[132][133]",
         "TimestampClean": "10 October22:00",
         "Timestamp": "2022-10-10T22:00:00Z",
         "Tbd": false,
@@ -5977,7 +5996,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 October[133]",
+        "TimestampRaw": "12 October[134]",
         "TimestampClean": "12 October",
         "Timestamp": "2022-10-12T00:00:00Z",
         "Tbd": false,
@@ -6003,7 +6022,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 October03:25[89][134]",
+        "TimestampRaw": "14 October03:25[89][135]",
         "TimestampClean": "14 October03:25",
         "Timestamp": "2022-10-14T03:25:00Z",
         "Tbd": false,
@@ -6029,7 +6048,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Mid October[136][89]",
+        "TimestampRaw": "Mid October[137][89]",
         "TimestampClean": "Mid October",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6055,7 +6074,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 October[137][138]",
+        "TimestampRaw": "20 October[138][139]",
         "TimestampClean": "20 October",
         "Timestamp": "2022-10-20T00:00:00Z",
         "Tbd": false,
@@ -6081,7 +6100,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 October[139][140]",
+        "TimestampRaw": "22 October[140][141]",
         "TimestampClean": "22 October",
         "Timestamp": "2022-10-22T00:00:00Z",
         "Tbd": false,
@@ -6134,7 +6153,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 October00:19[141]",
+        "TimestampRaw": "26 October00:19[142]",
         "TimestampClean": "26 October00:19",
         "Timestamp": "2022-10-26T00:19:00Z",
         "Tbd": false,
@@ -6160,7 +6179,87 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[117][142]",
+        "TimestampRaw": "29 October[143]",
+        "TimestampClean": "29 October",
+        "Timestamp": "2022-10-29T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "LauncherOne",
+      "FlightNumber": "",
+      "LaunchSite": "Cosmic Girl, Cornwall",
+      "LaunchServiceProvider": "Virgin Orbit",
+      "Notes": "First LauncherOne flight from Spaceport Cornwall. Oman's first satellite will launch on this flight.",
+      "Payload": [
+        {
+          "Payload": "Amber-1",
+          "Operator": "Satellite Applications Catapult",
+          "Orbit": "Low Earth",
+          "Function": "Maritime domain awareness",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "CIRCE A, B",
+          "Operator": "Dstl / NRL",
+          "Orbit": "Low Earth",
+          "Function": "Ionospheric research",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "DOVER",
+          "Operator": "RHEA Group",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "ForgeStar-0",
+          "Operator": "Space Forge",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Kernow Sat 1",
+          "Operator": "University of Exeter",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Prometheus 2A, 2B",
+          "Operator": "UK Ministry of Defence / NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "First Omani satellite",
+          "Operator": "ETCO",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "October (TBD)[118][158]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6247,7 +6346,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[148]",
+        "TimestampRaw": "October (TBD)[164]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6268,86 +6367,6 @@
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "October (TBD)[149][150]",
-        "TimestampClean": "October (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "LauncherOne",
-      "FlightNumber": "",
-      "LaunchSite": "Cosmic Girl, Cornwall",
-      "LaunchServiceProvider": "Virgin Orbit",
-      "Notes": "First LauncherOne flight from Spaceport Cornwall. Oman's first satellite will launch on this flight.",
-      "Payload": [
-        {
-          "Payload": "Amber-1",
-          "Operator": "Satellite Applications Catapult",
-          "Orbit": "Low Earth",
-          "Function": "Maritime domain awareness",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "CIRCE A, B",
-          "Operator": "Dstl / NRL",
-          "Orbit": "Low Earth",
-          "Function": "Ionospheric research",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "DOVER",
-          "Operator": "RHEA Group",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "ForgeStar-0",
-          "Operator": "Space Forge",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Kernow Sat 1",
-          "Operator": "University of Exeter",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Prometheus 2A, 2B",
-          "Operator": "UK Ministry of Defence / NRO",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "First Omani satellite",
-          "Operator": "ETCO",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
         }
       ]
     },
@@ -6940,7 +6959,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[89][134]",
+        "TimestampRaw": "November (TBD)[89][135]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7001,7 +7020,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[142]",
+        "TimestampRaw": "November (TBD)[158]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7672,7 +7691,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[142]",
+        "TimestampRaw": "December (TBD)[158]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8799,7 +8818,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[130]",
+        "TimestampRaw": "2022 (TBD)[131]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
