@@ -5143,7 +5143,7 @@
         },
         {
           "Payload": "Shiyan-15",
-          "Operator": "CAST",
+          "Operator": "SAST",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
           "Decay": "In orbit",
@@ -5154,9 +5154,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September23:32[102]",
-        "TimestampClean": "24 September23:32",
-        "Timestamp": "2022-09-24T23:32:00Z",
+        "TimestampRaw": "24 September23:32:10[102]",
+        "TimestampClean": "24 September23:32:10",
+        "Timestamp": "2022-09-24T23:32:10Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -5180,63 +5180,91 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 September~13:40[103][104]",
-        "TimestampClean": "26 September~13:40",
-        "Timestamp": "2022-09-26T13:40:00Z",
+        "TimestampRaw": "26 September13:38[103]",
+        "TimestampClean": "26 September13:38",
+        "Timestamp": "2022-09-26T13:38:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": "Long March 2D",
-      "FlightNumber": "",
+      "FlightNumber": "2D-Y68",
       "LaunchSite": "Xichang LC-3",
       "LaunchServiceProvider": "CASC",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yaogan 35-06A",
+          "Payload": "Yaogan 36-01A",
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan 35-06B",
+          "Payload": "Yaogan 36-01B",
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan 35-06C",
+          "Payload": "Yaogan 36-01C",
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 September~23:50[103]",
-        "TimestampClean": "26 September~23:50",
+        "TimestampRaw": "26 September23:50[104]",
+        "TimestampClean": "26 September23:50",
         "Timestamp": "2022-09-26T23:50:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": "Long March 6",
-      "FlightNumber": "",
+      "FlightNumber": "Y9",
       "LaunchSite": "Taiyuan LC-16",
       "LaunchServiceProvider": "CASC",
-      "Notes": "TBA",
-      "Payload": null
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Shiyan-16A",
+          "Operator": "SAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Shiyan-16B",
+          "Operator": "SAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Shiyan-17",
+          "Operator": "CAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
     },
     {
       "Timestamp": {
@@ -5361,12 +5389,12 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late September[89]",
-        "TimestampClean": "Late September",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "30 September[110]",
+        "TimestampClean": "30 September",
+        "Timestamp": "2022-09-30T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {}
+        "ParsedOk": true,
+        "ParseErr": null
       },
       "Rocket": "Falcon 9 Block 5",
       "FlightNumber": "Starlink Group 4-36",
@@ -5387,7 +5415,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[110]",
+        "TimestampRaw": "September (TBD)[111]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5413,7 +5441,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "September (TBD)[111]",
+        "TimestampRaw": "September (TBD)[112]",
         "TimestampClean": "September (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5457,7 +5485,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[112][113]",
+        "TimestampRaw": "Q3 (TBD)[113][114]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5492,7 +5520,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[114]",
+        "TimestampRaw": "Q3 (TBD)[115]",
         "TimestampClean": "Q3 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -5505,41 +5533,6 @@
       "LaunchServiceProvider": "TiSPACE",
       "Notes": "Maiden flight of Hapith V.",
       "Payload": null
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "Q3 (TBD)[115]",
-        "TimestampClean": "Q3 (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "Long March 6",
-      "FlightNumber": "Y9",
-      "LaunchSite": "Taiyuan LC-16",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Qilu-2",
-          "Operator": "SDIIT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Qilu-3",
-          "Operator": "SDIIT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
     },
     {
       "Timestamp": {
@@ -5655,123 +5648,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 October18:52[121][122]",
-        "TimestampClean": "2 October18:52",
-        "Timestamp": "2022-10-02T18:52:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SLS Block 1",
-      "FlightNumber": "",
-      "LaunchSite": "Kennedy LC-39B",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Maiden flight of NASA's Space Launch System (SLS), targeting launch periods between 19 September and 4 October, and between 17 October and 31 October. 10 CubeSats will rideshare on this launch.",
-      "Payload": [
-        {
-          "Payload": "Artemis 1",
-          "Operator": "NASA",
-          "Orbit": "Selenocentric",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "ArgoMoon",
-          "Operator": "ASI",
-          "Orbit": "Heliocentric",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "BioSentinel",
-          "Operator": "NASA",
-          "Orbit": "Heliocentric",
-          "Function": "Astrobiology",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "CuSP",
-          "Operator": "NASA",
-          "Orbit": "Heliocentric",
-          "Function": "Space weather",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "EQUULEUS",
-          "Operator": "University of Tokyo",
-          "Orbit": "Earth–Moon L2",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "LunaH-Map",
-          "Operator": "NASA",
-          "Orbit": "Selenocentric",
-          "Function": "Lunar orbiter",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Lunar IceCube",
-          "Operator": "NASA",
-          "Orbit": "Selenocentric",
-          "Function": "Lunar orbiter",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "LunIR",
-          "Operator": "Lockheed Martin Space",
-          "Orbit": "Heliocentric",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Near-Earth Asteroid Scout",
-          "Operator": "NASA",
-          "Orbit": "Heliocentric",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "OMOTENASHI",
-          "Operator": "JAXA",
-          "Orbit": "Selenocentric",
-          "Function": "Lunar lander",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Team Miles",
-          "Operator": "Fluid \u0026 Reason",
-          "Orbit": "Heliocentric",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "3 October16:46[125]",
+        "TimestampRaw": "3 October16:46[121]",
         "TimestampClean": "3 October16:46",
         "Timestamp": "2022-10-03T16:46:00Z",
         "Tbd": false,
@@ -5797,39 +5674,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3–5 October[126]",
-        "TimestampClean": "3–5 October",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2022 3–5 October",
-          "LayoutElem": " ",
-          "ValueElem": "–5 October",
-          "Message": ""
-        }
-      },
-      "Rocket": "Long March 5B",
-      "FlightNumber": "Y4",
-      "LaunchSite": "Wenchang LC-1",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "Mengtian is the second Laboratory Cabin Module of the Tiangong space station.",
-      "Payload": [
-        {
-          "Payload": "Mengtian",
-          "Operator": "CMSA",
-          "Orbit": "Low Earth (TSS)",
-          "Function": "Space station assembly",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 October17:04[127]",
+        "TimestampRaw": "5 October17:04[122]",
         "TimestampClean": "5 October17:04",
         "Timestamp": "2022-10-05T17:04:00Z",
         "Tbd": false,
@@ -5890,7 +5735,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 October00:47[130][131]",
+        "TimestampRaw": "7 October00:47[125][126]",
         "TimestampClean": "7 October00:47",
         "Timestamp": "2022-10-07T00:47:00Z",
         "Tbd": false,
@@ -5970,7 +5815,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 October22:00[132][133]",
+        "TimestampRaw": "10 October22:00[127][128]",
         "TimestampClean": "10 October22:00",
         "Timestamp": "2022-10-10T22:00:00Z",
         "Tbd": false,
@@ -5996,7 +5841,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 October[134]",
+        "TimestampRaw": "12 October[129]",
         "TimestampClean": "12 October",
         "Timestamp": "2022-10-12T00:00:00Z",
         "Tbd": false,
@@ -6022,7 +5867,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 October03:25[89][135]",
+        "TimestampRaw": "14 October03:25[89][130]",
         "TimestampClean": "14 October03:25",
         "Timestamp": "2022-10-14T03:25:00Z",
         "Tbd": false,
@@ -6048,7 +5893,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Mid October[137][89]",
+        "TimestampRaw": "Mid October[132][89]",
         "TimestampClean": "Mid October",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6074,7 +5919,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 October[138][139]",
+        "TimestampRaw": "20 October[133][134]",
         "TimestampClean": "20 October",
         "Timestamp": "2022-10-20T00:00:00Z",
         "Tbd": false,
@@ -6100,7 +5945,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 October[140][141]",
+        "TimestampRaw": "22 October[135][136]",
         "TimestampClean": "22 October",
         "Timestamp": "2022-10-22T00:00:00Z",
         "Tbd": false,
@@ -6153,7 +5998,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 October00:19[142]",
+        "TimestampRaw": "26 October00:19[137]",
         "TimestampClean": "26 October00:19",
         "Timestamp": "2022-10-26T00:19:00Z",
         "Tbd": false,
@@ -6179,7 +6024,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 October[143]",
+        "TimestampRaw": "29 October[138]",
         "TimestampClean": "29 October",
         "Timestamp": "2022-10-29T00:00:00Z",
         "Tbd": false,
@@ -6259,7 +6104,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[118][158]",
+        "TimestampRaw": "October (TBD)[118][153]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6346,7 +6191,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[164]",
+        "TimestampRaw": "October (TBD)[159]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6372,7 +6217,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[165][166]",
+        "TimestampRaw": "October (TBD)[160][161]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6407,7 +6252,33 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[173][174]",
+        "TimestampRaw": "October (TBD)[168]",
+        "TimestampClean": "October (TBD)",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": true,
+        "ParsedOk": false,
+        "ParseErr": {}
+      },
+      "Rocket": "Long March 5B",
+      "FlightNumber": "Y4",
+      "LaunchSite": "Wenchang LC-1",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "Mengtian is the second Laboratory Cabin Module of the Tiangong space station.",
+      "Payload": [
+        {
+          "Payload": "Mengtian",
+          "Operator": "CMSA",
+          "Orbit": "Low Earth (TSS)",
+          "Function": "Space station assembly",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "October (TBD)[169][170]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6469,7 +6340,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[183][184]",
+        "TimestampRaw": "October (TBD)[179][180]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6495,7 +6366,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[186]",
+        "TimestampRaw": "October (TBD)[182]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6530,7 +6401,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 November[187]",
+        "TimestampRaw": "1 November[183]",
         "TimestampClean": "1 November",
         "Timestamp": "2022-11-01T00:00:00Z",
         "Tbd": false,
@@ -6636,7 +6507,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 November[190]",
+        "TimestampRaw": "6 November[186]",
         "TimestampClean": "6 November",
         "Timestamp": "2022-11-06T00:00:00Z",
         "Tbd": false,
@@ -6716,7 +6587,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9–15 November[200]",
+        "TimestampRaw": "9–15 November[196]",
         "TimestampClean": "9–15 November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6757,6 +6628,122 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "12 November[197]",
+        "TimestampClean": "12 November",
+        "Timestamp": "2022-11-12T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "SLS Block 1",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Maiden flight of NASA's Space Launch System (SLS), targeting a launch period between 12 November and 27 November. 10 CubeSats will rideshare on this launch.",
+      "Payload": [
+        {
+          "Payload": "Artemis 1",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "ArgoMoon",
+          "Operator": "ASI",
+          "Orbit": "Heliocentric",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "BioSentinel",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric",
+          "Function": "Astrobiology",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "CuSP",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric",
+          "Function": "Space weather",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "EQUULEUS",
+          "Operator": "University of Tokyo",
+          "Orbit": "Earth–Moon L2",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "LunaH-Map",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar orbiter",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lunar IceCube",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar orbiter",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "LunIR",
+          "Operator": "Lockheed Martin Space",
+          "Orbit": "Heliocentric",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Near-Earth Asteroid Scout",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "OMOTENASHI",
+          "Operator": "JAXA",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar lander",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Team Miles",
+          "Operator": "Fluid \u0026 Reason",
+          "Orbit": "Heliocentric",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "18 November[89]",
         "TimestampClean": "18 November",
         "Timestamp": "2022-11-18T00:00:00Z",
@@ -6783,7 +6770,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 November[89][201]",
+        "TimestampRaw": "21 November[89][199]",
         "TimestampClean": "21 November",
         "Timestamp": "2022-11-21T00:00:00Z",
         "Tbd": false,
@@ -6818,7 +6805,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 November[202][203]",
+        "TimestampRaw": "29 November[200][201]",
         "TimestampClean": "29 November",
         "Timestamp": "2022-11-29T00:00:00Z",
         "Tbd": false,
@@ -6907,7 +6894,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[207][208]",
+        "TimestampRaw": "Late November[205][206]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6959,7 +6946,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[89][135]",
+        "TimestampRaw": "November (TBD)[89][130]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6985,7 +6972,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[89][209]",
+        "TimestampRaw": "November (TBD)[89][207]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7020,7 +7007,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[158]",
+        "TimestampRaw": "November (TBD)[153]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7036,7 +7023,42 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[211][175]",
+        "TimestampRaw": "November (TBD)[209][210]",
+        "TimestampClean": "November (TBD)",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": true,
+        "ParsedOk": false,
+        "ParseErr": {}
+      },
+      "Rocket": "Long March 6",
+      "FlightNumber": "",
+      "LaunchSite": "Taiyuan LC-16",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Qilu-2",
+          "Operator": "SDIIT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Qilu-3",
+          "Operator": "SDIIT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "November (TBD)[211][171]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7691,7 +7713,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[158]",
+        "TimestampRaw": "December (TBD)[153]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7707,7 +7729,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[171][275]",
+        "TimestampRaw": "December (TBD)[166][275]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7947,7 +7969,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[209]",
+        "TimestampRaw": "Q4 (TBD)[207]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8818,7 +8840,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[131]",
+        "TimestampRaw": "2022 (TBD)[126]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
