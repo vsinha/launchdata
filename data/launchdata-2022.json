@@ -5268,86 +5268,80 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 October07:01–09:00[105]",
-        "TimestampClean": "1 October07:01–09:00",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "1 October07:01[105]",
+        "TimestampClean": "1 October07:01",
+        "Timestamp": "2022-10-01T07:01:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2022 1 October07:01–09:00",
-          "LayoutElem": "",
-          "ValueElem": "07:01–09:00",
-          "Message": ": extra text: \"07:01\\xe2\\x80\\x9309:00\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
       "Rocket": "Firefly Alpha",
       "FlightNumber": "FLTA002",
       "LaunchSite": "Vandenberg SLC-2W",
       "LaunchServiceProvider": "Firefly / ALS",
-      "Notes": "\"To The Black\". Second orbital launch attempt, reflying several payloads lost in the previous launch attempt. Libre Space Foundation's PicoBus will deploy 5 PocketQubes.",
+      "Notes": "\"To The Black\". Second orbital launch attempt, reflying several payloads lost in the previous launch attempt. Libre Space Foundation's PicoBus will deploy 5 PocketQubes. First successful flight of the Firefly Alpha launch vehicle.",
       "Payload": [
         {
           "Payload": "TechEdSat-15 (TES-15)",
           "Operator": "NASA Ames / SJSU",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
           "Payload": "TIS Serenity",
           "Operator": "Teachers in Space, Inc.",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Education",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
           "Payload": "FOSSASAT-1B",
           "Operator": "FOSSA Systems",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "LoRa technology demonstration",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
           "Payload": "GENESIS-G/ASTROLAND-1",
           "Operator": "AMSAT-EA",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
           "Payload": "GENESIS-J/ASTROLAND-2",
           "Operator": "AMSAT-EA",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
           "Payload": "QUBIK-3",
           "Operator": "Libre Space Foundation",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
           "Payload": "QUBIK-4",
           "Operator": "Libre Space Foundation",
-          "Orbit": "Low Earth",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         }
       ]
