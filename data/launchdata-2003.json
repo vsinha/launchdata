@@ -1790,28 +1790,22 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "06:22",
-        "TimestampClean": "06:22",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "24 November06:22",
+        "TimestampClean": "24 November06:22",
+        "Timestamp": "2003-11-24T06:22:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2003 06:22",
-          "LayoutElem": " ",
-          "ValueElem": ":22",
-          "Message": ""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "ProtonK/ (Proton+11S861mod.01) (rtmf)",
+      "Rocket": "Proton-K/DM-2M",
       "FlightNumber": "",
-      "LaunchSite": "Template:Country data KgBaikonur Site 81, military pad. 23",
-      "LaunchServiceProvider": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "VKS",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yamal201x2 (dubble)",
-          "Operator": "KGB",
+          "Payload": "Yamal-201",
+          "Operator": "Gazprom",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "In orbit",
@@ -1819,7 +1813,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "null (fiction)",
+          "Payload": "Yamal 202",
           "Operator": "Gazprom",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
