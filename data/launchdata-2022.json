@@ -3182,7 +3182,7 @@
         "ParseErr": null
       },
       "Rocket": "Kuaizhou 1A",
-      "FlightNumber": "Y17",
+      "FlightNumber": "Y23",
       "LaunchSite": "Jiuquan LA-4",
       "LaunchServiceProvider": "ExPace",
       "Notes": "Return-to-flight for Kuaizhou 1A following the December 2021 launch failure.",
@@ -4657,7 +4657,7 @@
         "ParseErr": null
       },
       "Rocket": "Kuaizhou 1A",
-      "FlightNumber": "Y18",
+      "FlightNumber": "Y15",
       "LaunchSite": "Xichang",
       "LaunchServiceProvider": "ExPace",
       "Notes": "",
@@ -5127,7 +5127,7 @@
         "ParseErr": null
       },
       "Rocket": "Kuaizhou 1A",
-      "FlightNumber": "Y18",
+      "FlightNumber": "Y14",
       "LaunchSite": "Taiyuan",
       "LaunchServiceProvider": "ExPace",
       "Notes": "",
@@ -5706,7 +5706,7 @@
         "ParseErr": null
       },
       "Rocket": "Long March 2C",
-      "FlightNumber": "2C-F65",
+      "FlightNumber": "2C-Y66",
       "LaunchSite": "Taiyuan LC-9",
       "LaunchServiceProvider": "CASC",
       "Notes": "",
@@ -5768,9 +5768,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 October03:26[131]",
-        "TimestampClean": "15 October03:26",
-        "Timestamp": "2022-10-15T03:26:00Z",
+        "TimestampRaw": "15 October05:22[131]",
+        "TimestampClean": "15 October05:22",
+        "Timestamp": "2022-10-15T05:22:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -5786,8 +5786,8 @@
           "Operator": "Eutelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
@@ -5808,12 +5808,12 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "EMKA №3",
+          "Payload": "EMKA №3 (Kosmos 2560)",
           "Operator": "VKS",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
@@ -6291,33 +6291,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[180][181]",
-        "TimestampClean": "October (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "RS1",
-      "FlightNumber": "DEMO-1",
-      "LaunchSite": "Kodiak LP-3C",
-      "LaunchServiceProvider": "ABL",
-      "Notes": "First flight of RS1, designated DEMO-1.",
-      "Payload": [
-        {
-          "Payload": "VariSat-1A, 1B",
-          "Operator": "VariSat",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "October (TBD)[182]",
+        "TimestampRaw": "October (TBD)[180]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6361,7 +6335,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[183]",
+        "TimestampRaw": "October (TBD)[181]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6403,7 +6377,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "October (TBD)[184][185]",
+        "TimestampRaw": "October (TBD)[182][183]",
         "TimestampClean": "October (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6447,7 +6421,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 November09:25[186]",
+        "TimestampRaw": "1 November09:25[184]",
         "TimestampClean": "1 November09:25",
         "Timestamp": "2022-11-01T09:25:00Z",
         "Tbd": false,
@@ -6482,7 +6456,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 November~16:00[187]",
+        "TimestampRaw": "4 November~16:00[185]",
         "TimestampClean": "4 November~16:00",
         "Timestamp": "2022-11-04T16:00:00Z",
         "Tbd": false,
@@ -6508,7 +6482,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 November[188]",
+        "TimestampRaw": "5 November[186]",
         "TimestampClean": "5 November",
         "Timestamp": "2022-11-05T00:00:00Z",
         "Tbd": false,
@@ -6543,7 +6517,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 November10:50[189]",
+        "TimestampRaw": "6 November10:50[187]",
         "TimestampClean": "6 November10:50",
         "Timestamp": "2022-11-06T10:50:00Z",
         "Tbd": false,
@@ -6614,7 +6588,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 November[192]",
+        "TimestampRaw": "6 November[190]",
         "TimestampClean": "6 November",
         "Timestamp": "2022-11-06T00:00:00Z",
         "Tbd": false,
@@ -6694,7 +6668,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9–15 November[202]",
+        "TimestampRaw": "9–15 November[200]",
         "TimestampClean": "9–15 November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6723,8 +6697,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "TBA",
-          "Operator": "Takara Tomy/JAXA/Doshisha University",
+          "Payload": "Rashid",
+          "Operator": "UAESA / MBRSC",
           "Orbit": "TLI to lunar surface",
           "Function": "Lunar rover",
           "Decay": "",
@@ -6732,8 +6706,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "Rashid",
-          "Operator": "UAESA / MBRSC",
+          "Payload": "Transformable Lunar Robot",
+          "Operator": "Tomy / JAXA / Doshisha University",
           "Orbit": "TLI to lunar surface",
           "Function": "Lunar rover",
           "Decay": "",
@@ -6744,7 +6718,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 November05:07[205]",
+        "TimestampRaw": "14 November05:07[203]",
         "TimestampClean": "14 November05:07",
         "Timestamp": "2022-11-14T05:07:00Z",
         "Tbd": false,
@@ -6851,6 +6825,38 @@
           "Payload": "Team Miles",
           "Operator": "Fluid \u0026 Reason",
           "Orbit": "Heliocentric",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14–21 November22:00[205][206]",
+        "TimestampClean": "14–21 November22:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 14–21 November22:00",
+          "LayoutElem": " ",
+          "ValueElem": "–21 November22:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "RS1",
+      "FlightNumber": "DEMO-1",
+      "LaunchSite": "Kodiak LP-3C",
+      "LaunchServiceProvider": "ABL",
+      "Notes": "First flight of RS1, designated DEMO-1.",
+      "Payload": [
+        {
+          "Payload": "VariSat-1A, 1B",
+          "Operator": "VariSat",
+          "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "",
           "Outcome": "",
@@ -9273,7 +9279,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Gaofen-3 03",
+          "Payload": "JILIN-1 Gaofen 03E",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
