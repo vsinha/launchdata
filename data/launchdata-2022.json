@@ -6187,9 +6187,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 November17:15[151]",
-        "TimestampClean": "4 November17:15",
-        "Timestamp": "2022-11-04T17:15:00Z",
+        "TimestampRaw": "4 November17:27[151]",
+        "TimestampClean": "4 November17:27",
+        "Timestamp": "2022-11-04T17:27:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -6198,30 +6198,30 @@
       "FlightNumber": "\"Catch Me If You Can\"",
       "LaunchSite": "Mahia LC-1B",
       "LaunchServiceProvider": "Rocket Lab",
-      "Notes": "",
+      "Notes": "First-stage mid-air catch was not achieved due to a telemetry drop out during reentry.",
       "Payload": [
         {
           "Payload": "MATS",
           "Operator": "SNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Gravity wave observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 November~02:00[152]",
-        "TimestampClean": "5 November~02:00",
-        "Timestamp": "2022-11-05T02:00:00Z",
+        "TimestampRaw": "5 November~11:00[152]",
+        "TimestampClean": "5 November~11:00",
+        "Timestamp": "2022-11-05T11:00:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": "Long March 3B/E",
-      "FlightNumber": "",
+      "FlightNumber": "3B-Y91",
       "LaunchSite": "Xichang",
       "LaunchServiceProvider": "CASC",
       "Notes": "",
@@ -6380,9 +6380,25 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 November[89]",
-        "TimestampClean": "12 November",
-        "Timestamp": "2022-11-12T00:00:00Z",
+        "TimestampRaw": "11 November~22:30[152]",
+        "TimestampClean": "11 November~22:30",
+        "Timestamp": "2022-11-11T22:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 6A",
+      "FlightNumber": "Y2",
+      "LaunchSite": "Taiyuan LC-9A",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "TBA",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 November~02:00[152][89]",
+        "TimestampClean": "12 November~02:00",
+        "Timestamp": "2022-11-12T02:00:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -6608,7 +6624,33 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 November22:27[170]",
+        "TimestampRaw": "15 November[170]",
+        "TimestampClean": "15 November",
+        "Timestamp": "2022-11-15T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 4C",
+      "FlightNumber": "",
+      "LaunchSite": "Jiuquan SLS-2",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Yaogan 34-03 (?)",
+          "Operator": "CAS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 November22:27[171]",
         "TimestampClean": "18 November22:27",
         "Timestamp": "2022-11-18T22:27:00Z",
         "Tbd": false,
@@ -6634,7 +6676,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 November[171]",
+        "TimestampRaw": "22 November[172]",
         "TimestampClean": "22 November",
         "Timestamp": "2022-11-22T00:00:00Z",
         "Tbd": false,
@@ -6678,7 +6720,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 November[89][175]",
+        "TimestampRaw": "23 November[89][176]",
         "TimestampClean": "23 November",
         "Timestamp": "2022-11-23T00:00:00Z",
         "Tbd": false,
@@ -6713,7 +6755,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November[176][177]",
+        "TimestampRaw": "26 November[177][178]",
         "TimestampClean": "26 November",
         "Timestamp": "2022-11-26T00:00:00Z",
         "Tbd": false,
@@ -6739,7 +6781,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 November[178][179]",
+        "TimestampRaw": "29 November[179][180]",
         "TimestampClean": "29 November",
         "Timestamp": "2022-11-29T00:00:00Z",
         "Tbd": false,
@@ -6854,7 +6896,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[89][185]",
+        "TimestampRaw": "Late November[89][186]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6880,7 +6922,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[186][187]",
+        "TimestampRaw": "Late November[187][188]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6915,7 +6957,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[191][192]",
+        "TimestampRaw": "Late November[192][193]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6941,7 +6983,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[193]",
+        "TimestampRaw": "November (TBD)[194]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -6993,7 +7035,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[194]",
+        "TimestampRaw": "November (TBD)[195]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7019,7 +7061,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[195]",
+        "TimestampRaw": "November (TBD)[196]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7035,7 +7077,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[196]",
+        "TimestampRaw": "November (TBD)[197]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7115,7 +7157,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[197][198]",
+        "TimestampRaw": "November (TBD)[198][199]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7150,7 +7192,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[204][205]",
+        "TimestampRaw": "November (TBD)[205][206]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7185,7 +7227,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[206][207]",
+        "TimestampRaw": "November (TBD)[207][208]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7247,7 +7289,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "November (TBD)[218][219]",
+        "TimestampRaw": "November (TBD)[219][220]",
         "TimestampClean": "November (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7270,22 +7312,6 @@
           "Cubesat": false
         }
       ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "November (TBD)[221]",
-        "TimestampClean": "November (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "Long March 6A",
-      "FlightNumber": "Y2",
-      "LaunchSite": "Taiyuan LC-9A",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "TBA",
-      "Payload": null
     },
     {
       "Timestamp": {
@@ -7403,7 +7429,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 December[226][187]",
+        "TimestampRaw": "3 December[226][188]",
         "TimestampClean": "3 December",
         "Timestamp": "2022-12-03T00:00:00Z",
         "Tbd": false,
@@ -7909,7 +7935,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December[178][284]",
+        "TimestampRaw": "30 December[179][284]",
         "TimestampClean": "30 December",
         "Timestamp": "2022-12-30T00:00:00Z",
         "Tbd": false,
@@ -8048,7 +8074,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[195]",
+        "TimestampRaw": "December (TBD)[196]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8064,7 +8090,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[203][289]",
+        "TimestampRaw": "December (TBD)[204][289]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8158,7 +8184,33 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[295][296]",
+        "TimestampRaw": "December (TBD)[295]",
+        "TimestampClean": "December (TBD)",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": true,
+        "ParsedOk": false,
+        "ParseErr": {}
+      },
+      "Rocket": "Starship",
+      "FlightNumber": "",
+      "LaunchSite": "Starbase",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "First Starship orbital velocity test flight, completing about three-quarters of an orbit and landing in the Pacific Ocean northwest of Kauai.",
+      "Payload": [
+        {
+          "Payload": "TBA",
+          "Operator": "SpaceX",
+          "Orbit": "Transatmospheric",
+          "Function": "Flight test",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "December (TBD)[297][298]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8184,7 +8236,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[297]",
+        "TimestampRaw": "December (TBD)[299]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8210,7 +8262,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[298]",
+        "TimestampRaw": "December (TBD)[300]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8226,7 +8278,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[299]",
+        "TimestampRaw": "Q4 (TBD)[301]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8270,7 +8322,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[310][311]",
+        "TimestampRaw": "Q4 (TBD)[312][313]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8296,7 +8348,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[315]",
+        "TimestampRaw": "Q4 (TBD)[317]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8322,7 +8374,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[316]",
+        "TimestampRaw": "Q4 (TBD)[318]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8348,7 +8400,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[319]",
+        "TimestampRaw": "Q4 (TBD)[321]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8374,7 +8426,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[322]",
+        "TimestampRaw": "Q4 (TBD)[324]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8400,7 +8452,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[322][323]",
+        "TimestampRaw": "Q4 (TBD)[324][325]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8426,7 +8478,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[324][325]",
+        "TimestampRaw": "Q4 (TBD)[326][327]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8483,32 +8535,6 @@
           "Decay": "",
           "Outcome": "",
           "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[329]",
-        "TimestampClean": "Q4 (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "Starship",
-      "FlightNumber": "",
-      "LaunchSite": "Starbase",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "First Starship orbital velocity test flight, completing about three-quarters of an orbit and landing in the Pacific Ocean northwest of Kauai.",
-      "Payload": [
-        {
-          "Payload": "TBA",
-          "Operator": "SpaceX",
-          "Orbit": "Transatmospheric",
-          "Function": "Flight test",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
         }
       ]
     },
@@ -8685,7 +8711,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[184][342]",
+        "TimestampRaw": "2022 (TBD)[185][342]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9347,7 +9373,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[312]",
+        "TimestampRaw": "2022 (TBD)[314]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
