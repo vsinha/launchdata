@@ -6239,9 +6239,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 November10:27[153]",
-        "TimestampClean": "7 November10:27",
-        "Timestamp": "2022-11-07T10:27:00Z",
+        "TimestampRaw": "7 November10:32:42[153]",
+        "TimestampClean": "7 November10:32:42",
+        "Timestamp": "2022-11-07T10:32:42Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -6257,8 +6257,8 @@
           "Operator": "NASA",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "En route",
           "Cubesat": false
         },
         {
@@ -6266,8 +6266,8 @@
           "Operator": "Uganda",
           "Orbit": "Low Earth",
           "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "En route",
           "Cubesat": true
         },
         {
@@ -6275,8 +6275,8 @@
           "Operator": "ODU / USCGA",
           "Orbit": "Low Earth",
           "Function": "Communication",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "En route",
           "Cubesat": true
         },
         {
@@ -6284,8 +6284,8 @@
           "Operator": "Kyushu Institute of Technology",
           "Orbit": "Low Earth",
           "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "En route",
           "Cubesat": true
         },
         {
@@ -6293,8 +6293,8 @@
           "Operator": "Virginia Tech",
           "Orbit": "Low Earth",
           "Function": "Communication",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "En route",
           "Cubesat": true
         },
         {
@@ -6302,44 +6302,9 @@
           "Operator": "Zimbabwe",
           "Orbit": "Low Earth",
           "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "En route",
           "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "8 November16:06[89]",
-        "TimestampClean": "8 November16:06",
-        "Timestamp": "2022-11-08T16:06:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "F9-185",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Galaxy 31",
-          "Operator": "Intelsat",
-          "Orbit": "Geosynchronous",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Galaxy 32",
-          "Operator": "Intelsat",
-          "Orbit": "Geosynchronous",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
         }
       ]
     },
@@ -6471,6 +6436,41 @@
           "Decay": "",
           "Outcome": "",
           "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 November16:06[89]",
+        "TimestampClean": "12 November16:06",
+        "Timestamp": "2022-11-12T16:06:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "F9-185",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Galaxy 31",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Galaxy 32",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
         }
       ]
     },
@@ -6624,7 +6624,33 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 November[171]",
+        "TimestampRaw": "15 November~22:00[171]",
+        "TimestampClean": "15 November~22:00",
+        "Timestamp": "2022-11-15T22:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ceres-1",
+      "FlightNumber": "Y4",
+      "LaunchSite": "Jiuquan",
+      "LaunchServiceProvider": "Galactic Energy",
+      "Notes": "Mission designated \"Young for You\".",
+      "Payload": [
+        {
+          "Payload": "Jilin-1 Gaofen-03D 08, 51–54",
+          "Operator": "Chang Guang Satellite Technology",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 November[172]",
         "TimestampClean": "15 November",
         "Timestamp": "2022-11-15T00:00:00Z",
         "Tbd": false,
@@ -6650,9 +6676,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 November22:27[172]",
-        "TimestampClean": "18 November22:27",
-        "Timestamp": "2022-11-18T22:27:00Z",
+        "TimestampRaw": "19 November22:04[173]",
+        "TimestampClean": "19 November22:04",
+        "Timestamp": "2022-11-19T22:04:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -6676,7 +6702,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 November[173]",
+        "TimestampRaw": "22 November[174]",
         "TimestampClean": "22 November",
         "Timestamp": "2022-11-22T00:00:00Z",
         "Tbd": false,
@@ -6720,7 +6746,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 November[89][177]",
+        "TimestampRaw": "23 November[89][178]",
         "TimestampClean": "23 November",
         "Timestamp": "2022-11-23T00:00:00Z",
         "Tbd": false,
@@ -6755,7 +6781,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November[178][179]",
+        "TimestampRaw": "26 November[179][180]",
         "TimestampClean": "26 November",
         "Timestamp": "2022-11-26T00:00:00Z",
         "Tbd": false,
@@ -6781,7 +6807,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 November[180][181]",
+        "TimestampRaw": "29 November[181][182]",
         "TimestampClean": "29 November",
         "Timestamp": "2022-11-29T00:00:00Z",
         "Tbd": false,
@@ -6896,7 +6922,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[89][187]",
+        "TimestampRaw": "Late November[89][188]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6922,7 +6948,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[188][189]",
+        "TimestampRaw": "Late November[189][190]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6957,7 +6983,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late November[193][194]",
+        "TimestampRaw": "Late November[194][195]",
         "TimestampClean": "Late November",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -6975,32 +7001,6 @@
           "Operator": "Gonets Satellite System",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "November (TBD)[195]",
-        "TimestampClean": "November (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "Ceres-1",
-      "FlightNumber": "Y4",
-      "LaunchSite": "Jiuquan",
-      "LaunchServiceProvider": "Galactic Energy",
-      "Notes": "Mission designated \"Young for You\".",
-      "Payload": [
-        {
-          "Payload": "Jilin-1 Gaofen-03D 08, 51–54",
-          "Operator": "Chang Guang Satellite Technology",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
@@ -7429,7 +7429,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 December[227][189]",
+        "TimestampRaw": "3 December[227][190]",
         "TimestampClean": "3 December",
         "Timestamp": "2022-12-03T00:00:00Z",
         "Tbd": false,
@@ -7935,7 +7935,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December[180][285]",
+        "TimestampRaw": "30 December[181][285]",
         "TimestampClean": "30 December",
         "Timestamp": "2022-12-30T00:00:00Z",
         "Tbd": false,
@@ -8711,7 +8711,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[186][343]",
+        "TimestampRaw": "2022 (TBD)[187][343]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
