@@ -121,6 +121,15 @@
           "Cubesat": false
         },
         {
+          "Payload": "ICEYE X1",
+          "Operator": "ICEYE",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "Microsat-TD",
           "Operator": "ISRO",
           "Orbit": "Low Earth (SSO)",
@@ -200,15 +209,6 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
-        },
-        {
-          "Payload": "ICEYE X1",
-          "Operator": "Iceye",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
         },
         {
           "Payload": "INS-1C",
@@ -493,15 +493,6 @@
       "Notes": "First successful launch of the Electron rocket.",
       "Payload": [
         {
-          "Payload": "Flock-2 (Dove Pioneer)",
-          "Operator": "Planet Labs",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "22 September 2019",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
           "Payload": "Humanity Star",
           "Operator": "Rocket Lab",
           "Orbit": "Low Earth",
@@ -509,6 +500,15 @@
           "Decay": "22 March 2018",
           "Outcome": "Successful",
           "Cubesat": false
+        },
+        {
+          "Payload": "Flock-2 (Dove Pioneer)",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "22 September 2019",
+          "Outcome": "Successful",
+          "Cubesat": true
         },
         {
           "Payload": "Lemur-2-72",
@@ -546,7 +546,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yaogan 30 K",
+          "Payload": "Yaogan 30-04A",
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -555,7 +555,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan 30 L",
+          "Payload": "Yaogan 30-04B",
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -564,7 +564,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan 30 M",
+          "Payload": "Yaogan 30-04C",
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -3921,7 +3921,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "Capella 1",
+          "Payload": "Capella 1 (Denali)",
           "Operator": "Capella Space",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation (radar)",
