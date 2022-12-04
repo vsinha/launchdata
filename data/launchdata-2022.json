@@ -6971,12 +6971,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 December[186][187]",
-        "TimestampClean": "3 December",
-        "Timestamp": "2022-12-03T00:00:00Z",
+        "TimestampRaw": "4–15 December[186]",
+        "TimestampClean": "4–15 December",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 4–15 December",
+          "LayoutElem": " ",
+          "ValueElem": "–15 December",
+          "Message": ""
+        }
       },
       "Rocket": "Zhuque-2",
       "FlightNumber": "Y1",
@@ -6987,7 +6993,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 December22:37[188][89]",
+        "TimestampRaw": "6 December22:37[187]",
         "TimestampClean": "6 December22:37",
         "Timestamp": "2022-12-06T22:37:00Z",
         "Tbd": false,
@@ -7013,7 +7019,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December~01:10[190]",
+        "TimestampRaw": "7 December~01:10[189]",
         "TimestampClean": "7 December~01:10",
         "Timestamp": "2022-12-07T01:10:00Z",
         "Tbd": false,
@@ -7029,64 +7035,12 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December01:29[191][192]",
-        "TimestampClean": "7 December01:29",
-        "Timestamp": "2022-12-07T01:29:00Z",
+        "TimestampRaw": "7 December08:04[190][191]",
+        "TimestampClean": "7 December08:04",
+        "Timestamp": "2022-12-07T08:04:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Starlink Group 4-37",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Starlink × 54",
-          "Operator": "SpaceX",
-          "Orbit": "Low Earth",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "7 December[193][194]",
-        "TimestampClean": "7 December",
-        "Timestamp": "2022-12-07T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RS1",
-      "FlightNumber": "DEMO-1",
-      "LaunchSite": "Kodiak LP-3C",
-      "LaunchServiceProvider": "ABL",
-      "Notes": "First flight of RS1, designated DEMO-1.",
-      "Payload": [
-        {
-          "Payload": "VariSat-1A, 1B",
-          "Operator": "VariSat",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "Early December[197]",
-        "TimestampClean": "Early December",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {}
       },
       "Rocket": "Falcon 9 Block 5",
       "FlightNumber": "",
@@ -7125,7 +7079,33 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9–15 December04:00–10:00[200]",
+        "TimestampRaw": "7 December[194][195]",
+        "TimestampClean": "7 December",
+        "Timestamp": "2022-12-07T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "RS1",
+      "FlightNumber": "DEMO-1",
+      "LaunchSite": "Kodiak LP-3C",
+      "LaunchServiceProvider": "ABL",
+      "Notes": "First flight of RS1, designated DEMO-1.",
+      "Payload": [
+        {
+          "Payload": "VariSat-1A, 1B",
+          "Operator": "VariSat",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9–15 December04:00–10:00[198]",
         "TimestampClean": "9–15 December04:00–10:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7166,7 +7146,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 December18:00–20:00[206]",
+        "TimestampRaw": "9 December18:00–20:00[204]",
         "TimestampClean": "9 December18:00–20:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7198,7 +7178,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 December~07:20[207]",
+        "TimestampRaw": "11 December~07:20[205]",
         "TimestampClean": "11 December~07:20",
         "Timestamp": "2022-12-11T07:20:00Z",
         "Tbd": false,
@@ -7214,7 +7194,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 December20:30[89][208]",
+        "TimestampRaw": "13 December20:30[89][206]",
         "TimestampClean": "13 December20:30",
         "Timestamp": "2022-12-13T20:30:00Z",
         "Tbd": false,
@@ -7258,35 +7238,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 December11:46:40[89][212]",
-        "TimestampClean": "15 December11:46:40",
-        "Timestamp": "2022-12-15T11:46:40Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-4E",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "SWOT",
-          "Operator": "NASA / CNES",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "15 December[89][213]",
-        "TimestampClean": "15 December",
-        "Timestamp": "2022-12-15T00:00:00Z",
+        "TimestampRaw": "13 December[210][211]",
+        "TimestampClean": "13 December",
+        "Timestamp": "2022-12-13T00:00:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -7319,7 +7273,33 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Mid December[191]",
+        "TimestampRaw": "15 December11:46:40[89][213]",
+        "TimestampClean": "15 December11:46:40",
+        "Timestamp": "2022-12-15T11:46:40Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SWOT",
+          "Operator": "NASA / CNES",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "Mid December[210]",
         "TimestampClean": "Mid December",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7696,7 +7676,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 December01:47[208][267]",
+        "TimestampRaw": "21 December01:47[206][266]",
         "TimestampClean": "21 December01:47",
         "Timestamp": "2022-12-21T01:47:00Z",
         "Tbd": false,
@@ -7731,7 +7711,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December06:58[268][269]",
+        "TimestampRaw": "29 December06:58[267][268]",
         "TimestampClean": "29 December06:58",
         "Timestamp": "2022-12-29T06:58:00Z",
         "Tbd": false,
@@ -7757,7 +7737,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December04:00[270][271]",
+        "TimestampRaw": "30 December04:00[269][270]",
         "TimestampClean": "30 December04:00",
         "Timestamp": "2022-12-30T04:00:00Z",
         "Tbd": false,
@@ -7792,7 +7772,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "31 December[272]",
+        "TimestampRaw": "31 December[271]",
         "TimestampClean": "31 December",
         "Timestamp": "2022-12-31T00:00:00Z",
         "Tbd": false,
@@ -7808,7 +7788,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Late December[273]",
+        "TimestampRaw": "Late December[272]",
         "TimestampClean": "Late December",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7824,7 +7804,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[274]",
+        "TimestampRaw": "December (TBD)[273]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7850,7 +7830,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[275]",
+        "TimestampRaw": "December (TBD)[274]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -7865,6 +7845,32 @@
       "Payload": [
         {
           "Payload": "Starlink × ?",
+          "Operator": "SpaceX",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "December (TBD)[210][275]",
+        "TimestampClean": "December (TBD)",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": true,
+        "ParsedOk": false,
+        "ParseErr": {}
+      },
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "Starlink Group 4-37",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Starlink × 54",
           "Operator": "SpaceX",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -8653,58 +8659,6 @@
         "ParsedOk": false,
         "ParseErr": {}
       },
-      "Rocket": "H-IIA",
-      "FlightNumber": "",
-      "LaunchSite": "Tanegashima LA-Y1",
-      "LaunchServiceProvider": "MHI",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "IGS-Radar 7",
-          "Operator": "CSICE",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[322][323]",
-        "TimestampClean": "2022 (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "H3-22S",
-      "FlightNumber": "TF1",
-      "LaunchSite": "Tanegashima LA-Y2",
-      "LaunchServiceProvider": "MHI",
-      "Notes": "First flight of the H3 launch vehicle.",
-      "Payload": [
-        {
-          "Payload": "ALOS-3",
-          "Operator": "JAXA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[324]",
-        "TimestampClean": "2022 (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
       "Rocket": "Jielong 1",
       "FlightNumber": "Y2",
       "LaunchSite": "Jiuquan LA-4",
@@ -8733,7 +8687,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[325]",
+        "TimestampRaw": "2022 (TBD)[322]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8759,7 +8713,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[327]",
+        "TimestampRaw": "2022 (TBD)[324]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8785,7 +8739,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[332]",
+        "TimestampRaw": "2022 (TBD)[329]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8820,7 +8774,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[333]",
+        "TimestampRaw": "2022 (TBD)[330]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8855,7 +8809,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[334]",
+        "TimestampRaw": "2022 (TBD)[331]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8890,7 +8844,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[336]",
+        "TimestampRaw": "2022 (TBD)[333]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8916,7 +8870,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[327]",
+        "TimestampRaw": "2022 (TBD)[324]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8960,7 +8914,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[338][339]",
+        "TimestampRaw": "2022 (TBD)[335][336]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8986,7 +8940,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[340]",
+        "TimestampRaw": "2022 (TBD)[337]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -9012,7 +8966,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[343]",
+        "TimestampRaw": "2022 (TBD)[340]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
