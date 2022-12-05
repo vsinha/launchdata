@@ -2965,8 +2965,8 @@
           "Operator": "CMSA",
           "Orbit": "Low Earth (TSS)",
           "Function": "Crewed spaceflight",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Decay": "4 December12:09",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -6971,29 +6971,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4–15 December[186]",
-        "TimestampClean": "4–15 December",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2022 4–15 December",
-          "LayoutElem": " ",
-          "ValueElem": "–15 December",
-          "Message": ""
-        }
-      },
-      "Rocket": "Zhuque-2",
-      "FlightNumber": "Y1",
-      "LaunchSite": "Jiuquan",
-      "LaunchServiceProvider": "LandSpace",
-      "Notes": "Maiden flight of Zhuque-2, LandSpace's first liquid-propellant rocket.",
-      "Payload": null
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "6 December22:37[187]",
+        "TimestampRaw": "6 December22:37[186]",
         "TimestampClean": "6 December22:37",
         "Timestamp": "2022-12-06T22:37:00Z",
         "Tbd": false,
@@ -7019,7 +6997,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December~01:10[189]",
+        "TimestampRaw": "7 December~01:10[188]",
         "TimestampClean": "7 December~01:10",
         "Timestamp": "2022-12-07T01:10:00Z",
         "Tbd": false,
@@ -7035,7 +7013,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December08:04[190][191]",
+        "TimestampRaw": "7 December08:04[189][190]",
         "TimestampClean": "7 December08:04",
         "Timestamp": "2022-12-07T08:04:00Z",
         "Tbd": false,
@@ -7079,7 +7057,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December[194][195]",
+        "TimestampRaw": "7 December[193][194]",
         "TimestampClean": "7 December",
         "Timestamp": "2022-12-07T00:00:00Z",
         "Tbd": false,
@@ -7105,7 +7083,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9–15 December04:00–10:00[198]",
+        "TimestampRaw": "9–15 December04:00–10:00[197]",
         "TimestampClean": "9–15 December04:00–10:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7146,7 +7124,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 December18:00–20:00[204]",
+        "TimestampRaw": "9 December18:00–20:00[203]",
         "TimestampClean": "9 December18:00–20:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7178,7 +7156,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 December~07:20[205]",
+        "TimestampRaw": "11 December~07:20[204]",
         "TimestampClean": "11 December~07:20",
         "Timestamp": "2022-12-11T07:20:00Z",
         "Tbd": false,
@@ -7190,6 +7168,28 @@
       "LaunchSite": "Xichang",
       "LaunchServiceProvider": "CASC",
       "Notes": "TBA",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11–15 December[205]",
+        "TimestampClean": "11–15 December",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 11–15 December",
+          "LayoutElem": " ",
+          "ValueElem": "–15 December",
+          "Message": ""
+        }
+      },
+      "Rocket": "Zhuque-2",
+      "FlightNumber": "Y1",
+      "LaunchSite": "Jiuquan",
+      "LaunchServiceProvider": "LandSpace",
+      "Notes": "Maiden flight of Zhuque-2, LandSpace's first liquid-propellant rocket.",
       "Payload": null
     },
     {
