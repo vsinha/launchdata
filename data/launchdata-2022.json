@@ -7270,9 +7270,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 December~08:30[206][207]",
-        "TimestampClean": "14 December~08:30",
-        "Timestamp": "2022-12-14T08:30:00Z",
+        "TimestampRaw": "14 December08:30:25[206][207]",
+        "TimestampClean": "14 December08:30:25",
+        "Timestamp": "2022-12-14T08:30:25Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -7281,21 +7281,21 @@
       "FlightNumber": "Y1",
       "LaunchSite": "Jiuquan",
       "LaunchServiceProvider": "LandSpace",
-      "Notes": "Maiden flight of Zhuque-2, LandSpace's first liquid-propellant rocket.",
+      "Notes": "Maiden flight of Zhuque-2, LandSpace's first liquid-propellant rocket. Launch failure caused by an earlier-than-intended shutdown of the vernier engines of the second stage, preventing it from reaching orbital velocity.",
       "Payload": null
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 December~18:28[206]",
-        "TimestampClean": "14 December~18:28",
-        "Timestamp": "2022-12-14T18:28:00Z",
+        "TimestampRaw": "14 December18:25[208]",
+        "TimestampClean": "14 December18:25",
+        "Timestamp": "2022-12-14T18:25:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": "Long March 2D",
-      "FlightNumber": "",
-      "LaunchSite": "Xichang",
+      "FlightNumber": "2D-Y80",
+      "LaunchSite": "Xichang LC-3",
       "LaunchServiceProvider": "CASC",
       "Notes": "",
       "Payload": [
@@ -7304,8 +7304,8 @@
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
@@ -7313,8 +7313,8 @@
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
@@ -7322,41 +7322,15 @@
           "Operator": "CAS",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 December22:00[208][209][210]",
-        "TimestampClean": "14 December22:00",
-        "Timestamp": "2022-12-14T22:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RS1",
-      "FlightNumber": "DEMO-1",
-      "LaunchSite": "Kodiak LP-3C",
-      "LaunchServiceProvider": "ABL",
-      "Notes": "First flight of RS1, designated DEMO-1.",
-      "Payload": [
-        {
-          "Payload": "VariSat-1A, 1B",
-          "Operator": "VariSat",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "15 December11:46:40[89][213]",
+        "TimestampRaw": "15 December11:46:40[89][209]",
         "TimestampClean": "15 December11:46:40",
         "Timestamp": "2022-12-15T11:46:40Z",
         "Tbd": false,
@@ -7382,39 +7356,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15–16 December23:00–01:00[214]",
-        "TimestampClean": "15–16 December23:00–01:00",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2022 15–16 December23:00–01:00",
-          "LayoutElem": " ",
-          "ValueElem": "–16 December23:00–01:00",
-          "Message": ""
-        }
-      },
-      "Rocket": "Electron",
-      "FlightNumber": "\"Virginia is for Launch Lovers\"",
-      "LaunchSite": "MARS LC-2",
-      "LaunchServiceProvider": "Rocket Lab",
-      "Notes": "First launch from Rocket Lab Launch Complex 2 at the Mid-Atlantic Regional Spaceport.",
-      "Payload": [
-        {
-          "Payload": "Hawk 6A, 6B, 6C",
-          "Operator": "HawkEye 360",
-          "Orbit": "Low Earth",
-          "Function": "SIGINT",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "16 December~05:00–10:00[215]",
+        "TimestampRaw": "16 December~05:00–10:00[210]",
         "TimestampClean": "16 December~05:00–10:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -7436,7 +7378,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 December21:21[216][217]",
+        "TimestampRaw": "16 December21:21[211][212]",
         "TimestampClean": "16 December21:21",
         "Timestamp": "2022-12-16T21:21:00Z",
         "Tbd": false,
@@ -7471,7 +7413,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 December21:54[219][216]",
+        "TimestampRaw": "16 December21:54[214][211]",
         "TimestampClean": "16 December21:54",
         "Timestamp": "2022-12-16T21:54:00Z",
         "Tbd": false,
@@ -7497,7 +7439,39 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 December01:47[220][221]",
+        "TimestampRaw": "16–17 December23:00–01:00[215]",
+        "TimestampClean": "16–17 December23:00–01:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 16–17 December23:00–01:00",
+          "LayoutElem": " ",
+          "ValueElem": "–17 December23:00–01:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Electron",
+      "FlightNumber": "\"Virginia is for Launch Lovers\"",
+      "LaunchSite": "MARS LC-2",
+      "LaunchServiceProvider": "Rocket Lab",
+      "Notes": "First launch from Rocket Lab Launch Complex 2 at the Mid-Atlantic Regional Spaceport.",
+      "Payload": [
+        {
+          "Payload": "Hawk 6A, 6B, 6C",
+          "Operator": "HawkEye 360",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 December01:47[216][217]",
         "TimestampClean": "21 December01:47",
         "Timestamp": "2022-12-21T01:47:00Z",
         "Tbd": false,
@@ -7532,366 +7506,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 December14:55[216][222]",
-        "TimestampClean": "27 December14:55",
-        "Timestamp": "2022-12-27T14:55:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "Transporter-6",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "Dedicated SmallSat Rideshare mission to sun-synchronous orbit, designated Transporter-6. Vigoride-5 carries CalTech's Space Solar Power Project (SSPD-1) as a hosted payload.",
-      "Payload": [
-        {
-          "Payload": "ION SCV-007",
-          "Operator": "D-Orbit",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "CubeSat deployer",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Orbiter SN1",
-          "Operator": "Launcher",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Space tug",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Vigoride-5 (VR-5)",
-          "Operator": "Momentus Space",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Space tug",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Alba Cluster 6",
-          "Operator": "Alba Orbital",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "PocketQube dispenser",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Blackjack × 4",
-          "Operator": "DARPA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Reconnaissance",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Cornicen",
-          "Operator": "Hedron",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Lynk Tower 2, 3, 4",
-          "Operator": "Lynk Global",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "MethaneSAT",
-          "Operator": "EDF / NZSA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation of atmospheric methane",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "PredaSAR 1",
-          "Operator": "PredaSAR",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Reliant Standard",
-          "Operator": "Exolaunch",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Space tug / Flight test",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Skykraft ATM carrier",
-          "Operator": "Skykraft",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Satellite deployer",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Skykraft ATM × 5",
-          "Operator": "Skykraft",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Air traffic management",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Umbra-05",
-          "Operator": "Umbra Lab",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Umbra-06",
-          "Operator": "Umbra Lab",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "YAM-5",
-          "Operator": "Loft Orbital",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Alpha Cube Sat",
-          "Operator": "NSS / XISP",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Astrocast × 4",
-          "Operator": "Astrocast SA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "IoT",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "BDSat-2",
-          "Operator": "CEITEC",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "EarthTV × 4",
-          "Operator": "Sen",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observationUHD streaming",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "EPIC",
-          "Operator": "ACC Clyde Space / Orbcomm",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "IoT / AIS",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Gama Alpha",
-          "Operator": "Gama",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "KSF3 × 4 (Observer Mission)",
-          "Operator": "Kleos Space",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Navigation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Lemur-2 × 7",
-          "Operator": "Spire Global",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Menut",
-          "Operator": "Open Cosmos / Catalan Space Agency",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "MOXY",
-          "Operator": "XiProtocol.io",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "NOCLIP",
-          "Operator": "Pointblank LLC",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "PACE-2",
-          "Operator": "NASA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "PROVES – Yearling",
-          "Operator": "Cal Poly Pomona",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstrationEducation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "QBUA01",
-          "Operator": "National Technical University of Ukraine",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "RROCI",
-          "Operator": "Orion Space Solutions",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "STAR VIBE",
-          "Operator": "Scanway / German Orbital Systems",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Zeus-1",
-          "Operator": "Qosmosys / Orient G",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "TBA",
-          "Operator": "Skyline Celestial",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "TBA",
-          "Operator": "NPC Spacemind",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "TBA",
-          "Operator": "Stanford Student Space Initiative",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstrationEducation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "TBA",
-          "Operator": "Undisclosed customer",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "TBA",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "MDQube-SAT (?)",
-          "Operator": "Innova Space",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "IoT",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        },
-        {
-          "Payload": "URESAT-1",
-          "Operator": "AMSAT-EA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Amateur radio",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": true
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "29 December06:58[273][274]",
+        "TimestampRaw": "29 December06:58[218][219]",
         "TimestampClean": "29 December06:58",
         "Timestamp": "2022-12-29T06:58:00Z",
         "Tbd": false,
@@ -7917,7 +7532,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December04:00[275][276]",
+        "TimestampRaw": "30 December04:00[220][221]",
         "TimestampClean": "30 December04:00",
         "Timestamp": "2022-12-30T04:00:00Z",
         "Tbd": false,
@@ -7952,33 +7567,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "31 December[277]",
-        "TimestampClean": "31 December",
-        "Timestamp": "2022-12-31T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Ceres-1",
-      "FlightNumber": "Y5",
-      "LaunchSite": "Launch platform, Yellow Sea",
-      "LaunchServiceProvider": "Galactic Energy",
-      "Notes": "First sea launch of Ceres-1.",
-      "Payload": [
-        {
-          "Payload": "Rizhao-1",
-          "Operator": "TBA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "TBA",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "December (TBD)[278]",
+        "TimestampRaw": "December (TBD)[222]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8004,7 +7593,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[279]",
+        "TimestampRaw": "December (TBD)[223]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8020,7 +7609,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[280]",
+        "TimestampRaw": "December (TBD)[224]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8036,7 +7625,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[281][282]",
+        "TimestampRaw": "December (TBD)[225][226]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8062,7 +7651,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[283]",
+        "TimestampRaw": "December (TBD)[227]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8088,7 +7677,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "December (TBD)[285]",
+        "TimestampRaw": "December (TBD)[229]",
         "TimestampClean": "December (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8104,7 +7693,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[286][287]",
+        "TimestampRaw": "Q4 (TBD)[230][231]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8139,7 +7728,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[288]",
+        "TimestampRaw": "Q4 (TBD)[232]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8183,7 +7772,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[289][290]",
+        "TimestampRaw": "Q4 (TBD)[233][234]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8227,7 +7816,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[291]",
+        "TimestampRaw": "Q4 (TBD)[235]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8253,7 +7842,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[292]",
+        "TimestampRaw": "Q4 (TBD)[236]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8279,7 +7868,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[295]",
+        "TimestampRaw": "Q4 (TBD)[239]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8305,7 +7894,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[298]",
+        "TimestampRaw": "Q4 (TBD)[242]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8331,7 +7920,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[298][299]",
+        "TimestampRaw": "Q4 (TBD)[242][243]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8357,7 +7946,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "Q4 (TBD)[300]",
+        "TimestampRaw": "Q4 (TBD)[244]",
         "TimestampClean": "Q4 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8373,7 +7962,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[301]",
+        "TimestampRaw": "2022 (TBD)[245]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8389,7 +7978,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[302]",
+        "TimestampRaw": "2022 (TBD)[246]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8415,7 +8004,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[305][306]",
+        "TimestampRaw": "2022 (TBD)[249][250]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8441,7 +8030,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[307]",
+        "TimestampRaw": "2022 (TBD)[251]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8476,7 +8065,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[308]",
+        "TimestampRaw": "2022 (TBD)[252]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8502,7 +8091,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[309]",
+        "TimestampRaw": "2022 (TBD)[253]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8537,7 +8126,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[310]",
+        "TimestampRaw": "2022 (TBD)[254]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8563,7 +8152,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[315]",
+        "TimestampRaw": "2022 (TBD)[259]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8598,7 +8187,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[316]",
+        "TimestampRaw": "2022 (TBD)[260]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8633,7 +8222,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[317]",
+        "TimestampRaw": "2022 (TBD)[261]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8668,7 +8257,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[319]",
+        "TimestampRaw": "2022 (TBD)[263]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8694,7 +8283,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[310]",
+        "TimestampRaw": "2022 (TBD)[254]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8738,7 +8327,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[321][322]",
+        "TimestampRaw": "2022 (TBD)[265][266]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8764,7 +8353,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[323]",
+        "TimestampRaw": "2022 (TBD)[267]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
@@ -8790,7 +8379,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[326]",
+        "TimestampRaw": "2022 (TBD)[270]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
