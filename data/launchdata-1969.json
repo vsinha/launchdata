@@ -106,9 +106,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 January07:04",
-        "TimestampClean": "14 January07:04",
-        "Timestamp": "1969-01-14T07:04:00Z",
+        "TimestampRaw": "15 January07:04",
+        "TimestampClean": "15 January07:04",
+        "Timestamp": "1969-01-15T07:04:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -124,7 +124,7 @@
           "Operator": "RVSN",
           "Orbit": "Low Earth",
           "Function": "Crewed orbital flight",
-          "Decay": "In orbit",
+          "Decay": "18 January 1969",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -184,9 +184,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 January16:48[8]",
-        "TimestampClean": "22 January16:48",
-        "Timestamp": "1969-01-22T16:48:00Z",
+        "TimestampRaw": "22 January19:10[8]",
+        "TimestampClean": "22 January19:10",
+        "Timestamp": "1969-01-22T19:10:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -231,7 +231,24 @@
           "Decay": "5 February 1969",
           "Outcome": "Successful",
           "Cubesat": false
-        },
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 January11:10[6]",
+        "TimestampClean": "25 January11:10",
+        "Timestamp": "1969-01-25T11:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Tsyklon-2A",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 90/19",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
         {
           "Payload": "Kosmos 265 (US-AO No.5)",
           "Operator": "",
@@ -2774,9 +2791,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 October[12]",
-        "TimestampClean": "14 October",
-        "Timestamp": "1969-10-14T00:00:00Z",
+        "TimestampRaw": "14 October[12]13:19",
+        "TimestampClean": "14 October13:19",
+        "Timestamp": "1969-10-14T13:19:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
