@@ -7453,16 +7453,16 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18–19 December23:00–01:00[211]",
-        "TimestampClean": "18–19 December23:00–01:00",
+        "TimestampRaw": "20–21 December23:00–01:00[211]",
+        "TimestampClean": "20–21 December23:00–01:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "2022 18–19 December23:00–01:00",
+          "Value": "2022 20–21 December23:00–01:00",
           "LayoutElem": " ",
-          "ValueElem": "–19 December23:00–01:00",
+          "ValueElem": "–21 December23:00–01:00",
           "Message": ""
         }
       },
@@ -8125,33 +8125,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[246][247]",
-        "TimestampClean": "2022 (TBD)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": true,
-        "ParsedOk": false,
-        "ParseErr": {}
-      },
-      "Rocket": "Qaem 100",
-      "FlightNumber": "",
-      "LaunchSite": "Shahrud Missile Test Site",
-      "LaunchServiceProvider": "IRGC",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Nahid-2",
-          "Operator": "ISA",
-          "Orbit": "Low Earth",
-          "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2022 (TBD)[248]",
+        "TimestampRaw": "2022 (TBD)[246]",
         "TimestampClean": "2022 (TBD)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": true,
