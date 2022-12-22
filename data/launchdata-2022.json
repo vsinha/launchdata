@@ -7444,9 +7444,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 December01:47[213][214]",
-        "TimestampClean": "21 December01:47",
-        "Timestamp": "2022-12-21T01:47:00Z",
+        "TimestampRaw": "21 December01:47:31[213]",
+        "TimestampClean": "21 December01:47:31",
+        "Timestamp": "2022-12-21T01:47:31Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -7455,15 +7455,15 @@
       "FlightNumber": "VV22",
       "LaunchSite": "Kourou ELV",
       "LaunchServiceProvider": "Arianespace",
-      "Notes": "",
+      "Notes": "The Zefiro 40 second stage deviated from its intended trajectory following a loss of pressure, resulting in reentry about 917 km (570 mi) north of the launch site over the Atlantic.",
       "Payload": [
         {
           "Payload": "Pléiades Neo 5",
           "Operator": "Airbus Defence and Space",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "21 December",
+          "Outcome": "Launch failure",
           "Cubesat": false
         },
         {
@@ -7471,15 +7471,15 @@
           "Operator": "Airbus Defence and Space",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "21 December",
+          "Outcome": "Launch failure",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 December08:19[213]",
+        "TimestampRaw": "28 December08:19[214]",
         "TimestampClean": "28 December08:19",
         "Timestamp": "2022-12-28T08:19:00Z",
         "Tbd": false,
@@ -7505,7 +7505,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December06:58[213][215]",
+        "TimestampRaw": "29 December06:58[214][215]",
         "TimestampClean": "29 December06:58",
         "Timestamp": "2022-12-29T06:58:00Z",
         "Tbd": false,
