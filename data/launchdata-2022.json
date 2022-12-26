@@ -7549,33 +7549,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December06:58[218][220]",
-        "TimestampClean": "29 December06:58",
-        "Timestamp": "2022-12-29T06:58:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-4E",
-      "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "EROS-C3",
-          "Operator": "ImageSat",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "30 December04:00[221][222]",
+        "TimestampRaw": "30 December04:00[220][221]",
         "TimestampClean": "30 December04:00",
         "Timestamp": "2022-12-30T04:00:00Z",
         "Tbd": false,
@@ -7602,6 +7576,32 @@
           "Operator": "CNSA",
           "Orbit": "Medium Earth",
           "Function": "Navigation",
+          "Decay": "",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 December06:58[218][222]",
+        "TimestampClean": "30 December06:58",
+        "Timestamp": "2022-12-30T06:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Falcon 9 Block 5",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EROS-C3",
+          "Operator": "ImageSat",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
           "Decay": "",
           "Outcome": "",
           "Cubesat": false
