@@ -7497,9 +7497,35 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 December09:45[217][218]",
-        "TimestampClean": "28 December09:45",
-        "Timestamp": "2022-12-28T09:45:00Z",
+        "TimestampRaw": "27 December07:37[217]",
+        "TimestampClean": "27 December07:37",
+        "Timestamp": "2022-12-27T07:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 4B",
+      "FlightNumber": "4B-Y55",
+      "LaunchSite": "Taiyuan LC-9",
+      "LaunchServiceProvider": "CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Gaofen 11-04",
+          "Operator": "CNSA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 December09:40[218]",
+        "TimestampClean": "28 December09:40",
+        "Timestamp": "2022-12-28T09:40:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -7508,10 +7534,10 @@
       "FlightNumber": "Starlink Group 5-1",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "First launch for Shell 5 of the Starlink constellation.",
+      "Notes": "First launch for Shell 5 of the Starlink constellation, and the first launch of Starlink Gen 2 satellites.",
       "Payload": [
         {
-          "Payload": "Starlink × ?",
+          "Payload": "Starlink × 54",
           "Operator": "SpaceX",
           "Orbit": "Low Earth (SSO)",
           "Function": "Communications",
@@ -7523,38 +7549,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December06:30[219]",
-        "TimestampClean": "29 December06:30",
-        "Timestamp": "2022-12-29T06:30:00Z",
+        "TimestampRaw": "30 December~04:00–10:00[219][220]",
+        "TimestampClean": "30 December~04:00–10:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Long March 4C",
-      "FlightNumber": "",
-      "LaunchSite": "Taiyuan",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "TBA",
-          "Operator": "",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 30 December~04:00–10:00",
+          "LayoutElem": "",
+          "ValueElem": "~04:00–10:00",
+          "Message": ": extra text: \"~04:00\\xe2\\x80\\x9310:00\""
         }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "30 December04:00[220][221]",
-        "TimestampClean": "30 December04:00",
-        "Timestamp": "2022-12-30T04:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
       },
       "Rocket": "Long March 3B / YZ-1",
       "FlightNumber": "",
@@ -7584,7 +7590,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December06:58[218][222]",
+        "TimestampRaw": "30 December06:58[221][222]",
         "TimestampClean": "30 December06:58",
         "Timestamp": "2022-12-30T06:58:00Z",
         "Tbd": false,
