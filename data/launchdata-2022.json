@@ -7514,7 +7514,7 @@
           "Payload": "Gaofen 11-04",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Reconnaissance",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -7523,9 +7523,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 December09:40[218]",
-        "TimestampClean": "28 December09:40",
-        "Timestamp": "2022-12-28T09:40:00Z",
+        "TimestampRaw": "28 December09:34[218]",
+        "TimestampClean": "28 December09:34",
+        "Timestamp": "2022-12-28T09:34:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -7541,22 +7541,22 @@
           "Operator": "SpaceX",
           "Orbit": "Low Earth (SSO)",
           "Function": "Communications",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December~04:00–10:00[219][220]",
-        "TimestampClean": "30 December~04:00–10:00",
+        "TimestampRaw": "29 December~04:00–10:00[219][220]",
+        "TimestampClean": "29 December~04:00–10:00",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "2022 30 December~04:00–10:00",
+          "Value": "2022 29 December~04:00–10:00",
           "LayoutElem": "",
           "ValueElem": "~04:00–10:00",
           "Message": ": extra text: \"~04:00\\xe2\\x80\\x9310:00\""
