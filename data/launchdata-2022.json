@@ -4269,10 +4269,10 @@
         {
           "Payload": "Danuri (KPLO)",
           "Operator": "KARI",
-          "Orbit": "Selenocentric",
+          "Orbit": "Selenocentric (Polar)",
           "Function": "Lunar orbiter",
           "Decay": "In orbit",
-          "Outcome": "En route",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
@@ -6761,7 +6761,7 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6779,7 +6779,7 @@
           "Orbit": "Low Earth",
           "Function": "Education",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6788,7 +6788,7 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6797,7 +6797,7 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6824,7 +6824,7 @@
           "Orbit": "Low Earth",
           "Function": "Ionospheric research",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6833,7 +6833,7 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6851,7 +6851,7 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         }
       ]
@@ -7549,56 +7549,41 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December~04:00–10:00[219][220]",
-        "TimestampClean": "29 December~04:00–10:00",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "29 December04:43[219]",
+        "TimestampClean": "29 December04:43",
+        "Timestamp": "2022-12-29T04:43:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2022 29 December~04:00–10:00",
-          "LayoutElem": "",
-          "ValueElem": "~04:00–10:00",
-          "Message": ": extra text: \"~04:00\\xe2\\x80\\x9310:00\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Long March 3B / YZ-1",
-      "FlightNumber": "",
-      "LaunchSite": "Xichang",
+      "Rocket": "Long March 3B/E",
+      "FlightNumber": "3B-Y88",
+      "LaunchSite": "Xichang LC-2",
       "LaunchServiceProvider": "CASC",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "BeiDou-3 M25 (Beidou-56)",
-          "Operator": "CNSA",
-          "Orbit": "Medium Earth",
-          "Function": "Navigation",
-          "Decay": "",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "BeiDou-3 M26 (Beidou-57)",
-          "Operator": "CNSA",
-          "Orbit": "Medium Earth",
-          "Function": "Navigation",
-          "Decay": "",
-          "Outcome": "",
+          "Payload": "Shiyan 10-02",
+          "Operator": "SAST",
+          "Orbit": "Highly elliptical",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December06:58[221][222]",
-        "TimestampClean": "30 December06:58",
-        "Timestamp": "2022-12-30T06:58:00Z",
+        "TimestampRaw": "30 December07:17[220]",
+        "TimestampClean": "30 December07:17",
+        "Timestamp": "2022-12-30T07:17:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "",
+      "FlightNumber": "F9-194",
       "LaunchSite": "Vandenberg SLC-4E",
       "LaunchServiceProvider": "SpaceX",
       "Notes": "",
