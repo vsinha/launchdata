@@ -7575,9 +7575,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December07:17[220]",
-        "TimestampClean": "30 December07:17",
-        "Timestamp": "2022-12-30T07:17:00Z",
+        "TimestampRaw": "30 December07:38[220]",
+        "TimestampClean": "30 December07:38",
+        "Timestamp": "2022-12-30T07:38:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -7586,15 +7586,15 @@
       "FlightNumber": "F9-194",
       "LaunchSite": "Vandenberg SLC-4E",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "",
+      "Notes": "This was the first SpaceX orbital launch to target a non-sun-synchronous retrograde orbit.",
       "Payload": [
         {
           "Payload": "EROS-C3",
           "Operator": "ImageSat",
-          "Orbit": "Low Earth (SSO)",
+          "Orbit": "Low Earth (Retrograde)",
           "Function": "Earth observation",
-          "Decay": "",
-          "Outcome": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
