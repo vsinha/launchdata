@@ -113,25 +113,25 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton",
+      "Rocket": "Proton-K",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kwant_1",
-          "Operator": "1991..2001†: ЦК KPSS",
-          "Orbit": "Low Earth (Mir)†",
+          "Payload": "Kvant-1",
+          "Operator": "1991–2001: Roskosmos",
+          "Orbit": "Low Earth (Mir)",
           "Function": "Mir module",
           "Decay": "23 March 200105:59:36",
           "Outcome": "Successful",
           "Cubesat": false
         },
         {
-          "Payload": "Kwant (foton)",
-          "Operator": "Кириленко, ЦК КПСС",
-          "Orbit": "Low Earth (Kwant_1)",
+          "Payload": "Kvant FSB",
+          "Operator": "",
+          "Orbit": "Low Earth (Kvant-1)",
           "Function": "Space tug",
           "Decay": "25 August 1988",
           "Outcome": "Successful",
@@ -152,7 +152,7 @@
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 250",
       "LaunchServiceProvider": "",
-      "Notes": "Maiden flight of Energia, \"computer error\" resulted in spacecraft attempting to perform circularisation burn in a retrograde orientation, failed to orbit (fufel)",
+      "Notes": "Maiden flight of Energia, computer error resulted in spacecraft attempting to perform circularisation burn in a retrograde orientation, failed to orbit",
       "Payload": [
         {
           "Payload": "Polyus",
