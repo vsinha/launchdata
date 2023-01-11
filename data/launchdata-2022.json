@@ -2954,7 +2954,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2F",
+      "Rocket": "Long March 2F/G",
       "FlightNumber": "Y14",
       "LaunchSite": "Jiuquan SLS-1",
       "LaunchServiceProvider": "CASC",
@@ -3342,7 +3342,7 @@
           "Orbit": "Selenocentric (NRHO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "En route",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -3351,7 +3351,7 @@
           "Orbit": "TLI",
           "Function": "Space tugLunar flyby",
           "Decay": "In orbit",
-          "Outcome": "En route",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -6276,7 +6276,7 @@
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
           "Decay": "In orbit",
-          "Outcome": "Docked to ISS",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
@@ -6399,7 +6399,7 @@
           "Orbit": "Low Earth (TSS)",
           "Function": "Space logistics",
           "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Outcome": "Docked to TSS",
           "Cubesat": false
         },
         {
@@ -6815,7 +6815,7 @@
           "Orbit": "Low Earth",
           "Function": "Adaptive optics calibration",
           "Decay": "In orbit",
-          "Outcome": "Awaiting deployment",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -6935,7 +6935,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2F",
+      "Rocket": "Long March 2F/G",
       "FlightNumber": "Y15",
       "LaunchSite": "Jiuquan SLS-1",
       "LaunchServiceProvider": "CASC",
@@ -6947,7 +6947,7 @@
           "Orbit": "Low Earth (TSS)",
           "Function": "Crewed spaceflight",
           "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Outcome": "Docked to TSS",
           "Cubesat": false
         }
       ]
