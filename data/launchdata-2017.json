@@ -269,22 +269,13 @@
           "Cubesat": false
         },
         {
-          "Payload": "Flock-3p × 88",
-          "Operator": "Planet Labs",
+          "Payload": "Al-Farabi 1",
+          "Operator": "KazGU",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
+          "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Lemur-2 × 8",
-          "Operator": "Spire Global",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "BGUSAT",
@@ -293,7 +284,7 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "DIDO-2",
@@ -302,25 +293,25 @@
           "Function": "Microgravity research",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
-          "Payload": "/// PEASS",
-          "Operator": "PEASS Consortium",
+          "Payload": "Flock-3p × 88",
+          "Operator": "Planet Labs",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
-          "Payload": "Al-Farabi 1",
-          "Operator": "KazGU",
+          "Payload": "Lemur-2 × 8",
+          "Operator": "Spire Global",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "Nayif 1",
@@ -329,7 +320,16 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
+        },
+        {
+          "Payload": "/// PEASS",
+          "Operator": "PEASS Consortium",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         }
       ]
     },

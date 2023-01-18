@@ -25,6 +25,15 @@
           "Cubesat": false
         },
         {
+          "Payload": "AESP-14",
+          "Operator": "ITA",
+          "Orbit": "Low Earth",
+          "Function": "Ionospheric research",
+          "Decay": "11 May 2015",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
           "Payload": "Flock-1d' 1",
           "Operator": "Planet Labs",
           "Orbit": "Low Earth",
@@ -39,15 +48,6 @@
           "Orbit": "Low Earth",
           "Function": "Earth observation",
           "Decay": "27 December 2015",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AESP-14",
-          "Operator": "ITA",
-          "Orbit": "Low Earth",
-          "Function": "Ionospheric research",
-          "Decay": "11 May 2015",
           "Outcome": "Successful",
           "Cubesat": true
         }
@@ -104,13 +104,22 @@
           "Cubesat": false
         },
         {
+          "Payload": "ExoCube",
+          "Operator": "Cal Poly",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
           "Payload": "FIREBIRD II A",
           "Operator": "Montana State",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "FIREBIRD II B",
@@ -119,7 +128,7 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "GRIFEX",
@@ -128,16 +137,7 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "ExoCube",
-          "Operator": "Cal Poly",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         }
       ]
     },
@@ -1014,7 +1014,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2505 (Kobalt-M)",
+          "Payload": "Kosmos 2505 (Kobalt-M №10)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -1066,7 +1066,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2506 (Persona)",
+          "Payload": "Kosmos 2506 (Persona №3)",
           "Operator": "VKO",
           "Orbit": "Low Earth (SSO)",
           "Function": "Reconnaissance",
@@ -1398,11 +1398,29 @@
           "Cubesat": false
         },
         {
-          "Payload": "SERPENS",
-          "Operator": "University of Brasília / Brazilian Space Agency",
+          "Payload": "AAUSAT5",
+          "Operator": "Aalborg",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "27 March 2016",
+          "Decay": "15 March 2016",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Flock-2b × 14",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "First: 22 May 2016  Last: 17 October 2016",
+          "Outcome": "Successful  (12 deployed)",
+          "Cubesat": true
+        },
+        {
+          "Payload": "GOMX-3",
+          "Operator": "GomSpace",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "19 October 2016",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -1416,29 +1434,11 @@
           "Cubesat": true
         },
         {
-          "Payload": "Flock-2b × 14",
-          "Operator": "Planet Labs",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "First: 22 May 2016  Last: 17 October 2016",
-          "Outcome": "Successful  (12 deployed)",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AAUSAT5",
-          "Operator": "Aalborg",
+          "Payload": "SERPENS",
+          "Operator": "University of Brasília / Brazilian Space Agency",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "15 March 2016",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "GOMX-3",
-          "Operator": "GomSpace",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "19 October 2016",
+          "Decay": "27 March 2016",
           "Outcome": "Successful",
           "Cubesat": true
         }

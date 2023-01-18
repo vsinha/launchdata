@@ -2236,6 +2236,15 @@
       "Notes": "Small Satellites Mission Service Proof of Concept (SSMS PoC) mission. Return to flight for Vega after the July 2019 launch failure. 53 satellites were deployed by the SSMS dispenser, including 14 Flock CubeSats carried on SSMS QuadPack deployers, while 12 additional Flock CubeSats were deployed separately by the ION SCV LUCAS satellite. NEMO-HD and TRISAT are Slovenia's first satellites, and OSM-1 Cicero is Monaco's first satellite. Two of the Lemur-2 CubeSats failed to deploy, leading them to de-orbit along with the fourth stage of the Vega booster.",
       "Payload": [
         {
+          "Payload": "ION SCV-001 Lucas",
+          "Operator": "D-Orbit",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "CubeSat deployer",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "Athena",
           "Operator": "Facebook",
           "Orbit": "Low Earth (SSO)",
@@ -2290,24 +2299,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "ION CubeSat Carrier 1 (ION SCV LUCAS)",
-          "Operator": "D-Orbit",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "CubeSat deployer",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Flock-4v × 26",
-          "Operator": "Planet Labs",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "AMICal SAT",
           "Operator": "CSUG / MSU",
           "Orbit": "Low Earth (SSO)",
@@ -2321,6 +2312,15 @@
           "Operator": "SpacePharma / ISA / ASI",
           "Orbit": "Low Earth (SSO)",
           "Function": "Microgravity research",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Flock-4v × 26",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true

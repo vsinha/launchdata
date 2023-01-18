@@ -1144,42 +1144,6 @@
       "Notes": "Largest number of satellites launched on a single rocket (37). Include first Belgian (pair), Uruguay's and Iraqi satellites.",
       "Payload": [
         {
-          "Payload": "Deimos-2",
-          "Operator": "Deimos Space",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "KazEOSat 2",
-          "Operator": "KGS",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Optical imaging",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "UniSat 6",
-          "Operator": "La Sapienza",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Optical imaging",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "SaudiSat-4",
-          "Operator": "KACST",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
           "Payload": "AprizeSat 9",
           "Operator": "SpaceQuest, Ltd.",
           "Orbit": "Low Earth (SSO)",
@@ -1193,24 +1157,6 @@
           "Operator": "SpaceQuest, Ltd.",
           "Orbit": "Low Earth (SSO)",
           "Function": "Communications",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Hodoyoshi 3",
-          "Operator": "University of Tokyo",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Hodoyoshi 4",
-          "Operator": "University of Tokyo",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1234,8 +1180,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "TabletSat-Aurora",
-          "Operator": "SPUTNIX",
+          "Payload": "BugSat 1",
+          "Operator": "Satellogic S.A.",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration / Earth observation",
           "Decay": "In orbit",
@@ -1243,10 +1189,37 @@
           "Cubesat": false
         },
         {
-          "Payload": "BugSat 1",
-          "Operator": "Satellogic S.A.",
+          "Payload": "Deimos-2",
+          "Operator": "Deimos Space",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration / Earth observation",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Hodoyoshi 3",
+          "Operator": "University of Tokyo",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Hodoyoshi 4",
+          "Operator": "University of Tokyo",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "KazEOSat 2",
+          "Operator": "KGS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Optical imaging",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1288,17 +1261,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "NanoSatC-Br 1",
-          "Operator": "INPE",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Magnetosphere research",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "DTUSat 2",
-          "Operator": "DTU",
+          "Payload": "SaudiSat-4",
+          "Operator": "KACST",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1306,46 +1270,19 @@
           "Cubesat": false
         },
         {
-          "Payload": "POPSAT-HIP 1",
-          "Operator": "Microspace Rapid, Singapore",
+          "Payload": "TabletSat-Aurora",
+          "Operator": "SPUTNIX",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
+          "Function": "Technology demonstration / Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
         },
         {
-          "Payload": "PolyITAN 1",
-          "Operator": "KPI",
+          "Payload": "UniSat 6",
+          "Operator": "La Sapienza",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "PACE",
-          "Operator": "NCKU",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Duchifat-1",
-          "Operator": "HSC",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Flock-1c 1–11",
-          "Operator": "Planet Labs",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
+          "Function": "Optical imaging",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1357,16 +1294,7 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Lemur 1",
-          "Operator": "NanoSatisfi",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "ANTELSAT",
@@ -1375,7 +1303,79 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
+        },
+        {
+          "Payload": "DTUSat 2",
+          "Operator": "DTU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Duchifat-1",
+          "Operator": "HSC",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Flock-1c × 11",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-1",
+          "Operator": "NanoSatisfi",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "NanoSatC-Br 1",
+          "Operator": "INPE",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Magnetosphere research",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "PACE",
+          "Operator": "NCKU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "PolyITAN 1",
+          "Operator": "KPI",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "POPSAT-HIP 1",
+          "Operator": "Microspace Rapid, Singapore",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         },
         {
           "Payload": "Tigrisat",
@@ -1384,7 +1384,7 @@
           "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         }
       ]
     },
@@ -1545,12 +1545,12 @@
           "Cubesat": false
         },
         {
-          "Payload": "MKA-PN2 (Relek)",
-          "Operator": "Roskosmos",
+          "Payload": "AISSat-2",
+          "Operator": "NDRE",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Magnetosphere research",
+          "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Spacecraft failure",
+          "Outcome": "Operational",
           "Cubesat": false
         },
         {
@@ -1563,10 +1563,19 @@
           "Cubesat": false
         },
         {
-          "Payload": "UKube-1",
-          "Operator": "UKSA",
+          "Payload": "MKA-PN2 (Relek)",
+          "Operator": "Roskosmos",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
+          "Function": "Magnetosphere research",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SkySat-2",
+          "Operator": "Skybox Imaging",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1581,22 +1590,13 @@
           "Cubesat": false
         },
         {
-          "Payload": "SkySat-2",
-          "Operator": "Skybox Imaging",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "AISSat-2",
-          "Operator": "NDRE",
+          "Payload": "UKube-1",
+          "Operator": "UKSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         }
       ]
     },
@@ -1678,22 +1678,13 @@
           "Cubesat": false
         },
         {
-          "Payload": "TechEdSat 4",
-          "Operator": "NASA Ames",
+          "Payload": "Flock-1b × 28",
+          "Operator": "Planet Labs",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
-          "Decay": "3 April 2015",
+          "Decay": "First: 13 December 2014  Last: 16 October 2015",
           "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "MicroMAS",
-          "Operator": "MIT",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "1 August 2015",
-          "Outcome": "Successful",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "GEARRS",
@@ -1702,7 +1693,7 @@
           "Function": "Technology demonstration",
           "Decay": "8 November 2015",
           "Outcome": "Successful",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "Lambdasat",
@@ -1711,16 +1702,25 @@
           "Function": "Technology demonstration",
           "Decay": "16 May 2015",
           "Outcome": "Successful",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
-          "Payload": "Flock-1b 1–28",
-          "Operator": "Planet Labs",
+          "Payload": "MicroMAS",
+          "Operator": "MIT",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "1 August 2015",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "TechEdSat-4",
+          "Operator": "NASA Ames",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
-          "Decay": "First: 13 December 2014  Last: 16 October 2015",
+          "Decay": "3 April 2015",
           "Outcome": "Successful",
-          "Cubesat": false
+          "Cubesat": true
         }
       ]
     },
