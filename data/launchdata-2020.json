@@ -1579,7 +1579,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ofeq 16",
+          "Payload": "Ofek-16",
           "Operator": "Israel Ministry of Defence",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -1920,7 +1920,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ekspress 80",
+          "Payload": "Ekspress-80",
           "Operator": "RSCC",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1929,7 +1929,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Ekspress 103",
+          "Payload": "Ekspress-103",
           "Operator": "RSCC",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2838,20 +2838,11 @@
           "Cubesat": true
         },
         {
-          "Payload": "NEUTRON-1",
-          "Operator": "University of Hawaii",
+          "Payload": "DESCENT",
+          "Operator": "York University",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "25 June 2022",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "SPOC",
-          "Operator": "University of Georgia",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "25 June 2022",
+          "Decay": "19 June 2022",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -2874,11 +2865,11 @@
           "Cubesat": true
         },
         {
-          "Payload": "DESCENT",
-          "Operator": "York University",
+          "Payload": "NEUTRON-1",
+          "Operator": "University of Hawaii",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "19 June 2022",
+          "Decay": "25 June 2022",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -2889,6 +2880,15 @@
           "Function": "Education",
           "Decay": "In orbit",
           "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "SPOC",
+          "Operator": "University of Georgia",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "25 June 2022",
+          "Outcome": "Successful",
           "Cubesat": true
         }
       ]

@@ -662,10 +662,19 @@
           "Cubesat": false
         },
         {
-          "Payload": "Lemur-2 × 4",
-          "Operator": "Spire Global",
+          "Payload": "Aistechsat-3",
+          "Operator": "GomSpace",
           "Orbit": "Low Earth",
-          "Function": "Earth observation",
+          "Function": "Communications, Traffic monitoring",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Astrocast 0.2",
+          "Operator": "Astrocast SA",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -680,15 +689,6 @@
           "Cubesat": true
         },
         {
-          "Payload": "M6P",
-          "Operator": "SpaceWorks Orbital / Lacuna Space",
-          "Orbit": "Low Earth",
-          "Function": "Communications",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "Flock-4a × 20",
           "Operator": "Planet Labs",
           "Orbit": "Low Earth",
@@ -698,17 +698,17 @@
           "Cubesat": true
         },
         {
-          "Payload": "Aistechsat-3",
-          "Operator": "GomSpace",
+          "Payload": "Lemur-2 × 4",
+          "Operator": "Spire Global",
           "Orbit": "Low Earth",
-          "Function": "Communications, Traffic monitoring",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
         },
         {
-          "Payload": "Astrocast 0.2",
-          "Operator": "Astrocast SA",
+          "Payload": "M6P",
+          "Operator": "SpaceWorks Orbital / Lacuna Space",
           "Orbit": "Low Earth",
           "Function": "Communications",
           "Decay": "In orbit",
@@ -820,21 +820,12 @@
           "Cubesat": false
         },
         {
-          "Payload": "SASSI2",
-          "Operator": "University of Illinois / Purdue University",
+          "Payload": "AeroCube-10 × 2",
+          "Operator": "Aerospace",
           "Orbit": "Low Earth",
-          "Function": "Technology demonstration / Education",
-          "Decay": "28 April",
-          "Outcome": "Spacecraft failure",
-          "Cubesat": true
-        },
-        {
-          "Payload": "ThinSat × 60",
-          "Operator": "Virginia Space",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration / Education",
-          "Decay": "28 April",
-          "Outcome": "Successful (49/60 ThinSats)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -856,7 +847,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "KRAKsat [pl]",
+          "Payload": "KRAKsat",
           "Operator": "AGH University of Science and Technology / Jagiellonian University",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -865,11 +856,74 @@
           "Cubesat": true
         },
         {
-          "Payload": "Swiatowid [pl]",
+          "Payload": "NepaliSat-1",
+          "Operator": "KyuTech / NAST",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "4 October 2021",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Raavana 1",
+          "Operator": "ACCIMT",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "3 October 2021",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "SASSI2",
+          "Operator": "University of Illinois / Purdue University",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration / Education",
+          "Decay": "28 April",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Seeker",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "SpooQy-1",
+          "Operator": "NUS / SSTA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "16 October 2021",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Swiatowid",
           "Operator": "SatRevolution",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration / Earth observation",
           "Decay": "14 March 2021",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "ThinSat × 60",
+          "Operator": "Virginia Space",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration / Education",
+          "Decay": "28 April",
+          "Outcome": "Successful (49/60 ThinSats)",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Uguisu",
+          "Operator": "KyuTech",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "7 October 2021",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -898,60 +952,6 @@
           "Function": "Technology demonstration",
           "Decay": "15 May 2021",
           "Outcome": "Spacecraft failure",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Uguisu",
-          "Operator": "KyuTech",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "7 October 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Raavana 1",
-          "Operator": "ACCIMT",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "3 October 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "NepaliSat-1",
-          "Operator": "KyuTech / NAST",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "4 October 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "SpooQy-1",
-          "Operator": "NUS / SSTA",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "16 October 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AeroCube-10 × 2",
-          "Operator": "Aerospace",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Seeker",
-          "Operator": "NASA",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Successful",
           "Cubesat": true
         }
       ]
@@ -3033,6 +3033,24 @@
           "Cubesat": false
         },
         {
+          "Payload": "AeroCube 14 (IMPACT) × 2",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "AeroCube 15 (Rogue) × 2",
+          "Operator": "U.S. Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
           "Payload": "Argus-02",
           "Operator": "Saint Louis University",
           "Orbit": "Low Earth",
@@ -3048,6 +3066,24 @@
           "Function": "Technology demonstration  Atmospheric research",
           "Decay": "4 April 2022",
           "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "HuskySat-1",
+          "Operator": "University of Washington",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Orbital Factory 2",
+          "Operator": "University of Texas",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -3078,48 +3114,12 @@
           "Cubesat": true
         },
         {
-          "Payload": "HuskySat-1",
-          "Operator": "University of Washington",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "SwampSat II",
           "Operator": "University of Florida",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "19 October 2021",
           "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AeroCube 14 (IMPACT) × 2",
-          "Operator": "NRO",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AeroCube 15 (Rogue) × 2",
-          "Operator": "U.S. Air Force",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Orbital Factory 2",
-          "Operator": "University of Texas",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
           "Cubesat": true
         }
       ]
@@ -3213,7 +3213,7 @@
         "ParseErr": null
       },
       "Rocket": "Falcon 9 Block 5",
-      "FlightNumber": "F9-075",
+      "FlightNumber": "Starlink V1.0-L1",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
       "Notes": "First operational Starlink mission, launching the first 60 Starlink v1.0 satellites. The booster was flown for the 4th time.",

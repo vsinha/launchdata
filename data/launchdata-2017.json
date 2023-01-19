@@ -1709,60 +1709,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "Flying Laptop",
-          "Operator": "Institute of Space Systems",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "TechnoSat microsat",
-          "Operator": "TU Berlin",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "WNISAT-1R microsat",
-          "Operator": "Weathernews",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "NORSAT-1 microsat",
-          "Operator": "Norsk Romsenter",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "NORSAT-2 microsat",
-          "Operator": "Norsk Romsenter",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Flock-2k × 48",
-          "Operator": "Planet Labs",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
           "Payload": "CICERO × 3",
           "Operator": "GeoOptics",
           "Orbit": "Low Earth (SSO)",
@@ -1772,49 +1718,58 @@
           "Cubesat": false
         },
         {
-          "Payload": "Corvus-BC 1, 2",
+          "Payload": "Flying Laptop",
+          "Operator": "Institute of Space Systems",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "NORSAT-1",
+          "Operator": "Norsk Romsenter",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "NORSAT-2",
+          "Operator": "Norsk Romsenter",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "TechnoSat",
+          "Operator": "TU Berlin",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "WNISAT-1R",
+          "Operator": "Weathernews",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Corvus-BC 1, 2 (Lanmapper-BC 1, 2)",
           "Operator": "Astro Digital",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Lemur-2 × 8",
-          "Operator": "Spire Global",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "NanoACE",
-          "Operator": "Tyvak Nano-Satellite Systems",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Mayak",
-          "Operator": "MPU",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Partial failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Iskra-MAI-85",
-          "Operator": "MAI",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "/ Ecuador-UTE-YuZGU",
@@ -1823,7 +1778,43 @@
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
+        },
+        {
+          "Payload": "Flock-2k × 48",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Iskra-MAI-85",
+          "Operator": "MAI",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-2 × 8",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Mayak",
+          "Operator": "MPU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Partial failure",
+          "Cubesat": true
         },
         {
           "Payload": "MKA-N × 2",
@@ -1832,7 +1823,16 @@
           "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Failure",
-          "Cubesat": false
+          "Cubesat": true
+        },
+        {
+          "Payload": "NanoACE",
+          "Operator": "Tyvak Nano-Satellite Systems",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         }
       ]
     },
@@ -2624,7 +2624,7 @@
           "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
+          "Cubesat": true
         }
       ]
     },
