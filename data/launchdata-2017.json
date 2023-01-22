@@ -2714,38 +2714,11 @@
           "Cubesat": false
         },
         {
-          "Payload": "ISARA",
-          "Operator": "JPL",
+          "Payload": "AeroCube (OSCD) × 2",
+          "Operator": "The Aerospace Corporation",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "EcAMSat",
-          "Operator": "NASA",
-          "Orbit": "Low Earth",
-          "Function": "Microbiology",
-          "Decay": "8 December 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Lemur-2 × 8",
-          "Operator": "Spire Global",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "CHEFsat",
-          "Operator": "NRL",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "2 January 2022",
+          "Decay": "5 August 2022 (OSCD B)12 August 2022 (OSCD C)",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -2759,12 +2732,39 @@
           "Cubesat": true
         },
         {
-          "Payload": "AeroCube (OSCD) × 2",
-          "Operator": "The Aerospace Corporation",
+          "Payload": "CHEFsat",
+          "Operator": "NRL",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "5 August 2022 (OSCD B)12 August 2022 (OSCD C)",
+          "Decay": "2 January 2022",
           "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "EcAMSat",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Microbiology",
+          "Decay": "8 December 2021",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "ISARA",
+          "Operator": "JPL",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-2 × 8",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": true
         },
         {
@@ -2777,7 +2777,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "TechEdSat 6",
+          "Payload": "TechEdSat-6",
           "Operator": "SJSU/UI/NASA Ames",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -2953,7 +2953,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yaogan-30 D",
+          "Payload": "Yaogan 30-02A",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -2962,7 +2962,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan-30 E",
+          "Payload": "Yaogan 30-02B",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -2971,7 +2971,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan-30 F",
+          "Payload": "Yaogan 30-02C",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -3006,8 +3006,26 @@
           "Cubesat": false
         },
         {
+          "Payload": "AISSat-3",
+          "Operator": "NSC",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Traffic monitoring",
+          "Decay": "28 November 2017",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
           "Payload": "Baumanets 2",
           "Operator": "Bauman University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "28 November 2017",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDEA-OSG 1",
+          "Operator": "Astroscale",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "28 November 2017",
@@ -3024,40 +3042,13 @@
           "Cubesat": false
         },
         {
-          "Payload": "IDEA-OSG 1",
-          "Operator": "Astroscale",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "28 November 2017",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "AISSat-3",
-          "Operator": "NSC",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Traffic monitoring",
-          "Decay": "28 November 2017",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        },
-        {
           "Payload": "Corvus-BC 3",
           "Operator": "Astro Digital",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
           "Decay": "28 November 2017",
           "Outcome": "Launch failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Lemur-2 × 10",
-          "Operator": "Spire Global",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "28 November 2017",
-          "Outcome": "Launch failure",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "D-Star One",
@@ -3066,7 +3057,16 @@
           "Function": "Communications (experimental)",
           "Decay": "28 November 2017",
           "Outcome": "Launch failure",
-          "Cubesat": false
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-2 × 10",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "28 November 2017",
+          "Outcome": "Launch failure",
+          "Cubesat": true
         },
         {
           "Payload": "SEAM",
@@ -3075,7 +3075,7 @@
           "Function": "Technology demonstration",
           "Decay": "28 November 2017",
           "Outcome": "Launch failure",
-          "Cubesat": false
+          "Cubesat": true
         }
       ]
     },
