@@ -171,10 +171,10 @@
       "FlightNumber": "D-382",
       "LaunchSite": "Vandenberg SLC-6",
       "LaunchServiceProvider": "ULA",
-      "Notes": "",
+      "Notes": "NROL-71 mission.",
       "Payload": [
         {
-          "Payload": "NROL-71 / Kennen (USA-290)",
+          "Payload": "KH-11 17 (USA-290)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -1286,19 +1286,10 @@
           "Cubesat": false
         },
         {
-          "Payload": "Jilin-1 High Resolution 03A",
+          "Payload": "Jilin-1 Gaofen-03A",
           "Operator": "Chang Guang Satellite Technology",
           "Orbit": "Low Earth",
           "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Tianqi-3 (Tao Xingzhi)",
-          "Operator": "Guodian Gaoke",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1320,6 +1311,15 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
+        },
+        {
+          "Payload": "Tianqi-3 (Tao Xingzhi)",
+          "Operator": "Guodian Gaoke",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         },
         {
           "Payload": "Xiaoxiang 1-04",
@@ -3782,24 +3782,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "Tianyi 16",
-          "Operator": "Spacety Aerospace",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Tianyi 17",
-          "Operator": "Spacety Aerospace",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "Tianqi-4A",
           "Operator": "Guodian Gaoke",
           "Orbit": "Low Earth (SSO)",
@@ -3813,6 +3795,24 @@
           "Operator": "Guodian Gaoke",
           "Orbit": "Low Earth (SSO)",
           "Function": "IoT",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Tianyi 16",
+          "Operator": "Spacety Aerospace",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Tianyi 17",
+          "Operator": "Spacety Aerospace",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -3879,10 +3879,10 @@
           "Cubesat": false
         },
         {
-          "Payload": "Lemur-2 × 4",
-          "Operator": "Spire Global",
+          "Payload": "1HOPSAT TD",
+          "Operator": "Hera Systems",
           "Orbit": "Low Earth",
-          "Function": "Earth observation",
+          "Function": "Earth observationTechnology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -3897,10 +3897,10 @@
           "Cubesat": true
         },
         {
-          "Payload": "1HOPSAT TD",
-          "Operator": "Hera Systems",
+          "Payload": "Lemur-2 × 4",
+          "Operator": "Spire Global",
           "Orbit": "Low Earth",
-          "Function": "Earth observationTechnology demonstration",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -4020,8 +4020,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS-SAT",
-          "Operator": "ESA",
+          "Payload": "ANGELS",
+          "Operator": "CNES",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -4038,8 +4038,8 @@
           "Cubesat": true
         },
         {
-          "Payload": "ANGELS",
-          "Operator": "CNES",
+          "Payload": "OPS-SAT",
+          "Operator": "ESA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -4082,37 +4082,28 @@
           "Cubesat": false
         },
         {
+          "Payload": "Gemini-1 01 (Yuheng)",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Gemini-1 02 (Shuntian)",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "Tianqin 1",
           "Operator": "Sun Yat-sen University",
           "Orbit": "Low Earth (SSO)",
           "Function": "Gravitational-wave astronomy",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Weilai 1R / Future 1R",
-          "Operator": "China Central Television",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Yuheng (Gemini-1 01)",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Shuntian (Gemini-1 02)",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -4127,19 +4118,28 @@
           "Cubesat": false
         },
         {
-          "Payload": "Tianyan 02 / Xingshidai-8",
-          "Operator": "ADASpace",
+          "Payload": "Weilai 1R / Future 1R",
+          "Operator": "China Central Television",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": true
+          "Cubesat": false
         },
         {
           "Payload": "FloripaSat-1",
           "Operator": "UFSC",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Tianyan 02 / Xingshidai-8",
+          "Operator": "ADASpace",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
