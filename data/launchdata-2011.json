@@ -853,12 +853,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 June16:00[39]",
-        "TimestampClean": "27 June16:00",
-        "Timestamp": "2011-06-27T16:00:00Z",
+        "TimestampRaw": "27 June16:00[citation needed]",
+        "TimestampClean": "27 June16:00[citation needed]",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2011 27 June16:00[citation needed]",
+          "LayoutElem": "",
+          "ValueElem": "16:00[citation needed]",
+          "Message": ": extra text: \"16:00[citation needed]\""
+        }
       },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
@@ -905,7 +911,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 July04:28[42]",
+        "TimestampRaw": "6 July04:28[41]",
         "TimestampClean": "6 July04:28",
         "Timestamp": "2011-07-06T04:28:00Z",
         "Tbd": false,
@@ -975,7 +981,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 July15:41[43][44]",
+        "TimestampRaw": "11 July15:41[42][43]",
         "TimestampClean": "11 July15:41",
         "Timestamp": "2011-07-11T15:41:00Z",
         "Tbd": false,
@@ -1001,7 +1007,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 July02:27[45][46]",
+        "TimestampRaw": "13 July02:27[44][45]",
         "TimestampClean": "13 July02:27",
         "Timestamp": "2011-07-13T02:27:00Z",
         "Tbd": false,
@@ -1159,7 +1165,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 July02:31[47]",
+        "TimestampRaw": "18 July02:31[46]",
         "TimestampClean": "18 July02:31",
         "Timestamp": "2011-07-18T02:31:00Z",
         "Tbd": false,
@@ -1185,7 +1191,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 July21:44[48]",
+        "TimestampRaw": "26 July21:44[47]",
         "TimestampClean": "26 July21:44",
         "Timestamp": "2011-07-26T21:44:00Z",
         "Tbd": false,
@@ -1211,7 +1217,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 July07:42[49]",
+        "TimestampRaw": "29 July07:42[48]",
         "TimestampClean": "29 July07:42",
         "Timestamp": "2011-07-29T07:42:00Z",
         "Tbd": false,
@@ -1237,7 +1243,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 August16:25[50]",
+        "TimestampRaw": "5 August16:25[49]",
         "TimestampClean": "5 August16:25",
         "Timestamp": "2011-08-05T16:25:00Z",
         "Tbd": false,
@@ -1263,7 +1269,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 August22:52[51]",
+        "TimestampRaw": "6 August22:52[50]",
         "TimestampClean": "6 August22:52",
         "Timestamp": "2011-08-06T22:52:00Z",
         "Tbd": false,
@@ -1298,7 +1304,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 August16:15[52]",
+        "TimestampRaw": "11 August16:15[51]",
         "TimestampClean": "11 August16:15",
         "Timestamp": "2011-08-11T16:15:00Z",
         "Tbd": false,
@@ -1324,7 +1330,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 August22:57[53]",
+        "TimestampRaw": "15 August22:57[52]",
         "TimestampClean": "15 August22:57",
         "Timestamp": "2011-08-15T22:57:00Z",
         "Tbd": false,
@@ -1350,7 +1356,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 August07:12[54]",
+        "TimestampRaw": "17 August07:12[53]",
         "TimestampClean": "17 August07:12",
         "Timestamp": "2011-08-17T07:12:00Z",
         "Tbd": false,
@@ -1439,7 +1445,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 August21:25[55]",
+        "TimestampRaw": "17 August21:25[54]",
         "TimestampClean": "17 August21:25",
         "Timestamp": "2011-08-17T21:25:00Z",
         "Tbd": false,
@@ -1465,7 +1471,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 August09:28[57]",
+        "TimestampRaw": "18 August09:28[56]",
         "TimestampClean": "18 August09:28",
         "Timestamp": "2011-08-18T09:28:00Z",
         "Tbd": false,
@@ -1491,7 +1497,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 August13:00[59]",
+        "TimestampRaw": "24 August13:00[58]",
         "TimestampClean": "24 August13:00",
         "Timestamp": "2011-08-24T13:00:00Z",
         "Tbd": false,
@@ -1517,7 +1523,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 September13:08:52[61]",
+        "TimestampRaw": "10 September13:08:52[60]",
         "TimestampClean": "10 September13:08:52",
         "Timestamp": "2011-09-10T13:08:52Z",
         "Tbd": false,
@@ -1552,7 +1558,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 September16:33[63]",
+        "TimestampRaw": "18 September16:33[62]",
         "TimestampClean": "18 September16:33",
         "Timestamp": "2011-09-18T16:33:00Z",
         "Tbd": false,
@@ -1717,7 +1723,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 September13:16:03[65]",
+        "TimestampRaw": "29 September13:16:03[64]",
         "TimestampClean": "29 September13:16:03",
         "Timestamp": "2011-09-29T13:16:03Z",
         "Tbd": false,
@@ -1743,7 +1749,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 September18:32[67]",
+        "TimestampRaw": "29 September18:32[66]",
         "TimestampClean": "29 September18:32",
         "Timestamp": "2011-09-29T18:32:00Z",
         "Tbd": false,
@@ -1926,7 +1932,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 October[69][70]10:30",
+        "TimestampRaw": "21 October[68][69]10:30",
         "TimestampClean": "21 October10:30",
         "Timestamp": "2011-10-21T10:30:00Z",
         "Tbd": false,
@@ -2111,7 +2117,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 November12:51:41[71]",
+        "TimestampRaw": "4 November12:51:41[70]",
         "TimestampClean": "4 November12:51:41",
         "Timestamp": "2011-11-04T12:51:41Z",
         "Tbd": false,
@@ -2190,7 +2196,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 November03:21[74]",
+        "TimestampRaw": "9 November03:21[73]",
         "TimestampClean": "9 November03:21",
         "Timestamp": "2011-11-09T03:21:00Z",
         "Tbd": false,
@@ -2225,7 +2231,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 November04:14[77]",
+        "TimestampRaw": "14 November04:14[76]",
         "TimestampClean": "14 November04:14",
         "Timestamp": "2011-11-14T04:14:00Z",
         "Tbd": false,
@@ -2251,7 +2257,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 November00:15[78]",
+        "TimestampRaw": "20 November00:15[77]",
         "TimestampClean": "20 November00:15",
         "Timestamp": "2011-11-20T00:15:00Z",
         "Tbd": false,
@@ -2364,7 +2370,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 November18:50[79]",
+        "TimestampRaw": "29 November18:50[78]",
         "TimestampClean": "29 November18:50",
         "Timestamp": "2011-11-29T18:50:00Z",
         "Tbd": false,
@@ -2390,7 +2396,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 December21:07[80]",
+        "TimestampRaw": "1 December21:07[79]",
         "TimestampClean": "1 December21:07",
         "Timestamp": "2011-12-01T21:07:00Z",
         "Tbd": false,
@@ -2548,7 +2554,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 December16:41[81]",
+        "TimestampRaw": "19 December16:41[80]",
         "TimestampClean": "19 December16:41",
         "Timestamp": "2011-12-19T16:41:00Z",
         "Tbd": false,
