@@ -1471,6 +1471,15 @@
           "Cubesat": false
         },
         {
+          "Payload": "NPSAT1",
+          "Operator": "NRL",
+          "Orbit": "Low Earth",
+          "Function": "Atmospheric",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "Oculus-ASR",
           "Operator": "Michigan Technological University",
           "Orbit": "Low Earth",
@@ -1489,15 +1498,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "NPSAT1",
-          "Operator": "NRL",
-          "Orbit": "Low Earth",
-          "Function": "Atmospheric",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
           "Payload": "Prox-1",
           "Operator": "Georgia Institute of Technology",
           "Orbit": "Low Earth",
@@ -1505,6 +1505,24 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
+        },
+        {
+          "Payload": "ARMADILLO",
+          "Operator": "UT Austin",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "23 August 2022",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "BRICSat-2",
+          "Operator": "United States Naval Academy",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration / Amateur radio",
+          "Decay": "20 April 2022",
+          "Outcome": "Successful",
+          "Cubesat": true
         },
         {
           "Payload": "E-TBEx A",
@@ -1525,24 +1543,6 @@
           "Cubesat": true
         },
         {
-          "Payload": "LEO",
-          "Operator": "Cal Poly",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "28 October 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "StangSat",
-          "Operator": "Merritt Island High School",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "FalconSAT-7",
           "Operator": "USAFA",
           "Orbit": "Low Earth",
@@ -1552,29 +1552,11 @@
           "Cubesat": true
         },
         {
-          "Payload": "PSAT2",
-          "Operator": "United States Naval Academy",
-          "Orbit": "Low Earth",
-          "Function": "Amateur radio",
-          "Decay": "15 February 2023",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "BRICSat-2",
-          "Operator": "United States Naval Academy",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration / Amateur radio",
-          "Decay": "20 April 2022",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "TEPCE × 2",
-          "Operator": "NRL",
+          "Payload": "LEO",
+          "Operator": "Cal Poly",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "1 February 2020",
+          "Decay": "28 October 2021",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -1588,11 +1570,29 @@
           "Cubesat": true
         },
         {
-          "Payload": "ARMADILLO",
-          "Operator": "UT Austin",
+          "Payload": "PSAT2",
+          "Operator": "United States Naval Academy",
+          "Orbit": "Low Earth",
+          "Function": "Amateur radio",
+          "Decay": "15 February 2023",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "StangSat",
+          "Operator": "Merritt Island High School",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "23 August 2022",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "TEPCE × 2",
+          "Operator": "NRL",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "1 February 2020",
           "Outcome": "Successful",
           "Cubesat": true
         }
@@ -1623,6 +1623,24 @@
           "Cubesat": false
         },
         {
+          "Payload": "ACRUX-1",
+          "Operator": "Melbourne Space Program",
+          "Orbit": "Low Earth",
+          "Function": "Education",
+          "Decay": "17 June 2022",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Painani 1",
+          "Operator": "SEDENA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "14 January 2023",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
           "Payload": "Prometheus 2-7",
           "Operator": "USSOCOM",
           "Orbit": "Low Earth",
@@ -1641,15 +1659,6 @@
           "Cubesat": true
         },
         {
-          "Payload": "ACRUX-1",
-          "Operator": "Melbourne Space Program",
-          "Orbit": "Low Earth",
-          "Function": "Education",
-          "Decay": "17 June 2022",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
           "Payload": "SpaceBEE 8",
           "Operator": "Swarm Technologies",
           "Orbit": "Low Earth",
@@ -1664,15 +1673,6 @@
           "Orbit": "Low Earth",
           "Function": "Communications",
           "Decay": "16 December 2021",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "Painani 1",
-          "Operator": "SEDENA",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "14 January 2023",
           "Outcome": "Successful",
           "Cubesat": true
         }

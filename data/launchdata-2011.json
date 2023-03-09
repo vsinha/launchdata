@@ -1871,7 +1871,7 @@
           "Operator": "ISRO / CNES",
           "Orbit": "Low Earth",
           "Function": "Climatology",
-          "Decay": "In orbit",
+          "Decay": "7 March 2023",
           "Outcome": "Successful",
           "Cubesat": false
         },
@@ -1885,15 +1885,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "Jugnu",
-          "Operator": "IITK",
-          "Orbit": "Low Earth",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
           "Payload": "VesselSat-1",
           "Operator": "Luxspace",
           "Orbit": "Low Earth",
@@ -1901,6 +1892,15 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
+        },
+        {
+          "Payload": "Jugnu",
+          "Operator": "IITK",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         }
       ]
     },
@@ -1932,7 +1932,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 October[68][69]10:30",
+        "TimestampRaw": "21 October[70][71]10:30",
         "TimestampClean": "21 October10:30",
         "Timestamp": "2011-10-21T10:30:00Z",
         "Tbd": false,
@@ -1990,26 +1990,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "E1P-U2",
-          "Operator": "Montana State",
-          "Orbit": "Low Earth",
-          "Function": "Radiation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "RAX-2",
-          "Operator": "University of Michigan",
-          "Orbit": "Low Earth",
-          "Function": "Auroral",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "M-Cubed",
-          "Operator": "University of Michigan",
+          "Payload": "AubieSat 1",
+          "Operator": "Auburn University",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -2035,10 +2017,28 @@
           "Cubesat": true
         },
         {
-          "Payload": "AubieSat 1",
-          "Operator": "Auburn University",
+          "Payload": "E1P-U2",
+          "Operator": "Montana State",
+          "Orbit": "Low Earth",
+          "Function": "Radiation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "M-Cubed",
+          "Operator": "University of Michigan",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "RAX-2",
+          "Operator": "University of Michigan",
+          "Orbit": "Low Earth",
+          "Function": "Auroral",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -2117,7 +2117,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 November12:51:41[70]",
+        "TimestampRaw": "4 November12:51:41[72]",
         "TimestampClean": "4 November12:51:41",
         "Timestamp": "2011-11-04T12:51:41Z",
         "Tbd": false,
@@ -2196,7 +2196,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 November03:21[73]",
+        "TimestampRaw": "9 November03:21[75]",
         "TimestampClean": "9 November03:21",
         "Timestamp": "2011-11-09T03:21:00Z",
         "Tbd": false,
@@ -2231,7 +2231,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 November04:14[76]",
+        "TimestampRaw": "14 November04:14[78]",
         "TimestampClean": "14 November04:14",
         "Timestamp": "2011-11-14T04:14:00Z",
         "Tbd": false,
@@ -2257,7 +2257,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 November00:15[77]",
+        "TimestampRaw": "20 November00:15[79]",
         "TimestampClean": "20 November00:15",
         "Timestamp": "2011-11-20T00:15:00Z",
         "Tbd": false,
@@ -2370,7 +2370,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 November18:50[78]",
+        "TimestampRaw": "29 November18:50[80]",
         "TimestampClean": "29 November18:50",
         "Timestamp": "2011-11-29T18:50:00Z",
         "Tbd": false,
@@ -2396,7 +2396,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 December21:07[79]",
+        "TimestampRaw": "1 December21:07[81]",
         "TimestampClean": "1 December21:07",
         "Timestamp": "2011-12-01T21:07:00Z",
         "Tbd": false,
@@ -2554,7 +2554,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 December16:41[80]",
+        "TimestampRaw": "19 December16:41[82]",
         "TimestampClean": "19 December16:41",
         "Timestamp": "2011-12-19T16:41:00Z",
         "Tbd": false,

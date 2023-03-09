@@ -1942,7 +1942,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Shahab-3",
+      "Rocket": "Shahab-3[citation needed]",
       "FlightNumber": "",
       "LaunchSite": "Strait of Hormuz",
       "LaunchServiceProvider": "IRGC",
@@ -2109,7 +2109,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 July02:40:09[129][130][131]",
+        "TimestampRaw": "22 July02:40:09[129][130]",
         "TimestampClean": "22 July02:40:09",
         "Timestamp": "2008-07-22T02:40:09Z",
         "Tbd": false,
@@ -2161,16 +2161,22 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 August[134]",
-        "TimestampClean": "1 August",
-        "Timestamp": "2008-08-01T00:00:00Z",
+        "TimestampRaw": "1 August[citation needed]",
+        "TimestampClean": "1 August[citation needed]",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2008 1 August[citation needed]",
+          "LayoutElem": "",
+          "ValueElem": "[citation needed]",
+          "Message": ": extra text: \"[citation needed]\""
+        }
       },
       "Rocket": "R-29",
       "FlightNumber": "",
-      "LaunchSite": "Ryazan, Barents Sea",
+      "LaunchSite": "Ryazan, Barents Sea[citation needed]",
       "LaunchServiceProvider": "VMF",
       "Notes": "",
       "Payload": [
@@ -2180,14 +2186,14 @@
           "Orbit": "Suborbital",
           "Function": "Missile test",
           "Decay": "1 August",
-          "Outcome": "Successful",
+          "Outcome": "Successful[citation needed]",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 August08:30[135][136]",
+        "TimestampRaw": "2 August08:30[134][135]",
         "TimestampClean": "2 August08:30",
         "Timestamp": "2008-08-02T08:30:00Z",
         "Tbd": false,
@@ -2213,7 +2219,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 August03:34[137][138]",
+        "TimestampRaw": "3 August03:34[136][137]",
         "TimestampClean": "3 August03:34",
         "Timestamp": "2008-08-03T03:34:00Z",
         "Tbd": false,
@@ -2266,7 +2272,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 August08:01[148]",
+        "TimestampRaw": "13 August08:01[147]",
         "TimestampClean": "13 August08:01",
         "Timestamp": "2008-08-13T08:01:00Z",
         "Tbd": false,
@@ -2327,7 +2333,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 August19:32[150]",
+        "TimestampRaw": "16 August19:32[149]",
         "TimestampClean": "16 August19:32",
         "Timestamp": "2008-08-16T19:32:00Z",
         "Tbd": false,
@@ -2353,7 +2359,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 August22:43[153][154][155]",
+        "TimestampRaw": "18 August22:43[152][153][154]",
         "TimestampClean": "18 August22:43",
         "Timestamp": "2008-08-18T22:43:00Z",
         "Tbd": false,
@@ -2379,7 +2385,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 August09:10[158]",
+        "TimestampRaw": "22 August09:10[157]",
         "TimestampClean": "22 August09:10",
         "Timestamp": "2008-08-22T09:10:00Z",
         "Tbd": false,
@@ -2414,7 +2420,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 August[160]",
+        "TimestampRaw": "25 August[159]",
         "TimestampClean": "25 August",
         "Timestamp": "2008-08-25T00:00:00Z",
         "Tbd": false,
@@ -2449,7 +2455,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 August[161]",
+        "TimestampRaw": "28 August[160]",
         "TimestampClean": "28 August",
         "Timestamp": "2008-08-28T00:00:00Z",
         "Tbd": false,
@@ -2475,7 +2481,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 August07:15:58[162]",
+        "TimestampRaw": "29 August07:15:58[161]",
         "TimestampClean": "29 August07:15:58",
         "Timestamp": "2008-08-29T07:15:58Z",
         "Tbd": false,
@@ -2537,7 +2543,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 September03:25[165]",
+        "TimestampRaw": "6 September03:25[164]",
         "TimestampClean": "6 September03:25",
         "Timestamp": "2008-09-06T03:25:00Z",
         "Tbd": false,
@@ -2572,7 +2578,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 September18:50:57[166]",
+        "TimestampRaw": "6 September18:50:57[165]",
         "TimestampClean": "6 September18:50:57",
         "Timestamp": "2008-09-06T18:50:57Z",
         "Tbd": false,
@@ -2659,7 +2665,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 September14:45[169]",
+        "TimestampRaw": "18 September14:45[168]",
         "TimestampClean": "18 September14:45",
         "Timestamp": "2008-09-18T14:45:00Z",
         "Tbd": false,
@@ -2685,7 +2691,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 September21:48[163][172]",
+        "TimestampRaw": "19 September21:48[162][171]",
         "TimestampClean": "19 September21:48",
         "Timestamp": "2008-09-19T21:48:00Z",
         "Tbd": false,
@@ -2711,7 +2717,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September06:57[174]",
+        "TimestampRaw": "24 September06:57[173]",
         "TimestampClean": "24 September06:57",
         "Timestamp": "2008-09-24T06:57:00Z",
         "Tbd": false,
@@ -2737,7 +2743,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September09:27:59[175]",
+        "TimestampRaw": "24 September09:27:59[174]",
         "TimestampClean": "24 September09:27:59",
         "Timestamp": "2008-09-24T09:27:59Z",
         "Tbd": false,
@@ -2763,7 +2769,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 September08:49:37[163][176]",
+        "TimestampRaw": "25 September08:49:37[162][175]",
         "TimestampClean": "25 September08:49:37",
         "Timestamp": "2008-09-25T08:49:37Z",
         "Tbd": false,
@@ -2807,7 +2813,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 September13:10[163][180]",
+        "TimestampRaw": "25 September13:10[162][179]",
         "TimestampClean": "25 September13:10",
         "Timestamp": "2008-09-25T13:10:00Z",
         "Tbd": false,
@@ -2851,7 +2857,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 September23:15[186]",
+        "TimestampRaw": "28 September23:15[185]",
         "TimestampClean": "28 September23:15",
         "Timestamp": "2008-09-28T23:15:00Z",
         "Tbd": false,
@@ -2903,18 +2909,24 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 October[188]",
-        "TimestampClean": "11 October",
-        "Timestamp": "2008-10-11T00:00:00Z",
+        "TimestampRaw": "11 October[citation needed]",
+        "TimestampClean": "11 October[citation needed]",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2008 11 October[citation needed]",
+          "LayoutElem": "",
+          "ValueElem": "[citation needed]",
+          "Message": ": extra text: \"[citation needed]\""
+        }
       },
       "Rocket": "R-29RMU Sineva",
       "FlightNumber": "",
       "LaunchSite": "Tula, Barents Sea",
       "LaunchServiceProvider": "VMF",
-      "Notes": "Long-range test",
+      "Notes": "Long-range test[citation needed]",
       "Payload": [
         {
           "Payload": "",
@@ -2929,7 +2941,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 October07:01[189]",
+        "TimestampRaw": "12 October07:01[187]",
         "TimestampClean": "12 October07:01",
         "Timestamp": "2008-10-12T07:01:00Z",
         "Tbd": false,
@@ -2955,12 +2967,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 October07:24[192]",
-        "TimestampClean": "12 October07:24",
-        "Timestamp": "2008-10-12T07:24:00Z",
+        "TimestampRaw": "12 October07:24[citation needed]",
+        "TimestampClean": "12 October07:24[citation needed]",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2008 12 October07:24[citation needed]",
+          "LayoutElem": "",
+          "ValueElem": "07:24[citation needed]",
+          "Message": ": extra text: \"07:24[citation needed]\""
+        }
       },
       "Rocket": "RT-2PM Topol (RS-12M)",
       "FlightNumber": "",
@@ -2973,7 +2991,7 @@
           "Operator": "RVSN RF",
           "Orbit": "Suborbital",
           "Function": "Missile test",
-          "Decay": "07:50",
+          "Decay": "07:50[citation needed]",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2981,7 +2999,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 October[193]",
+        "TimestampRaw": "12 October[190]",
         "TimestampClean": "12 October",
         "Timestamp": "2008-10-12T00:00:00Z",
         "Tbd": false,
@@ -3016,7 +3034,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 October17:47:23[194]",
+        "TimestampRaw": "19 October17:47:23[191]",
         "TimestampClean": "19 October17:47:23",
         "Timestamp": "2008-10-19T17:47:23Z",
         "Tbd": false,
@@ -3042,7 +3060,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 October08:39[195]",
+        "TimestampRaw": "20 October08:39[192]",
         "TimestampClean": "20 October08:39",
         "Timestamp": "2008-10-20T08:39:00Z",
         "Tbd": false,
@@ -3068,7 +3086,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 October00:52:11[197]",
+        "TimestampRaw": "22 October00:52:11[194]",
         "TimestampClean": "22 October00:52:11",
         "Timestamp": "2008-10-22T00:52:11Z",
         "Tbd": false,
@@ -3103,7 +3121,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 October09:10[200]",
+        "TimestampRaw": "22 October09:10[197]",
         "TimestampClean": "22 October09:10",
         "Timestamp": "2008-10-22T09:10:00Z",
         "Tbd": false,
@@ -3129,7 +3147,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 October12:30[201]",
+        "TimestampRaw": "22 October12:30[198]",
         "TimestampClean": "22 October12:30",
         "Timestamp": "2008-10-22T12:30:00Z",
         "Tbd": false,
@@ -3155,7 +3173,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 October01:15[202]",
+        "TimestampRaw": "25 October01:15[199]",
         "TimestampClean": "25 October01:15",
         "Timestamp": "2008-10-25T01:15:00Z",
         "Tbd": false,
@@ -3190,7 +3208,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 October02:28[204]",
+        "TimestampRaw": "25 October02:28[201]",
         "TimestampClean": "25 October02:28",
         "Timestamp": "2008-10-25T02:28:00Z",
         "Tbd": false,
@@ -3216,7 +3234,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 October16:53:53[206]",
+        "TimestampRaw": "29 October16:53:53[203]",
         "TimestampClean": "29 October16:53:53",
         "Timestamp": "2008-10-29T16:53:53Z",
         "Tbd": false,
@@ -3242,7 +3260,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 November[208]",
+        "TimestampRaw": "1 November[205]",
         "TimestampClean": "1 November",
         "Timestamp": "2008-11-01T00:00:00Z",
         "Tbd": false,
@@ -3313,7 +3331,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 November00:15[209]",
+        "TimestampRaw": "5 November00:15[206]",
         "TimestampClean": "5 November00:15",
         "Timestamp": "2008-11-05T00:15:00Z",
         "Tbd": false,
@@ -3348,7 +3366,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 November09:00[212]",
+        "TimestampRaw": "5 November09:00[209]",
         "TimestampClean": "5 November09:00",
         "Timestamp": "2008-11-05T09:00:00Z",
         "Tbd": false,
@@ -3400,7 +3418,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 November05:56[213]",
+        "TimestampRaw": "12 November05:56[210]",
         "TimestampClean": "12 November05:56",
         "Timestamp": "2008-11-12T05:56:00Z",
         "Tbd": false,
@@ -3426,7 +3444,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 November[216]",
+        "TimestampRaw": "12 November[213]",
         "TimestampClean": "12 November",
         "Timestamp": "2008-11-12T00:00:00Z",
         "Tbd": false,
@@ -3452,7 +3470,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 November09:06[217]",
+        "TimestampRaw": "13 November09:06[214]",
         "TimestampClean": "13 November09:06",
         "Timestamp": "2008-11-13T09:06:00Z",
         "Tbd": false,
@@ -3478,7 +3496,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 November15:50[218]",
+        "TimestampRaw": "14 November15:50[215]",
         "TimestampClean": "14 November15:50",
         "Timestamp": "2008-11-14T15:50:00Z",
         "Tbd": false,
@@ -3530,7 +3548,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 November00:55:39[223]",
+        "TimestampRaw": "15 November00:55:39[220]",
         "TimestampClean": "15 November00:55:39",
         "Timestamp": "2008-11-15T00:55:39Z",
         "Tbd": false,
@@ -3609,7 +3627,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 November02:21[231]",
+        "TimestampRaw": "19 November02:21[228]",
         "TimestampClean": "19 November02:21",
         "Timestamp": "2008-11-19T02:21:00Z",
         "Tbd": false,
@@ -3635,7 +3653,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November12:38:27[233]",
+        "TimestampRaw": "26 November12:38:27[230]",
         "TimestampClean": "26 November12:38:27",
         "Timestamp": "2008-11-26T12:38:27Z",
         "Tbd": false,
@@ -3661,12 +3679,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November13:24[235]",
-        "TimestampClean": "26 November13:24",
-        "Timestamp": "2008-11-26T13:24:00Z",
+        "TimestampRaw": "26 November13:24[citation needed]",
+        "TimestampClean": "26 November13:24[citation needed]",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2008 26 November13:24[citation needed]",
+          "LayoutElem": "",
+          "ValueElem": "13:24[citation needed]",
+          "Message": ": extra text: \"13:24[citation needed]\""
+        }
       },
       "Rocket": "RS-24 Yars",
       "FlightNumber": "",
@@ -3687,7 +3711,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November[236]",
+        "TimestampRaw": "26 November[232]",
         "TimestampClean": "26 November",
         "Timestamp": "2008-11-26T00:00:00Z",
         "Tbd": false,
@@ -3713,7 +3737,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 November[237]",
+        "TimestampRaw": "28 November[233]",
         "TimestampClean": "28 November",
         "Timestamp": "2008-11-28T00:00:00Z",
         "Tbd": false,
@@ -3739,7 +3763,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "1 December04:42[239]",
+        "TimestampRaw": "1 December04:42[235]",
         "TimestampClean": "1 December04:42",
         "Timestamp": "2008-12-01T04:42:00Z",
         "Tbd": false,
@@ -3765,7 +3789,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 December05:00[240]",
+        "TimestampRaw": "2 December05:00[236]",
         "TimestampClean": "2 December05:00",
         "Timestamp": "2008-12-02T05:00:00Z",
         "Tbd": false,
@@ -3791,7 +3815,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 December10:35:10[242]",
+        "TimestampRaw": "5 December10:35:10[238]",
         "TimestampClean": "5 December10:35:10",
         "Timestamp": "2008-12-05T10:35:10Z",
         "Tbd": false,
@@ -3817,7 +3841,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 December20:04[245]",
+        "TimestampRaw": "5 December20:04[241]",
         "TimestampClean": "5 December20:04",
         "Timestamp": "2008-12-05T20:04:00Z",
         "Tbd": false,
@@ -3843,7 +3867,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 December20:21[245]",
+        "TimestampRaw": "5 December20:21[241]",
         "TimestampClean": "5 December20:21",
         "Timestamp": "2008-12-05T20:21:00Z",
         "Tbd": false,
@@ -3869,7 +3893,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 December13:43:00[248]",
+        "TimestampRaw": "10 December13:43:00[244]",
         "TimestampClean": "10 December13:43:00",
         "Timestamp": "2008-12-10T13:43:00Z",
         "Tbd": false,
@@ -3895,7 +3919,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 December03:22[250]",
+        "TimestampRaw": "15 December03:22[246]",
         "TimestampClean": "15 December03:22",
         "Timestamp": "2008-12-15T03:22:00Z",
         "Tbd": false,
@@ -3921,7 +3945,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 December22:35[251]",
+        "TimestampRaw": "20 December22:35[247]",
         "TimestampClean": "20 December22:35",
         "Timestamp": "2008-12-20T22:35:00Z",
         "Tbd": false,
@@ -3956,7 +3980,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 December00:54[253]",
+        "TimestampRaw": "23 December00:54[249]",
         "TimestampClean": "23 December00:54",
         "Timestamp": "2008-12-23T00:54:00Z",
         "Tbd": false,
@@ -3982,7 +4006,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 December03:00[254]",
+        "TimestampRaw": "23 December03:00[250]",
         "TimestampClean": "23 December03:00",
         "Timestamp": "2008-12-23T03:00:00Z",
         "Tbd": false,
@@ -4008,7 +4032,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 December10:43[257]",
+        "TimestampRaw": "25 December10:43[253]",
         "TimestampClean": "25 December10:43",
         "Timestamp": "2008-12-25T10:43:00Z",
         "Tbd": false,
