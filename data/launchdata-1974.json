@@ -2,7 +2,7 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
-        "TimestampRaw": "5 January01:45",
+        "TimestampRaw": "5 January01:45[1]",
         "TimestampClean": "5 January01:45",
         "Timestamp": "1974-01-05T01:45:00Z",
         "Tbd": false,
@@ -28,7 +28,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "8 January01:40",
+        "TimestampRaw": "8 January01:40[2]",
         "TimestampClean": "8 January01:40",
         "Timestamp": "1974-01-08T01:40:00Z",
         "Tbd": false,
@@ -54,7 +54,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 January19:12",
+        "TimestampRaw": "12 January19:12[3]",
         "TimestampClean": "12 January19:12",
         "Timestamp": "1974-01-12T19:12:00Z",
         "Tbd": false,
@@ -80,9 +80,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 January",
-        "TimestampClean": "12 January",
-        "Timestamp": "1974-01-12T00:00:00Z",
+        "TimestampRaw": "11 January22:00[4]",
+        "TimestampClean": "11 January22:00",
+        "Timestamp": "1974-01-11T22:00:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -106,7 +106,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 January20:00",
+        "TimestampRaw": "15 January20:00[5]",
         "TimestampClean": "15 January20:00",
         "Timestamp": "1974-01-15T20:00:00Z",
         "Tbd": false,
@@ -132,7 +132,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 January02:00",
+        "TimestampRaw": "16 January02:00[6]",
         "TimestampClean": "16 January02:00",
         "Timestamp": "1974-01-16T02:00:00Z",
         "Tbd": false,
@@ -158,7 +158,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 January17:40",
+        "TimestampRaw": "16 January17:40[2]",
         "TimestampClean": "16 January17:40",
         "Timestamp": "1974-01-16T17:40:00Z",
         "Tbd": false,
@@ -184,7 +184,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 January18:13",
+        "TimestampRaw": "16 January18:13[7]",
         "TimestampClean": "16 January18:13",
         "Timestamp": "1974-01-16T18:13:00Z",
         "Tbd": false,
@@ -210,7 +210,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 January01:40",
+        "TimestampRaw": "16 January[2]01:40",
         "TimestampClean": "16 January01:40",
         "Timestamp": "1974-01-16T01:40:00Z",
         "Tbd": false,
@@ -236,7 +236,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 January02:37",
+        "TimestampRaw": "17 January02:37[2]",
         "TimestampClean": "17 January02:37",
         "Timestamp": "1974-01-17T02:37:00Z",
         "Tbd": false,
@@ -257,7 +257,24 @@
           "Decay": "17 January 1974",
           "Outcome": "Successful",
           "Cubesat": false
-        },
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 January10:07[8]",
+        "TimestampClean": "17 January10:07",
+        "Timestamp": "1974-01-17T10:07:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos 3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk (LC-132/2)",
+      "LaunchServiceProvider": "VKS",
+      "Notes": "",
+      "Payload": [
         {
           "Payload": "Kosmos 628 (Tsiklon)",
           "Operator": "MOM",
@@ -271,9 +288,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 January01:38",
-        "TimestampClean": "19 January01:38",
-        "Timestamp": "1974-01-19T01:38:00Z",
+        "TimestampRaw": "19 January01:39[9]",
+        "TimestampClean": "19 January01:39",
+        "Timestamp": "1974-01-19T01:39:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
