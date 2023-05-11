@@ -6102,7 +6102,7 @@
       "FlightNumber": "FH-004",
       "LaunchSite": "Kennedy LC-39A",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "USSF-44 mission, carrying two primary payloads and multiple CubeSats. LDPE-2 hosts multiple payloads, including Mustang, a small size/weight/power communications experiment; Xenon, a commercial off-the-shelf component maturation for flight at GEO; and Energetic Charged Particle-Lite, an SSC space weather sensor.",
+      "Notes": "USSF-44 mission, carrying two primary payloads and multiple CubeSats. LDPE-2 hosts multiple payloads, including Mustang, a small size/weight/power communications experiment; Xenon, a commercial off-the-shelf component maturation for flight at GEO; and Energetic Charged Particle-Lite, an SSC space weather sensor. The USUVL cubesat separated from an unknwon spacecraft on 9 January 2023.",
       "Payload": [
         {
           "Payload": "LDPE-2",
@@ -6157,12 +6157,21 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
+        },
+        {
+          "Payload": "USUVL (USA-344)",
+          "Operator": "U.S. Space Force",
+          "Orbit": "Geosynchronous",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 November06:47:48[162]",
+        "TimestampRaw": "2 November06:47:48[163]",
         "TimestampClean": "2 November06:47:48",
         "Timestamp": "2022-11-02T06:47:48Z",
         "Tbd": false,
@@ -6188,7 +6197,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 November05:22[163]",
+        "TimestampRaw": "3 November05:22[164]",
         "TimestampClean": "3 November05:22",
         "Timestamp": "2022-11-03T05:22:00Z",
         "Tbd": false,
@@ -6214,7 +6223,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 November17:27[164]",
+        "TimestampRaw": "4 November17:27[165]",
         "TimestampClean": "4 November17:27",
         "Timestamp": "2022-11-04T17:27:00Z",
         "Tbd": false,
@@ -6240,7 +6249,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 November11:50[165]",
+        "TimestampRaw": "5 November11:50[166]",
         "TimestampClean": "5 November11:50",
         "Timestamp": "2022-11-05T11:50:00Z",
         "Tbd": false,
@@ -6266,7 +6275,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 November10:32:42[166]",
+        "TimestampRaw": "7 November10:32:42[167]",
         "TimestampClean": "7 November10:32:42",
         "Timestamp": "2022-11-07T10:32:42Z",
         "Tbd": false,
@@ -6328,7 +6337,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 November09:49:00[171]",
+        "TimestampRaw": "10 November09:49:00[172]",
         "TimestampClean": "10 November09:49:00",
         "Timestamp": "2022-11-10T09:49:00Z",
         "Tbd": false,
@@ -6363,7 +6372,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 November22:52[172]",
+        "TimestampRaw": "11 November22:52[173]",
         "TimestampClean": "11 November22:52",
         "Timestamp": "2022-11-11T22:52:00Z",
         "Tbd": false,
@@ -6389,7 +6398,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 November02:03:12[173]",
+        "TimestampRaw": "12 November02:03:12[174]",
         "TimestampClean": "12 November02:03:12",
         "Timestamp": "2022-11-12T02:03:12Z",
         "Tbd": false,
@@ -6451,7 +6460,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 November16:06:00[185]",
+        "TimestampRaw": "12 November16:06:00[186]",
         "TimestampClean": "12 November16:06:00",
         "Timestamp": "2022-11-12T16:06:00Z",
         "Tbd": false,
@@ -6486,7 +6495,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 November01:38[186]",
+        "TimestampRaw": "15 November01:38[187]",
         "TimestampClean": "15 November01:38",
         "Timestamp": "2022-11-15T01:38:00Z",
         "Tbd": false,
@@ -6512,7 +6521,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 November06:19:59[186]",
+        "TimestampRaw": "16 November06:19:59[187]",
         "TimestampClean": "16 November06:19:59",
         "Timestamp": "2022-11-16T06:19:59Z",
         "Tbd": false,
@@ -6538,7 +6547,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 November06:47:44[187]",
+        "TimestampRaw": "16 November06:47:44[188]",
         "TimestampClean": "16 November06:47:44",
         "Timestamp": "2022-11-16T06:47:44Z",
         "Tbd": false,
@@ -6654,7 +6663,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 November02:57[192]",
+        "TimestampRaw": "23 November02:57[193]",
         "TimestampClean": "23 November02:57",
         "Timestamp": "2022-11-23T02:57:00Z",
         "Tbd": false,
@@ -6680,7 +6689,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November06:26[193]",
+        "TimestampRaw": "26 November06:26[194]",
         "TimestampClean": "26 November06:26",
         "Timestamp": "2022-11-26T06:26:00Z",
         "Tbd": false,
@@ -6742,7 +6751,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November19:20:43[194]",
+        "TimestampRaw": "26 November19:20:43[195]",
         "TimestampClean": "26 November19:20:43",
         "Timestamp": "2022-11-26T19:20:43Z",
         "Tbd": false,
@@ -6867,7 +6876,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 November12:23[210]",
+        "TimestampRaw": "27 November12:23[211]",
         "TimestampClean": "27 November12:23",
         "Timestamp": "2022-11-27T12:23:00Z",
         "Tbd": false,
@@ -6911,7 +6920,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 November15:13:50[211]",
+        "TimestampRaw": "28 November15:13:50[212]",
         "TimestampClean": "28 November15:13:50",
         "Timestamp": "2022-11-28T15:13:50Z",
         "Tbd": false,
@@ -6937,7 +6946,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 November15:08:17[212]",
+        "TimestampRaw": "29 November15:08:17[213]",
         "TimestampClean": "29 November15:08:17",
         "Timestamp": "2022-11-29T15:08:17Z",
         "Tbd": false,
@@ -6963,7 +6972,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 November21:10:25[213]",
+        "TimestampRaw": "30 November21:10:25[214]",
         "TimestampClean": "30 November21:10:25",
         "Timestamp": "2022-11-30T21:10:25Z",
         "Tbd": false,
@@ -6998,7 +7007,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December01:15[215]",
+        "TimestampRaw": "7 December01:15[216]",
         "TimestampClean": "7 December01:15",
         "Timestamp": "2022-12-07T01:15:00Z",
         "Tbd": false,
@@ -7024,7 +7033,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "8 December18:31[216]",
+        "TimestampRaw": "8 December18:31[217]",
         "TimestampClean": "8 December18:31",
         "Timestamp": "2022-12-08T18:31:00Z",
         "Tbd": false,
@@ -7050,7 +7059,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "8 December22:27:48[217]",
+        "TimestampRaw": "8 December22:27:48[218]",
         "TimestampClean": "8 December22:27:48",
         "Timestamp": "2022-12-08T22:27:48Z",
         "Tbd": false,
@@ -7076,7 +7085,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 December06:35:02[219]",
+        "TimestampRaw": "9 December06:35:02[220]",
         "TimestampClean": "9 December06:35:02",
         "Timestamp": "2022-12-09T06:35:02Z",
         "Tbd": false,
@@ -7165,7 +7174,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 December07:38:13[224]",
+        "TimestampRaw": "11 December07:38:13[225]",
         "TimestampClean": "11 December07:38:13",
         "Timestamp": "2022-12-11T07:38:13Z",
         "Tbd": false,
@@ -7218,7 +7227,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 December08:22[229]",
+        "TimestampRaw": "12 December08:22[230]",
         "TimestampClean": "12 December08:22",
         "Timestamp": "2022-12-12T08:22:00Z",
         "Tbd": false,
@@ -7253,7 +7262,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 December20:30:07[230]",
+        "TimestampRaw": "13 December20:30:07[231]",
         "TimestampClean": "13 December20:30:07",
         "Timestamp": "2022-12-13T20:30:07Z",
         "Tbd": false,
@@ -7297,7 +7306,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 December08:30:25[231]",
+        "TimestampRaw": "14 December08:30:25[232]",
         "TimestampClean": "14 December08:30:25",
         "Timestamp": "2022-12-14T08:30:25Z",
         "Tbd": false,
@@ -7323,7 +7332,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 December18:25[232]",
+        "TimestampRaw": "14 December18:25[233]",
         "TimestampClean": "14 December18:25",
         "Timestamp": "2022-12-14T18:25:00Z",
         "Tbd": false,
@@ -7367,7 +7376,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 December06:17[233]",
+        "TimestampRaw": "16 December06:17[234]",
         "TimestampClean": "16 December06:17",
         "Timestamp": "2022-12-16T06:17:00Z",
         "Tbd": false,
@@ -7393,7 +7402,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 December11:46:47[234]",
+        "TimestampRaw": "16 December11:46:47[235]",
         "TimestampClean": "16 December11:46:47",
         "Timestamp": "2022-12-16T11:46:47Z",
         "Tbd": false,
@@ -7419,7 +7428,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 December22:48[235]",
+        "TimestampRaw": "16 December22:48[236]",
         "TimestampClean": "16 December22:48",
         "Timestamp": "2022-12-16T22:48:00Z",
         "Tbd": false,
@@ -7454,7 +7463,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 December21:32:30[236]",
+        "TimestampRaw": "17 December21:32:30[237]",
         "TimestampClean": "17 December21:32:30",
         "Timestamp": "2022-12-17T21:32:30Z",
         "Tbd": false,
@@ -7480,7 +7489,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 December01:47:31[237]",
+        "TimestampRaw": "21 December01:47:31[238]",
         "TimestampClean": "21 December01:47:31",
         "Timestamp": "2022-12-21T01:47:31Z",
         "Tbd": false,
@@ -7515,7 +7524,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 December07:37[238]",
+        "TimestampRaw": "27 December07:37[239]",
         "TimestampClean": "27 December07:37",
         "Timestamp": "2022-12-27T07:37:00Z",
         "Tbd": false,
@@ -7541,7 +7550,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 December09:34[239]",
+        "TimestampRaw": "28 December09:34[240]",
         "TimestampClean": "28 December09:34",
         "Timestamp": "2022-12-28T09:34:00Z",
         "Tbd": false,
@@ -7567,7 +7576,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December04:43[240]",
+        "TimestampRaw": "29 December04:43[241]",
         "TimestampClean": "29 December04:43",
         "Timestamp": "2022-12-29T04:43:00Z",
         "Tbd": false,
@@ -7593,7 +7602,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 December07:38[241]",
+        "TimestampRaw": "30 December07:38[242]",
         "TimestampClean": "30 December07:38",
         "Timestamp": "2022-12-30T07:38:00Z",
         "Tbd": false,
