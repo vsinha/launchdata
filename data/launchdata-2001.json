@@ -1317,47 +1317,81 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "time=21:21",
-        "TimestampClean": "time=21:21",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "5 October21:21",
+        "TimestampClean": "5 October21:21",
+        "Timestamp": "2001-10-05T21:21:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2001 time=21:21",
-          "LayoutElem": "2",
-          "ValueElem": "time=21:21",
-          "Message": ""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "rocket=Template:Flagico",
-      "FlightNumber": "Atlas IIAS",
-      "LaunchSite": "Atlas IIAS",
-      "LaunchServiceProvider": "Cape Canaveral SLC-36B",
+      "Rocket": "Titan IVB (404)",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchServiceProvider": "Lockheed Martin",
       "Notes": "",
-      "Payload": null
+      "Payload": [
+        {
+          "Payload": "EIS-2 (USA-161)",
+          "Operator": "NRO",
+          "Orbit": "Sun-synchronous",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "",
-        "TimestampClean": "",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "6 October16:45",
+        "TimestampClean": "6 October16:45",
+        "Timestamp": "2001-10-06T16:45:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2001 ",
-          "LayoutElem": "2",
-          "ValueElem": "",
-          "Message": ""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Aquila (USA-162)",
-      "FlightNumber": "NRO",
-      "LaunchSite": "Geosynchronous",
-      "LaunchServiceProvider": "In orbit",
+      "Rocket": "Proton-K/DM-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81",
+      "LaunchServiceProvider": "VKS",
       "Notes": "",
-      "Payload": null
+      "Payload": [
+        {
+          "Payload": "Raduga-1",
+          "Operator": "VKS",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 October02:32",
+        "TimestampClean": "11 October02:32",
+        "Timestamp": "2001-10-11T02:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas IIAS",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Aquila (USA-162)",
+          "Operator": "NRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
     },
     {
       "Timestamp": {
