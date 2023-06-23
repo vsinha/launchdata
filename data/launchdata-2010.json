@@ -1924,7 +1924,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Feng Yun 3B",
+          "Payload": "Fengyun 3B",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Meteorology",
@@ -2011,19 +2011,19 @@
           "Cubesat": false
         },
         {
-          "Payload": "RAX",
-          "Operator": "University of Michigan",
+          "Payload": "O/OREOS",
+          "Operator": "NASA AMES",
           "Orbit": "Low Earth",
-          "Function": "Auroral",
+          "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
         },
         {
-          "Payload": "O/OREOS",
-          "Operator": "NASA AMES",
+          "Payload": "RAX",
+          "Operator": "University of Michigan",
           "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
+          "Function": "Auroral",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -2047,15 +2047,6 @@
           "Cubesat": true
         },
         {
-          "Payload": "FalconSat-5",
-          "Operator": "USAFA",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
           "Payload": "Sara-Lily (FASTRAC 1)",
           "Operator": "Texas",
           "Orbit": "Low Earth",
@@ -2067,6 +2058,15 @@
         {
           "Payload": "Emma (FASTRAC 2)",
           "Operator": "UT Austin",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "USA-221 / FalconSat-5",
+          "Operator": "USAFA",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -2088,10 +2088,10 @@
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-37B",
       "LaunchServiceProvider": "United Launch Alliance",
-      "Notes": "NRO launch 32",
+      "Notes": "NROL-32 mission.",
       "Payload": [
         {
-          "Payload": "USA-223 (Mentor)",
+          "Payload": "USA-223 / Orion 7",
           "Operator": "NRO",
           "Orbit": "Geosynchronous",
           "Function": "Reconnaissance",
