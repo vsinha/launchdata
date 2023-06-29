@@ -1020,11 +1020,11 @@
           "Cubesat": false
         },
         {
-          "Payload": "TOKI",
-          "Operator": "KIT",
+          "Payload": "BRAC ONNESHA",
+          "Operator": "BRACU",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
-          "Decay": "3 May 2019",
+          "Decay": "6 May 2019",
           "Outcome": "Successful",
           "Cubesat": true
         },
@@ -1047,20 +1047,20 @@
           "Cubesat": true
         },
         {
-          "Payload": "BRAC ONNESHA",
-          "Operator": "BRACU",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "6 May 2019",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
           "Payload": "Nigeria EduSat-1",
           "Operator": "FUTA",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "13 May 2019",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "TOKI",
+          "Operator": "KIT",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "3 May 2019",
           "Outcome": "Successful",
           "Cubesat": true
         }
@@ -1143,6 +1143,15 @@
           "Cubesat": false
         },
         {
+          "Payload": "Sfera-53 2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration target",
+          "Decay": "29 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
           "Payload": "Tanyusha-YuZGU 1",
           "Operator": "South-West State University",
           "Orbit": "Low Earth",
@@ -1157,15 +1166,6 @@
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "8 September 2019",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Sfera-53 2",
-          "Operator": "",
-          "Orbit": "Low Earth",
-          "Function": "Radar calibration target",
-          "Decay": "29 November 2018",
           "Outcome": "Successful",
           "Cubesat": false
         },
@@ -1290,7 +1290,7 @@
       "FlightNumber": "C38",
       "LaunchSite": "Satish Dhawan FLP",
       "LaunchServiceProvider": "ISRO",
-      "Notes": "Venta-1 was the first Latvian satellite.",
+      "Notes": "Venta-1 was the first Latvian satellite. COMPASS-2, InflateSail, LithuanicaSAT-2, NUDTSat, Pegasus, UCLSat, URSA MAIOR and VZLUSat-2 are part of the QB-50 project led by Von Karman Institute to create a network of cubesats conducting measurements of Earth's lower termosphere and ionosphere.",
       "Payload": [
         {
           "Payload": "Cartosat-2E",
@@ -1302,16 +1302,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "NIUSAT",
-          "Operator": "Noorul Islam University",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "CE-SAT-1",
+          "Payload": "CE-SAT 1",
           "Operator": "Canon",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -1329,6 +1320,15 @@
           "Cubesat": false
         },
         {
+          "Payload": "NIUSAT",
+          "Operator": "Noorul Islam University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "Venta-1",
           "Operator": "Ventspils University College",
           "Orbit": "Low Earth (SSO)",
@@ -1338,10 +1338,10 @@
           "Cubesat": false
         },
         {
-          "Payload": "D-SAT",
-          "Operator": "D-Orbit",
+          "Payload": "Aalto-1",
+          "Operator": "Aalto University",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
+          "Function": "Earth observation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -1374,43 +1374,16 @@
           "Cubesat": true
         },
         {
-          "Payload": "Pegasus QB-50",
-          "Operator": "FH Wiener Neustadt",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Thermosphere research",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "InflateSail QB-50",
-          "Operator": "University of Surrey",
+          "Payload": "CICERO-6",
+          "Operator": "GeoOptics Inc",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
-          "Decay": "3 September 201701:27",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "UCLSat QB-50",
-          "Operator": "University College London",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Ionosphere research",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
         },
         {
-          "Payload": "NUDTSat QB-50",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Ionosphere research",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "COMPASS-2 QB-50",
+          "Payload": "COMPASS-2",
           "Operator": "FH Aachen",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -1419,7 +1392,34 @@
           "Cubesat": true
         },
         {
-          "Payload": "Lituanica SAT-2 QB-50",
+          "Payload": "D-SAT",
+          "Operator": "D-Orbit",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "InflateSail",
+          "Operator": "University of Surrey",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "3 September 201701:27",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-2 × 8",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "LituanicaSAT-2",
           "Operator": "Vilnius University",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -1428,26 +1428,8 @@
           "Cubesat": true
         },
         {
-          "Payload": "URSA MAIOR QB-50",
-          "Operator": "Sapienza University",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Thermosphere research",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "VZLUSat-1 QB-50",
-          "Operator": "VZLU",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Thermosphere research",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "SUCHAI-1",
-          "Operator": "University of Chile",
+          "Payload": "NUDTSat",
+          "Operator": "NUDT",
           "Orbit": "Low Earth (SSO)",
           "Function": "Ionosphere research",
           "Decay": "In orbit",
@@ -1455,10 +1437,10 @@
           "Cubesat": true
         },
         {
-          "Payload": "Aalto-1",
-          "Operator": "Aalto University",
+          "Payload": "Pegasus",
+          "Operator": "FH Wiener Neustadt",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
+          "Function": "Thermosphere research",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -1482,10 +1464,10 @@
           "Cubesat": true
         },
         {
-          "Payload": "CICERO-6",
-          "Operator": "GeoOptics Inc",
+          "Payload": "SUCHAI-1",
+          "Operator": "University of Chile",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
+          "Function": "Ionosphere research",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -1500,10 +1482,28 @@
           "Cubesat": true
         },
         {
-          "Payload": "Lemur-2 × 8",
-          "Operator": "Spire Global",
+          "Payload": "UCLSat",
+          "Operator": "University College London",
           "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
+          "Function": "Ionosphere research",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "URSA MAIOR",
+          "Operator": "Sapienza University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Thermosphere research",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "VZLUSat-1",
+          "Operator": "VZLU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Thermosphere research",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
@@ -1864,7 +1864,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 July[92]15:41[93]",
+        "TimestampRaw": "28 July[93]15:41[94]",
         "TimestampClean": "28 July15:41",
         "Timestamp": "2017-07-28T15:41:00Z",
         "Tbd": false,
@@ -2691,7 +2691,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 November12:19:51[114]",
+        "TimestampRaw": "12 November12:19:51[115]",
         "TimestampClean": "12 November12:19:51",
         "Timestamp": "2017-11-12T12:19:51Z",
         "Tbd": false,
@@ -2983,7 +2983,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 November05:41:46[93]",
+        "TimestampRaw": "28 November05:41:46[94]",
         "TimestampClean": "28 November05:41:46",
         "Timestamp": "2017-11-28T05:41:46Z",
         "Tbd": false,
@@ -3133,7 +3133,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 December16:41 [137]",
+        "TimestampRaw": "10 December16:41 [138]",
         "TimestampClean": "10 December16:41 ",
         "Timestamp": "2017-12-10T16:41:00Z",
         "Tbd": false,
@@ -3237,7 +3237,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 December01:26:22[139]",
+        "TimestampRaw": "23 December01:26:22[140]",
         "TimestampClean": "23 December01:26:22",
         "Timestamp": "2017-12-23T01:26:22Z",
         "Tbd": false,
@@ -3272,7 +3272,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 December01:27:23[93]",
+        "TimestampRaw": "23 December01:27:23[94]",
         "TimestampClean": "23 December01:27:23",
         "Timestamp": "2017-12-23T01:27:23Z",
         "Tbd": false,
@@ -3298,7 +3298,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 December04:14[142]",
+        "TimestampRaw": "23 December04:14[143]",
         "TimestampClean": "23 December04:14",
         "Timestamp": "2017-12-23T04:14:00Z",
         "Tbd": false,
