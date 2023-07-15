@@ -2055,15 +2055,33 @@
       "FlightNumber": "M1",
       "LaunchSite": "Satish Dhawan SLP",
       "LaunchServiceProvider": "ISRO",
-      "Notes": "The lander crashed on the lunar surface and broke into pieces during powered descent. The Orbiter remains operational.",
+      "Notes": "Chandrayaan-2 Mission.The lander crashed on the lunar surface and broke into pieces during powered descent. The Orbiter remains operational.",
       "Payload": [
         {
-          "Payload": "Chandrayaan-2 / Vikram / Pragyan",
+          "Payload": "Chandrayaan-2",
           "Operator": "ISRO",
           "Orbit": "Selenocentric",
-          "Function": "Lunar orbiter, lander and rover",
+          "Function": "Lunar orbiter",
           "Decay": "In orbit",
           "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Vikram",
+          "Operator": "ISRO",
+          "Orbit": "Selenocentric",
+          "Function": "lander",
+          "Decay": "In orbit",
+          "Outcome": "Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Pragyan",
+          "Operator": "ISRO",
+          "Orbit": "Selenocentric",
+          "Function": "rover",
+          "Decay": "In orbit",
+          "Outcome": "Failure",
           "Cubesat": false
         }
       ]
