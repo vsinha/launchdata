@@ -250,7 +250,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Intelsat 504",
+          "Payload": "Intelsat VD F-4",
           "Operator": "Intelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1503,12 +1503,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 September23:17",
-        "TimestampClean": "28 September23:17",
-        "Timestamp": "1982-09-28T23:17:00Z",
+        "TimestampRaw": "28 September23:17[1][lower-alpha 1]",
+        "TimestampClean": "28 September23:17[lower-alpha 1]",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1982 28 September23:17[lower-alpha 1]",
+          "LayoutElem": "",
+          "ValueElem": "23:17[lower-alpha 1]",
+          "Message": ": extra text: \"23:17[lower-alpha 1]\""
+        }
       },
       "Rocket": "Atlas-Centaur SLV-3D",
       "FlightNumber": "",
@@ -1517,7 +1523,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Intelsat 505",
+          "Payload": "Intelsat V F-5",
           "Operator": "Intelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1901,7 +1907,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1427(Tafun-1B class)",
+          "Payload": "Kosmos 1427 (Tafun-1B class)",
           "Operator": "military",
           "Orbit": "LEO, inclination 65.8 degrees",
           "Function": "Radar target",
