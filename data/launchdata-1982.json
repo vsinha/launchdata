@@ -566,6 +566,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "5 May08:01[1]",
+        "TimestampClean": "5 May08:01",
+        "Timestamp": "1982-05-05T08:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1356 (Tselina-D No.35)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "CommunicationNavigation",
+          "Decay": "8 July 2023",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "6 May18:07[1]",
         "TimestampClean": "6 May18:07",
         "Timestamp": "1982-05-06T18:07:00Z",
@@ -872,7 +898,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 June00:24[21]",
+        "TimestampRaw": "9 June00:24[23]",
         "TimestampClean": "9 June00:24",
         "Timestamp": "1982-06-09T00:24:00Z",
         "Tbd": false,
@@ -1272,7 +1298,7 @@
           "Operator": "military",
           "Orbit": "LEO, inclination 65.0 degrees",
           "Function": "Reconnaissance",
-          "Decay": "23 January 1983 (bus), 7 February 1983 (nuclear core)",
+          "Decay": "23 January 1983 (bus)7 February 1983 (nuclear core)",
           "Outcome": "Successful",
           "Cubesat": false
         }
