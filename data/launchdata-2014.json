@@ -530,7 +530,7 @@
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3E",
       "LaunchServiceProvider": "United Launch Alliance",
-      "Notes": "",
+      "Notes": "The spacecraft stopped responding to commands on 11 February 2016 due to a power failure affecting an encrypted command-and-control system.",
       "Payload": [
         {
           "Payload": "USA-249 (DMSP-5D3 F19)",
@@ -538,7 +538,7 @@
           "Orbit": "Low Earth (SSO)",
           "Function": "Meteorology",
           "Decay": "In orbit",
-          "Outcome": "Spacecraft failure (11 February 2016)",
+          "Outcome": "Spacecraft failure",
           "Cubesat": false
         }
       ]
@@ -660,7 +660,7 @@
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-41",
       "LaunchServiceProvider": "United Launch Alliance",
-      "Notes": "NRO Launch 67",
+      "Notes": "NROL-67 mission.",
       "Payload": [
         {
           "Payload": "USA-250 (NRO L-67)",
@@ -712,7 +712,7 @@
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
-      "Notes": "KickSat carried and failed to deploy 104 femtosatellites in low Earth orbit.",
+      "Notes": "The ELaNa 5 mission, consisting of 5 cubesats, was launched on this flight. KickSat carried and failed to deploy 104 femtosatellites in low Earth orbit.",
       "Payload": [
         {
           "Payload": "SpaceX CRS-3",
@@ -724,40 +724,22 @@
           "Cubesat": false
         },
         {
+          "Payload": "ALL-STAR/THEIA",
+          "Operator": "Colorado / ALL-STAR",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "26 May 2014",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": true
+        },
+        {
           "Payload": "KickSat",
           "Operator": "KickSat / Cornell",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "14 May 201401:30",
           "Outcome": "Spacecraft failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "ALL-STAR/THEIA",
-          "Operator": "Colorado / ALL-STAR",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "26 May 2014",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "SporeSat",
-          "Operator": "NASA Ames / Purdue",
-          "Orbit": "Low Earth",
-          "Function": "Life sciences",
-          "Decay": "4 June 2014",
-          "Outcome": "",
-          "Cubesat": false
-        },
-        {
-          "Payload": "TestSat-Lite",
-          "Operator": "Taylor University",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "28 May 2014",
-          "Outcome": "",
-          "Cubesat": false
+          "Cubesat": true
         },
         {
           "Payload": "PhoneSat 2.5",
@@ -766,7 +748,25 @@
           "Function": "Technology demonstration",
           "Decay": "15 May 2014",
           "Outcome": "",
-          "Cubesat": false
+          "Cubesat": true
+        },
+        {
+          "Payload": "SporeSat 1",
+          "Operator": "NASA Ames / Purdue",
+          "Orbit": "Low Earth",
+          "Function": "Life sciences",
+          "Decay": "4 June 2014",
+          "Outcome": "",
+          "Cubesat": true
+        },
+        {
+          "Payload": "TestSat-Lite",
+          "Operator": "Taylor University",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "28 May 2014",
+          "Outcome": "",
+          "Cubesat": true
         }
       ]
     },
@@ -800,7 +800,7 @@
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Outcome": "Spacecraft failure",
           "Cubesat": false
         }
       ]
