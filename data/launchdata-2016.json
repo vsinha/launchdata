@@ -1744,7 +1744,7 @@
         }
       },
       "Rocket": "Falcon 9 Full Thrust",
-      "FlightNumber": "—",
+      "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "SpaceX",
       "Notes": "Launch pad explosion destroyed both the rocket and the satellite two days prior to scheduled launch, on 13:07, 1 September 2016 (UTC) (2016-09-01T13:07Z).",
@@ -1933,6 +1933,33 @@
           "Cubesat": false
         },
         {
+          "Payload": "Alsat-1B",
+          "Operator": "Algerian Space Agency",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Alsat-2B",
+          "Operator": "Algerian Space Agency",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Blacksky Pathfinder-1",
+          "Operator": "BlackSky Global",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "Pratham",
           "Operator": "IIT Bombay",
           "Orbit": "Low Earth (SSO)",
@@ -1951,15 +1978,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "Blacksky Pathfinder-1",
-          "Operator": "BlackSky Global",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
           "Payload": "Alsat-1N",
           "Operator": "Algerian Space Agency",
           "Orbit": "Low Earth (SSO)",
@@ -1967,24 +1985,6 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": true
-        },
-        {
-          "Payload": "Alsat-1B",
-          "Operator": "Algerian Space Agency",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Alsat-2B",
-          "Operator": "Algerian Space Agency",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
         },
         {
           "Payload": "CanX-7",
