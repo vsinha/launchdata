@@ -2955,7 +2955,7 @@
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3E",
       "LaunchServiceProvider": "United Launch Alliance",
-      "Notes": "NRO Launch 39",
+      "Notes": "NROL-39 mission.",
       "Payload": [
         {
           "Payload": "USA-247 (Topaz)",
@@ -2967,8 +2967,71 @@
           "Cubesat": false
         },
         {
+          "Payload": "AeroCube-5A",
+          "Operator": "The Aerospace Corporation",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "19 April 2023",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "AeroCube-5B",
+          "Operator": "The Aerospace Corporation",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "23 November 2022",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
           "Payload": "ALICE",
           "Operator": "AFIT",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "CUNYSAT 1",
+          "Operator": "CUNY",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "FIREBIRD A",
+          "Operator": "Montana State",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "FIREBIRD B",
+          "Operator": "Montana State",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "IPEX",
+          "Operator": "NASA JPL",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "M-Cubed 2",
+          "Operator": "Michigan",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -3005,69 +3068,6 @@
         {
           "Payload": "TacSat-6",
           "Operator": "ORS",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "FIREBIRD A",
-          "Operator": "Montana State",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "FIREBIRD B",
-          "Operator": "Montana State",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AeroCube-5A",
-          "Operator": "The Aerospace Corporation",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "AeroCube-5B",
-          "Operator": "The Aerospace Corporation",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "23 November 2022",
-          "Outcome": "Successful",
-          "Cubesat": true
-        },
-        {
-          "Payload": "CUNYSAT 1",
-          "Operator": "CUNY",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "IPEX",
-          "Operator": "NASA JPL",
-          "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "M-Cubed 2",
-          "Operator": "Michigan",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
