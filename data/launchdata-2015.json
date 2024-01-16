@@ -1738,8 +1738,8 @@
       "Notes": "Maiden flight of the Long March 6 vehicle.",
       "Payload": [
         {
-          "Payload": "ZDPS-2A",
-          "Operator": "ZJU",
+          "Payload": "LilacSat-2",
+          "Operator": "HIT",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1747,8 +1747,62 @@
           "Cubesat": false
         },
         {
-          "Payload": "ZDPS-2B",
-          "Operator": "ZJU",
+          "Payload": "NS-2",
+          "Operator": "Tsinghua University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "NUDT-PhoneSat",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "29 March 2023",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Tiantuo-3",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Xingchen 1",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Xingchen 2",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Xingchen 3",
+          "Operator": "NUDT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Xingchen 4",
+          "Operator": "NUDT",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1760,8 +1814,8 @@
           "Operator": "CAMSAT",
           "Orbit": "Low Earth (SSO)",
           "Function": "Amateur radio",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Decay": "25 April 2023",
+          "Outcome": "Successful",
           "Cubesat": false
         },
         {
@@ -1819,17 +1873,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "DCBB",
-          "Operator": "CAMSAT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Education",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
-        },
-        {
-          "Payload": "LilacSat-2",
-          "Operator": "HIT",
+          "Payload": "ZDPS-2A",
+          "Operator": "ZJU",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1837,62 +1882,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "Tiantuo-3",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "NUDT-PhoneSat",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "29 March 2023",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Xingchen 1",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Xingchen 2",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Xingchen 3",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Xingchen 4",
-          "Operator": "NUDT",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "NS-2",
-          "Operator": "Tsinghua University",
+          "Payload": "ZDPS-2B",
+          "Operator": "ZJU",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1916,6 +1907,15 @@
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
+        },
+        {
+          "Payload": "DCBB",
+          "Operator": "CAMSAT",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Education",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
         }
       ]
     },
