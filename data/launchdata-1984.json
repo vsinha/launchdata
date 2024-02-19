@@ -515,6 +515,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "26 July18:05",
+        "TimestampClean": "26 July18:05",
+        "Timestamp": "1984-07-26T18:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Sonda III",
+      "FlightNumber": "",
+      "LaunchSite": "Barreira do Inferno Launch Center",
+      "LaunchServiceProvider": "IAE",
+      "Notes": "688 km downrange. 565 km perigee. 12m40s. 17th Sonda III launch.",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "IAE",
+          "Orbit": "Suborbital",
+          "Function": "Engineering test",
+          "Decay": "26 July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "4 August13:32",
         "TimestampClean": "4 August13:32",
         "Timestamp": "1984-08-04T13:32:00Z",
@@ -815,6 +841,32 @@
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 November",
+        "TimestampClean": "21 November",
+        "Timestamp": "1984-11-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Sonda IV",
+      "FlightNumber": "",
+      "LaunchSite": "Barreira do Inferno Launch Center",
+      "LaunchServiceProvider": "CTA",
+      "Notes": "600 km perigee. 1th Sonda IV launch.",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "CTA",
+          "Orbit": "Suborbital",
+          "Function": "Engineering test",
+          "Decay": "21 November",
           "Outcome": "Successful",
           "Cubesat": false
         }
