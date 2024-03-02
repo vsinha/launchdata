@@ -28,6 +28,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "29 February03:30:00",
+        "TimestampClean": "29 February03:30:00",
+        "Timestamp": "1976-02-29T03:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "N-I",
+      "FlightNumber": "",
+      "LaunchSite": "Tanegashima LA-N",
+      "LaunchServiceProvider": "",
+      "Notes": "First launch completed on February 29",
+      "Payload": [
+        {
+          "Payload": "Ionospheric Sounding Satellite (ISS) Ume",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Ionospheric",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "15 March01:25:40[1]",
         "TimestampClean": "15 March01:25:40",
         "Timestamp": "1976-03-15T01:25:40Z",
