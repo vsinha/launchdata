@@ -1648,39 +1648,12 @@
       "Notes": "Meteor M-1 was a replacement for Meteor-3M No.1. IRIS intentionally remained attached to upper stage.",
       "Payload": [
         {
-          "Payload": "Meteor M-1",
+          "Payload": "Meteor-M No.1",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (SSO)",
           "Function": "Meteorology",
           "Decay": "In orbit",
           "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Universitetsky-Tatyana-2",
-          "Operator": "MSU",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Spacecraft failure; Partial success",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Sterkh-2",
-          "Operator": "Roscosmos",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "CommunicationsSearch and rescue",
-          "Decay": "In orbit",
-          "Outcome": "Spacecraft failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "UGATUSAT",
-          "Operator": "UGATU",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Earth observation",
-          "Decay": "In orbit",
-          "Outcome": "Spacecraft failure",
           "Cubesat": false
         },
         {
@@ -1693,6 +1666,24 @@
           "Cubesat": false
         },
         {
+          "Payload": "IRIS",
+          "Operator": "NPO Lavochkin / EADS Astrium",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "12 March 2021",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Sterkh-2",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "CommunicationsSearch and rescue",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
           "Payload": "SumbandilaSat",
           "Operator": "Stellenbosch",
           "Orbit": "Low Earth (SSO)",
@@ -1702,12 +1693,21 @@
           "Cubesat": false
         },
         {
-          "Payload": "IRIS",
-          "Operator": "NPO Lavochkin / EADS Astrium",
+          "Payload": "UGATUSAT",
+          "Operator": "UGATU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Universitetsky-Tatyana-2",
+          "Operator": "MSU",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
-          "Decay": "12 March 2021",
-          "Outcome": "Successful",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure; Partial success",
           "Cubesat": false
         }
       ]
@@ -1763,17 +1763,26 @@
           "Cubesat": false
         },
         {
-          "Payload": "BeeSat",
-          "Operator": "TU Berlin",
+          "Payload": "Rubin 9.1",
+          "Operator": "OHB-System",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": true
+          "Outcome": "Successful",
+          "Cubesat": false
         },
         {
-          "Payload": "UWE-2",
-          "Operator": "Würzburg",
+          "Payload": "Rubin 9.2",
+          "Operator": "OHB-System",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "BeeSat-1",
+          "Operator": "TU Berlin",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1799,22 +1808,13 @@
           "Cubesat": true
         },
         {
-          "Payload": "Rubin 9.1",
-          "Operator": "OHB-System",
+          "Payload": "UWE-2",
+          "Operator": "Würzburg",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Rubin 9.2",
-          "Operator": "OHB-System",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Successful",
-          "Cubesat": false
+          "Outcome": "Operational",
+          "Cubesat": true
         }
       ]
     },
