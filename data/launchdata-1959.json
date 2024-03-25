@@ -28,25 +28,77 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 January11:00",
-        "TimestampClean": "10 January11:00",
-        "Timestamp": "1959-01-10T11:00:00Z",
+        "TimestampRaw": "21 January",
+        "TimestampClean": "21 January",
+        "Timestamp": "1959-01-21T00:00:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "A-1",
+      "Rocket": "Thor-DM18 Agena-A",
       "FlightNumber": "",
-      "LaunchSite": "Ostrov Kheysa",
-      "LaunchServiceProvider": "MVS",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
+      "LaunchSite": "Vandenberg LC-75-3-4",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "MVS",
-          "Orbit": "Suborbital",
-          "Function": "IonosphericAeronomy",
-          "Decay": "10 January",
+          "Payload": "Discoverer 1",
+          "Operator": "ARPA",
+          "Orbit": "Low Earth (Polar)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Launch Precluded",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 February15:55",
+        "TimestampClean": "17 February15:55",
+        "Timestamp": "1959-02-17T15:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vanguard",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-18A",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "Transmitted data for 19 days, poor quality data returned due to uncontrolled rotation of spacecraft",
+      "Payload": [
+        {
+          "Payload": "Vanguard 2 (20in Cloud Cover 2)",
+          "Operator": "NRL",
+          "Orbit": "Medium Earth",
+          "Function": "Atmospheric",
+          "Decay": "In orbit",
+          "Outcome": "Partial spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 February21:41:16",
+        "TimestampClean": "28 February21:41:16",
+        "Timestamp": "1959-02-28T21:41:16Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-4",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Maiden flight of Thor-Agena, first spacecraft to be placed in polar orbit",
+      "Payload": [
+        {
+          "Payload": "Discoverer 1 (KH-1 prototype)",
+          "Operator": "CIA DST",
+          "Orbit": "Low Earth (Polar)",
+          "Function": "Technology",
+          "Decay": "6 March",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -54,77 +106,242 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 January04:00",
-        "TimestampClean": "16 January04:00",
-        "Timestamp": "1959-01-16T04:00:00Z",
+        "TimestampRaw": "3 March05:10:56",
+        "TimestampClean": "3 March05:10:56",
+        "Timestamp": "1959-03-03T05:10:56Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "SM-65B Atlas",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-14",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "16 January",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "19 January15:42",
-        "TimestampClean": "19 January15:42",
-        "Timestamp": "1959-01-19T15:42:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "UGM-27 Polaris AX",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-25A",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "Apogee: 200 kilometres (120 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "19 January",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 January00:10",
-        "TimestampClean": "22 January00:10",
-        "Timestamp": "1959-01-22T00:10:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "PGM-19 Jupiter",
+      "Rocket": "Juno II",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-5",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 500 kilometres (310 mi)",
+      "LaunchServiceProvider": "ABMA",
+      "Notes": "Second stage burned for longer than planned, resulting in more distant flyby than planned",
       "Payload": [
         {
-          "Payload": "",
+          "Payload": "Pioneer 4",
+          "Operator": "NASA/ABMA",
+          "Orbit": "Heliocentric",
+          "Function": "Lunar flyby",
+          "Decay": "In orbit",
+          "Outcome": "Partial launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 April21:18:39",
+        "TimestampClean": "13 April21:18:39",
+        "Timestamp": "1959-04-13T21:18:39Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-4",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Capsule recovery failed due to timer error. May have been recovered by the Soviet Union, inspiring plot of 1963 Alistair MacLean novel Ice Station Zebra",
+      "Payload": [
+        {
+          "Payload": "Discoverer 2 (KH-1 prototype)",
+          "Operator": "CIA DST",
+          "Orbit": "Low Earth",
+          "Function": "Technology",
+          "Decay": "26 April",
+          "Outcome": "Partial spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 April02:49:46",
+        "TimestampClean": "14 April02:49:46",
+        "Timestamp": "1959-04-14T02:49:46Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vanguard",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-18A",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "Second stage damaged during separation, failed to reach orbit, first launch of multiple satellites on a single rocket",
+      "Payload": [
+        {
+          "Payload": "20in Radiation Balance 1",
+          "Operator": "NRL",
+          "Orbit": "Intended: Medium Earth",
+          "Function": "Radiation",
+          "Decay": "14 April",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Vanguard Balloon",
+          "Operator": "NRL",
+          "Orbit": "Intended: Medium Earth",
+          "Function": "Air density",
+          "Decay": "14 April",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 June20:09:20",
+        "TimestampClean": "3 June20:09:20",
+        "Timestamp": "1959-06-03T20:09:20Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-4",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Loss of signal after upper stage ignition",
+      "Payload": [
+        {
+          "Payload": "Discoverer 3 (KH-1 Prototype)",
+          "Operator": "CIA DST",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Technology",
+          "Decay": "3 June",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 June08:08",
+        "TimestampClean": "18 June08:08",
+        "Timestamp": "1959-06-18T08:08:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Luna 8K72",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "MVS",
+      "Notes": "Internal guidance system failed 153 seconds after launch",
+      "Payload": [
+        {
+          "Payload": "Luna E-1A No.1",
+          "Operator": "MVS",
+          "Orbit": "Intended: Heliocentric",
+          "Function": "Lunar impactor",
+          "Decay": "18 June",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 June20:16:09",
+        "TimestampClean": "22 June20:16:09",
+        "Timestamp": "1959-06-22T20:16:09Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vanguard",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-18A",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "Second stage propulsion system malfunctioned, failed to reach orbit",
+      "Payload": [
+        {
+          "Payload": "20in Radiation Balance",
+          "Operator": "NRL",
+          "Orbit": "Intended: Medium Earth",
+          "Function": "Radiation",
+          "Decay": "22 June",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 June22:47:45",
+        "TimestampClean": "25 June22:47:45",
+        "Timestamp": "1959-06-25T22:47:45Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-5",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Upper stage underperformed, failed to reach orbit",
+      "Payload": [
+        {
+          "Payload": "Discoverer 4 (KH-1) 9001",
+          "Operator": "CIA DST",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Optical imaging",
+          "Decay": "25 June",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 July17:37:03",
+        "TimestampClean": "16 July17:37:03",
+        "Timestamp": "1959-07-16T17:37:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Juno II",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-5",
+      "LaunchServiceProvider": "ABMA",
+      "Notes": "Destroyed by range safety after rocket went out of control",
+      "Payload": [
+        {
+          "Payload": "Explorer S-6",
+          "Operator": "NASA",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Scientific",
+          "Decay": "+5.5 seconds",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 August14:24:20",
+        "TimestampClean": "7 August14:24:20",
+        "Timestamp": "1959-08-07T14:24:20Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Able-III",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Explorer 6",
           "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "22 January",
+          "Orbit": "Highly elliptical",
+          "Function": "RadiationImaging",
+          "Decay": "30 June 1961",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -132,9 +349,113 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 January",
-        "TimestampClean": "23 January",
-        "Timestamp": "1959-01-23T00:00:00Z",
+        "TimestampRaw": "13 August19:00:08",
+        "TimestampClean": "13 August19:00:08",
+        "Timestamp": "1959-08-13T19:00:08Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-4",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Electrical system malfunction. Deorbit burn conducted in incorrect direction, raising orbit",
+      "Payload": [
+        {
+          "Payload": "Discoverer 5 (KH-1 9002)",
+          "Operator": "CIA DST",
+          "Orbit": "Low Earth",
+          "Function": "Optical imaging",
+          "Decay": "11 February 1961",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 August00:31:00",
+        "TimestampClean": "15 August00:31:00",
+        "Timestamp": "1959-08-15T00:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Juno II",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-26B",
+      "LaunchServiceProvider": "ABMA",
+      "Notes": "Premature cutoff of first stage, failed to reach orbit",
+      "Payload": [
+        {
+          "Payload": "Beacon 2",
+          "Operator": "NASA/US Army",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Technology",
+          "Decay": "15 August",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 August19:24:44",
+        "TimestampClean": "19 August19:24:44",
+        "Timestamp": "1959-08-19T19:24:44Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-5",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Retrorocket malfunctioned",
+      "Payload": [
+        {
+          "Payload": "Discoverer 6 (KH-1 9003)",
+          "Operator": "CIA DST",
+          "Orbit": "Low Earth",
+          "Function": "Optical imaging",
+          "Decay": "20 October",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 September06:39:42",
+        "TimestampClean": "12 September06:39:42",
+        "Timestamp": "1959-09-12T06:39:42Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Luna 8K72",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "MVS",
+      "Notes": "First spacecraft to reach the surface of the Moon",
+      "Payload": [
+        {
+          "Payload": "Luna 2 (E-1A-2)",
+          "Operator": "MVS",
+          "Orbit": "Heliocentric",
+          "Function": "Lunar impactor",
+          "Decay": "14 September22:02",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 September14:34",
+        "TimestampClean": "17 September14:34",
+        "Timestamp": "1959-09-17T14:34:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -143,14 +464,14 @@
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
       "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
+      "Notes": "Third stage malfunctioned",
       "Payload": [
         {
-          "Payload": "RVX-1",
+          "Payload": "Transit 1A",
           "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "REV test",
-          "Decay": "23 January",
+          "Orbit": "Intended: Low Earth",
+          "Function": "NavigationTechnology",
+          "Decay": "17 September",
           "Outcome": "Launch failure",
           "Cubesat": false
         }
@@ -158,25 +479,77 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 January17:00",
-        "TimestampClean": "27 January17:00",
-        "Timestamp": "1959-01-27T17:00:00Z",
+        "TimestampRaw": "18 September05:20:07",
+        "TimestampClean": "18 September05:20:07",
+        "Timestamp": "1959-09-18T05:20:07Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Daniel",
+      "Rocket": "Vanguard/Altair",
       "FlightNumber": "",
-      "LaunchSite": "CERES",
-      "LaunchServiceProvider": "ONERA",
-      "Notes": "Apogee: 127 kilometres (79 mi)",
+      "LaunchSite": "Cape Canaveral LC-18A",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "Final flight of Vanguard rocket, satellite failed to separate from carrier rocket, otherwise successful, spacecraft operated until 11 December",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "ONERA",
-          "Orbit": "Suborbital",
-          "Function": "Aeronomy",
-          "Decay": "27 January",
+          "Payload": "Vanguard 3 (20in MXE)",
+          "Operator": "NRL",
+          "Orbit": "Medium Earth",
+          "Function": "Scientific",
+          "Decay": "In orbit",
+          "Outcome": "Partial launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 September",
+        "TimestampClean": "24 September",
+        "Timestamp": "1959-09-24T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-C Able",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Pioneer P1",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric",
+          "Function": "Scientific",
+          "Decay": "In orbit",
+          "Outcome": "Launch Precluded",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 October00:43:39",
+        "TimestampClean": "4 October00:43:39",
+        "Timestamp": "1959-10-04T00:43:39Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Luna 8K72",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "MVS",
+      "Notes": "Placed on a circumlunar trajectory, returned first images of the far side of the Moon",
+      "Payload": [
+        {
+          "Payload": "Luna 3 (E-2A-1)",
+          "Operator": "MVS",
+          "Orbit": "High Earth",
+          "Function": "Lunar flyby",
+          "Decay": "29 April 1960",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -184,78 +557,104 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 January23:34",
-        "TimestampClean": "27 January23:34",
-        "Timestamp": "1959-01-27T23:34:00Z",
+        "TimestampRaw": "13 October15:30:04",
+        "TimestampClean": "13 October15:30:04",
+        "Timestamp": "1959-10-13T15:30:04Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "SM-65C Atlas",
+      "Rocket": "Juno II",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-12",
+      "LaunchSite": "Cape Canaveral LC-5",
+      "LaunchServiceProvider": "ABMA",
+      "Notes": "Broadcast data until 24 August 1961",
+      "Payload": [
+        {
+          "Payload": "Explorer 7 (S-1A)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Scientific",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 November20:28:41",
+        "TimestampClean": "7 November20:28:41",
+        "Timestamp": "1959-11-07T20:28:41Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor DM-18 Agena-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-3-4",
       "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 990 kilometres (620 mi)",
+      "Notes": "Satellite tumbled out of control",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "27 January",
-          "Outcome": "Successful",
+          "Payload": "Discoverer 7 (KH-1 9004)",
+          "Operator": "CIA DST",
+          "Orbit": "Low Earth",
+          "Function": "Optical imaging",
+          "Decay": "26 November",
+          "Outcome": "Spacecraft failure",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 January",
-        "TimestampClean": "28 January",
-        "Timestamp": "1959-01-28T00:00:00Z",
+        "TimestampRaw": "20 November19:25:24",
+        "TimestampClean": "20 November19:25:24",
+        "Timestamp": "1959-11-20T19:25:24Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Nike-Cajun",
+      "Rocket": "Thor DM-18 Agena-A",
       "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "ARPA",
-      "Notes": "Apogee: 122 kilometres (76 mi)",
-      "Payload": [
-        {
-          "Payload": "Beacon Test 4",
-          "Operator": "ARPA/NASA",
-          "Orbit": "Suborbital",
-          "Function": "Technology",
-          "Decay": "28 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "30 January22:53",
-        "TimestampClean": "30 January22:53",
-        "Timestamp": "1959-01-30T22:53:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "PGM-17 Thor DM-18A",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchSite": "Vandenberg LC-75-3-5",
       "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 520 kilometres (320 mi)",
+      "Notes": "Inserted into useless orbit with greater eccentricity than planned",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "30 January",
-          "Outcome": "Successful",
+          "Payload": "Discoverer 8 (KH-1 9005)",
+          "Operator": "CIA DST",
+          "Orbit": "Low Earth",
+          "Function": "Optical imaging",
+          "Decay": "8 March 1960",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 November07:26",
+        "TimestampClean": "26 November07:26",
+        "Timestamp": "1959-11-26T07:26:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-Able",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Payload fairing separated prematurely, rocket disintegrated",
+      "Payload": [
+        {
+          "Payload": "Pioneer P-3",
+          "Operator": "NASA",
+          "Orbit": "Intended: Selenocentric",
+          "Function": "Lunar orbiter",
+          "Decay": "+45 seconds",
+          "Outcome": "Launch failure",
           "Cubesat": false
         }
       ]

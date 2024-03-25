@@ -13,118 +13,14 @@
       "FlightNumber": "",
       "LaunchSite": "",
       "LaunchServiceProvider": "",
-      "Notes": "Apogee: 140 kilometres (87 mi)",
+      "Notes": "First orbital launch, first artificial satellite of Earth, maiden flight of the Sputnik rocket",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "ARDC",
-          "Orbit": "Suborbital",
-          "Function": "REV test",
-          "Decay": "8 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "13 January",
-        "TimestampClean": "13 January",
-        "Timestamp": "1957-01-13T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-1",
-      "FlightNumber": "",
-      "LaunchSite": "Kapustin Yar",
-      "LaunchServiceProvider": "OKB-1",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "OKB-1",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "13 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "14 January",
-        "TimestampClean": "14 January",
-        "Timestamp": "1957-01-14T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-1",
-      "FlightNumber": "",
-      "LaunchSite": "Kapustin Yar",
-      "LaunchServiceProvider": "OKB-1",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "OKB-1",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "14 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "15 January",
-        "TimestampClean": "15 January",
-        "Timestamp": "1957-01-15T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "X-17",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-3",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "ARDC",
-          "Orbit": "Suborbital",
-          "Function": "REV test",
-          "Decay": "15 January",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "19 January",
-        "TimestampClean": "19 January",
-        "Timestamp": "1957-01-19T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-5M",
-      "FlightNumber": "",
-      "LaunchSite": "Kapustin Yar",
-      "LaunchServiceProvider": "OKB-1",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
+          "Payload": "Sputnik 1 (PS-1)",
           "Operator": "MVS",
-          "Orbit": "Suborbital",
-          "Function": "Nuclear weapon test",
-          "Decay": "19 January",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "4 January 1958",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -132,77 +28,51 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 January",
-        "TimestampClean": "24 January",
-        "Timestamp": "1957-01-24T00:00:00Z",
+        "TimestampRaw": "3 November02:30:42",
+        "TimestampClean": "3 November02:30:42",
+        "Timestamp": "1957-11-03T02:30:42Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "HJ-Nike",
-      "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "NACA",
-      "Notes": "Apogee: 10 kilometres (6.2 mi)",
+      "Rocket": "Sputnik-PS (8K71PS)",
+      "FlightNumber": "PS-2",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "MVS",
+      "Notes": "Carried Laika, the first animal in orbit. Laika died prior to completion of experiments. Final flight of the Sputnik-PS.",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "NACA",
-          "Orbit": "Suborbital",
-          "Function": "Cone REV test",
-          "Decay": "24 January",
-          "Outcome": "Successful",
+          "Payload": "Sputnik 2 (PS-2)",
+          "Operator": "MVS",
+          "Orbit": "Low Earth",
+          "Function": "Biological",
+          "Decay": "14 April 1958",
+          "Outcome": "Partial spacecraft failure",
           "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 January",
-        "TimestampClean": "26 January",
-        "Timestamp": "1957-01-26T00:00:00Z",
+        "TimestampRaw": "6 December16:44:35",
+        "TimestampClean": "6 December16:44:35",
+        "Timestamp": "1957-12-06T16:44:35Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "XSM-75 Thor",
-      "FlightNumber": "101",
-      "LaunchSite": "Cape Canaveral LC-17B",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Maiden launch of the SM-75 Thor missile, designated XSM-75 to indicate it was an experimental R\u0026D launch; exploded on launch pad",
+      "Rocket": "Vanguard",
+      "FlightNumber": "TV-3",
+      "LaunchSite": "Cape Canaveral LC-18A",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "First all up Vanguard flight, first US orbital launch attempt, and first orbital launch attempt failure. Lost thrust and exploded on launch pad after 2 seconds.",
       "Payload": [
         {
-          "Payload": "",
-          "Operator": "ARDC",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "26 January",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "29 January",
-        "TimestampClean": "29 January",
-        "Timestamp": "1957-01-29T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "X-17",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-3",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 0 kilometres (0 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "ARDC",
-          "Orbit": "Suborbital",
-          "Function": "REV test",
-          "Decay": "29 January",
+          "Payload": "Vanguard 1A",
+          "Operator": "NRL",
+          "Orbit": "Intended: Medium Earth",
+          "Function": "Geodesy",
+          "Decay": "6 December",
           "Outcome": "Launch failure",
           "Cubesat": false
         }
