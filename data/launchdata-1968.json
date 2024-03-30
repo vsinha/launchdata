@@ -13,6 +13,58 @@
       "FlightNumber": "",
       "LaunchSite": "",
       "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Surveyor 7",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar lander",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 January",
+        "TimestampClean": "11 January",
+        "Timestamp": "1968-01-11T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta E1",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Explorer 36 (GEOS-B)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 January23:45",
+        "TimestampClean": "22 January23:45",
+        "Timestamp": "1968-01-22T23:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Saturn IB (C-1B)",
+      "FlightNumber": "",
+      "LaunchSite": "LC-37B, Cape Canaveral",
+      "LaunchServiceProvider": "NASA",
       "Notes": "Minor malfunction of LM descent stage engine, otherwise successful",
       "Payload": [
         {
