@@ -54,6 +54,58 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "16 January",
+        "TimestampClean": "16 January",
+        "Timestamp": "1968-01-16T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Site 41/1, Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 199 (Zenit-2 #58)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth Orbit",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 October",
+        "TimestampClean": "11 October",
+        "Timestamp": "1968-10-11T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor SLV-2A Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1965 Multigroup 3\u0026Setter 1B-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "22 January23:45",
         "TimestampClean": "22 January23:45",
         "Timestamp": "1968-01-22T23:45:00Z",
