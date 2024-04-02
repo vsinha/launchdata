@@ -80,9 +80,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 October",
-        "TimestampClean": "11 October",
-        "Timestamp": "1968-10-11T00:00:00Z",
+        "TimestampRaw": "17 January",
+        "TimestampClean": "17 January",
+        "Timestamp": "1968-01-17T00:00:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -95,9 +95,61 @@
       "Payload": [
         {
           "Payload": "OPS 1965 Multigroup 3\u0026Setter 1B-2",
-          "Operator": "",
+          "Operator": "USAF",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "ELINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 January",
+        "TimestampClean": "18 January",
+        "Timestamp": "1968-01-18T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan IIIB Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 5028 KH-8 4311",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 January",
+        "TimestampClean": "19 January",
+        "Timestamp": "1968-01-19T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos 3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 200 (Tselina O #2)",
+          "Operator": "",
+          "Orbit": "Low Earth Orbit",
+          "Function": "SIGNIT",
           "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
@@ -126,6 +178,41 @@
           "Function": "Test Lunar Module",
           "Decay": "12 February 196809:59",
           "Outcome": "successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 January",
+        "TimestampClean": "24 January",
+        "Timestamp": "1968-01-24T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thorad-SLV2G Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-1E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 5028 KH-4A 1045",
+          "Operator": "CIA",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Tivoli 1",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
