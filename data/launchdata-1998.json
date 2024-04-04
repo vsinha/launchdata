@@ -1,4 +1,4739 @@
 {
-  "OrbitalFlights": null,
+  "OrbitalFlights": [
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 January02:28",
+        "TimestampClean": "7 January02:28",
+        "Timestamp": "1998-01-07T02:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Athena II",
+      "FlightNumber": "",
+      "LaunchSite": "Spaceport Florida LC-46",
+      "LaunchServiceProvider": "Lockheed Martin",
+      "Notes": "Maiden flight of Athena II, first orbital launch from Spaceport Florida",
+      "Payload": [
+        {
+          "Payload": "Lunar Prospector",
+          "Operator": "NASA",
+          "Orbit": "Selenocentric",
+          "Function": "Lunar orbiter",
+          "Decay": "31 July 1999",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 January00:32",
+        "TimestampClean": "10 January00:32",
+        "Timestamp": "1998-01-10T00:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7925-9.5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17B",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Skynet 4D",
+          "Operator": "MoD",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 January03:25",
+        "TimestampClean": "16 January03:25",
+        "Timestamp": "1998-01-16T03:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Minuteman II",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-03",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "MSLS IFT-2",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "ABM target",
+          "Decay": "16 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 January03:46",
+        "TimestampClean": "16 January03:46",
+        "Timestamp": "1998-01-16T03:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Payload Launch Vehicle",
+      "FlightNumber": "",
+      "LaunchSite": "Meck Island",
+      "LaunchServiceProvider": "US Air Force/Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EKV",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "ABM interceptor",
+          "Decay": "16 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 January12:56",
+        "TimestampClean": "22 January12:56",
+        "Timestamp": "1998-01-22T12:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Shavit",
+      "FlightNumber": "",
+      "LaunchSite": "Palmachim",
+      "LaunchServiceProvider": "ISA",
+      "Notes": "Second stage failure",
+      "Payload": [
+        {
+          "Payload": "Ofeq-4",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth (retrograde)",
+          "Function": "Reconnaissance",
+          "Decay": "22 January",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "23 January02:48",
+        "TimestampClean": "23 January02:48",
+        "Timestamp": "1998-01-23T02:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Space Shuttle Endeavour",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with seven astronauts",
+      "Payload": [
+        {
+          "Payload": "STS-89",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Shuttle-Mir Program",
+          "Decay": "31 January16:57",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SpaceHab Logistics Double Module",
+          "Operator": "NASA/SpaceHab",
+          "Orbit": "Low Earth (Endeavour)",
+          "Function": "Logistics",
+          "Decay": "31 January16:57",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 January08:35",
+        "TimestampClean": "25 January08:35",
+        "Timestamp": "1998-01-25T08:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "S-310",
+      "FlightNumber": "",
+      "LaunchSite": "Uchinoura Pad K",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SEEK",
+          "Operator": "ISAS",
+          "Orbit": "Suborbital",
+          "Function": "Ozone/Aeronomy research",
+          "Decay": "25 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 January12:26",
+        "TimestampClean": "26 January12:26",
+        "Timestamp": "1998-01-26T12:26:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Nike Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange",
+      "LaunchServiceProvider": "SSC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "MERMAID",
+          "Operator": "SSC/DLR",
+          "Orbit": "Suborbital",
+          "Function": "Microgravity research",
+          "Decay": "26 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 January16:33",
+        "TimestampClean": "29 January16:33",
+        "Timestamp": "1998-01-29T16:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "Roskosmos",
+      "Notes": "Crewed orbital flight with three cosmonauts",
+      "Payload": [
+        {
+          "Payload": "Soyuz TM-27",
+          "Operator": "Roskosmos",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Mir EO-25",
+          "Decay": "25 August05:24",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 January18:37",
+        "TimestampClean": "29 January18:37",
+        "Timestamp": "1998-01-29T18:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas IIA",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36A",
+      "LaunchServiceProvider": "",
+      "Notes": "NRO Launch 5",
+      "Payload": [
+        {
+          "Payload": "USA-137 (SDS-3-1)",
+          "Operator": "NRO",
+          "Orbit": "Molniya",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 January04:30",
+        "TimestampClean": "31 January04:30",
+        "Timestamp": "1998-01-31T04:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "S-520",
+      "FlightNumber": "",
+      "LaunchSite": "Uchinoura Pad K",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "XUV Doppler Telescope",
+          "Operator": "ISAS",
+          "Orbit": "Suborbital",
+          "Function": "Solar observation",
+          "Decay": "31 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 January23:43",
+        "TimestampClean": "31 January23:43",
+        "Timestamp": "1998-01-31T23:43:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "VS-30",
+      "FlightNumber": "",
+      "LaunchSite": "Andøya",
+      "LaunchServiceProvider": "INPE",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "AL-VS30-229",
+          "Operator": "DLR",
+          "Orbit": "Suborbital",
+          "Function": "Aeronomy research",
+          "Decay": "31 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 February23:29",
+        "TimestampClean": "4 February23:29",
+        "Timestamp": "1998-02-04T23:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 44LP",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Brazilsat B3",
+          "Operator": "Embratel",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Inmarsat 3F5",
+          "Operator": "Inmarsat",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 February08:30",
+        "TimestampClean": "5 February08:30",
+        "Timestamp": "1998-02-05T08:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "S-520",
+      "FlightNumber": "",
+      "LaunchSite": "Uchinoura Pad K",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "ISAS",
+          "Orbit": "Suborbital",
+          "Function": "Plasma research",
+          "Decay": "5 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 February07:40",
+        "TimestampClean": "7 February07:40",
+        "Timestamp": "1998-02-07T07:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Skylark VII",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange Pad S",
+      "LaunchServiceProvider": "SSC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "TEXUS 36",
+          "Operator": "SSC",
+          "Orbit": "Suborbital",
+          "Function": "Microgravity research",
+          "Decay": "7 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 February",
+        "TimestampClean": "10 February",
+        "Timestamp": "1998-02-10T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Trident C-4",
+      "FlightNumber": "",
+      "LaunchSite": "Submarine, Eastern Range",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 February13:20",
+        "TimestampClean": "10 February13:20",
+        "Timestamp": "1998-02-10T13:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Taurus 2210",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-576E",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GFO",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "Radar altimetry",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm G1",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm G2",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Celestis-02",
+          "Operator": "Celestis",
+          "Orbit": "Low Earth",
+          "Function": "Space burial",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 February09:42",
+        "TimestampClean": "11 February09:42",
+        "Timestamp": "1998-02-11T09:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Nike-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange",
+      "LaunchServiceProvider": "DLR",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Texus-5",
+          "Operator": "DLR",
+          "Orbit": "Suborbital",
+          "Function": "Microgravity research",
+          "Decay": "11 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 February14:34",
+        "TimestampClean": "14 February14:34",
+        "Timestamp": "1998-02-14T14:34:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7420-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17A",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "Maiden flight of Delta II 7420",
+      "Payload": [
+        {
+          "Payload": "Globalstar 1",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 4",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 2",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 3",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 February10:34",
+        "TimestampClean": "17 February10:34",
+        "Timestamp": "1998-02-17T10:34:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2349 (Yantar)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Cartography",
+          "Decay": "2 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 February13:58",
+        "TimestampClean": "18 February13:58",
+        "Timestamp": "1998-02-18T13:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7920-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 52",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "5 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 56",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "11 October 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 54",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "11 May 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 50",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "23 September 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 53",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "30 September 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 February",
+        "TimestampClean": "19 February",
+        "Timestamp": "1998-02-19T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "R-29",
+      "FlightNumber": "",
+      "LaunchSite": "Submarine, Barents Sea",
+      "LaunchServiceProvider": "Russian Navy",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "Russian Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "19 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "Russian Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "19 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 February00:09",
+        "TimestampClean": "20 February00:09",
+        "Timestamp": "1998-02-20T00:09:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant VC",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Coqui Dos SAL",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "20 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 February00:37",
+        "TimestampClean": "20 February00:37",
+        "Timestamp": "1998-02-20T00:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant VC",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Coqui Dos",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "20 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 February08:23",
+        "TimestampClean": "20 February08:23",
+        "Timestamp": "1998-02-20T08:23:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Minuteman III",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-04",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "FOT GT166GM",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "20 February",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 February07:55",
+        "TimestampClean": "21 February07:55",
+        "Timestamp": "1998-02-21T07:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "H-II",
+      "FlightNumber": "",
+      "LaunchSite": "Tanegashima LA-Y",
+      "LaunchServiceProvider": "NASDA",
+      "Notes": "Upper stage failure led to lower orbit than planned",
+      "Payload": [
+        {
+          "Payload": "Kakehashi (COMETS)",
+          "Operator": "NASDA",
+          "Orbit": "Intended: GeosynchronousActual: Medium Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 February03:17",
+        "TimestampClean": "25 February03:17",
+        "Timestamp": "1998-02-25T03:17:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant VC",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Coqui Dos",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "25 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 February07:43",
+        "TimestampClean": "25 February07:43",
+        "Timestamp": "1998-02-25T07:43:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Taurus-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "25 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 February07:50",
+        "TimestampClean": "25 February07:50",
+        "Timestamp": "1998-02-25T07:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Terrier-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EDDY",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "25 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 February07:07",
+        "TimestampClean": "26 February07:07",
+        "Timestamp": "1998-02-26T07:07:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Pegasus-XL",
+      "FlightNumber": "",
+      "LaunchSite": "Stargazer, Vandenberg",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SNOE",
+          "Operator": "NASA/UC Boulder",
+          "Orbit": "Low Earth",
+          "Function": "Nitric Oxide research",
+          "Decay": "13 December 2003",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Teledesic 1",
+          "Operator": "Teledesic",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "9 October 2000",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 February22:38",
+        "TimestampClean": "27 February22:38",
+        "Timestamp": "1998-02-27T22:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 42P",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Hot Bird 4",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 February00:21",
+        "TimestampClean": "28 February00:21",
+        "Timestamp": "1998-02-28T00:21:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas IIAS",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36B",
+      "LaunchServiceProvider": "International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Intelsat 806",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 March22:33",
+        "TimestampClean": "3 March22:33",
+        "Timestamp": "1998-03-03T22:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Nike-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange",
+      "LaunchServiceProvider": "SSC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NLTE-1 Atomic 2A",
+          "Operator": "SSC",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "3 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 March21:26",
+        "TimestampClean": "6 March21:26",
+        "Timestamp": "1998-03-06T21:26:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Nike-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange",
+      "LaunchServiceProvider": "SSC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NLTE-2 Atomic 2B",
+          "Operator": "SSC",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "3 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 March01:33",
+        "TimestampClean": "7 March01:33",
+        "Timestamp": "1998-03-07T01:33:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant VC",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Coqui Dos",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "7 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 March",
+        "TimestampClean": "7 March",
+        "Timestamp": "1998-03-07T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Trident D-5",
+      "FlightNumber": "",
+      "LaunchSite": "Submarine, Eastern Range",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "7 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "7 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 March",
+        "TimestampClean": "10 March",
+        "Timestamp": "1998-03-10T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Trident D-5",
+      "FlightNumber": "",
+      "LaunchSite": "Submarine, Eastern Range",
+      "LaunchServiceProvider": "US Navy",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "US Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 March23:39",
+        "TimestampClean": "11 March23:39",
+        "Timestamp": "1998-03-11T23:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Coqui Dos LaTuR",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "11 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 March22:45",
+        "TimestampClean": "14 March22:45",
+        "Timestamp": "1998-03-14T22:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "Roskosmos",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Progress M-38",
+          "Operator": "Roskosmos",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Logistics",
+          "Decay": "15 May",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "VDU 2",
+          "Operator": "Roskosmos",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Mir attitude control unit",
+          "Decay": "23 March 200105:50",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 March21:32",
+        "TimestampClean": "16 March21:32",
+        "Timestamp": "1998-03-16T21:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas II",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36A",
+      "LaunchServiceProvider": "",
+      "Notes": "Final flight of baseline Atlas II",
+      "Payload": [
+        {
+          "Payload": "USA-138 (UHF F/O F8)",
+          "Operator": "US Navy",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 March",
+        "TimestampClean": "21 March",
+        "Timestamp": "1998-03-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "VS-40",
+      "FlightNumber": "",
+      "LaunchSite": "Alcântara",
+      "LaunchServiceProvider": "INPE",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "INPE",
+          "Orbit": "Suborbital",
+          "Function": "Test sounding rocket",
+          "Decay": "21 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 March01:46",
+        "TimestampClean": "24 March01:46",
+        "Timestamp": "1998-03-24T01:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 40",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SPOT 4",
+          "Operator": "CNES",
+          "Orbit": "Sun-synchronous",
+          "Function": "Earth Imaging",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 March01:45",
+        "TimestampClean": "25 March01:45",
+        "Timestamp": "1998-03-25T01:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant VC",
+      "FlightNumber": "",
+      "LaunchSite": "Arecibo",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Coqui Dos",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "25 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 March17:01",
+        "TimestampClean": "25 March17:01",
+        "Timestamp": "1998-03-25T17:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2C",
+      "FlightNumber": "",
+      "LaunchSite": "Taiyuan LC-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 51",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 61",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "23 July 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 March06:02",
+        "TimestampClean": "30 March06:02",
+        "Timestamp": "1998-03-30T06:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7920-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 55",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "31 March 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 57",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 58",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "7 April 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 59",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "11 March 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 60",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "17 March 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 April02:42",
+        "TimestampClean": "2 April02:42",
+        "Timestamp": "1998-04-02T02:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Pegasus-XL",
+      "FlightNumber": "",
+      "LaunchSite": "Stargazer, Vandenberg",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "TRACE",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Solar research",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 April",
+        "TimestampClean": "6 April",
+        "Timestamp": "1998-04-06T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ghauri",
+      "FlightNumber": "",
+      "LaunchSite": "Tilla",
+      "LaunchServiceProvider": "PAF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "PAF",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "6 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "",
+          "Operator": "ISRO",
+          "Orbit": "Suborbital",
+          "Function": "Aeronomy research",
+          "Decay": "6 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 April02:13",
+        "TimestampClean": "7 April02:13",
+        "Timestamp": "1998-04-07T02:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/17S40",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 62",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "7 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 63",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 64",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "1 April 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 65",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "19 July 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 66",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "23 August 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 67",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "2 July 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 68",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "6 June 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 April",
+        "TimestampClean": "15 April",
+        "Timestamp": "1998-04-15T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "R-36M2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "Part of Dnepr development programme",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN/ISC Kosmotras",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "15 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 April18:05",
+        "TimestampClean": "17 April18:05",
+        "Timestamp": "1998-04-17T18:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Strypi",
+      "FlightNumber": "",
+      "LaunchSite": "Pacific Missile Range",
+      "LaunchServiceProvider": "Sandia",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Red Crow",
+          "Operator": "BMDO",
+          "Orbit": "Suborbital",
+          "Function": "Technology development",
+          "Decay": "17 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 April18:19",
+        "TimestampClean": "17 April18:19",
+        "Timestamp": "1998-04-17T18:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Space Shuttle  Columbia",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39B",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with seven astronautsFinal flight of Spacelab Long Module No. 2",
+      "Payload": [
+        {
+          "Payload": "STS-90",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Microgravity research",
+          "Decay": "3 May16:09",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Spacelab LM-2 (Neurolab)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Columbia)",
+          "Function": "Life science research",
+          "Decay": "3 May16:09",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "EDO Pallet",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Columbia)",
+          "Function": "Cryogenic mission duration extension pallet",
+          "Decay": "3 May16:09",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 April04:00",
+        "TimestampClean": "18 April04:00",
+        "Timestamp": "1998-04-18T04:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ultraviolet astronomy",
+          "Decay": "18 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 April07:30",
+        "TimestampClean": "18 April07:30",
+        "Timestamp": "1998-04-18T07:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ultraviolet astronomy",
+          "Decay": "18 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 April22:38",
+        "TimestampClean": "24 April22:38",
+        "Timestamp": "1998-04-24T22:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7420-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17A",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Globalstar 14",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 6",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 15",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 8",
+          "Operator": "Globalstar",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 April12:10",
+        "TimestampClean": "28 April12:10",
+        "Timestamp": "1998-04-28T12:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IXB",
+      "FlightNumber": "",
+      "LaunchSite": "SpacePort Canada",
+      "LaunchServiceProvider": "Akjuit Aerospace",
+      "Notes": "First and only launch conducted by Akjuit Aerospace. Final launch from the SpacePort Canada (Churchill Rocket Research Range) site.",
+      "Payload": [
+        {
+          "Payload": "ACTIVE",
+          "Operator": "CSA",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "28 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 April22:53",
+        "TimestampClean": "28 April22:53",
+        "Timestamp": "1998-04-28T22:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 44P",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "Nilesat is the first Egyptian satellite",
+      "Payload": [
+        {
+          "Payload": "Nilesat 101",
+          "Operator": "Nilesat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "BSAT-1B",
+          "Operator": "BSAT",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 April04:36",
+        "TimestampClean": "29 April04:36",
+        "Timestamp": "1998-04-29T04:36:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/DM-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2350 (Prognoz SPRN)",
+          "Operator": "RVSN",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 May09:16",
+        "TimestampClean": "2 May09:16",
+        "Timestamp": "1998-05-02T09:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2C",
+      "FlightNumber": "",
+      "LaunchSite": "Taiyuan LC-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 69",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 71",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 May08:53",
+        "TimestampClean": "7 May08:53",
+        "Timestamp": "1998-05-07T08:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2351 (Oko)",
+          "Operator": "MO RF",
+          "Orbit": "Molniya",
+          "Function": "Early Warning",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 May10:30",
+        "TimestampClean": "7 May10:30",
+        "Timestamp": "1998-05-07T10:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Peacekeeper",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-05",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "7 May",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 May23:45",
+        "TimestampClean": "7 May23:45",
+        "Timestamp": "1998-05-07T23:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/DM-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EchoStar 4",
+          "Operator": "EchoStar",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 May01:38",
+        "TimestampClean": "9 May01:38",
+        "Timestamp": "1998-05-09T01:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan IVB 401/Centaur",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-40",
+      "LaunchServiceProvider": "Lockheed Martin",
+      "Notes": "NROL-6 mission.",
+      "Payload": [
+        {
+          "Payload": "USA-139 / Orion 4",
+          "Operator": "NRO",
+          "Orbit": "Geosynchronous",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 May11:22",
+        "TimestampClean": "12 May11:22",
+        "Timestamp": "1998-05-12T11:22:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Hera",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands LC-94",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "ABM Target",
+          "Decay": "12 May",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 May11:25",
+        "TimestampClean": "12 May11:25",
+        "Timestamp": "1998-05-12T11:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "THAAD",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "ABM Interceptor",
+          "Decay": "12 May",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 May15:52",
+        "TimestampClean": "13 May15:52",
+        "Timestamp": "1998-05-13T15:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan 23G",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-4W",
+      "LaunchServiceProvider": "Lockheed Martin",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NOAA-15 (NOAA-K)",
+          "Operator": "NOAA",
+          "Orbit": "Sun-synchronous",
+          "Function": "Weather satellite",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 May22:12",
+        "TimestampClean": "14 May22:12",
+        "Timestamp": "1998-05-14T22:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "Roskosmos",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Progress M-39",
+          "Operator": "Roskosmos",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Logistics",
+          "Decay": "29 October04:14",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 May21:16",
+        "TimestampClean": "17 May21:16",
+        "Timestamp": "1998-05-17T21:16:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7920-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 70",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "11 October 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 72",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "14 May 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 73",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 74",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "11 June 2017",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 75",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "10 July 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 May06:22",
+        "TimestampClean": "22 May06:22",
+        "Timestamp": "1998-05-22T06:22:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NITE",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Infrared astronomy",
+          "Decay": "22 May",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 May10:00",
+        "TimestampClean": "30 May10:00",
+        "Timestamp": "1998-05-30T10:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 3B",
+      "FlightNumber": "",
+      "LaunchSite": "Xichang LC-2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Zhongwei 1 (ChinaStar 1)",
+          "Operator": "COTSC",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 June22:06",
+        "TimestampClean": "2 June22:06",
+        "Timestamp": "1998-06-02T22:06:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Space Shuttle  Discovery",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with six astronauts, landing with sevenFinal Shuttle-Mir flight and first shuttle flight with Super-lightweight Aluminium/Lithium ET",
+      "Payload": [
+        {
+          "Payload": "STS-91",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Shuttle-Mir flight",
+          "Decay": "12 June18:00",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SpaceHab Logistics Double Module",
+          "Operator": "NASA/SpaceHab",
+          "Orbit": "Low Earth (Discovery)",
+          "Function": "Logistics",
+          "Decay": "12 June18:00",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "AMS-01",
+          "Operator": "ESA",
+          "Orbit": "Low Earth (Discovery)",
+          "Function": "Particle physics",
+          "Decay": "12 June18:00",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 June19:57",
+        "TimestampClean": "3 June19:57",
+        "Timestamp": "1998-06-03T19:57:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Minuteman III",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-26",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "FOT GT167GB",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "3 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 June00:35",
+        "TimestampClean": "10 June00:35",
+        "Timestamp": "1998-06-10T00:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7925-9.5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17A",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Thor 3",
+          "Operator": "Telenor",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 June01:00",
+        "TimestampClean": "11 June01:00",
+        "Timestamp": "1998-06-11T01:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "KSR-II",
+      "FlightNumber": "",
+      "LaunchSite": "Anhueng",
+      "LaunchServiceProvider": "KARI",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "KARI",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere researchX-ray astronomy",
+          "Decay": "11 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 June22:58",
+        "TimestampClean": "15 June22:58",
+        "Timestamp": "1998-06-15T22:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Tsyklon-3",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 32",
+      "LaunchServiceProvider": "",
+      "Notes": "Third stage failure left satellites in lower orbit than planned",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2352 (Strela-3)",
+          "Operator": "MO RF",
+          "Orbit": "Intended: Medium EarthActual: Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2353 (Strela-3)",
+          "Operator": "MO RF",
+          "Orbit": "Intended: Medium EarthActual: Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2354 (Strela-3)",
+          "Operator": "MO RF",
+          "Orbit": "Intended: Medium EarthActual: Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2355 (Strela-3)",
+          "Operator": "MO RF",
+          "Orbit": "Intended: Medium EarthActual: Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2356 (Strela-3)",
+          "Operator": "MO RF",
+          "Orbit": "Intended: Medium EarthActual: Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2357 (Strela-3)",
+          "Operator": "MO RF",
+          "Orbit": "Intended: Medium EarthActual: Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 June14:19",
+        "TimestampClean": "16 June14:19",
+        "Timestamp": "1998-06-16T14:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Nike-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Wallops Island",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Test sounding rocket",
+          "Decay": "16 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 June22:48",
+        "TimestampClean": "18 June22:48",
+        "Timestamp": "1998-06-18T22:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas IIAS",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36A",
+      "LaunchServiceProvider": "International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Intelsat 805",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 June08:01",
+        "TimestampClean": "24 June08:01",
+        "Timestamp": "1998-06-24T08:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Minuteman III",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-09",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GRP-IDF-1",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "24 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 June12:46",
+        "TimestampClean": "24 June12:46",
+        "Timestamp": "1998-06-24T12:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Minuteman III",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-10",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "FOT GT168GM",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "24 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 June18:29",
+        "TimestampClean": "24 June18:29",
+        "Timestamp": "1998-06-24T18:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2358 (Yantar)",
+          "Operator": "MO RF",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "22 October",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 June14:00",
+        "TimestampClean": "25 June14:00",
+        "Timestamp": "1998-06-25T14:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2359 (Yantar)",
+          "Operator": "MO RF",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "12 July 1999",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 July00:48",
+        "TimestampClean": "1 July00:48",
+        "Timestamp": "1998-07-01T00:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Molniya 3–49",
+          "Operator": "MOM",
+          "Orbit": "Molniya",
+          "Function": "Communications",
+          "Decay": "2 February 2011",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 July18:12",
+        "TimestampClean": "3 July18:12",
+        "Timestamp": "1998-07-03T18:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "M-V",
+      "FlightNumber": "",
+      "LaunchSite": "Uchinoura",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "Gravity assist produced less velocity than expected, spacecraft ran out of fuel trying to compensate",
+      "Payload": [
+        {
+          "Payload": "Nozomi (PLANET-B)",
+          "Operator": "ISAS",
+          "Orbit": "Intended: AreocentricActual: Heliocentric",
+          "Function": "Mars orbiter",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 July03:15",
+        "TimestampClean": "7 July03:15",
+        "Timestamp": "1998-07-07T03:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Shtil'",
+      "FlightNumber": "",
+      "LaunchSite": "Novomoskovsk (K-407), Barents Sea",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Shtil' and first orbital launch from a submarine",
+      "Payload": [
+        {
+          "Payload": "Tubsat-N",
+          "Operator": "TUB",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "23 April 2002",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Tubsat-N1",
+          "Operator": "TUB",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "21 October 2000",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Shtil 1",
+          "Operator": "Makeev",
+          "Orbit": "Low Earth",
+          "Function": "Measure carrier rocket performance",
+          "Decay": "8 May 2014",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 July06:30",
+        "TimestampClean": "10 July06:30",
+        "Timestamp": "1998-07-10T06:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Zenit-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 45/1",
+      "LaunchServiceProvider": "",
+      "Notes": "Fasat-Bravo is the first successful Chilean satellite",
+      "Payload": [
+        {
+          "Payload": "Resurs-O1 4",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Remote sensing",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Fasat-Bravo",
+          "Operator": "FACh",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "TMSAT",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Gurwin Techsat 1B",
+          "Operator": "Technion",
+          "Orbit": "Low Earth",
+          "Function": "Technology development",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "WESTPAC",
+          "Operator": "WPLTN",
+          "Orbit": "Low Earth",
+          "Function": "Laser tracking",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SAFIR-2",
+          "Operator": "DLR",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 July09:20",
+        "TimestampClean": "18 July09:20",
+        "Timestamp": "1998-07-18T09:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 3B",
+      "FlightNumber": "",
+      "LaunchSite": "Xichang LC-2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Sinosat-1",
+          "Operator": "SinoSat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 July",
+        "TimestampClean": "22 July",
+        "Timestamp": "1998-07-22T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Shahab-3",
+      "FlightNumber": "",
+      "LaunchSite": "Emamshahr",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Shahab-3",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "22 July",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 July09:15",
+        "TimestampClean": "28 July09:15",
+        "Timestamp": "1998-07-28T09:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Zenit-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 45/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2360 (Tselina-2)",
+          "Operator": "MO RF",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 August16:24",
+        "TimestampClean": "2 August16:24",
+        "Timestamp": "1998-08-02T16:24:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Pegasus-XL/HAPS",
+      "FlightNumber": "",
+      "LaunchSite": "Stargazer, Wallops Flight Facility",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "The decommissioned Orbcomm B4 satellite disintegrated into 34 pieces in 2018; the cause is under investigation as of January 2019",
+      "Payload": [
+        {
+          "Payload": "Orbcomm B5",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B6",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B7",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B8",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B4",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "22 December 201807:12",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B3",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B2",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm B1",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 August11:30",
+        "TimestampClean": "12 August11:30",
+        "Timestamp": "1998-08-12T11:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan IVA 401/Centaur",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-41",
+      "LaunchServiceProvider": "Lockheed Martin",
+      "Notes": "Final flight of Titan IVAControl lost after guidance system malfunction; Range Safety self-destruct",
+      "Payload": [
+        {
+          "Payload": "Mercury-3",
+          "Operator": "",
+          "Orbit": "Intended: Geosynchronous",
+          "Function": "ELINT",
+          "Decay": "12 AugustT+40 seconds",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 August09:43",
+        "TimestampClean": "13 August09:43",
+        "Timestamp": "1998-08-13T09:43:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "Roskosmos",
+      "Notes": "Crewed orbital flight with three cosmonauts",
+      "Payload": [
+        {
+          "Payload": "Soyuz TM-28",
+          "Operator": "Roskosmos",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Mir EO-26",
+          "Decay": "28 February 199902:14",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 August05:30",
+        "TimestampClean": "15 August05:30",
+        "Timestamp": "1998-08-15T05:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EEV CCD",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "X-ray astronomy",
+          "Decay": "15 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 August23:01",
+        "TimestampClean": "19 August23:01",
+        "Timestamp": "1998-08-19T23:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2C",
+      "FlightNumber": "",
+      "LaunchSite": "Taiyuan LC-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 3",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "8 February 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 76",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "28 August 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 August",
+        "TimestampClean": "21 August",
+        "Timestamp": "1998-08-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "R-29",
+      "FlightNumber": "",
+      "LaunchSite": "Submarine, Barents Sea",
+      "LaunchServiceProvider": "Russian Navy",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "Russian Navy",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "21 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 August23:07",
+        "TimestampClean": "25 August23:07",
+        "Timestamp": "1998-08-25T23:07:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 44P",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "ST-1",
+          "Operator": "Singapore Telecom/Chunghwa Telecom",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 August01:17",
+        "TimestampClean": "27 August01:17",
+        "Timestamp": "1998-08-27T01:17:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta III 8930",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17B",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "Maiden flight of Delta IIIHydraulic failure in thrust vectoring system led to range safety self-destruct",
+      "Payload": [
+        {
+          "Payload": "Galaxy 10",
+          "Operator": "PanAmSat",
+          "Orbit": "Intended: Geosynchronous",
+          "Function": "Communications",
+          "Decay": "27 AugustT+75 seconds",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 August00:31",
+        "TimestampClean": "30 August00:31",
+        "Timestamp": "1998-08-30T00:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/DM-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Astra 2A",
+          "Operator": "SES",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 August03:07",
+        "TimestampClean": "31 August03:07",
+        "Timestamp": "1998-08-31T03:07:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Taepodong-1",
+      "FlightNumber": "",
+      "LaunchSite": "Musudan-ri",
+      "LaunchServiceProvider": "",
+      "Notes": "First North Korean orbital launch attempt; Never achieved orbit due to a suspected third stage failure",
+      "Payload": [
+        {
+          "Payload": "Kwangmyŏngsŏng-1",
+          "Operator": "Chongon",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "31 August",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 September21:13",
+        "TimestampClean": "8 September21:13",
+        "Timestamp": "1998-09-08T21:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7920-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 82",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 81",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "17 July 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 80",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "12 August 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 79",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "29 November 2000",
+          "Outcome": "Spacecraft Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 77",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "22 September 2017",
+          "Outcome": "Spacecraft Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 September20:29",
+        "TimestampClean": "9 September20:29",
+        "Timestamp": "1998-09-09T20:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Zenit-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 45/1",
+      "LaunchServiceProvider": "",
+      "Notes": "Computer error caused premature second stage cutout",
+      "Payload": [
+        {
+          "Payload": "Globalstar 5",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 7",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 9",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 10",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 11",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 12",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 13",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 16",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 17",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 18",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 20",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Globalstar 21",
+          "Operator": "Globalstar",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
+          "Decay": "9 September",
+          "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 September06:31",
+        "TimestampClean": "16 September06:31",
+        "Timestamp": "1998-09-16T06:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 44LP",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "PanAmSat 7",
+          "Operator": "PanAmSat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 September11:10",
+        "TimestampClean": "16 September11:10",
+        "Timestamp": "1998-09-16T11:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Topol",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 158",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "16 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 September08:01",
+        "TimestampClean": "18 September08:01",
+        "Timestamp": "1998-09-18T08:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Minuteman III",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LF-26",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GRP-IDF-2",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "18 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 September15:00",
+        "TimestampClean": "18 September15:00",
+        "Timestamp": "1998-09-18T15:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SOAREX-1",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Hypersonic dynamics test",
+          "Decay": "18 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 September14:51",
+        "TimestampClean": "21 September14:51",
+        "Timestamp": "1998-09-21T14:51:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "RH-560/300 MK II",
+      "FlightNumber": "",
+      "LaunchSite": "Sriharikota",
+      "LaunchServiceProvider": "ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "DEOS F06",
+          "Operator": "ISRO/DLR",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "21 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "23 September05:06",
+        "TimestampClean": "23 September05:06",
+        "Timestamp": "1998-09-23T05:06:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Pegasus-XL/HAPS",
+      "FlightNumber": "",
+      "LaunchSite": "Stargazer, Wallops Island",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Orbcomm C1",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C2",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C3",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C4",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C5",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C6",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C7",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Orbcomm C8",
+          "Operator": "Orbcomm",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 September12:50",
+        "TimestampClean": "24 September12:50",
+        "Timestamp": "1998-09-24T12:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Storm-2",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands LC-32",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "MTTV",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Target",
+          "Decay": "24 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "MTD-3",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Weapons test",
+          "Decay": "24 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 September15:11",
+        "TimestampClean": "28 September15:11",
+        "Timestamp": "1998-09-28T15:11:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "RH-560/300 MK II",
+      "FlightNumber": "",
+      "LaunchSite": "Sriharikota",
+      "LaunchServiceProvider": "ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "DEOS F07",
+          "Operator": "ISRO/DLR",
+          "Orbit": "Suborbital",
+          "Function": "Ionosphere research",
+          "Decay": "28 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 September23:41",
+        "TimestampClean": "28 September23:41",
+        "Timestamp": "1998-09-28T23:41:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Molniya-1T",
+          "Operator": "MOM",
+          "Orbit": "Molniya",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 October10:04",
+        "TimestampClean": "3 October10:04",
+        "Timestamp": "1998-10-03T10:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Taurus 1110",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-576E",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "ATeX failed to deploy fully and was jettisoned from STEX on 16 January 1999 to protect the main spacecraft",
+      "Payload": [
+        {
+          "Payload": "STEX",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology research",
+          "Decay": "In orbit",
+          "Outcome": "Partial satellite failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "USA-141 (ATeX)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology research",
+          "Decay": "In orbit",
+          "Outcome": "Satellite failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 October22:51",
+        "TimestampClean": "5 October22:51",
+        "Timestamp": "1998-10-05T22:51:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 44L",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Eutelsat W2",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Sirius 3",
+          "Operator": "NSAB",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 October12:00",
+        "TimestampClean": "7 October12:00",
+        "Timestamp": "1998-10-07T12:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "UR-100NU",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "7 October",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 October22:50",
+        "TimestampClean": "9 October22:50",
+        "Timestamp": "1998-10-09T22:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas IIA",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36B",
+      "LaunchServiceProvider": "International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Hot Bird 5",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 October07:19",
+        "TimestampClean": "20 October07:19",
+        "Timestamp": "1998-10-20T07:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas IIA",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-36A",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "USA-140 (UHF F/O F9)",
+          "Operator": "US Navy",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 October16:37",
+        "TimestampClean": "21 October16:37",
+        "Timestamp": "1998-10-21T16:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 5G",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-3",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "ARD recovered in Pacific Ocean by French Navy",
+      "Payload": [
+        {
+          "Payload": "Maqsat 3",
+          "Operator": "ESA",
+          "Orbit": "Geosynchronous transfer",
+          "Function": "Monitor rocket performance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "ARD",
+          "Operator": "ESA",
+          "Orbit": "Suborbital",
+          "Function": "Spacecraft recovery demonstration",
+          "Decay": "21 October",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 October12:53",
+        "TimestampClean": "22 October12:53",
+        "Timestamp": "1998-10-22T12:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Topol",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 158",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "Self-destruct activated after rocket went off course",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "22 October",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "23 October00:02",
+        "TimestampClean": "23 October00:02",
+        "Timestamp": "1998-10-23T00:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Pegasus-H",
+      "FlightNumber": "",
+      "LaunchSite": "Stargazer, Cape Canaveral",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SCD-2",
+          "Operator": "INPE",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 October21:13",
+        "TimestampClean": "24 October21:13",
+        "Timestamp": "1998-10-24T21:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7326-9.5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17A",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "Maiden flight of Delta II 7326Deep Space 1 performed flybys of 1992 KD and 19P/Borrelly",
+      "Payload": [
+        {
+          "Payload": "Deep Space 1",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric",
+          "Function": "Asteroid/Comet probe",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SEDSAT-1",
+          "Operator": "Alabama",
+          "Orbit": "Low Earth",
+          "Function": "Amateur radio",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 October04:14",
+        "TimestampClean": "25 October04:14",
+        "Timestamp": "1998-10-25T04:14:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "Roskosmos",
+      "Notes": "Sputnik-41 deployed from Mir during an EVA on 10 November",
+      "Payload": [
+        {
+          "Payload": "Progress M-40",
+          "Operator": "Roskosmos",
+          "Orbit": "Low Earth (Mir)",
+          "Function": "Logistics",
+          "Decay": "5 February 199911:10",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Sputnik-41",
+          "Operator": "ACF/AMSAT/RuAF",
+          "Orbit": "Low Earth",
+          "Function": "Amateur radio",
+          "Decay": "11 January 1999",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 October22:15",
+        "TimestampClean": "28 October22:15",
+        "Timestamp": "1998-10-28T22:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 44L",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "AfriStar",
+          "Operator": "1worldspace",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "GE 5",
+          "Operator": "GE Americom",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 October19:19",
+        "TimestampClean": "29 October19:19",
+        "Timestamp": "1998-10-29T19:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Space Shuttle Discovery",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39B",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with seven astronauts including the first Spanish space traveller (Pedro Duque) and the oldest person to fly in space (John Glenn)PANSAT deployed on 30 October; SPARTAN deployed on 1 November and retrieved on 3 November",
+      "Payload": [
+        {
+          "Payload": "STS-95",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Microgravity research",
+          "Decay": "7 November17:03",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SpaceHab Single Module",
+          "Operator": "NASA/SpaceHab",
+          "Orbit": "Low Earth (Discovery)",
+          "Function": "Scientific research",
+          "Decay": "7 November17:03",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SPARTAN-201",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Solar observation",
+          "Decay": "7 November17:03",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "PANSAT (PO-34)",
+          "Operator": "US Navy",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 November18:20",
+        "TimestampClean": "2 November18:20",
+        "Timestamp": "1998-11-02T18:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SOPHIE (NCAR/CU-7)",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Ultraviolet solar observation",
+          "Decay": "2 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 November05:12",
+        "TimestampClean": "4 November05:12",
+        "Timestamp": "1998-11-04T05:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/DM-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "International Launch services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "PanAmSat 8",
+          "Operator": "PanAmSat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 November01:32",
+        "TimestampClean": "6 November01:32",
+        "Timestamp": "1998-11-06T01:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "AIT-1",
+      "FlightNumber": "",
+      "LaunchSite": "Kodiak Island",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "First launch from Kodiak Island",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Rocket test",
+          "Decay": "6 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 November13:37",
+        "TimestampClean": "6 November13:37",
+        "Timestamp": "1998-11-06T13:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7920-10C",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC-2W",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 2",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 86",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "5 October 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 85",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "30 December 2000",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 84",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "4 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 83",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "5 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 November15:40",
+        "TimestampClean": "18 November15:40",
+        "Timestamp": "1998-11-18T15:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Black Brant IX",
+      "FlightNumber": "",
+      "LaunchSite": "White Sands",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NASA",
+          "Orbit": "Suborbital",
+          "Function": "Microgravity research",
+          "Decay": "18 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 November23:00",
+        "TimestampClean": "18 November23:00",
+        "Timestamp": "1998-11-18T23:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "TR-1",
+      "FlightNumber": "",
+      "LaunchSite": "Tanegashima LA-T",
+      "LaunchServiceProvider": "NASDA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NASDA",
+          "Orbit": "Suborbital",
+          "Function": "Microgravity research",
+          "Decay": "18 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 November",
+        "TimestampClean": "20 November",
+        "Timestamp": "1998-11-20T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Aries",
+      "FlightNumber": "",
+      "LaunchSite": "Pacific Missile Range",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "TTV-1",
+          "Operator": "US Air Force",
+          "Orbit": "Suborbital",
+          "Function": "Target vehicle",
+          "Decay": "20 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 November05:12",
+        "TimestampClean": "20 November05:12",
+        "Timestamp": "1998-11-20T05:12:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "Roskosmos",
+      "Notes": "First launch of the International Space Station programme",
+      "Payload": [
+        {
+          "Payload": "Zarya",
+          "Operator": "NASA/Roskosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS module",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 November23:54",
+        "TimestampClean": "22 November23:54",
+        "Timestamp": "1998-11-22T23:54:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7925-9.5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17B",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "BONUM-1",
+          "Operator": "Telenor",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 November09:53",
+        "TimestampClean": "24 November09:53",
+        "Timestamp": "1998-11-24T09:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Maxus",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange",
+      "LaunchServiceProvider": "SSC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "ESA",
+          "Orbit": "Suborbital",
+          "Function": "Scientific research",
+          "Decay": "24 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 December11:04",
+        "TimestampClean": "3 December11:04",
+        "Timestamp": "1998-12-03T11:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Nike-Orion",
+      "FlightNumber": "",
+      "LaunchSite": "Esrange",
+      "LaunchServiceProvider": "DLR",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Mini-Texus 6",
+          "Operator": "DLR",
+          "Orbit": "Suborbital",
+          "Function": "Microgravity research",
+          "Decay": "3 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 December08:35",
+        "TimestampClean": "4 December08:35",
+        "Timestamp": "1998-12-04T08:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Space Shuttle Endeavour",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy LC-39A",
+      "LaunchServiceProvider": "United Space Alliance",
+      "Notes": "Crewed orbital flight with six astronautsFirst crewed flight to the International Space StationSAC-A deployed on 14 December and MightySat on 15 December",
+      "Payload": [
+        {
+          "Payload": "STS-88",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS assembly",
+          "Decay": "16 December04:53",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Unity (Node 1)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS module",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "PMA-1",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS component",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "PMA-2",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS component",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SAC-A",
+          "Operator": "CONAE",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "25 October 1999",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "MightySat 1",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "21 November 1999",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 December00:43",
+        "TimestampClean": "6 December00:43",
+        "Timestamp": "1998-12-06T00:43:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 42L",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Satmex 5",
+          "Operator": "Satmex",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 December00:57",
+        "TimestampClean": "6 December00:57",
+        "Timestamp": "1998-12-06T00:57:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Pegasus-XL",
+      "FlightNumber": "",
+      "LaunchSite": "Stargazer, Vandenberg",
+      "LaunchServiceProvider": "Orbital Sciences",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SWAS",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Astronomy",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 December11:25",
+        "TimestampClean": "8 December11:25",
+        "Timestamp": "1998-12-08T11:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Topol",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 158",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "8 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 December10:20",
+        "TimestampClean": "9 December10:20",
+        "Timestamp": "1998-12-09T10:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "RT-23",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Test flight",
+          "Decay": "9 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 December",
+        "TimestampClean": "10 December",
+        "Timestamp": "1998-12-10T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "UR-100NU",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "10 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 December11:57",
+        "TimestampClean": "10 December11:57",
+        "Timestamp": "1998-12-10T11:57:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Nadezhda 5",
+          "Operator": "MO RF",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Astrid-2",
+          "Operator": "SSC",
+          "Orbit": "Low Earth",
+          "Function": "Aurora research",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 December18:45",
+        "TimestampClean": "11 December18:45",
+        "Timestamp": "1998-12-11T18:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta II 7425-9.5",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral SLC-17A",
+      "LaunchServiceProvider": "Boeing IDS",
+      "Notes": "Maiden flight of Delta II 7425MCO crashed into Mars during orbital inserition due to error in unit conversions between Metric and Imperial",
+      "Payload": [
+        {
+          "Payload": "Mars Climate Orbiter",
+          "Operator": "NASA",
+          "Orbit": "Intended: AreocentricActual: Heliocentric",
+          "Function": "Mars orbiter",
+          "Decay": "23 September 1999",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 December",
+        "TimestampClean": "15 December",
+        "Timestamp": "1998-12-15T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Sounding Rocket I",
+      "FlightNumber": "",
+      "LaunchSite": "Jiu Peng Air Base",
+      "LaunchServiceProvider": "NSPO",
+      "Notes": "Apogee: ~280 km (174 mi)",
+      "Payload": [
+        {
+          "Payload": "",
+          "Operator": "NSPO",
+          "Orbit": "Suborbital",
+          "Function": "Ionospheric research",
+          "Decay": "15 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 December11:39",
+        "TimestampClean": "19 December11:39",
+        "Timestamp": "1998-12-19T11:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2C",
+      "FlightNumber": "",
+      "LaunchSite": "Taiyuan LC-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Iridium 20",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "22 October 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Iridium 11",
+          "Operator": "Iridium",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "22 October 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 December01:08",
+        "TimestampClean": "22 December01:08",
+        "Timestamp": "1998-12-22T01:08:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Ariane 4 42L",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELA-2",
+      "LaunchServiceProvider": "Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "PAS-6B",
+          "Operator": "PanAmSat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 December20:02",
+        "TimestampClean": "24 December20:02",
+        "Timestamp": "1998-12-24T20:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2361 (Parus)",
+          "Operator": "MO RF",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 December18:35",
+        "TimestampClean": "30 December18:35",
+        "Timestamp": "1998-12-30T18:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/DM-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 2362 (GLONASS)",
+          "Operator": "MOM",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2363 (GLONASS)",
+          "Operator": "MOM",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 2364 (GLONASS)",
+          "Operator": "MOM",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    }
+  ],
   "SuborbitalFlights": null
 }
