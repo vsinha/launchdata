@@ -2,6 +2,38 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
+        "TimestampRaw": "Date and time (UTC)",
+        "TimestampClean": "Date and time (UTC)",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1970 Date and time (UTC)",
+          "LayoutElem": "2",
+          "ValueElem": "Date and time (UTC)",
+          "Message": ""
+        }
+      },
+      "Rocket": "Rocket",
+      "FlightNumber": "Flight number",
+      "LaunchSite": "Launch site",
+      "LaunchServiceProvider": "LSP",
+      "Notes": "Remarks",
+      "Payload": [
+        {
+          "Payload": "Payload",
+          "Operator": "Operator",
+          "Orbit": "Orbit",
+          "Function": "Function",
+          "Decay": "Decay (UTC)",
+          "Outcome": "Outcome",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "11 February",
         "TimestampClean": "11 February",
         "Timestamp": "1970-02-11T00:00:00Z",
