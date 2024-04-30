@@ -2,38 +2,6 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
-        "TimestampRaw": "Date and time (UTC)",
-        "TimestampClean": "Date and time (UTC)",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1970 Date and time (UTC)",
-          "LayoutElem": "2",
-          "ValueElem": "Date and time (UTC)",
-          "Message": ""
-        }
-      },
-      "Rocket": "Rocket",
-      "FlightNumber": "Flight number",
-      "LaunchSite": "Launch site",
-      "LaunchServiceProvider": "LSP",
-      "Notes": "Remarks",
-      "Payload": [
-        {
-          "Payload": "Payload",
-          "Operator": "Operator",
-          "Orbit": "Orbit",
-          "Function": "Function",
-          "Decay": "Decay (UTC)",
-          "Outcome": "Outcome",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "9 January",
         "TimestampClean": "9 January",
         "Timestamp": "1970-01-09T00:00:00Z",
@@ -451,6 +419,215 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "4 May",
+        "TimestampClean": "4 May",
+        "Timestamp": "1970-05-04T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Site 43/4, Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 325 (Zenit-2 #79)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth Orbit",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 0440 KH-4B 1109",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 3402 Tivoli 3",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 May",
+        "TimestampClean": "10 May",
+        "Timestamp": "1970-05-10T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Diamant B",
+      "FlightNumber": "",
+      "LaunchSite": "Kourou ELD",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Dial-WIKA",
+          "Operator": "DFVLR",
+          "Orbit": "",
+          "Function": "Technology Demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Dial-MIKA",
+          "Operator": "DFVLR",
+          "Orbit": "",
+          "Function": "Technology Demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 May",
+        "TimestampClean": "13 May",
+        "Timestamp": "1970-05-13T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Site 43/4, Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 326 (Zenit-2 #80)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth Orbit",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 May",
+        "TimestampClean": "17 May",
+        "Timestamp": "1970-05-17T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Site 41/1, Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Meteor-1 3",
+          "Operator": "",
+          "Orbit": "Low Earth Orbit",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 May",
+        "TimestampClean": "18 May",
+        "Timestamp": "1970-05-18T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos 2",
+      "FlightNumber": "",
+      "LaunchSite": "Site 133/1, Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 327 (DS-P1-I #8)",
+          "Operator": "Yuzhnoye",
+          "Orbit": "Low Earth Orbit",
+          "Function": "Radar calibration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 May",
+        "TimestampClean": "20 May",
+        "Timestamp": "1970-05-20T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta M",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NATO 2A",
+          "Operator": "NATO",
+          "Orbit": "Geosynchronous",
+          "Function": "Military Communication",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 May",
+        "TimestampClean": "27 May",
+        "Timestamp": "1970-05-27T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Site 41/1, Plesetsk",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 328 (Zenit-2MK #2, Germes #2)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth Orbit",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "11 April19:13",
         "TimestampClean": "11 April19:13",
         "Timestamp": "1970-04-11T19:13:00Z",
@@ -613,7 +790,7 @@
       "Notes": "First satellite dedicated to X-ray astronomy.",
       "Payload": [
         {
-          "Payload": "Uhuru",
+          "Payload": "Explorer 42 (Uhuru)",
           "Operator": "NASA",
           "Orbit": "Low Earth",
           "Function": "X-ray astronomy",
