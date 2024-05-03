@@ -1310,12 +1310,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "8 March~05:06[106]",
-        "TimestampClean": "8 March~05:06",
-        "Timestamp": "2022-03-08T05:06:00Z",
+        "TimestampRaw": "8 March≈05:06[106]",
+        "TimestampClean": "8 March≈05:06",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2022 8 March≈05:06",
+          "LayoutElem": "",
+          "ValueElem": "≈05:06",
+          "Message": ": extra text: \"\\xe2\\x89\\x8805:06\""
+        }
       },
       "Rocket": "Qased",
       "FlightNumber": "",
