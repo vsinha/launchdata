@@ -348,20 +348,20 @@
       "Payload": [
         {
           "Payload": "GRACE 1",
-          "Operator": "NASA",
+          "Operator": "NASA/DLR",
           "Orbit": "Sun-synchronous",
-          "Function": "",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Function": "Gravity research",
+          "Decay": "10 March 201806:09 UTC",
+          "Outcome": "Successful",
           "Cubesat": false
         },
         {
           "Payload": "GRACE 2",
-          "Operator": "NASA",
+          "Operator": "NASA/DLR",
           "Orbit": "Sun-synchronous",
-          "Function": "",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Function": "Gravity research",
+          "Decay": "24 December 201700:16 UTC",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -943,7 +943,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 June18:23[15]",
+        "TimestampRaw": "24 June18:23[17]",
         "TimestampClean": "24 June18:23",
         "Timestamp": "2002-06-24T18:23:00Z",
         "Tbd": false,
@@ -1806,7 +1806,7 @@
           "Payload": "WEOS (Kanta-Kun)",
           "Operator": "Chiba Institute of Technology",
           "Orbit": "Low Earth",
-          "Function": "Landsat",
+          "Function": "Whale monitoring",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
