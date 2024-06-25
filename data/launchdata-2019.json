@@ -1712,15 +1712,6 @@
           "Cubesat": false
         },
         {
-          "Payload": "BeeSat × 4",
-          "Operator": "Technical University of Berlin",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
           "Payload": "CarboNIX",
           "Operator": "Exolaunch",
           "Orbit": "Low Earth (SSO)",
@@ -1759,6 +1750,15 @@
         {
           "Payload": "AmurSat",
           "Operator": "Amur State University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "BeeSat × 4 (10-13)",
+          "Operator": "Technical University of Berlin",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -1902,7 +1902,7 @@
         },
         {
           "Payload": "VDNH-80",
-          "Operator": "Moscow State university / VDNH",
+          "Operator": "Moscow State University / VDNKh",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
@@ -2109,12 +2109,21 @@
           "Decay": "6 August",
           "Outcome": "Successful",
           "Cubesat": true
+        },
+        {
+          "Payload": "Demonstration payload",
+          "Operator": "CAMSAT",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration, boilerplate",
+          "Decay": "26 July",
+          "Outcome": "Successful",
+          "Cubesat": true
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 July22:01:56[266]",
+        "TimestampRaw": "25 July22:01:56[270]",
         "TimestampClean": "25 July22:01:56",
         "Timestamp": "2019-07-25T22:01:56Z",
         "Tbd": false,
@@ -2167,7 +2176,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 July03:57[269]",
+        "TimestampRaw": "26 July03:57[273]",
         "TimestampClean": "26 July03:57",
         "Timestamp": "2019-07-26T03:57:00Z",
         "Tbd": false,
@@ -2211,7 +2220,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 July05:56[273]",
+        "TimestampRaw": "30 July05:56[277]",
         "TimestampClean": "30 July05:56",
         "Timestamp": "2019-07-30T05:56:00Z",
         "Tbd": false,
@@ -2237,7 +2246,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "31 July12:10:46[274]",
+        "TimestampRaw": "31 July12:10:46[278]",
         "TimestampClean": "31 July12:10:46",
         "Timestamp": "2019-07-31T12:10:46Z",
         "Tbd": false,
@@ -2263,7 +2272,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 August21:56[275]",
+        "TimestampRaw": "5 August21:56[279]",
         "TimestampClean": "5 August21:56",
         "Timestamp": "2019-08-05T21:56:00Z",
         "Tbd": false,
@@ -2289,7 +2298,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 August19:30[276]",
+        "TimestampRaw": "6 August19:30[280]",
         "TimestampClean": "6 August19:30",
         "Timestamp": "2019-08-06T19:30:00Z",
         "Tbd": false,
@@ -2324,7 +2333,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 August23:23[278]",
+        "TimestampRaw": "6 August23:23[282]",
         "TimestampClean": "6 August23:23",
         "Timestamp": "2019-08-06T23:23:00Z",
         "Tbd": false,
@@ -2350,7 +2359,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "8 August10:13[283]",
+        "TimestampRaw": "8 August10:13[287]",
         "TimestampClean": "8 August10:13",
         "Timestamp": "2019-08-08T10:13:00Z",
         "Tbd": false,
@@ -2364,7 +2373,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "AEHF-5",
+          "Payload": "USA-292 (AEHF-5) ",
           "Operator": "U.S. Air Force",
           "Orbit": "Geosynchronous",
           "Function": "Communications (military)",
@@ -2429,7 +2438,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 August12:03[295]",
+        "TimestampRaw": "19 August12:03[299]",
         "TimestampClean": "19 August12:03",
         "Timestamp": "2019-08-19T12:03:00Z",
         "Tbd": false,
@@ -2455,7 +2464,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 August12:12[301]",
+        "TimestampRaw": "19 August12:12[305]",
         "TimestampClean": "19 August12:12",
         "Timestamp": "2019-08-19T12:12:00Z",
         "Tbd": false,
@@ -2499,7 +2508,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 August03:38:31[307]",
+        "TimestampRaw": "22 August03:38:31[311]",
         "TimestampClean": "22 August03:38:31",
         "Timestamp": "2019-08-22T03:38:31Z",
         "Tbd": false,
@@ -2525,7 +2534,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 August13:06[312]",
+        "TimestampRaw": "22 August13:06[316]",
         "TimestampClean": "22 August13:06",
         "Timestamp": "2019-08-22T13:06:00Z",
         "Tbd": false,
@@ -2551,7 +2560,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 August (ground test)[314]",
+        "TimestampRaw": "29 August (ground test)[318]",
         "TimestampClean": "29 August (ground test)",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
@@ -2583,7 +2592,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 August14:00[320]",
+        "TimestampRaw": "30 August14:00[324]",
         "TimestampClean": "30 August14:00",
         "Timestamp": "2019-08-30T14:00:00Z",
         "Tbd": false,
@@ -2609,7 +2618,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 August23:41[321]",
+        "TimestampRaw": "30 August23:41[325]",
         "TimestampClean": "30 August23:41",
         "Timestamp": "2019-08-30T23:41:00Z",
         "Tbd": false,
@@ -2644,7 +2653,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 September03:26[327]",
+        "TimestampRaw": "12 September03:26[331]",
         "TimestampClean": "12 September03:26",
         "Timestamp": "2019-09-12T03:26:00Z",
         "Tbd": false,
@@ -2688,7 +2697,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 September06:42[330]",
+        "TimestampRaw": "19 September06:42[334]",
         "TimestampClean": "19 September06:42",
         "Timestamp": "2019-09-19T06:42:00Z",
         "Tbd": false,
@@ -2723,7 +2732,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 September21:10[333]",
+        "TimestampRaw": "22 September21:10[337]",
         "TimestampClean": "22 September21:10",
         "Timestamp": "2019-09-22T21:10:00Z",
         "Tbd": false,
@@ -2758,7 +2767,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September16:05[335]",
+        "TimestampRaw": "24 September16:05[339]",
         "TimestampClean": "24 September16:05",
         "Timestamp": "2019-09-24T16:05:00Z",
         "Tbd": false,
@@ -2811,7 +2820,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 September00:54[344]",
+        "TimestampRaw": "25 September00:54[348]",
         "TimestampClean": "25 September00:54",
         "Timestamp": "2019-09-25T00:54:00Z",
         "Tbd": false,
@@ -2837,7 +2846,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 September13:57:43[346]",
+        "TimestampRaw": "25 September13:57:43[350]",
         "TimestampClean": "25 September13:57:43",
         "Timestamp": "2019-09-25T13:57:43Z",
         "Tbd": false,
@@ -2863,7 +2872,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 September07:46[347]",
+        "TimestampRaw": "26 September07:46[351]",
         "TimestampClean": "26 September07:46",
         "Timestamp": "2019-09-26T07:46:00Z",
         "Tbd": false,
@@ -2889,7 +2898,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 October18:51[350]",
+        "TimestampRaw": "4 October18:51[354]",
         "TimestampClean": "4 October18:51",
         "Timestamp": "2019-10-04T18:51:00Z",
         "Tbd": false,
@@ -2915,7 +2924,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 October10:17[351]",
+        "TimestampRaw": "9 October10:17[355]",
         "TimestampClean": "9 October10:17",
         "Timestamp": "2019-10-09T10:17:00Z",
         "Tbd": false,
@@ -2950,7 +2959,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 October02:00[354]",
+        "TimestampRaw": "11 October02:00[358]",
         "TimestampClean": "11 October02:00",
         "Timestamp": "2019-10-11T02:00:00Z",
         "Tbd": false,
@@ -2976,7 +2985,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 October01:22[355]",
+        "TimestampRaw": "17 October01:22[359]",
         "TimestampClean": "17 October01:22",
         "Timestamp": "2019-10-17T01:22:00Z",
         "Tbd": false,
@@ -3002,7 +3011,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 October15:21[359]",
+        "TimestampRaw": "17 October15:21[363]",
         "TimestampClean": "17 October15:21",
         "Timestamp": "2019-10-17T15:21:00Z",
         "Tbd": false,
@@ -3028,7 +3037,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 November13:59:47[360]",
+        "TimestampRaw": "2 November13:59:47[364]",
         "TimestampClean": "2 November13:59:47",
         "Timestamp": "2019-11-02T13:59:47Z",
         "Tbd": false,
@@ -3153,7 +3162,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 November03:22:39[395][396]",
+        "TimestampRaw": "3 November03:22:39[399][400]",
         "TimestampClean": "3 November03:22:39",
         "Timestamp": "2019-11-03T03:22:39Z",
         "Tbd": false,
@@ -3206,7 +3215,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 November17:43[406]",
+        "TimestampRaw": "4 November17:43[410]",
         "TimestampClean": "4 November17:43",
         "Timestamp": "2019-11-04T17:43:00Z",
         "Tbd": false,
@@ -3232,7 +3241,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 November14:56[407]",
+        "TimestampRaw": "11 November14:56[411]",
         "TimestampClean": "11 November14:56",
         "Timestamp": "2019-11-11T14:56:00Z",
         "Tbd": false,
@@ -3258,7 +3267,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 November03:40[408]",
+        "TimestampRaw": "13 November03:40[412]",
         "TimestampClean": "13 November03:40",
         "Timestamp": "2019-11-13T03:40:00Z",
         "Tbd": false,
@@ -3284,7 +3293,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 November06:35[409][410]",
+        "TimestampRaw": "13 November06:35[413][414]",
         "TimestampClean": "13 November06:35",
         "Timestamp": "2019-11-13T06:35:00Z",
         "Tbd": false,
@@ -3310,7 +3319,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 November10:00[413]",
+        "TimestampRaw": "17 November10:00[417]",
         "TimestampClean": "17 November10:00",
         "Timestamp": "2019-11-17T10:00:00Z",
         "Tbd": false,
@@ -3345,7 +3354,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 November00:55[418]",
+        "TimestampRaw": "23 November00:55[422]",
         "TimestampClean": "23 November00:55",
         "Timestamp": "2019-11-23T00:55:00Z",
         "Tbd": false,
@@ -3415,7 +3424,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 November21:23[425]",
+        "TimestampRaw": "26 November21:23[429]",
         "TimestampClean": "26 November21:23",
         "Timestamp": "2019-11-26T21:23:00Z",
         "Tbd": false,
@@ -3450,7 +3459,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 November03:58[430][431]",
+        "TimestampRaw": "27 November03:58[434][435]",
         "TimestampClean": "27 November03:58",
         "Timestamp": "2019-11-27T03:58:00Z",
         "Tbd": false,
@@ -3494,7 +3503,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 November23:52[439][440]",
+        "TimestampRaw": "27 November23:52[443][444]",
         "TimestampClean": "27 November23:52",
         "Timestamp": "2019-11-27T23:52:00Z",
         "Tbd": false,
@@ -3520,7 +3529,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "5 December17:29[441]",
+        "TimestampRaw": "5 December17:29[445]",
         "TimestampClean": "5 December17:29",
         "Timestamp": "2019-12-05T17:29:00Z",
         "Tbd": false,
@@ -3645,7 +3654,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 December08:18[478]",
+        "TimestampRaw": "6 December08:18[482]",
         "TimestampClean": "6 December08:18",
         "Timestamp": "2019-12-06T08:18:00Z",
         "Tbd": false,
@@ -3725,7 +3734,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 December09:34:11[494]",
+        "TimestampRaw": "6 December09:34:11[498]",
         "TimestampClean": "6 December09:34:11",
         "Timestamp": "2019-12-06T09:34:11Z",
         "Tbd": false,
@@ -3751,7 +3760,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December02:55[497]",
+        "TimestampRaw": "7 December02:55[501]",
         "TimestampClean": "7 December02:55",
         "Timestamp": "2019-12-07T02:55:00Z",
         "Tbd": false,
@@ -3777,7 +3786,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 December08:52[497]",
+        "TimestampRaw": "7 December08:52[501]",
         "TimestampClean": "7 December08:52",
         "Timestamp": "2019-12-07T08:52:00Z",
         "Tbd": false,
@@ -3848,7 +3857,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 December08:54:48[499]",
+        "TimestampRaw": "11 December08:54:48[503]",
         "TimestampClean": "11 December08:54:48",
         "Timestamp": "2019-12-11T08:54:48Z",
         "Tbd": false,
@@ -3874,7 +3883,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 December09:55[500][501]",
+        "TimestampRaw": "11 December09:55[504][505]",
         "TimestampClean": "11 December09:55",
         "Timestamp": "2019-12-11T09:55:00Z",
         "Tbd": false,
@@ -3954,7 +3963,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "16 December07:22[515]",
+        "TimestampRaw": "16 December07:22[519]",
         "TimestampClean": "16 December07:22",
         "Timestamp": "2019-12-16T07:22:00Z",
         "Tbd": false,
@@ -3989,7 +3998,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 December00:10[516]",
+        "TimestampRaw": "17 December00:10[520]",
         "TimestampClean": "17 December00:10",
         "Timestamp": "2019-12-17T00:10:00Z",
         "Tbd": false,
@@ -4015,7 +4024,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 December08:54:20[519]",
+        "TimestampRaw": "18 December08:54:20[523]",
         "TimestampClean": "18 December08:54:20",
         "Timestamp": "2019-12-18T08:54:20Z",
         "Tbd": false,
@@ -4077,7 +4086,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 December03:22:29[526][527]",
+        "TimestampRaw": "20 December03:22:29[530][531]",
         "TimestampClean": "20 December03:22:29",
         "Timestamp": "2019-12-20T03:22:29Z",
         "Tbd": false,
@@ -4175,7 +4184,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 December11:36:43[539]",
+        "TimestampRaw": "20 December11:36:43[543]",
         "TimestampClean": "20 December11:36:43",
         "Timestamp": "2019-12-20T11:36:43Z",
         "Tbd": false,
@@ -4201,7 +4210,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 December12:03[542]",
+        "TimestampRaw": "24 December12:03[546]",
         "TimestampClean": "24 December12:03",
         "Timestamp": "2019-12-24T12:03:00Z",
         "Tbd": false,
@@ -4227,7 +4236,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "26 December23:11:57[19][543]",
+        "TimestampRaw": "26 December23:11:57[19][547]",
         "TimestampClean": "26 December23:11:57",
         "Timestamp": "2019-12-26T23:11:57Z",
         "Tbd": false,
@@ -4280,7 +4289,7 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 December12:45[16][547]",
+        "TimestampRaw": "27 December12:45[16][551]",
         "TimestampClean": "27 December12:45",
         "Timestamp": "2019-12-27T12:45:00Z",
         "Tbd": false,
