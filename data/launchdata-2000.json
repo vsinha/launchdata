@@ -2102,21 +2102,27 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 October22:00[12]",
-        "TimestampClean": "21 October22:00",
-        "Timestamp": "2000-10-21T22:00:00Z",
+        "TimestampRaw": "21 October 200022:00[12]",
+        "TimestampClean": "21 October 200022:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2000 21 October 200022:00",
+          "LayoutElem": "",
+          "ValueElem": " 200022:00",
+          "Message": ": extra text: \" 200022:00\""
+        }
       },
-      "Rocket": "Proton-K/DM-2M",
+      "Rocket": "Proton_K (UR_500+11С861_DM3)",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 81/23",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": "Baikonur Site military 81_23",
+      "LaunchServiceProvider": "International Launch Services (ILS)",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "GE 6",
+          "Payload": "GE 6 (Amiricom_6)",
           "Operator": "GE Americom",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2128,12 +2134,18 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 October05:59[5]",
-        "TimestampClean": "29 October05:59",
-        "Timestamp": "2000-10-29T05:59:00Z",
+        "TimestampRaw": "29 October 200005:59[5]",
+        "TimestampClean": "29 October 200005:59",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2000 29 October 200005:59",
+          "LayoutElem": "",
+          "ValueElem": " 200005:59",
+          "Message": ": extra text: \" 200005:59\""
+        }
       },
       "Rocket": "Ariane 4 44LP",
       "FlightNumber": "",
