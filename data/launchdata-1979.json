@@ -63,15 +63,15 @@
       },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Cosmodrome unknown pad",
+      "LaunchSite": "Plesetsk Cosmodrome LC132/1",
       "LaunchServiceProvider": "",
       "Notes": "Military payload (810 kg)",
       "Payload": [
         {
-          "Payload": "Kosmos 1072",
+          "Payload": "Kosmos 1072 (Parus #17)",
           "Operator": "",
           "Orbit": "Low Earth (82.9 degrees inclination)",
-          "Function": "",
+          "Function": "Navigation",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -97,7 +97,7 @@
           "Payload": "Molniya 3-11",
           "Operator": "",
           "Orbit": "Extremely elliptical orbit (64.1 degrees inclination)",
-          "Function": "",
+          "Function": "Communications",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -113,17 +113,17 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-M",
+      "Rocket": "Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Cosmodrome unknown pad",
+      "LaunchSite": "Baikonur Cosmodrome Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "Civilian payload (1100 kg)",
       "Payload": [
         {
-          "Payload": "Meteor-prigoda 2 (Meteor 1-29)",
+          "Payload": "Meteor-Priroda 2-3 (Meteor-1 29)",
           "Operator": "",
           "Orbit": "SSO",
-          "Function": "",
+          "Function": "Meteorology",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -193,7 +193,7 @@
       },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Cosmodrome unknown pad",
+      "LaunchSite": "Baikonur Cosmodrome Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "Military payload (7000 kg)",
       "Payload": [
@@ -201,7 +201,7 @@
           "Payload": "Kosmos 1074",
           "Operator": "",
           "Orbit": "Low Earth (51.6 degrees inclination)",
-          "Function": "",
+          "Function": "Test flight",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -221,15 +221,15 @@
       "FlightNumber": "",
       "LaunchSite": "Tanegashima, Osaki launch complex",
       "LaunchServiceProvider": "",
-      "Notes": "Civilian payload (260 kg)",
+      "Notes": "Civilian payload (260 kg). Spacecraft has failed 9 February 1979 during apogee kick motor burn after recontact with 3rd stage",
       "Payload": [
         {
           "Payload": "Ayame 1 [ja] (ECS A)",
-          "Operator": "",
+          "Operator": "NASDA",
           "Orbit": "Extremely Elliptical Orbit (0.7 degrees inclination)",
-          "Function": "",
+          "Function": "Communications",
           "Decay": "unknown",
-          "Outcome": "Spacecraft has failed 9 February 1979 during apogee kick motor burn after recontact with 3rd stage",
+          "Outcome": "Partial failure",
           "Cubesat": false
         }
       ]
@@ -245,7 +245,7 @@
       },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Cosmodrome unknown pad",
+      "LaunchSite": "Plesetsk Cosmodrome LC132/2",
       "LaunchServiceProvider": "",
       "Notes": "Military payload (1080 kg)",
       "Payload": [
@@ -253,7 +253,7 @@
           "Payload": "Kosmos 1075",
           "Operator": "",
           "Orbit": "Low Earth (65.8 degrees inclination)",
-          "Function": "",
+          "Function": "Radar calibration",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -269,9 +269,9 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Tsyklon-3(Cyclone-3)",
+      "Rocket": "Tsyklon-3",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Cosmodrome pad LC 32/2",
+      "LaunchSite": "Plesetsk Cosmodrome LC32/2",
       "LaunchServiceProvider": "",
       "Notes": "Military payload (1900 kg)",
       "Payload": [
@@ -279,7 +279,7 @@
           "Payload": "Kosmos 1076",
           "Operator": "",
           "Orbit": "Low Earth (82.5 degrees inclination)",
-          "Function": "",
+          "Function": "Earth observation",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -295,7 +295,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-M",
+      "Rocket": "Vostok-2M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Cosmodrome LC43/4",
       "LaunchServiceProvider": "",
@@ -323,7 +323,7 @@
       },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Cosmodrome pad LC 41",
+      "LaunchSite": "Plesetsk Cosmodrome LC41/1",
       "LaunchServiceProvider": "",
       "Notes": "Military payload",
       "Payload": [
@@ -381,9 +381,9 @@
       "Payload": [
         {
           "Payload": "Hakucho (CORSA B)",
-          "Operator": "",
+          "Operator": "ISAS",
           "Orbit": "Low Earth (29.9 degrees inclination)",
-          "Function": "",
+          "Function": "X-ray astronomy",
           "Decay": "16 April 1985",
           "Outcome": "Successful",
           "Cubesat": false
@@ -401,7 +401,7 @@
       },
       "Rocket": "Proton-K/DM",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Cosmodrome, pad LC 200P (pad 40)",
+      "LaunchSite": "Baikonur Cosmodrome, Site 200/40",
       "LaunchServiceProvider": "",
       "Notes": "Civilian payload (1970 kg)",
       "Payload": [
@@ -409,7 +409,7 @@
           "Payload": "Ekran 3",
           "Operator": "",
           "Orbit": "GEO",
-          "Function": "",
+          "Function": "Satellite television",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
@@ -427,7 +427,7 @@
       },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Cosmodrome unknown pad",
+      "LaunchSite": "Plesetsk Cosmodrome LC41/1",
       "LaunchServiceProvider": "",
       "Notes": "Military payload (6000 kg)",
       "Payload": [
@@ -533,13 +533,13 @@
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Cosmodrome pad LC 132/2",
       "LaunchServiceProvider": "",
-      "Notes": "Civilian payload (1015 kg)",
+      "Notes": "Civilian payload (1015 kg). Collaboration between USSR, Bulgaria, Czechoslovakia, Hungary, and Poland.",
       "Payload": [
         {
           "Payload": "Interkosmos 19",
-          "Operator": "",
+          "Operator": "Interkosmos",
           "Orbit": "Low Earth (74.0 degrees inclination)",
-          "Function": "",
+          "Function": "Ionospheric research",
           "Decay": "unknown",
           "Outcome": "Successful",
           "Cubesat": false
