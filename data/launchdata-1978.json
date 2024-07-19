@@ -2,16 +2,16 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
-        "TimestampRaw": "",
-        "TimestampClean": "",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "10 January12:26:00",
+        "TimestampClean": "10 January12:26:00",
+        "Timestamp": "1978-01-10T12:26:00Z",
         "Tbd": false,
-        "ParsedOk": false,
+        "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "",
+      "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "",
+      "LaunchSite": "Baikonur Site 1/5",
       "LaunchServiceProvider": "",
       "Notes": "Crewed flight with two cosmonauts",
       "Payload": [
@@ -47,6 +47,32 @@
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Salyut 6 logistics",
           "Decay": "8 February02:00",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 January04:58",
+        "TimestampClean": "26 January04:58",
+        "Timestamp": "1978-01-26T04:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2A",
+      "FlightNumber": "",
+      "LaunchSite": "Jiuquan, LA-2/138",
+      "LaunchServiceProvider": "",
+      "Notes": "Re-entry capsule recovered on 30 January.",
+      "Payload": [
+        {
+          "Payload": "FSW-0 3",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "30 January",
           "Outcome": "Successful",
           "Cubesat": false
         }
