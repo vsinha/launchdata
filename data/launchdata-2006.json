@@ -2,32 +2,6 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
-        "TimestampRaw": "18 January11:48[1]",
-        "TimestampClean": "18 January11:48",
-        "Timestamp": "2006-01-18T11:48:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Sounding Rocket V",
-      "FlightNumber": "",
-      "LaunchSite": "Jiu Peng Air Base",
-      "LaunchServiceProvider": "NSPO",
-      "Notes": "Apogee: 282 kilometres (175 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NSPO/NCU",
-          "Orbit": "Suborbital",
-          "Function": "Ionospheric research",
-          "Decay": "11:57",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "19 January19:00:00",
         "TimestampClean": "19 January19:00:00",
         "Timestamp": "2006-01-19T19:00:00Z",
@@ -48,32 +22,6 @@
           "Function": "Pluto flyby",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 January04:00",
-        "TimestampClean": "22 January04:00",
-        "Timestamp": "2006-01-22T04:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "S-310",
-      "FlightNumber": "",
-      "LaunchSite": "Uchinoura",
-      "LaunchServiceProvider": "JAXA",
-      "Notes": "Apogee: 130 kilometres (81 mi)",
-      "Payload": [
-        {
-          "Payload": "Furoshiki",
-          "Operator": "JAXA",
-          "Orbit": "Suborbital",
-          "Function": "Technology",
-          "Decay": "22 January",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -106,58 +54,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 February",
-        "TimestampClean": "6 February",
-        "Timestamp": "2006-02-06T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Dong Feng 21",
-      "FlightNumber": "",
-      "LaunchSite": "Xichang",
-      "LaunchServiceProvider": "PLA",
-      "Notes": "Apogee: 800 kilometres (500 mi), missed satellite",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "PLA",
-          "Orbit": "Suborbital",
-          "Function": "ASAT",
-          "Decay": "6 February",
-          "Outcome": "Spacecraft failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "8 February18:47",
-        "TimestampClean": "8 February18:47",
-        "Timestamp": "2006-02-08T18:47:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 282 kilometres (175 mi)",
-      "Payload": [
-        {
-          "Payload": "MOSES",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "Solar",
-          "Decay": "8 February",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "15 February23:34:55",
         "TimestampClean": "15 February23:34:55",
         "Timestamp": "2006-02-15T23:34:55Z",
@@ -178,32 +74,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "16 February08:01",
-        "TimestampClean": "16 February08:01",
-        "Timestamp": "2006-02-16T08:01:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "LGM-30G Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-10",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Apogee: 1,300 kilometres (810 mi)",
-      "Payload": [
-        {
-          "Payload": "SERV-3",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "16 February",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -271,32 +141,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 February16:09",
-        "TimestampClean": "23 February16:09",
-        "Timestamp": "2006-02-23T16:09:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "UGM-27 Polaris (STARS)",
-      "FlightNumber": "",
-      "LaunchSite": "Kodiak",
-      "LaunchServiceProvider": "Sandia",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "FT-03-1",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "23 February",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "28 February20:10:00",
         "TimestampClean": "28 February20:10:00",
         "Timestamp": "2006-02-28T20:10:00Z",
@@ -317,32 +161,6 @@
           "Function": "Communications",
           "Decay": "24 March",
           "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "8 March08:45",
-        "TimestampClean": "8 March08:45",
-        "Timestamp": "2006-03-08T08:45:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RIM-161 Standard Missile 3",
-      "FlightNumber": "",
-      "LaunchSite": "USS Lake Erie, PMRF",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "Apogee: 150 kilometres (93 mi)",
-      "Payload": [
-        {
-          "Payload": "JCTV-1",
-          "Operator": "US Navy/MDA/JMSDF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "8 March",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -454,32 +272,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 March03:15",
-        "TimestampClean": "25 March03:15",
-        "Timestamp": "2006-03-25T03:15:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Woomera LA-2",
-      "LaunchServiceProvider": "Queensland",
-      "Notes": "Apogee: 325 kilometres (202 mi)",
-      "Payload": [
-        {
-          "Payload": "Hyshot-3",
-          "Operator": "Queensland",
-          "Orbit": "Suborbital",
-          "Function": "Hypersonic research",
-          "Decay": "03:25",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "30 March02:30:20",
         "TimestampClean": "30 March02:30:20",
         "Timestamp": "2006-03-30T02:30:20Z",
@@ -499,84 +291,6 @@
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS Expedition 13",
           "Decay": "29 September01:13",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "30 March02:40",
-        "TimestampClean": "30 March02:40",
-        "Timestamp": "2006-03-30T02:40:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Woomera LA-2",
-      "LaunchServiceProvider": "Queensland",
-      "Notes": "Apogee: 290 kilometres (180 mi), nosecone failed to separate",
-      "Payload": [
-        {
-          "Payload": "Hyshot-4",
-          "Operator": "Queensland/JAXA",
-          "Orbit": "Suborbital",
-          "Function": "Hypersonic research",
-          "Decay": "30 March",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "7 April13:00",
-        "TimestampClean": "7 April13:00",
-        "Timestamp": "2006-04-07T13:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "LGM-30G Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-26",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Long-range test, aimed at Guam, apogee: 1,300 kilometres (810 mi)",
-      "Payload": [
-        {
-          "Payload": "GT-190GM",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "7 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "12 April18:10",
-        "TimestampClean": "12 April18:10",
-        "Timestamp": "2006-04-12T18:10:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 318 kilometres (198 mi)",
-      "Payload": [
-        {
-          "Payload": "EUNIS",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Solar",
-          "Decay": "12 April",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -604,32 +318,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "13 April",
-        "TimestampClean": "13 April",
-        "Timestamp": "2006-04-13T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SR19-SR19",
-      "FlightNumber": "",
-      "LaunchSite": "PMRF",
-      "LaunchServiceProvider": "Sandia",
-      "Notes": "Apogee: 200 kilometres (120 mi)",
-      "Payload": [
-        {
-          "Payload": "FTC-02B",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "13 April",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -727,32 +415,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 April16:40",
-        "TimestampClean": "22 April16:40",
-        "Timestamp": "2006-04-22T16:40:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Kosmos-3MR",
-      "FlightNumber": "",
-      "LaunchSite": "Kapustin Yar Site 107/1",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "Apogee: 675 kilometres (419 mi)",
-      "Payload": [
-        {
-          "Payload": "PBS-2",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "REV test",
-          "Decay": "22 April",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -872,84 +534,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 April",
-        "TimestampClean": "28 April",
-        "Timestamp": "2006-04-28T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SR19-SR19",
-      "FlightNumber": "",
-      "LaunchSite": "PMRF",
-      "LaunchServiceProvider": "Sandia",
-      "Notes": "Apogee: 200 kilometres (120 mi)",
-      "Payload": [
-        {
-          "Payload": "FTC-02",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "28 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "29 April",
-        "TimestampClean": "29 April",
-        "Timestamp": "2006-04-29T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Shaheen-II",
-      "FlightNumber": "",
-      "LaunchSite": "Sonmiani",
-      "LaunchServiceProvider": "Army of Pakistan",
-      "Notes": "Apogee: 300 kilometres (190 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "Army of Pakistan",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "29 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 May06:16",
-        "TimestampClean": "2 May06:16",
-        "Timestamp": "2006-05-02T06:16:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Maxus (Castor 4B)",
-      "FlightNumber": "",
-      "LaunchSite": "Esrange",
-      "LaunchServiceProvider": "EuroLaunch",
-      "Notes": "Apogee: 702 kilometres (436 mi)",
-      "Payload": [
-        {
-          "Payload": "MAXUS 9",
-          "Operator": "ESA/SSC",
-          "Orbit": "Suborbital",
-          "Function": "Microgravity",
-          "Decay": "2 May",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "3 May17:38",
         "TimestampClean": "3 May17:38",
         "Timestamp": "2006-05-03T17:38:00Z",
@@ -970,110 +554,6 @@
           "Function": "Optical imaging",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "10 May08:12",
-        "TimestampClean": "10 May08:12",
-        "Timestamp": "2006-05-10T08:12:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "VSB-30",
-      "FlightNumber": "",
-      "LaunchSite": "Esrange",
-      "LaunchServiceProvider": "EuroLaunch",
-      "Notes": "Apogee: 237 kilometres (147 mi)",
-      "Payload": [
-        {
-          "Payload": "TEXUS-43",
-          "Operator": "DLR/SSC",
-          "Orbit": "Suborbital",
-          "Function": "Microgravity",
-          "Decay": "10 May",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "11 May",
-        "TimestampClean": "11 May",
-        "Timestamp": "2006-05-11T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "THAAD",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "US Army",
-      "Notes": "Apogee: 100 kilometres (62 mi), simulated intercept",
-      "Payload": [
-        {
-          "Payload": "FTT-02",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "ABM test",
-          "Decay": "11 May",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 May09:30",
-        "TimestampClean": "22 May09:30",
-        "Timestamp": "2006-05-22T09:30:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 150 kilometres (93 mi)",
-      "Payload": [
-        {
-          "Payload": "ACS",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Test",
-          "Decay": "22 May",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 May",
-        "TimestampClean": "22 May",
-        "Timestamp": "2006-05-22T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Shahab-3",
-      "FlightNumber": "",
-      "LaunchSite": "Shahrood",
-      "LaunchServiceProvider": "IRG",
-      "Notes": "Apogee: 150 kilometres (93 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "IRG",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "22 May",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -1160,110 +640,6 @@
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "26 February 202009:52",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 June16:05",
-        "TimestampClean": "5 June16:05",
-        "Timestamp": "2006-06-05T16:05:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 130 kilometres (81 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NAWC",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "5 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "7 June22:00",
-        "TimestampClean": "7 June22:00",
-        "Timestamp": "2006-06-07T22:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "PMRF",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 130 kilometres (81 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NAWC",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "7 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "8 June16:00",
-        "TimestampClean": "8 June16:00",
-        "Timestamp": "2006-06-08T16:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 130 kilometres (81 mi)",
-      "Payload": [
-        {
-          "Payload": "DUNDEE",
-          "Operator": "NAWC",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "8 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "14 June08:22",
-        "TimestampClean": "14 June08:22",
-        "Timestamp": "2006-06-14T08:22:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "LGM-30G Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-04",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Carried three Mk. 21 re-entry vehicles, Apogee: 1,300 kilometres (810 mi)",
-      "Payload": [
-        {
-          "Payload": "GT-191GM",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "14 June",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -1393,84 +769,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "22 June22:00",
-        "TimestampClean": "22 June22:00",
-        "Timestamp": "2006-06-22T22:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "MRT (Castor 4B)",
-      "FlightNumber": "",
-      "LaunchSite": "PMRT",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "Intercepted by SM-3, apogee: 150 kilometres (93 mi)",
-      "Payload": [
-        {
-          "Payload": "FTM-10 Target",
-          "Operator": "US Navy/MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "22 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 June22:04",
-        "TimestampClean": "22 June22:04",
-        "Timestamp": "2006-06-22T22:04:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RIM-161 Standard Missile 3",
-      "FlightNumber": "",
-      "LaunchSite": "USS Shiloh, PMRF",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "Intercepted MRT, apogee: 150 kilometres (93 mi)",
-      "Payload": [
-        {
-          "Payload": "FTM-10",
-          "Operator": "US Navy/MDA",
-          "Orbit": "Suborbital",
-          "Function": "ABM test",
-          "Decay": "22 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "23 June23:02",
-        "TimestampClean": "23 June23:02",
-        "Timestamp": "2006-06-23T23:02:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "PMRF",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 130 kilometres (81 mi)",
-      "Payload": [
-        {
-          "Payload": "TRACKEX",
-          "Operator": "NAWC/MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "23 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "24 June15:08:18",
         "TimestampClean": "24 June15:08:18",
         "Timestamp": "2006-06-24T15:08:18Z",
@@ -1549,93 +847,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 June06:25",
-        "TimestampClean": "30 June06:25",
-        "Timestamp": "2006-06-30T06:25:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-29RMU Sineva",
-      "FlightNumber": "",
-      "LaunchSite": "K-84 Ekaterinburg, Barents Sea",
-      "LaunchServiceProvider": "VMF",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "VMF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "30 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 July06:39",
-        "TimestampClean": "1 July06:39",
-        "Timestamp": "2006-07-01T06:39:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Andøya",
-      "LaunchServiceProvider": "Andøya/NASA",
-      "Notes": "Apogee: 40 kilometres (25 mi)",
-      "Payload": [
-        {
-          "Payload": "/SPIRIT-III",
-          "Operator": "ESPRIT",
-          "Orbit": "Suborbital",
-          "Function": "IonosphericPlasma research",
-          "Decay": "1 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "HotPay-1",
-          "Operator": "Andøya",
-          "Orbit": "Suborbital",
-          "Function": "Aeronomy",
-          "Decay": "1 July",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "4 July18:32",
-        "TimestampClean": "4 July18:32",
-        "Timestamp": "2006-07-04T18:32:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hwasong-6",
-      "FlightNumber": "",
-      "LaunchSite": "Kittaeryong",
-      "LaunchServiceProvider": "KPA",
-      "Notes": "Apogee: 150 kilometres (93 mi), first of seven North Korean launches in fourteen hours",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "KPA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "4 July18:37:55",
         "TimestampClean": "4 July18:37:55",
         "Timestamp": "2006-07-04T18:37:55Z",
@@ -1671,32 +882,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 July19:04",
-        "TimestampClean": "4 July19:04",
-        "Timestamp": "2006-07-04T19:04:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Rodong-1",
-      "FlightNumber": "",
-      "LaunchSite": "Kittaeryong",
-      "LaunchServiceProvider": "KPA",
-      "Notes": "Apogee: 150 kilometres (93 mi), second of seven North Korean launches in fourteen hours",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "KPA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "4 July20:01",
         "TimestampClean": "4 July20:01",
         "Timestamp": "2006-07-04T20:01:00Z",
@@ -1717,136 +902,6 @@
           "Function": "Weather/Communication",
           "Decay": "+42 seconds",
           "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "4 July22:31",
-        "TimestampClean": "4 July22:31",
-        "Timestamp": "2006-07-04T22:31:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Rodong-1",
-      "FlightNumber": "",
-      "LaunchSite": "Kittaeryong",
-      "LaunchServiceProvider": "KPA",
-      "Notes": "Apogee: 150 kilometres (93 mi), fourth of seven North Korean launches in fourteen hours",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "KPA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "4 July22:12",
-        "TimestampClean": "4 July22:12",
-        "Timestamp": "2006-07-04T22:12:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hwasong-6",
-      "FlightNumber": "",
-      "LaunchSite": "Kittaeryong",
-      "LaunchServiceProvider": "KPA",
-      "Notes": "Apogee: 150 kilometres (93 mi), fifth of seven North Korean launches in fourteen hours",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "KPA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "4 July23:20",
-        "TimestampClean": "4 July23:20",
-        "Timestamp": "2006-07-04T23:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Rodong-1",
-      "FlightNumber": "",
-      "LaunchSite": "Kittaeryong",
-      "LaunchServiceProvider": "KPA",
-      "Notes": "Apogee: 150 kilometres (93 mi), sixth of seven North Korean launches in fourteen hours",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "KPA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 July08:20",
-        "TimestampClean": "5 July08:20",
-        "Timestamp": "2006-07-05T08:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Rodong-1",
-      "FlightNumber": "",
-      "LaunchSite": "Kittaeryong",
-      "LaunchServiceProvider": "KPA",
-      "Notes": "Apogee: 150 kilometres (93 mi), last of seven North Korean launches in fourteen hours",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "KPA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "5 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "9 July05:33",
-        "TimestampClean": "9 July05:33",
-        "Timestamp": "2006-07-09T05:33:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Agni III",
-      "FlightNumber": "",
-      "LaunchSite": "Integrated Test Range LC-4",
-      "LaunchServiceProvider": "DRDO",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "DRDO",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "9 July",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -1879,32 +934,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "12 July11:17",
-        "TimestampClean": "12 July11:17",
-        "Timestamp": "2006-07-12T11:17:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hera",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "US Army",
-      "Notes": "Apogee: 300 kilometres (190 mi), Intercepted after reentry by endoatmospheric THAAD launched at 11:20",
-      "Payload": [
-        {
-          "Payload": "FFT-4 Target",
-          "Operator": "US Army/MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "12 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "12 July14:53:36",
         "TimestampClean": "12 July14:53:36",
         "Timestamp": "2006-07-12T14:53:36Z",
@@ -1925,32 +954,6 @@
           "Function": "Technology",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "21 July10:14",
-        "TimestampClean": "21 July10:14",
-        "Timestamp": "2006-07-21T10:14:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "LGM-30G Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-09",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Carried three Mk.21 reentry vehicles, apogee: 1,300 kilometres (810 mi)",
-      "Payload": [
-        {
-          "Payload": "GT-192GM",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "21 July",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2188,32 +1191,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 August10:38",
-        "TimestampClean": "3 August10:38",
-        "Timestamp": "2006-08-03T10:38:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RT-2PM Topol (RS-12M)",
-      "FlightNumber": "",
-      "LaunchSite": "Plesetsk",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "Apogee: 1,000 kilometres (620 mi), impacted Kura Test Range",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "11:04",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "4 August21:48:00",
         "TimestampClean": "4 August21:48:00",
         "Timestamp": "2006-08-04T21:48:00Z",
@@ -2275,32 +1252,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 August14:30",
-        "TimestampClean": "21 August14:30",
-        "Timestamp": "2006-08-21T14:30:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 380 kilometres (240 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "21 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "22 August03:27:01",
         "TimestampClean": "22 August03:27:01",
         "Timestamp": "2006-08-22T03:27:01Z",
@@ -2327,136 +1278,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 August14:30",
-        "TimestampClean": "25 August14:30",
-        "Timestamp": "2006-08-25T14:30:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 382 kilometres (237 mi), THAAD target",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "21 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 September17:22",
-        "TimestampClean": "1 September17:22",
-        "Timestamp": "2006-09-01T17:22:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "UGM-27 Polaris (STARS)",
-      "FlightNumber": "",
-      "LaunchSite": "Kodiak",
-      "LaunchServiceProvider": "Sandia",
-      "Notes": "Apogee: 1,000 kilometres (620 mi), intercepted by GBI",
-      "Payload": [
-        {
-          "Payload": "GMD FTG-02 target",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "1 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 September17:39",
-        "TimestampClean": "1 September17:39",
-        "Timestamp": "2006-09-01T17:39:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Orbital Boost Vehicle",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-23",
-      "LaunchServiceProvider": "Orbital Sciences/MDA",
-      "Notes": "Apogee: 1,000 kilometres (620 mi), intercepted STARS",
-      "Payload": [
-        {
-          "Payload": "GMD FTG-02",
-          "Operator": "MDA",
-          "Orbit": "Suborbital",
-          "Function": "ABM test",
-          "Decay": "1 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "4 September",
-        "TimestampClean": "4 September",
-        "Timestamp": "2006-09-04T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Dong Feng 31",
-      "FlightNumber": "",
-      "LaunchSite": "Taiyuan",
-      "LaunchServiceProvider": "PLA",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "PLA",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "7 September15:50",
-        "TimestampClean": "7 September15:50",
-        "Timestamp": "2006-09-07T15:50:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RSM-56 Bulava (R-30)",
-      "FlightNumber": "",
-      "LaunchSite": "RFS Dmitriy Donskoy, White Sea",
-      "LaunchServiceProvider": "VMF",
-      "Notes": "Apogee: 1 kilometre (0.62 mi), first stage malfunction",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "VMF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "7 September",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "9 September07:00",
         "TimestampClean": "9 September07:00",
         "Timestamp": "2006-09-09T07:00:00Z",
@@ -2476,32 +1297,6 @@
           "Orbit": "Low Earth",
           "Function": "Biological",
           "Decay": "24 September02:43",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "9 September11:20",
-        "TimestampClean": "9 September11:20",
-        "Timestamp": "2006-09-09T11:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-29RMU Sineva",
-      "FlightNumber": "",
-      "LaunchSite": "K-84 Ekaterinburg, North Pole",
-      "LaunchServiceProvider": "VMF",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "VMF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "9 September",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2538,58 +1333,6 @@
           "Function": "ISS component",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "9 September22:17:00",
-        "TimestampClean": "9 September22:17:00",
-        "Timestamp": "2006-09-09T22:17:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Nike-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Andøya",
-      "LaunchServiceProvider": "Andøya",
-      "Notes": "Apogee: 130 kilometres (81 mi)",
-      "Payload": [
-        {
-          "Payload": "ECOMA-1",
-          "Operator": "Andøya/DLR",
-          "Orbit": "Suborbital",
-          "Function": "Atmospheric",
-          "Decay": "9 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "10 September14:50",
-        "TimestampClean": "10 September14:50",
-        "Timestamp": "2006-09-10T14:50:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-29R Volna",
-      "FlightNumber": "",
-      "LaunchSite": "K-433 Svyaity Georgiy, Simushir",
-      "LaunchServiceProvider": "VMF",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "VMF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "10 September",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2648,32 +1391,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "13 September10:30",
-        "TimestampClean": "13 September10:30",
-        "Timestamp": "2006-09-13T10:30:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hera",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "US Army",
-      "Notes": "Apogee: 300 kilometres (190 mi), THAAD target",
-      "Payload": [
-        {
-          "Payload": "FFT-5 Target",
-          "Operator": "US Army/MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "13 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "14 September13:41:00",
         "TimestampClean": "14 September13:41:00",
         "Timestamp": "2006-09-14T13:41:00Z",
@@ -2693,32 +1410,6 @@
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
           "Decay": "17 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "17 September21:06:46",
-        "TimestampClean": "17 September21:06:46",
-        "Timestamp": "2006-09-17T21:06:46Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Nike-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Andøya",
-      "LaunchServiceProvider": "Andøya",
-      "Notes": "Apogee: 129 kilometres (80 mi)",
-      "Payload": [
-        {
-          "Payload": "ECOMA-2",
-          "Operator": "Andøya/DLR",
-          "Orbit": "Suborbital",
-          "Function": "Atmospheric",
-          "Decay": "17 September",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2796,32 +1487,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 September15:17:54",
-        "TimestampClean": "23 September15:17:54",
-        "Timestamp": "2006-09-23T15:17:54Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant XI",
-      "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 300 kilometres (190 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Test",
-          "Decay": "23 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "25 September18:50",
         "TimestampClean": "25 September18:50",
         "Timestamp": "2006-09-25T18:50:00Z",
@@ -2842,32 +1507,6 @@
           "Function": "Navigation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "25 September20:14",
-        "TimestampClean": "25 September20:14",
-        "Timestamp": "2006-09-25T20:14:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SpaceLoft XL",
-      "FlightNumber": "",
-      "LaunchSite": "Spaceport America",
-      "LaunchServiceProvider": "UP Aerospace",
-      "Notes": "Maiden flight of SpaceLoft XL sounding rocket, first flight from Spaceport America, rocket went out of control and failed to reach space, apogee: 12 kilometres (7.5 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "Various",
-          "Orbit": "Suborbital",
-          "Function": "Various",
-          "Decay": "T+60 seconds",
-          "Outcome": "Launch failure",
           "Cubesat": false
         }
       ]
@@ -3005,32 +1644,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "25 October13:05",
-        "TimestampClean": "25 October13:05",
-        "Timestamp": "2006-10-25T13:05:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RSM-56 Bulava (R-30)",
-      "FlightNumber": "",
-      "LaunchSite": "RFS Dmitriy Donskoy, Beloye More",
-      "LaunchServiceProvider": "VMF",
-      "Notes": "Apogee: 100 kilometres (62 mi), first stage malfunction",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "VMF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "25 October",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "26 October00:52:00",
         "TimestampClean": "26 October00:52:00",
         "Timestamp": "2006-10-26T00:52:00Z",
@@ -3092,32 +1705,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 October17:58:00",
-        "TimestampClean": "28 October17:58:00",
-        "Timestamp": "2006-10-28T17:58:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 300 kilometres (190 mi)",
-      "Payload": [
-        {
-          "Payload": "LASP",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "Solar",
-          "Decay": "28 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "30 October23:48:59",
         "TimestampClean": "30 October23:48:59",
         "Timestamp": "2006-10-30T23:48:59Z",
@@ -3138,32 +1725,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 November",
-        "TimestampClean": "2 November",
-        "Timestamp": "2006-11-02T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Shahab-3",
-      "FlightNumber": "",
-      "LaunchSite": "Shahrood",
-      "LaunchServiceProvider": "IRG",
-      "Notes": "Apogee: 150 kilometres (93 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "IRG",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "2 November",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -3196,32 +1757,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "7 November19:30",
-        "TimestampClean": "7 November19:30",
-        "Timestamp": "2006-11-07T19:30:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 300 kilometres (190 mi)",
-      "Payload": [
-        {
-          "Payload": "USC-7",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "Solar",
-          "Decay": "7 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "8 November20:01:00",
         "TimestampClean": "8 November20:01:00",
         "Timestamp": "2006-11-08T20:01:00Z",
@@ -3248,93 +1783,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 November08:51",
-        "TimestampClean": "9 November08:51",
-        "Timestamp": "2006-11-09T08:51:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "M51",
-      "FlightNumber": "",
-      "LaunchSite": "Biscarosse",
-      "LaunchServiceProvider": "French Navy",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "French Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "9 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "9 November11:35",
-        "TimestampClean": "9 November11:35",
-        "Timestamp": "2006-11-09T11:35:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "UR-100NU",
-      "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 175/2",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "9 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "16 November",
-        "TimestampClean": "16 November",
-        "Timestamp": "2006-11-16T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "PMRF",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
-      "Payload": [
-        {
-          "Payload": "ARAV-B",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "16 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Haft-5",
-          "Operator": "Army of Pakistan",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "16 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "17 November19:12:00",
         "TimestampClean": "17 November19:12:00",
         "Timestamp": "2006-11-17T19:12:00Z",
@@ -3355,197 +1803,6 @@
           "Function": "Navigation",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "21 November02:00",
-        "TimestampClean": "21 November02:00",
-        "Timestamp": "2006-11-21T02:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-36",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Apogee: 300 kilometres (190 mi)",
-      "Payload": [
-        {
-          "Payload": "CyXESS",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "XR Astronomy",
-          "Decay": "21 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "21 November",
-        "TimestampClean": "21 November",
-        "Timestamp": "2006-11-21T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "UGM-133 Trident II (D5)",
-      "FlightNumber": "",
-      "LaunchSite": "USS Maryland, ETR",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "21 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "21 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "26 November",
-        "TimestampClean": "26 November",
-        "Timestamp": "2006-11-26T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Prithvi",
-      "FlightNumber": "",
-      "LaunchSite": "Integrated Test Range LC-3",
-      "LaunchServiceProvider": "DRDO",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "DRDO",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "26 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "27 November04:45",
-        "TimestampClean": "27 November04:45",
-        "Timestamp": "2006-11-27T04:45:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Prithvi",
-      "FlightNumber": "",
-      "LaunchSite": "Integrated Test Range LC-3",
-      "LaunchServiceProvider": "DRDO",
-      "Notes": "Apogee: 100 kilometres (62 mi), intercepted by another Prithvi",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "DRDO",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "27 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "27 November04:46",
-        "TimestampClean": "27 November04:46",
-        "Timestamp": "2006-11-27T04:46:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Prithvi",
-      "FlightNumber": "",
-      "LaunchSite": "Integrated Test Range LC-4",
-      "LaunchServiceProvider": "DRDO",
-      "Notes": "Apogee: 100 kilometres (62 mi), intercepted another Prithvi",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "DRDO",
-          "Orbit": "Suborbital",
-          "Function": "ABM test",
-          "Decay": "27 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "29 November",
-        "TimestampClean": "29 November",
-        "Timestamp": "2006-11-29T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Shaheen-I",
-      "FlightNumber": "",
-      "LaunchSite": "Sonmiani",
-      "LaunchServiceProvider": "Army of Pakistan",
-      "Notes": "Apogee: 100 kilometres (62 mi)",
-      "Payload": [
-        {
-          "Payload": "Haft-4",
-          "Operator": "Army of Pakistan",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "29 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "7 December",
-        "TimestampClean": "7 December",
-        "Timestamp": "2006-12-07T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Aries",
-      "FlightNumber": "",
-      "LaunchSite": "PMRF",
-      "LaunchServiceProvider": "U.S. Navy",
-      "Notes": "Apogee: 300 kilometres (190 mi), AEGIS target",
-      "Payload": [
-        {
-          "Payload": "FTM-11 Target",
-          "Operator": "U.S. Navy / MDA",
-          "Orbit": "Suborbital",
-          "Function": "Target",
-          "Decay": "7 December",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -3867,32 +2124,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 December",
-        "TimestampClean": "24 December",
-        "Timestamp": "2006-12-24T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RSM-56 Bulava (R-30)",
-      "FlightNumber": "",
-      "LaunchSite": "RFS Dmitriy Donskoy, Beloye More",
-      "LaunchServiceProvider": "VMF",
-      "Notes": "Apogee: 1 kilometre (0.62 mi), first stage malfunction.",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "VMF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "24 December",
-          "Outcome": "Launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "25 December20:18:12",
         "TimestampClean": "25 December20:18:12",
         "Timestamp": "2006-12-25T20:18:12Z",
@@ -3956,47 +2187,6 @@
           "Orbit": "Low Earth (Polar)",
           "Function": "ExoplanetologyAsteroseismology",
           "Decay": "In orbit",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "Unknown",
-        "TimestampClean": "Unknown",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2006 Unknown",
-          "LayoutElem": "2",
-          "ValueElem": "Unknown",
-          "Message": ""
-        }
-      },
-      "Rocket": "UGM-133 Trident II (D5)",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, WTR",
-      "LaunchServiceProvider": "U.S. Navy",
-      "Notes": "Apogee: 1,000 kilometres (620 mi)",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "U.S. Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "U.S. Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "",
           "Outcome": "Successful",
           "Cubesat": false
         }
