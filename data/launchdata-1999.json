@@ -46,136 +46,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 January",
-        "TimestampClean": "15 January",
-        "Timestamp": "1999-01-15T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Shaheen 1",
-      "FlightNumber": "",
-      "LaunchSite": "Sonmiani",
-      "LaunchServiceProvider": "PAF",
-      "Notes": "Maiden flight of Shaheen 1",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "PAF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "15 January",
-          "Outcome": "Failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "21 January06:13",
-        "TimestampClean": "21 January06:13",
-        "Timestamp": "1999-01-21T06:13:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant XII",
-      "FlightNumber": "",
-      "LaunchSite": "Andøya",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "CAPER",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "21 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 January13:57",
-        "TimestampClean": "22 January13:57",
-        "Timestamp": "1999-01-22T13:57:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant XII",
-      "FlightNumber": "",
-      "LaunchSite": "Poker Flat",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "APEX (North Star)",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Plasma research",
-          "Decay": "22 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 January15:20",
-        "TimestampClean": "22 January15:20",
-        "Timestamp": "1999-01-22T15:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant VB",
-      "FlightNumber": "",
-      "LaunchSite": "Poker Flat",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "22 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "22 January15:31",
-        "TimestampClean": "22 January15:31",
-        "Timestamp": "1999-01-22T15:31:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Taurus-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Poker Flat",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "22 January",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "27 January00:34",
         "TimestampClean": "27 January00:34",
         "Timestamp": "1999-01-27T00:34:00Z",
@@ -196,32 +66,6 @@
           "Function": "Imagery/Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 February01:30",
-        "TimestampClean": "2 February01:30",
-        "Timestamp": "1999-02-02T01:30:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "S-310",
-      "FlightNumber": "",
-      "LaunchSite": "Uchinoura LC-K",
-      "LaunchServiceProvider": "ISAS",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere and X-ray research",
-          "Decay": "2 February",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -256,41 +100,6 @@
           "Orbit": "Heliocentric",
           "Function": "Comet sample return",
           "Decay": "16 January 2006",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "9 February",
-        "TimestampClean": "9 February",
-        "Timestamp": "1999-02-09T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Trident D-5",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Eastern Test Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "9 February",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "9 February",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -345,58 +154,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "10 February08:06",
-        "TimestampClean": "10 February08:06",
-        "Timestamp": "1999-02-10T08:06:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-04",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "10 February",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "11 February06:45",
-        "TimestampClean": "11 February06:45",
-        "Timestamp": "1999-02-11T06:45:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant X",
-      "FlightNumber": "",
-      "LaunchSite": "Poker Flat",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "ENSTROPHY",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "11 February",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -474,32 +231,6 @@
           "Orbit": "Low Earth (Mir)",
           "Function": "Mir EO-27",
           "Decay": "28 August00:34",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "20 February04:45",
-        "TimestampClean": "20 February04:45",
-        "Timestamp": "1999-02-20T04:45:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "SPINR",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ultraviolet astronomy",
-          "Decay": "20 February",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -638,32 +369,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 March08:01",
-        "TimestampClean": "10 March08:01",
-        "Timestamp": "1999-03-10T08:01:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Peacekeeper",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-02",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "10 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "15 March03:06",
         "TimestampClean": "15 March03:06",
         "Timestamp": "1999-03-15T03:06:00Z",
@@ -717,32 +422,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 March09:52",
-        "TimestampClean": "15 March09:52",
-        "Timestamp": "1999-03-15T09:52:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "VS-30",
-      "FlightNumber": "",
-      "LaunchSite": "Alcântara",
-      "LaunchServiceProvider": "AEB",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Operacao San Marcos",
-          "Operator": "AEB",
-          "Orbit": "Suborbital",
-          "Function": "Microgravity research",
-          "Decay": "15 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "21 March00:09",
         "TimestampClean": "21 March00:09",
         "Timestamp": "1999-03-21T00:09:00Z",
@@ -769,76 +448,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "23 March",
-        "TimestampClean": "23 March",
-        "Timestamp": "1999-03-23T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Trident C-4",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Eastern Test Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "23 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "23 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "25 March",
-        "TimestampClean": "25 March",
-        "Timestamp": "1999-03-25T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Trident C-4",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Eastern Test Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "25 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "25 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "28 March01:29",
         "TimestampClean": "28 March01:29",
         "Timestamp": "1999-03-28T01:29:00Z",
@@ -858,136 +467,6 @@
           "Orbit": "Geostationary transfer",
           "Function": "Test launch vehicle",
           "Decay": "In orbit",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "28 March09:00",
-        "TimestampClean": "28 March09:00",
-        "Timestamp": "1999-03-28T09:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant VIIIC",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "X-ray astronomy",
-          "Decay": "28 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "29 March12:06",
-        "TimestampClean": "29 March12:06",
-        "Timestamp": "1999-03-29T12:06:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hera",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-94",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM target",
-          "Decay": "28 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "29 March12:13",
-        "TimestampClean": "29 March12:13",
-        "Timestamp": "1999-03-29T12:13:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "THAAD",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM Interceptor",
-          "Decay": "29 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "31 March00:15",
-        "TimestampClean": "31 March00:15",
-        "Timestamp": "1999-03-31T00:15:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SR19",
-      "FlightNumber": "",
-      "LaunchSite": "C-130, Pacific Missile Range",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "SRALT test",
-          "Decay": "31 March",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 April",
-        "TimestampClean": "1 April",
-        "Timestamp": "1999-04-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-29",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Barents Sea",
-      "LaunchServiceProvider": "Russian Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "Russian Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "1 April",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -1082,58 +561,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 April04:17",
-        "TimestampClean": "11 April04:17",
-        "Timestamp": "1999-04-11T04:17:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Agni-II",
-      "FlightNumber": "",
-      "LaunchSite": "Balasore IC-4",
-      "LaunchServiceProvider": "IDRDL",
-      "Notes": "Maiden flight of Agni-II",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "IDRDL",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "11 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "12 April06:35",
-        "TimestampClean": "12 April06:35",
-        "Timestamp": "1999-04-12T06:35:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ultraviolet astronomy",
-          "Decay": "12 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "12 April22:50",
         "TimestampClean": "12 April22:50",
         "Timestamp": "1999-04-12T22:50:00Z",
@@ -1154,32 +581,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "14 April05:35",
-        "TimestampClean": "14 April05:35",
-        "Timestamp": "1999-04-14T05:35:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Ghauri-II",
-      "FlightNumber": "",
-      "LaunchSite": "Tilla",
-      "LaunchServiceProvider": "PAF",
-      "Notes": "Maiden flight of Ghauri-II",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "PAF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "14 April",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -1239,32 +640,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 April04:58",
-        "TimestampClean": "15 April04:58",
-        "Timestamp": "1999-04-15T04:58:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Shaheen 1",
-      "FlightNumber": "",
-      "LaunchSite": "Sonmiani",
-      "LaunchServiceProvider": "PAF",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "PAF",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "15 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "15 April18:32",
         "TimestampClean": "15 April18:32",
         "Timestamp": "1999-04-15T18:32:00Z",
@@ -1310,41 +685,6 @@
           "Orbit": "Low Earth",
           "Function": "Technology development",
           "Decay": "In orbit",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "26 April",
-        "TimestampClean": "26 April",
-        "Timestamp": "1999-04-26T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Trident D-5",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Eastern Test Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "26 April",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "26 April",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -1439,41 +779,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "4 May",
-        "TimestampClean": "4 May",
-        "Timestamp": "1999-05-04T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "M4",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Bay of Biscay",
-      "LaunchServiceProvider": "French Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "French Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 May",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "French Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "4 May",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "5 May01:00",
         "TimestampClean": "5 May01:00",
         "Timestamp": "1999-05-05T01:00:00Z",
@@ -1494,32 +799,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Launch Failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "7 May20:00",
-        "TimestampClean": "7 May20:00",
-        "Timestamp": "1999-05-07T20:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "VAULT",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ultraviolet astronomy",
-          "Decay": "7 May",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -1555,32 +834,6 @@
           "Function": "Magnetosphere research",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "14 May11:33",
-        "TimestampClean": "14 May11:33",
-        "Timestamp": "1999-05-14T11:33:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Skylark VII",
-      "FlightNumber": "",
-      "LaunchSite": "Esrange LC-S",
-      "LaunchServiceProvider": "SSC",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "MASER 8",
-          "Operator": "SSC",
-          "Orbit": "Suborbital",
-          "Function": "Microgravity research",
-          "Decay": "14 May",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -1762,84 +1015,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 June14:20",
-        "TimestampClean": "3 June14:20",
-        "Timestamp": "1999-06-03T14:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Topol M",
-      "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 158",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "3 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "10 June11:07",
-        "TimestampClean": "10 June11:07",
-        "Timestamp": "1999-06-10T11:07:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hera",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-94",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM target",
-          "Decay": "10 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "10 June11:14",
-        "TimestampClean": "10 June11:14",
-        "Timestamp": "1999-06-10T11:14:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "THAAD",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM Interceptor",
-          "Decay": "10 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "10 June13:48",
         "TimestampClean": "10 June13:48",
         "Timestamp": "1999-06-10T13:48:00Z",
@@ -1928,32 +1103,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 June07:40",
-        "TimestampClean": "14 June07:40",
-        "Timestamp": "1999-06-14T07:40:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ultraviolet astronomy",
-          "Decay": "14 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "18 June01:49",
         "TimestampClean": "18 June01:49",
         "Timestamp": "1999-06-18T01:49:00Z",
@@ -2032,110 +1181,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 June17:00",
-        "TimestampClean": "24 June17:00",
-        "Timestamp": "1999-06-24T17:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "SERTS-99",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Solar observation",
-          "Decay": "24 June",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 July",
-        "TimestampClean": "1 July",
-        "Timestamp": "1999-07-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Malemute II",
-      "FlightNumber": "",
-      "LaunchSite": "Pacific Missile Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Slugger",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "TMBD target",
-          "Decay": "1 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 July03:57",
-        "TimestampClean": "5 July03:57",
-        "Timestamp": "1999-07-05T03:57:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant VC",
-      "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "5 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 July04:02",
-        "TimestampClean": "5 July04:02",
-        "Timestamp": "1999-07-05T04:02:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Taurus-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "5 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "5 July13:32",
         "TimestampClean": "5 July13:32",
         "Timestamp": "1999-07-05T13:32:00Z",
@@ -2156,32 +1201,6 @@
           "Function": "Communications",
           "Decay": "5 July+45 seconds",
           "Outcome": "Launch Failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "5 July23:36",
-        "TimestampClean": "5 July23:36",
-        "Timestamp": "1999-07-05T23:36:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant VA",
-      "FlightNumber": "",
-      "LaunchSite": "Andøya",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "MD-DR-04 DROPPS-1",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Aeronomy research",
-          "Decay": "5 July",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2267,32 +1286,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 July03:28",
-        "TimestampClean": "14 July03:28",
-        "Timestamp": "1999-07-14T03:28:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant VA",
-      "FlightNumber": "",
-      "LaunchSite": "Andøya",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "MD-DR-13 DROPPS-2",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Aeronomy research",
-          "Decay": "14 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "16 July16:39",
         "TimestampClean": "16 July16:39",
         "Timestamp": "1999-07-16T16:39:00Z",
@@ -2339,32 +1332,6 @@
           "Function": "Oceanography",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "18 July03:31",
-        "TimestampClean": "18 July03:31",
-        "Timestamp": "1999-07-18T03:31:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Taurus-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "18 July",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2453,110 +1420,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "27 July22:48",
-        "TimestampClean": "27 July22:48",
-        "Timestamp": "1999-07-27T22:48:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant VB",
-      "FlightNumber": "",
-      "LaunchSite": "Esrange",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "ICON",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "27 July",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 August",
-        "TimestampClean": "2 August",
-        "Timestamp": "1999-08-02T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "DF-31",
-      "FlightNumber": "",
-      "LaunchSite": "Taiyuan",
-      "LaunchServiceProvider": "CASC",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "CASC",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "2 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 August11:37",
-        "TimestampClean": "2 August11:37",
-        "Timestamp": "1999-08-02T11:37:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Hera",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-94",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM target",
-          "Decay": "2 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 August11:44",
-        "TimestampClean": "2 August11:44",
-        "Timestamp": "1999-08-02T11:44:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "THAAD",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM Interceptor",
-          "Decay": "2 August",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2668,110 +1531,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "18 August18:05",
-        "TimestampClean": "18 August18:05",
-        "Timestamp": "1999-08-18T18:05:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant 9CM1",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands LC-43",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Data used to calibrate SOHO spacecraft",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Solar research",
-          "Decay": "18 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "20 August08:45",
-        "TimestampClean": "20 August08:45",
-        "Timestamp": "1999-08-20T08:45:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-10",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "RCT-1 GT-170GM/RRF-6",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "20 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "20 August11:27",
-        "TimestampClean": "20 August11:27",
-        "Timestamp": "1999-08-20T11:27:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-09",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "FOT GT-171GM",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "20 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "24 August07:07",
-        "TimestampClean": "24 August07:07",
-        "Timestamp": "1999-08-24T07:07:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ultraviolet astronomy",
-          "Decay": "24 August",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "26 August12:02",
         "TimestampClean": "26 August12:02",
         "Timestamp": "1999-08-26T12:02:00Z",
@@ -2798,58 +1557,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 August",
-        "TimestampClean": "29 August",
-        "Timestamp": "1999-08-29T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Kosmos-3MP",
-      "FlightNumber": "",
-      "LaunchSite": "Kapustin Yar Area 107",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Re-entry vehicle",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Test RV",
-          "Decay": "29 August",
-          "Outcome": "Failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "3 September11:44",
-        "TimestampClean": "3 September11:44",
-        "Timestamp": "1999-09-03T11:44:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Topol M",
-      "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 158",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "3 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "4 September22:34",
         "TimestampClean": "4 September22:34",
         "Timestamp": "1999-09-04T22:34:00Z",
@@ -2870,32 +1577,6 @@
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "6 September",
-        "TimestampClean": "6 September",
-        "Timestamp": "1999-09-06T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SR-19",
-      "FlightNumber": "",
-      "LaunchSite": "Aircraft, Wake Island",
-      "LaunchServiceProvider": "Orbital Sciences",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "TCMP-3A",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Test re-entry vehicle",
-          "Decay": "6 September",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2956,32 +1637,6 @@
           "Orbit": "Low Earth",
           "Function": "Microgravity research",
           "Decay": "24 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "15 September21:00",
-        "TimestampClean": "15 September21:00",
-        "Timestamp": "1999-09-15T21:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Castor M57A1",
-      "FlightNumber": "",
-      "LaunchSite": "Kodiak",
-      "LaunchServiceProvider": "",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Test flight",
-          "Decay": "15 September",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -3068,32 +1723,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 September",
-        "TimestampClean": "24 September",
-        "Timestamp": "1999-09-24T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "SM-3",
-      "FlightNumber": "",
-      "LaunchSite": "USS Shiloh, Pacific Missile Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "24 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "24 September18:21",
         "TimestampClean": "24 September18:21",
         "Timestamp": "1999-09-24T18:21:00Z",
@@ -3172,32 +1801,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "27 September10:00",
-        "TimestampClean": "27 September10:00",
-        "Timestamp": "1999-09-27T10:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Black Brant IX",
-      "FlightNumber": "",
-      "LaunchSite": "White Sands",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Ultraviolet astronomy",
-          "Decay": "27 September",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "28 September11:00",
         "TimestampClean": "28 September11:00",
         "Timestamp": "1999-09-28T11:00:00Z",
@@ -3217,136 +1820,6 @@
           "Orbit": "Low Earth",
           "Function": "Remote sensing",
           "Decay": "22 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 October",
-        "TimestampClean": "1 October",
-        "Timestamp": "1999-10-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-29",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Sea of Okhotsk",
-      "LaunchServiceProvider": "Russian Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "Russian Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "1 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 October08:42",
-        "TimestampClean": "1 October08:42",
-        "Timestamp": "1999-10-01T08:42:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Topol M",
-      "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 158",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "1 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "2 October",
-        "TimestampClean": "2 October",
-        "Timestamp": "1999-10-02T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-29",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Sea of Okhotsk",
-      "LaunchServiceProvider": "Russian Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "Russian Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "2 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "3 October02:01",
-        "TimestampClean": "3 October02:01",
-        "Timestamp": "1999-10-03T02:01:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Minuteman II",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-03",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "MSLS IFT-2",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM target",
-          "Decay": "3 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "3 October02:22",
-        "TimestampClean": "3 October02:22",
-        "Timestamp": "1999-10-03T02:22:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "PLV",
-      "FlightNumber": "",
-      "LaunchSite": "Meck Island, Kwajalein Atoll",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "EKV",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "ABM test",
-          "Decay": "3 October",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -3520,32 +1993,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "20 October",
-        "TimestampClean": "20 October",
-        "Timestamp": "1999-10-20T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "UR-100N",
-      "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 175",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "20 October",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "27 October16:16",
         "TimestampClean": "27 October16:16",
         "Timestamp": "1999-10-27T16:16:00Z",
@@ -3566,125 +2013,6 @@
           "Function": "Communications",
           "Decay": "27 October",
           "Outcome": "Launch Failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "November",
-        "TimestampClean": "November",
-        "Timestamp": "0001-01-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1999 November",
-          "LayoutElem": "2",
-          "ValueElem": "November",
-          "Message": ""
-        }
-      },
-      "Rocket": "A-350R",
-      "FlightNumber": "",
-      "LaunchSite": "Sary Shagan",
-      "LaunchServiceProvider": "PRO Противоракетная оборона (ПРО)",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "Within one hour",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "1 November",
-        "TimestampClean": "1 November",
-        "Timestamp": "1999-11-01T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RH-300",
-      "FlightNumber": "",
-      "LaunchSite": "Sriharikota",
-      "LaunchServiceProvider": "ISRO",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "EWS",
-          "Operator": "ISRO",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere research",
-          "Decay": "1 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "10 November",
-        "TimestampClean": "10 November",
-        "Timestamp": "1999-11-10T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Trident D-5",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Eastern Test Range",
-      "LaunchServiceProvider": "US Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "10 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "US Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "10 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "13 November08:20",
-        "TimestampClean": "13 November08:20",
-        "Timestamp": "1999-11-13T08:20:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Minuteman III",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LF-26",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "PRP FTM-01",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "13 November",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -3743,67 +2071,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "17 November",
-        "TimestampClean": "17 November",
-        "Timestamp": "1999-11-17T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "R-39",
-      "FlightNumber": "",
-      "LaunchSite": "Submarine, Barents Sea",
-      "LaunchServiceProvider": "Russian Navy",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "Russian Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "17 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "",
-          "Operator": "Russian Navy",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "17 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "18 November01:55",
-        "TimestampClean": "18 November01:55",
-        "Timestamp": "1999-11-18T01:55:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RH-300 MK-II",
-      "FlightNumber": "",
-      "LaunchSite": "Sriharikota",
-      "LaunchServiceProvider": "ISRO",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "LMS",
-          "Operator": "ISRO",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere/Meteor research",
-          "Decay": "18 November",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "19 November22:30",
         "TimestampClean": "19 November22:30",
         "Timestamp": "1999-11-19T22:30:00Z",
@@ -3823,32 +2090,6 @@
           "Orbit": "Low Earth",
           "Function": "Test spacecraft",
           "Decay": "20 November19:41",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "20 November01:35",
-        "TimestampClean": "20 November01:35",
-        "Timestamp": "1999-11-20T01:35:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "RH-300 MK-II",
-      "FlightNumber": "",
-      "LaunchSite": "Sriharikota",
-      "LaunchServiceProvider": "ISRO",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "LMS",
-          "Operator": "ISRO",
-          "Orbit": "Suborbital",
-          "Function": "Ionosphere/Meteor research",
-          "Decay": "20 November",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -4122,58 +2363,6 @@
           "Function": "Weather satellite",
           "Decay": "In orbit",
           "Outcome": "Operational",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "14 December08:05",
-        "TimestampClean": "14 December08:05",
-        "Timestamp": "1999-12-14T08:05:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Topol M",
-      "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 158",
-      "LaunchServiceProvider": "RVSN",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RVSN",
-          "Orbit": "Suborbital",
-          "Function": "Missile test",
-          "Decay": "14 December",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "17 December17:00",
-        "TimestampClean": "17 December17:00",
-        "Timestamp": "1999-12-17T17:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Terrier-Orion",
-      "FlightNumber": "",
-      "LaunchSite": "Wallops Island",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "MG.Pool Boiling",
-          "Operator": "NASA",
-          "Orbit": "Suborbital",
-          "Function": "Microgravity research",
-          "Decay": "17 December",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
