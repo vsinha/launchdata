@@ -1452,29 +1452,25 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 July09:56:23",
-        "TimestampClean": "2 July09:56:23",
-        "Timestamp": "2014-07-02T09:56:23Z",
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Delta II 7320-10C",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-2W",
-      "LaunchServiceProvider": "United Launch Alliance",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "OCO-2",
-          "Operator": "NASA",
-          "Orbit": "Low Earth (SSO)",
-          "Function": "Climatology",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2014 ",
+          "LayoutElem": "2",
+          "ValueElem": "",
+          "Message": ""
         }
-      ]
+      },
+      "Rocket": "OCO-2",
+      "FlightNumber": "Low Earth (SSO)",
+      "LaunchSite": "Climatology",
+      "LaunchServiceProvider": "Operational",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
