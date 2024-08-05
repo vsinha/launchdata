@@ -2,25 +2,194 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
-        "TimestampRaw": "",
-        "TimestampClean": "",
+        "TimestampRaw": "January 1209:59",
+        "TimestampClean": "January 1209:59",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
-        "ParseErr": null
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 January 1209:59",
+          "LayoutElem": "2",
+          "ValueElem": "January 1209:59",
+          "Message": ""
+        }
       },
-      "Rocket": "",
+      "Rocket": "Voskhod",
       "FlightNumber": "",
-      "LaunchSite": "",
+      "LaunchSite": "Baikonur, LC-31/6",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 471 (Zenit 4M/Rotor)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth orbit",
+          "Function": "Reconnaissance",
+          "Decay": "January 25, 1972",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "January 2018:36",
+        "TimestampClean": "January 2018:36",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 January 2018:36",
+          "LayoutElem": "2",
+          "ValueElem": "January 2018:36",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan IIID",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, SLC-4E",
       "LaunchServiceProvider": "",
-      "Notes": "Second uncrewed lunar sample return mission",
+      "Notes": "",
       "Payload": [
         {
-          "Payload": "Luna 16 Return capsule",
+          "Payload": "KH-9 2 (Hexagon 2)",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "Reconnaissance",
+          "Decay": "29 February 1972",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Mabeli (OPS 7719)",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "ELINT",
+          "Decay": "17 April 1979",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "January 2300:12",
+        "TimestampClean": "January 2300:12",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 January 2300:12",
+          "LayoutElem": "2",
+          "ValueElem": "January 2300:12",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3C Centaur-D",
+      "FlightNumber": "AC-28",
+      "LaunchSite": "Cape Canaveral, LC-36B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Intelsat 4 F-4",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 January11:15",
+        "TimestampClean": "25 January11:15",
+        "Timestamp": "1972-01-25T11:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk, Site 133/1",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 472 (DS-P1-Yu No. 52)",
+          "Operator": "RVSN",
+          "Orbit": "LEO",
+          "Function": "Radar calibration",
+          "Decay": "18 August 1972",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "January 3117:20",
+        "TimestampClean": "January 3117:20",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 January 3117:20",
+          "LayoutElem": "2",
+          "ValueElem": "January 3117:20",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta L",
+      "FlightNumber": "D-87",
+      "LaunchSite": "Vandenberg AFB, SLC-2E",
+      "LaunchServiceProvider": "",
+      "Notes": "Final flight of Delta L",
+      "Payload": [
+        {
+          "Payload": "HEOS 2",
+          "Operator": "ESRO",
+          "Orbit": "High eccentricity LEO/HEO",
+          "Function": "Particle and field research",
+          "Decay": "August 2, 1974",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "February 1403:27",
+        "TimestampClean": "February 1403:27",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 February 1403:27",
+          "LayoutElem": "2",
+          "ValueElem": "February 1403:27",
+          "Message": ""
+        }
+      },
+      "Rocket": "Proton-K/Blok D (8K82K)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur, LC-81/24",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Luna 20",
           "Operator": "",
-          "Orbit": "Highly elliptical",
-          "Function": "Sample return",
-          "Decay": "25 February",
+          "Orbit": "Lunar",
+          "Function": "Lunar sample return",
+          "Decay": "February 21, 1972 (at Moon)",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -28,25 +197,31 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 April01:25:47",
-        "TimestampClean": "24 April01:25:47",
-        "Timestamp": "1972-04-24T01:25:47Z",
+        "TimestampRaw": "March 301:49",
+        "TimestampClean": "March 301:49",
+        "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 March 301:49",
+          "LayoutElem": "2",
+          "ValueElem": "March 301:49",
+          "Message": ""
+        }
       },
-      "Rocket": "Lunar Module Ascent Stage",
-      "FlightNumber": "",
-      "LaunchSite": "Descartes Highlands (Luna)",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Carrying two astronauts back to CSM after lunar landing",
+      "Rocket": "Atlas SLV-3C Centaur/Star 37E",
+      "FlightNumber": "AC-27",
+      "LaunchSite": "Cape Canaveral, LC-36A",
+      "LaunchServiceProvider": "",
+      "Notes": "First spacecraft to cross asteroid belt. First flyby of Jupiter. First probe to leave Solar System",
       "Payload": [
         {
-          "Payload": "Apollo 16 LM",
+          "Payload": "Pioneer 10",
           "Operator": "NASA",
-          "Orbit": "Selenocentric (CSM)",
-          "Function": "Crewed",
-          "Decay": "Unknown",
+          "Orbit": "Heliocentric to Solar Escape",
+          "Function": "Jupiter flyby",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -54,25 +229,678 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "14 December22:54:37",
-        "TimestampClean": "14 December22:54:37",
-        "Timestamp": "1972-12-14T22:54:37Z",
+        "TimestampRaw": "March 1201:55",
+        "TimestampClean": "March 1201:55",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 March 1201:55",
+          "LayoutElem": "2",
+          "ValueElem": "March 1201:55",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta N",
+      "FlightNumber": "D-88",
+      "LaunchSite": "Vandenberg AFB, SLC-2E",
+      "LaunchServiceProvider": "",
+      "Notes": "Final flight of Delta N",
+      "Payload": [
+        {
+          "Payload": "TD-1A",
+          "Operator": "ESRO",
+          "Orbit": "LEO",
+          "Function": "Technology research",
+          "Decay": "January 9, 1980",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "March 2408:46",
+        "TimestampClean": "March 2408:46",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 March 2408:46",
+          "LayoutElem": "2",
+          "ValueElem": "March 2408:46",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor-LV2F Burner-2A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, SLC-10W",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "DMSP 5B F2",
+          "Operator": "US Air Force",
+          "Orbit": "LEO",
+          "Function": "Weather satellite",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "April 1617:45",
+        "TimestampClean": "April 1617:45",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 April 1617:45",
+          "LayoutElem": "2",
+          "ValueElem": "April 1617:45",
+          "Message": ""
+        }
+      },
+      "Rocket": "Saturn V",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy, LC-39A",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Crewed spaceflight to the Moon with 3 astronauts. Subsatellite placed in wrong orbit, shorter lifespan than planned",
+      "Payload": [
+        {
+          "Payload": "Apollo 16 CSM \"Casper\"",
+          "Operator": "NASA",
+          "Orbit": "Lunar",
+          "Function": "Crewed lunar orbiter",
+          "Decay": "April 27, 1972",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Apollo 16 lunar module \"Orion\"",
+          "Operator": "NASA",
+          "Orbit": "Lunar",
+          "Function": "Crewed lunar lander",
+          "Decay": "April 20, 197214:23 (at Moon)",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Apollo 16 Subsatellite",
+          "Operator": "NASA",
+          "Orbit": "Lunar",
+          "Function": "Lunar particles research",
+          "Decay": "May 29, 1972 (at Moon)",
+          "Outcome": "Partial failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "April 1921:43",
+        "TimestampClean": "April 1921:43",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 April 1921:43",
+          "LayoutElem": "2",
+          "ValueElem": "April 1921:43",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thorad Agena-D SLV-2H",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, SLC-3W",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-4B 1116",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "Reconnaissance",
+          "Decay": "May 12, 1972",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "May 2518:41",
+        "TimestampClean": "May 2518:41",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 May 2518:41",
+          "LayoutElem": "2",
+          "ValueElem": "May 2518:41",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thorad Agena-D SLV-2H",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, SLC-3W",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Final flight of Thorad-Agena",
+      "Payload": [
+        {
+          "Payload": "KH-4B 1117",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "Reconnaissance",
+          "Decay": "June 4, 1972",
+          "Outcome": "",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "June 1321:53",
+        "TimestampClean": "June 1321:53",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 June 1321:53",
+          "LayoutElem": "2",
+          "ValueElem": "June 1321:53",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3C Centaur",
+      "FlightNumber": "AC-29",
+      "LaunchSite": "Cape Canaveral, LC-36B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Intelsat 4 F-5",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "June 2614:53",
+        "TimestampClean": "June 2614:53",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 June 2614:53",
+          "LayoutElem": "2",
+          "ValueElem": "June 2614:53",
+          "Message": ""
+        }
+      },
+      "Rocket": "Soyuz (11A511)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur, LC-1/5",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 496 (Soyuz 7K-T)",
+          "Operator": "",
+          "Orbit": "LEO",
+          "Function": "Test redesigned Soyuz 7K-T spacecraft",
+          "Decay": "July 2, 1972",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "July 2318:41",
+        "TimestampClean": "July 2318:41",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 July 2318:41",
+          "LayoutElem": "2",
+          "ValueElem": "July 2318:41",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta 0900",
+      "FlightNumber": "D-89",
+      "LaunchSite": "Vandenberg AFB, SLC-2W",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Delta 0100 series",
+      "Payload": [
+        {
+          "Payload": "Landsat 1",
+          "Operator": "NASA",
+          "Orbit": "LEO",
+          "Function": "Earth resources satellite",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 August15:10",
+        "TimestampClean": "13 August15:10",
+        "Timestamp": "1972-08-13T15:10:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Lunar Module Ascent Stage",
+      "Rocket": "Scout D-1",
       "FlightNumber": "",
-      "LaunchSite": "Taurus-Littrow (Luna)",
-      "LaunchServiceProvider": "NASA",
-      "Notes": "Carrying two astronauts back to CSM after lunar landing",
+      "LaunchSite": "Wallops Flight Facility, LA-3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
       "Payload": [
         {
-          "Payload": "Apollo 17 LM",
+          "Payload": "Explorer 46 (MTS)",
           "Operator": "NASA",
-          "Orbit": "Selenocentric (CSM)",
-          "Function": "Crewed",
-          "Decay": "15 December06:50",
+          "Orbit": "LEO",
+          "Function": "Meteoroid research",
+          "Decay": "2 November 1979",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "August 1902:40",
+        "TimestampClean": "August 1902:40",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 August 1902:40",
+          "LayoutElem": "2",
+          "ValueElem": "August 1902:40",
+          "Message": ""
+        }
+      },
+      "Rocket": "M-4S",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Space Center, LP-M",
+      "LaunchServiceProvider": "NASDA",
+      "Notes": "Final flight of M-4S. The satellite stopped transmitting several days after launch, due to high voltage arcing",
+      "Payload": [
+        {
+          "Payload": "Denpa (REXS)",
+          "Operator": "ISAS",
+          "Orbit": "Highly elliptical orbit",
+          "Function": "Magnetosphere research",
+          "Decay": "19 May 1980",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "August 2110:28",
+        "TimestampClean": "August 2110:28",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 August 2110:28",
+          "LayoutElem": "2",
+          "ValueElem": "August 2110:28",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3C Centaur",
+      "FlightNumber": "AC-22",
+      "LaunchSite": "Cape Canaveral, LC-36B",
+      "LaunchServiceProvider": "",
+      "Notes": "Final flight of Atlas SLV-3C Centaur",
+      "Payload": [
+        {
+          "Payload": "OAO 3",
+          "Operator": "NASA",
+          "Orbit": "LEO",
+          "Function": "Ultraviolet astronomy",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "September 2301:20",
+        "TimestampClean": "September 2301:20",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 September 2301:20",
+          "LayoutElem": "2",
+          "ValueElem": "September 2301:20",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta 1604 (1604)",
+      "FlightNumber": "D-90",
+      "LaunchSite": "Cape Canaveral, LC-17B",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Delta 1000 series. Maiden flight of Extended Long-Tank Thor stage",
+      "Payload": [
+        {
+          "Payload": "Explorer 47",
+          "Operator": "NASA",
+          "Orbit": "HEO",
+          "Function": "Magnetosphere research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "October 220:09",
+        "TimestampClean": "October 220:09",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 October 220:09",
+          "LayoutElem": "2",
+          "ValueElem": "October 220:09",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas F Burner II",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, BMRS-A1",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 8180 (RADCAT)",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "Radar calibration",
+          "Decay": "2 August 2012",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Radsat",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "Gamma radiation research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "October 1517:19",
+        "TimestampClean": "October 1517:19",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 October 1517:19",
+          "LayoutElem": "2",
+          "ValueElem": "October 1517:19",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta 0300",
+      "FlightNumber": "D-91",
+      "LaunchSite": "Vandenberg AFB, SLC-2W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "NOAA 2 (ITOS-B)",
+          "Operator": "NOAA",
+          "Orbit": "LEO",
+          "Function": "Weather satellite",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "AMSAT-OSCAR 6",
+          "Operator": "AMSAT",
+          "Orbit": "LEO",
+          "Function": "Amateur radio",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "November 903:23",
+        "TimestampClean": "November 903:23",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 November 903:23",
+          "LayoutElem": "2",
+          "ValueElem": "November 903:23",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor Burner II",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, SLC-10W",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "DMSP 5B F3",
+          "Operator": "USAF",
+          "Orbit": "LEO",
+          "Function": "Weather",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "November 1001:14",
+        "TimestampClean": "November 1001:14",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 November 1001:14",
+          "LayoutElem": "2",
+          "ValueElem": "November 1001:14",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta 1914",
+      "FlightNumber": "D-92",
+      "LaunchSite": "Cape Canaveral, LC-17B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Anik A1",
+          "Operator": "Telesat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "December 705:33",
+        "TimestampClean": "December 705:33",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 December 705:33",
+          "LayoutElem": "2",
+          "ValueElem": "December 705:33",
+          "Message": ""
+        }
+      },
+      "Rocket": "Saturn V",
+      "FlightNumber": "",
+      "LaunchSite": "Kennedy, LC-39A",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Crewed spaceflight to the Moon with 3 astronauts. Final flight of Apollo program.",
+      "Payload": [
+        {
+          "Payload": "Apollo 17 CSM \"America\"",
+          "Operator": "NASA",
+          "Orbit": "Lunar",
+          "Function": "Crewed lunar orbiter",
+          "Decay": "December 19, 1971",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Apollo 17 lunar module \"Challenger\"",
+          "Operator": "NASA",
+          "Orbit": "Lunar",
+          "Function": "Crewed lunar lander",
+          "Decay": "December 14, 1971 (at Moon)",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "December 1107:56",
+        "TimestampClean": "December 1107:56",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 December 1107:56",
+          "LayoutElem": "2",
+          "ValueElem": "December 1107:56",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta 0900",
+      "FlightNumber": "D-93",
+      "LaunchSite": "Vandenberg AFB, SLC-2W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Nimbus 5",
+          "Operator": "NASA",
+          "Orbit": "LEO",
+          "Function": "Environmental research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "December 1611:24",
+        "TimestampClean": "December 1611:24",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 December 1611:24",
+          "LayoutElem": "2",
+          "ValueElem": "December 1611:24",
+          "Message": ""
+        }
+      },
+      "Rocket": "Scout D-1",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB, SLC-5",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Aeros 1",
+          "Operator": "NASA/BMwF",
+          "Orbit": "",
+          "Function": "",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "December 2022:20",
+        "TimestampClean": "December 2022:20",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 December 2022:20",
+          "LayoutElem": "2",
+          "ValueElem": "December 2022:20",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3A Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral, LC-13",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 9390 Canyon 5",
+          "Operator": "USAF",
+          "Orbit": "Geosynchronous",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }

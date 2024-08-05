@@ -97,7 +97,7 @@
           "Payload": "Kosmos 545 (DS-P1-Yu)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "Radar calibration",
           "Decay": "31 July 1973",
           "Outcome": "Successful",
           "Cubesat": false
@@ -120,7 +120,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 546 (Tsiklon mockup)",
+          "Payload": "Kosmos 546 (Zaliv mockup)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
           "Function": "Boilerplate",
@@ -321,7 +321,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas-Agena SLV-3A",
+      "Rocket": "Atlas SLV-3A Agena-D",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-13",
       "LaunchServiceProvider": "",
@@ -373,7 +373,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok (R-7 8A92M)",
+      "Rocket": "Vostok-2M (R-7 8A92M)",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
       "LaunchServiceProvider": "",
@@ -446,7 +446,7 @@
           "Orbit": "Low Earth",
           "Function": "Space Station",
           "Decay": "28 May 1973",
-          "Outcome": "Failure",
+          "Outcome": "Spacecraft failure",
           "Cubesat": false
         }
       ]
@@ -522,7 +522,7 @@
           "Payload": "Kosmos 553 (DS-P1-Yu)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "Radar calibration",
           "Decay": "11 November 1973",
           "Outcome": "Successful",
           "Cubesat": false
@@ -571,7 +571,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "InterKosmos 9",
+          "Payload": "Interkosmos 9 (Kopernik 500)",
           "Operator": "Interkosmos",
           "Orbit": "Low Earth",
           "Function": "Solar radiation detection",
@@ -590,7 +590,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta (1914)",
+      "Rocket": "Delta 1914",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-17B",
       "LaunchServiceProvider": "",
@@ -791,7 +791,7 @@
           "Payload": "Kosmos 558 (DS-P1-Yu)",
           "Operator": "MOM",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "Radar calibration",
           "Decay": "22 December 1973",
           "Outcome": "Successful",
           "Cubesat": false
@@ -924,10 +924,10 @@
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
       "LaunchServiceProvider": "NASA",
-      "Notes": "First crewed flight to Skylab",
+      "Notes": "Crewed flight with 3 astronauts, first crewed flight to Skylab",
       "Payload": [
         {
-          "Payload": "Skylab 2, 3 Astronauts",
+          "Payload": "Apollo CSM-116 (Skylab 2)",
           "Operator": "NASA",
           "Orbit": "Low Earth, docked to Skylab",
           "Function": "Crewed orbital flight",
@@ -981,7 +981,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok (R-7 8A92M)",
+      "Rocket": "Vostok-2M (R-7 8A92M)",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
       "LaunchServiceProvider": "",
@@ -1174,7 +1174,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta (1913)",
+      "Rocket": "Delta 1913",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-17B",
       "LaunchServiceProvider": "",
@@ -1259,7 +1259,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 574 (Tsiklon)",
+          "Payload": "Kosmos 574 (Zaliv/Tsiklon)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -1394,7 +1394,7 @@
           "Orbit": "Intended: Low Earth",
           "Function": "Reconnaissance",
           "Decay": "4 July 1973",
-          "Outcome": "Successful",
+          "Outcome": "Failure",
           "Cubesat": false
         }
       ]
@@ -1434,7 +1434,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Titan III D",
+      "Rocket": "Titan IIID",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-4E",
       "LaunchServiceProvider": "",
@@ -1460,7 +1460,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta (0300)",
+      "Rocket": "Delta 0300",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-2W",
       "LaunchServiceProvider": "",
@@ -1568,10 +1568,10 @@
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
       "LaunchServiceProvider": "NASA",
-      "Notes": "Thruster malfunction, nearly required rescue mission",
+      "Notes": "Crewed flight with 3 astronauts. Thruster malfunction, nearly required rescue mission",
       "Payload": [
         {
-          "Payload": "Skylab 3, 3 Astronauts",
+          "Payload": "Apollo CSM-117 (Skylab 3)",
           "Operator": "NASA",
           "Orbit": "Low Earth, docked to Skylab",
           "Function": "Crewed orbital flight",
@@ -1668,7 +1668,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Thor-Burner 2A",
+      "Rocket": "Thor-LV2F Burner-2A",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-10W",
       "LaunchServiceProvider": "",
@@ -2390,7 +2390,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta (1913)",
+      "Rocket": "Delta 1913",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-17B",
       "LaunchServiceProvider": "",
@@ -2442,7 +2442,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok (R-7 8A92M)",
+      "Rocket": "Vostok-2M (R-7 8A92M)",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk",
       "LaunchServiceProvider": "",
@@ -2598,7 +2598,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta (0300)",
+      "Rocket": "Delta 0300",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-2W",
       "LaunchServiceProvider": "NASA",
@@ -2650,7 +2650,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Titan III D",
+      "Rocket": "Titan IIID",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-4E",
       "LaunchServiceProvider": "",
@@ -2724,10 +2724,10 @@
       "FlightNumber": "",
       "LaunchSite": "Kennedy LC-39B",
       "LaunchServiceProvider": "NASA",
-      "Notes": "Final flight of Skylab programme",
+      "Notes": "Crewed flight with 3 astronauts. Final flight of Skylab programme",
       "Payload": [
         {
-          "Payload": "Skylab 4",
+          "Payload": "Apollo CSM-118 (Skylab 4)",
           "Operator": "NASA",
           "Orbit": "Low Earth, docked to Skylab",
           "Function": "Crewed orbital flight",
@@ -2756,7 +2756,7 @@
           "Payload": "Kosmos 608 (DS-P1-Yu)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "Radar calibration",
           "Decay": "10 July 1974",
           "Outcome": "Successful",
           "Cubesat": false
@@ -2834,7 +2834,7 @@
           "Payload": "Kosmos 611 (DS-P1-Yu)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "Radar calibration",
           "Decay": "19 June 1974",
           "Outcome": "Successful",
           "Cubesat": false
@@ -3015,7 +3015,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta (1900)",
+      "Rocket": "Delta 1900",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-2W",
       "LaunchServiceProvider": "NASA",
@@ -3293,7 +3293,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 627 (Tsiklon)",
+          "Payload": "Kosmos 627 (Zaliv)",
           "Operator": "MO SSSR",
           "Orbit": "Low Earth",
           "Function": "Navigation",
