@@ -28,32 +28,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 January",
-        "TimestampClean": "21 January",
-        "Timestamp": "1959-01-21T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Thor-DM18 Agena-A",
-      "FlightNumber": "",
-      "LaunchSite": "Vandenberg LC-75-3-4",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Discoverer 1",
-          "Operator": "ARPA",
-          "Orbit": "Low Earth (Polar)",
-          "Function": "Technology demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Launch Precluded",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "17 February15:55",
         "TimestampClean": "17 February15:55",
         "Timestamp": "1959-02-17T15:55:00Z",
@@ -499,32 +473,6 @@
           "Function": "Scientific",
           "Decay": "In orbit",
           "Outcome": "Partial launch failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "24 September",
-        "TimestampClean": "24 September",
-        "Timestamp": "1959-09-24T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "Atlas-C Able",
-      "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-14",
-      "LaunchServiceProvider": "",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "Pioneer P-1",
-          "Operator": "NASA",
-          "Orbit": "Selenocentric",
-          "Function": "Scientific",
-          "Decay": "In orbit",
-          "Outcome": "Launch Precluded",
           "Cubesat": false
         }
       ]
