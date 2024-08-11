@@ -1,4 +1,4512 @@
 {
-  "OrbitalFlights": null,
+  "OrbitalFlights": [
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 January04:48:23",
+        "TimestampClean": "7 January04:48:23",
+        "Timestamp": "1966-01-07T04:48:23Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor-Burner 1",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-2-6",
+      "LaunchServiceProvider": "USAF",
+      "Notes": "Second stage failed to ignite",
+      "Payload": [
+        {
+          "Payload": "OPS 2394 (DMSP 4A-F5)",
+          "Operator": "USAF",
+          "Orbit": "Planned: Low Earth",
+          "Function": "Meteorology",
+          "Decay": "7 January",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 January08:24",
+        "TimestampClean": "7 January08:24",
+        "Timestamp": "1966-01-07T08:24:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "Third stage failed to put spacecraft in correct orbit",
+      "Payload": [
+        {
+          "Payload": "Kosmos 104 (Zenit-2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "15 January",
+          "Outcome": "Partial Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 January20:10",
+        "TimestampClean": "19 January20:10",
+        "Timestamp": "1966-01-19T20:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-2-4",
+      "LaunchServiceProvider": "USAF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 24 (KH-7 Gambit)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 3179 (Agena Pickaback)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Technology",
+          "Decay": "23 January 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 7253",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "25 January 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 January08:38",
+        "TimestampClean": "22 January08:38",
+        "Timestamp": "1966-01-22T08:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 105 (Zenit-2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "30 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 January12:28",
+        "TimestampClean": "25 January12:28",
+        "Timestamp": "1966-01-25T12:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2I",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 106 (DS-P1-I)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 January17:06:00",
+        "TimestampClean": "28 January17:06:00",
+        "Timestamp": "1966-01-28T17:06:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Scout-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-D",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1593 (Transit-O 7)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 January11:41:37",
+        "TimestampClean": "31 January11:41:37",
+        "Timestamp": "1966-01-31T11:41:37Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "First spacecraft to soft land on the surface of the Moon and of any planetary object.",
+      "Payload": [
+        {
+          "Payload": "Luna 9",
+          "Operator": "",
+          "Orbit": "Lunar transfer",
+          "Function": "Lunar lander",
+          "Decay": "3 February  18:45",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 February21:32:13",
+        "TimestampClean": "2 February21:32:13",
+        "Timestamp": "1966-02-02T21:32:13Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor-SLV2A Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-1-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 7291 (KH-4A Corona 1029)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "27 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 February07:41:23",
+        "TimestampClean": "3 February07:41:23",
+        "Timestamp": "1966-02-03T07:41:23Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta C",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "ESSA-1 (Tiros)",
+          "Operator": "ESSA",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 February12:19:49",
+        "TimestampClean": "5 February12:19:49",
+        "Timestamp": "1966-02-05T12:19:49Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "R-36O",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 67/21",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "Maiden flight of R-36O, apogee: 200 kilometres (120 mi)",
+      "Payload": [
+        {
+          "Payload": "OGCh #02L",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "5 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 February19:45:01",
+        "TimestampClean": "9 February19:45:01",
+        "Timestamp": "1966-02-09T19:45:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor-SLV2A Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-1-2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1439 (\"Heavy Ferret\")",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 February08:52",
+        "TimestampClean": "10 February08:52",
+        "Timestamp": "1966-02-10T08:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 107 (Zenit-2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "18 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 February18:00",
+        "TimestampClean": "11 February18:00",
+        "Timestamp": "1966-02-11T18:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-1",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 108 (DS-U1-G)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Atmospheric research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 February20:32",
+        "TimestampClean": "15 February20:32",
+        "Timestamp": "1966-02-15T20:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-2-4",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 25 (KH-7 Gambit)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 1184",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "22 February 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 3011 (Bluebell 2 cylinder)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "17 February 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 3031 (Bluebell 2 sphere)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "22 February 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 February08:33:36",
+        "TimestampClean": "17 February08:33:36",
+        "Timestamp": "1966-02-17T08:33:36Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Diamant A",
+      "FlightNumber": "",
+      "LaunchSite": "Hammaguira Brigitte",
+      "LaunchServiceProvider": "Armée de Terre",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Dipason (D-1A)",
+          "Operator": "Armée de Terre",
+          "Orbit": "Low Earth",
+          "Function": "Geodetic science",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 February08:52",
+        "TimestampClean": "19 February08:52",
+        "Timestamp": "1966-02-19T08:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 109 (Zenit-4 #14L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "27 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 February",
+        "TimestampClean": "21 February",
+        "Timestamp": "1966-02-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-1",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "First stage failure at T+83 seconds",
+      "Payload": [
+        {
+          "Payload": "DS-K-40 No.2",
+          "Operator": "",
+          "Orbit": "Planned: Low Earth",
+          "Function": "ELINT",
+          "Decay": "21 February",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 February20:09:36",
+        "TimestampClean": "22 February20:09:36",
+        "Timestamp": "1966-02-22T20:09:36Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 110 (Voskhod)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Uncrewed spacecraft",
+          "Decay": "16 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 February16:12:01",
+        "TimestampClean": "26 February16:12:01",
+        "Timestamp": "1966-02-26T16:12:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Saturn IB",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-34",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "First flight of the Apollo Spacecraft and launch vehicle",
+      "Payload": [
+        {
+          "Payload": "Apollo AS-201",
+          "Operator": "NASA",
+          "Orbit": "Sub-orbital",
+          "Function": "Test spacecraft",
+          "Decay": "26 February 16:49:21",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 February13:58:00",
+        "TimestampClean": "28 February13:58:00",
+        "Timestamp": "1966-02-28T13:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta E",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "ESSA-2 (Tiros)",
+          "Operator": "ESSA",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 March11:03:49",
+        "TimestampClean": "1 March11:03:49",
+        "Timestamp": "1966-03-01T11:03:49Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 111 (Luna E-6S series)",
+          "Operator": "",
+          "Orbit": "Intended: Lunar transfer",
+          "Function": "Lunar orbiter",
+          "Decay": "1 March",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 March22:02:03",
+        "TimestampClean": "9 March22:02:03",
+        "Timestamp": "1966-03-09T22:02:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor-SLV2A Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-1-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 3488 (KH-4A Corona 1030)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "29 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 March15:00:03",
+        "TimestampClean": "16 March15:00:03",
+        "Timestamp": "1966-03-16T15:00:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas SLV-3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GATV 5003",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Docking target",
+          "Decay": "15 September 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 March16:41:02",
+        "TimestampClean": "16 March16:41:02",
+        "Timestamp": "1966-03-16T16:41:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan II GLV",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-19",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "First docking with the Agena target vehicle",
+      "Payload": [
+        {
+          "Payload": "Gemini VIII",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology/Biological/Target",
+          "Decay": "17 March03:22:28",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 March10:28:42",
+        "TimestampClean": "17 March10:28:42",
+        "Timestamp": "1966-03-17T10:28:42Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 112 (Zenit-2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "25 March 196605:31",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 March20:00",
+        "TimestampClean": "18 March20:00",
+        "Timestamp": "1966-03-18T20:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-2-4",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 26 (KH-7 Gambit)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 0879",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "23 March 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 0974",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "24 March 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 March09:40",
+        "TimestampClean": "21 March09:40",
+        "Timestamp": "1966-03-21T09:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 113 (Zenit-4 #17L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "29 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 March14:39",
+        "TimestampClean": "24 March14:39",
+        "Timestamp": "1966-03-24T14:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "UR-500 (Proton)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "",
+      "Notes": "2nd stage engine failure T+122 seconds. Suspected collision with the first stage following separation.",
+      "Payload": [
+        {
+          "Payload": "Proton N-4 #3 (N-4 #3)",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Physics",
+          "Decay": "24 March",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 March03:31:00",
+        "TimestampClean": "26 March03:31:00",
+        "Timestamp": "1966-03-26T03:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Scout-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 5 (PALC-D)",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Transit-O 8",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 March07:20",
+        "TimestampClean": "27 March07:20",
+        "Timestamp": "1966-03-27T07:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "Booster failure",
+      "Payload": [
+        {
+          "Payload": "Molniya-1 #5",
+          "Operator": "",
+          "Orbit": "Intended: Molniya",
+          "Function": "Communications technology",
+          "Decay": "27 March",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 March09:20:12",
+        "TimestampClean": "30 March09:20:12",
+        "Timestamp": "1966-03-30T09:20:12Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "SM-65D Atlas D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg ABRES-B-3",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV1-4",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "REV test",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OV1-5",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "REV test",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 March05:41:04",
+        "TimestampClean": "31 March05:41:04",
+        "Timestamp": "1966-03-31T05:41:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor-Burner 1",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-2-6",
+      "LaunchServiceProvider": "USAF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 0340 (DMSP-Block-4A F6)",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 March10:46:59",
+        "TimestampClean": "31 March10:46:59",
+        "Timestamp": "1966-03-31T10:46:59Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "First Soviet lunar orbiter, first discoverer of lunar mascons; Last contact: 30 May 1966",
+      "Payload": [
+        {
+          "Payload": "Luna 10",
+          "Operator": "",
+          "Orbit": "Lunar transfer",
+          "Function": "Lunar orbiter",
+          "Decay": "30 May (last contact)",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 April11:40",
+        "TimestampClean": "6 April11:40",
+        "Timestamp": "1966-04-06T11:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 114 (Zenit-4 #19L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "14 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 April22:02:55",
+        "TimestampClean": "7 April22:02:55",
+        "Timestamp": "1966-04-07T22:02:55Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor SLV-2A Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC1-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1612 (KH-4 Corona 1031)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "26 April 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1031-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "???",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1031-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 April01:00:02",
+        "TimestampClean": "8 April01:00:02",
+        "Timestamp": "1966-04-08T01:00:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas LV-3C Centaur-D",
+      "FlightNumber": "",
+      "LaunchSite": "Canaveral LC-36B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Launch vehicle development flight. It carried a mass model of the Surveyor spacecraft. The second Centaur engine firing was unsuccessful.",
+      "Payload": [
+        {
+          "Payload": "Atlas Centaur 8 Surveyor SM-2",
+          "Operator": "NASA",
+          "Orbit": "Highly elliptical",
+          "Function": "Technology",
+          "Decay": "14 April",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 April19:35:00",
+        "TimestampClean": "8 April19:35:00",
+        "Timestamp": "1966-04-08T19:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas SLV-3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-12",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OAO 1",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 April19:15",
+        "TimestampClean": "19 April19:15",
+        "Timestamp": "1966-04-19T19:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-2-4",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 27 (KH-7 Gambit SV 977)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "26 April 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 0910",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "22 April 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 April10:40",
+        "TimestampClean": "20 April10:40",
+        "Timestamp": "1966-04-20T10:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 115 (Zenit-2 No. 35L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "28 April 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 April09:45",
+        "TimestampClean": "22 April09:45",
+        "Timestamp": "1966-04-22T09:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Scout-B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-D",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV3-1",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Radiation belt particle and fields experiments",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 April07:10",
+        "TimestampClean": "25 April07:10",
+        "Timestamp": "1966-04-25T07:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "Third successful Molniya; also transmitted cloud cover images",
+      "Payload": [
+        {
+          "Payload": "Molniya-1 #6",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Communications technology",
+          "Decay": "11 June 1973",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 April10:04",
+        "TimestampClean": "26 April10:04",
+        "Timestamp": "1966-04-26T10:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2I",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 116 (DS-P1-Yu No. 6)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 May19:25:25",
+        "TimestampClean": "3 May19:25:25",
+        "Timestamp": "1966-05-03T19:25:25Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor SLV-2A Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg 75-3-5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1508 (KH-4A Corona 1032)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "3 May",
+          "Outcome": "Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1032-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "3 May",
+          "Outcome": "Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1032-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "3 May",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 May10:58",
+        "TimestampClean": "6 May10:58",
+        "Timestamp": "1966-05-06T10:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 117 (Zenit-2 No. 39L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "14 May 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 May14:10",
+        "TimestampClean": "11 May14:10",
+        "Timestamp": "1966-05-11T14:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 118 (Meteor #4L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Weather",
+          "Decay": "23 November 1988",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 May19:02",
+        "TimestampClean": "14 May19:02",
+        "Timestamp": "1966-05-14T19:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-2-4",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 28 (KH-7 Gambit SV 978)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "27 October 1970",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 1950",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "17 May 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 6785",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "21 May 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 May07:55:34",
+        "TimestampClean": "15 May07:55:34",
+        "Timestamp": "1966-05-15T07:55:34Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor SLV-2 Agena-B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-1-1",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Nimbus 2 (Nimbus C)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "WeatherTechnology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 May11:00",
+        "TimestampClean": "17 May11:00",
+        "Timestamp": "1966-05-17T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Unnamed Kosmos (Zenit-4 #18L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "17 May",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 May15:15:03",
+        "TimestampClean": "17 May15:15:03",
+        "Timestamp": "1966-05-17T15:15:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas SLV-3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GATV 5004",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Docking target",
+          "Decay": "17 May",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 May02:27:00",
+        "TimestampClean": "19 May02:27:00",
+        "Timestamp": "1966-05-19T02:27:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Scout-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 5 (PALC-D)",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Transit-O 9",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 May19:30",
+        "TimestampClean": "19 May19:30",
+        "Timestamp": "1966-05-19T19:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "R-36O",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 67/22",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OGCh #04L",
+          "Operator": "RVSN",
+          "Orbit": "Suborbital",
+          "Function": "Missile test",
+          "Decay": "19 May",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 May02:00:33",
+        "TimestampClean": "24 May02:00:33",
+        "Timestamp": "1966-05-24T02:00:33Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor SLV-2A Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 3 (PALC-1-1)",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1778 KH-4A Corona 1033",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "9 June 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1033-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1033-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "???",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 May05:31?",
+        "TimestampClean": "24 May05:31?",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 24 May05:31?",
+          "LayoutElem": "",
+          "ValueElem": "05:31?",
+          "Message": ": extra text: \"05:31?\""
+        }
+      },
+      "Rocket": "Kosmos-2I",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 119 (DS-U2-I No. 1)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Ionospheric research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 May14:00",
+        "TimestampClean": "25 May14:00",
+        "Timestamp": "1966-05-25T14:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Thor Delta C1",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Explorer 32 (AE-B)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Atmospheric",
+          "Decay": "22 February 1985",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 May14:41:01",
+        "TimestampClean": "30 May14:41:01",
+        "Timestamp": "1966-05-30T14:41:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas LV-3C Centaur-D",
+      "FlightNumber": "AC-10",
+      "LaunchSite": "Canaveral LC-36A",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "First American lunar soft-lander",
+      "Payload": [
+        {
+          "Payload": "Surveyor 1",
+          "Operator": "NASA",
+          "Orbit": "Translunar injection",
+          "Function": "Lunar lander",
+          "Decay": "2 June 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 June15:00:02",
+        "TimestampClean": "1 June15:00:02",
+        "Timestamp": "1966-06-01T15:00:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas SLV-3",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "Shroud failed to come off target adapter precluding docking",
+      "Payload": [
+        {
+          "Payload": "ATDA No. 02186",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Docking target",
+          "Decay": "11 June",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 June13:39:33",
+        "TimestampClean": "3 June13:39:33",
+        "Timestamp": "1966-06-03T13:39:33Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan II GLV",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-19",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Failed attempt to dock with ATDA; two hour EVA by Eugene Cernan",
+      "Payload": [
+        {
+          "Payload": "Gemini IX-A",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology/Biological/Target",
+          "Decay": "6 June02:00:23",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 June19:25",
+        "TimestampClean": "3 June19:25",
+        "Timestamp": "1966-06-03T19:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-2-4",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 29 (KH-7 Gambit SV 979)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "6 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 1577",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "9 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 1856",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "9 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 June02:48",
+        "TimestampClean": "7 June02:48",
+        "Timestamp": "1966-06-07T02:48:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-B",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-12",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Routine spacecraft operation was discontinued on 1 December 1969, after which only data from Heppner's experiment (E-11) was acquired. All spacecraft support terminated on 29 February 1972.",
+      "Payload": [
+        {
+          "Payload": "OGO-3 (OGO-B)",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "IonosphericMagnetospheric",
+          "Decay": "14 September 1981",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 June11:00",
+        "TimestampClean": "8 June11:00",
+        "Timestamp": "1966-06-08T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 120 (Zenit-2 No. 41L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "16 June",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 June20:15",
+        "TimestampClean": "9 June20:15",
+        "Timestamp": "1966-06-09T20:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg PALC-1-2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Midas 10 (Midas RTS-I F1)",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Early Warning",
+          "Decay": "3 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "ERS 16 (ORS 2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Technology (performed metal-to-metal bonding experiments)",
+          "Decay": "12 March 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SECOR 6 (Secor Type II S/N 7, EGRS VI)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geodetic",
+          "Decay": "6 July 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 June04:15",
+        "TimestampClean": "10 June04:15",
+        "Timestamp": "1966-06-10T04:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Scout-B",
+      "FlightNumber": "",
+      "LaunchSite": "Wallops Flight Facility Launch Area 3A",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV3-4 (Personnel Hazards Associated with Space Radiation (PHASR)), OPS-1427",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Tissue equivalent radiation chamber, linear energy transfer spectrometer, electron and proton spectrometers, a solid state charged particle spectrometer and a tri-axial magnetometer.",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 June14:01",
+        "TimestampClean": "16 June14:01",
+        "Timestamp": "1966-06-16T14:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan IIIC",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-41",
+      "LaunchServiceProvider": "",
+      "Notes": "GGTS experiment partially failed because magnetic field in one of the dampers was compromised",
+      "Payload": [
+        {
+          "Payload": "GGTS",
+          "Operator": "USAF",
+          "Orbit": "Geosynchronous",
+          "Function": "Gravity Gradient stabilization test",
+          "Decay": "In orbit",
+          "Outcome": "Partial spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 1",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 2",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 3",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 4",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 5",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 6",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP 7",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 Jun11:00",
+        "TimestampClean": "17 Jun11:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 17 Jun11:00",
+          "LayoutElem": "January",
+          "ValueElem": "Jun11:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 121 (Zenit-4 #20L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "25 Jun",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 Jun21:23:30",
+        "TimestampClean": "21 Jun21:23:30",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 21 Jun21:23:30",
+          "LayoutElem": "January",
+          "ValueElem": "Jun21:23:30",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor SLV-2A Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg 75-3-5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1599 (KH-4A Corona 1034)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "14 July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1034-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 14 July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1034-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 14 July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 Jun21:31:30",
+        "TimestampClean": "24 Jun21:31:30",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 24 Jun21:31:30",
+          "LayoutElem": "January",
+          "ValueElem": "Jun21:31:30",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor-SLV2A Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-1-1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "PAGEOS",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Geodetic",
+          "Decay": "1975 - 2016",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 Jun10:30",
+        "TimestampClean": "25 Jun10:30",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 25 Jun10:30",
+          "LayoutElem": "January",
+          "ValueElem": "Jun10:30",
+          "Message": ""
+        }
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 122 (Meteor #5L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Weather",
+          "Decay": "14 November 1989",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 Jul16:02:25",
+        "TimestampClean": "1 Jul16:02:25",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 1 Jul16:02:25",
+          "LayoutElem": "January",
+          "ValueElem": "Jul16:02:25",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor Delta E1",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Explorer 33 (AIMP D)",
+          "Operator": "NASA",
+          "Orbit": "High Earth",
+          "Function": "Magnetospheric research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 July16:12:01",
+        "TimestampClean": "5 July16:12:01",
+        "Timestamp": "1966-07-05T16:12:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Saturn IB",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-37B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "The spacecraft inadvertently destroyed after four orbits",
+      "Payload": [
+        {
+          "Payload": "Apollo AS-203",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "S-IVB test",
+          "Decay": "5 July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 July12:57",
+        "TimestampClean": "6 July12:57",
+        "Timestamp": "1966-07-06T12:57:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "UR-500 (Proton)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Proton 3 (N-4 #4)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Cosmic rays and particles research",
+          "Decay": "16 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 July05:31",
+        "TimestampClean": "8 July05:31",
+        "Timestamp": "1966-07-08T05:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2I 63S1",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar Site 86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 123 (DS-P1-Yu #5L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 July17:55",
+        "TimestampClean": "12 July17:55",
+        "Timestamp": "1966-07-12T17:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC 4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 30 (KH-7 Gambit SV 980)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "20 Jul 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OPS 1850 SRV Mission 4030",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 July02:10:02",
+        "TimestampClean": "14 July02:10:02",
+        "Timestamp": "1966-07-14T02:10:02Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "SM-65D Atlas",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg ABRES-B-3",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV1-8 (PasComSat)",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "4 Jan 1978",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OV1-7",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "X-Ray Astronomy/Ionosphere",
+          "Decay": "14 July",
+          "Outcome": "Failed to orbit",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 July10:25",
+        "TimestampClean": "14 July10:25",
+        "Timestamp": "1966-07-14T10:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 124 (Zenit-2 No. 42L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "22 July",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 July20:39:46",
+        "TimestampClean": "18 July20:39:46",
+        "Timestamp": "1966-07-18T20:39:46Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas-Agena",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "TDA-1A",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Docking target",
+          "Decay": "29 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 July22:20:27",
+        "TimestampClean": "18 July22:20:27",
+        "Timestamp": "1966-07-18T22:20:27Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan II GLV",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-19",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Second successful docking with Agena target vehicle; First EVA to another spacecraft, by Michael Collins",
+      "Payload": [
+        {
+          "Payload": "Gemini X",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology/Biological/Target",
+          "Decay": "21 July21:07:05",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 July08:58",
+        "TimestampClean": "20 July08:58",
+        "Timestamp": "1966-07-20T08:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz/Vostok",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 125 (US-A) No. 111",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "2 Aug 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 Jul10:50",
+        "TimestampClean": "28 Jul10:50",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 28 Jul10:50",
+          "LayoutElem": "January",
+          "ValueElem": "Jul10:50",
+          "Message": ""
+        }
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 126 (Zenit-4 #21L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "2 Aug",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 July18:30:20",
+        "TimestampClean": "29 July18:30:20",
+        "Timestamp": "1966-07-29T18:30:20Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan IIIB",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-8 Gambit #1 (OPS 3014)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "6 Aug 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4301-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 6 Aug 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 Aug10:45:01",
+        "TimestampClean": "4 Aug10:45:01",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 4 Aug10:45:01",
+          "LayoutElem": "January",
+          "ValueElem": "Aug10:45:01",
+          "Message": ""
+        }
+      },
+      "Rocket": "Scout-B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 5",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV3-3",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Radiation belt particle and fields experiments",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 Aug11:29",
+        "TimestampClean": "8 Aug11:29",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 8 Aug11:29",
+          "LayoutElem": "January",
+          "ValueElem": "Aug11:29",
+          "Message": ""
+        }
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 127 (Zenit-4 #22L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "16 Aug",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 Aug20:46:03",
+        "TimestampClean": "9 Aug20:46:03",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 9 Aug20:46:03",
+          "LayoutElem": "January",
+          "ValueElem": "Aug20:46:03",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thorad SLV-2G Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 1W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1545 CORONA J-32",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "11 Sep",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 715",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 11 Sep",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 716",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 11 Sep",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 Aug19:26:00",
+        "TimestampClean": "10 Aug19:26:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 10 Aug19:26:00",
+          "LayoutElem": "January",
+          "ValueElem": "Aug19:26:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3 Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral Launch Complex 13",
+      "LaunchServiceProvider": "",
+      "Notes": "First US spacecraft to orbit Moon. First spacecraft to photograph Earth from the Moon.",
+      "Payload": [
+        {
+          "Payload": "Lunar Orbiter 1",
+          "Operator": "",
+          "Orbit": "Lunar",
+          "Function": "Mapping",
+          "Decay": "29 Oct 13:29",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 Aug18:30",
+        "TimestampClean": "16 Aug18:30",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 16 Aug18:30",
+          "LayoutElem": "January",
+          "ValueElem": "Aug18:30",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 31 (OPS 1832)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "24 Aug 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4031",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 24 Aug 1966",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SAMPAN 1",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "ELINT Reconnaissance",
+          "Decay": "5 Mar 1970",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SOUSEA 1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "ELINT Reconnaissance",
+          "Decay": "5 Mar 1970",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 August15:20:17",
+        "TimestampClean": "17 August15:20:17",
+        "Timestamp": "1966-08-17T15:20:17Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta E1",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Pioneer 7 (Pioneer B)",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric",
+          "Function": "Scientific",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 Aug02:25:02",
+        "TimestampClean": "18 Aug02:25:02",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 18 Aug02:25:02",
+          "LayoutElem": "January",
+          "ValueElem": "Aug02:25:02",
+          "Message": ""
+        }
+      },
+      "Rocket": "Scout-A",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 5 (PALC-D)",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Transit-O 10",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 Aug1925",
+        "TimestampClean": "19 Aug1925",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 19 Aug1925",
+          "LayoutElem": "January",
+          "ValueElem": "Aug1925",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 3E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Midas 11 (Midas RTS-I F2)",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Early Warning",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "ERS 15",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Technology (performed metal-to-metal bonding experiments)",
+          "Decay": "12 March 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SECOR 7 (Secor Type II S/N 8, EGRS VII)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geodetic",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 Aug08:03:21",
+        "TimestampClean": "24 Aug08:03:21",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 24 Aug08:03:21",
+          "LayoutElem": "January",
+          "ValueElem": "Aug08:03:21",
+          "Message": ""
+        }
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "TV camera failed to return usable images; Last contact: 1 October 1966",
+      "Payload": [
+        {
+          "Payload": "Luna 11",
+          "Operator": "",
+          "Orbit": "Lunar transfer",
+          "Function": "Lunar orbiter",
+          "Decay": "In orbit",
+          "Outcome": "Partial spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 Aug17:15:32",
+        "TimestampClean": "25 Aug17:15:32",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 25 Aug17:15:32",
+          "LayoutElem": "January",
+          "ValueElem": "Aug17:15:32",
+          "Message": ""
+        }
+      },
+      "Rocket": "Saturn IB",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-34",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Second flight of the Apollo Spacecraft and launch vehicle; resulted in man-rating of Block 1 Apollo and Saturn 1B rocket",
+      "Payload": [
+        {
+          "Payload": "Apollo AS-202",
+          "Operator": "NASA",
+          "Orbit": "Sub-orbital",
+          "Function": "Test spacecraft",
+          "Decay": "25 Aug18:48:34",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 Aug13:59:56",
+        "TimestampClean": "26 Aug13:59:56",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 26 Aug13:59:56",
+          "LayoutElem": "January",
+          "ValueElem": "Aug13:59:56",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan IIIC",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-41",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "IDCSP",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "26 Aug",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 Aug09:50",
+        "TimestampClean": "27 Aug09:50",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 27 Aug09:50",
+          "LayoutElem": "January",
+          "ValueElem": "Aug09:50",
+          "Message": ""
+        }
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Cosmodrome",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 128 (Zenit-4 #23L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "4 Sep",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 Sep13:05:02",
+        "TimestampClean": "12 Sep13:05:02",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 12 Sep13:05:02",
+          "LayoutElem": "January",
+          "ValueElem": "Sep13:05:02",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GATV-5006",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Docking target",
+          "Decay": "30 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 Sep14:42:27",
+        "TimestampClean": "12 Sep14:42:27",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 12 Sep14:42:27",
+          "LayoutElem": "January",
+          "ValueElem": "Sep14:42:27",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan II GLV",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-19",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "First-ever direct-ascent (first orbit) rendezvous with an Agena Target Vehicle, highest apogee orbit for Earth-orbiting crewed mission to date.",
+      "Payload": [
+        {
+          "Payload": "Gemini XI",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology/Biological/Target",
+          "Decay": "15 Sep13:59:35",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 Sep09:30",
+        "TimestampClean": "16 Sep09:30",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 16 Sep09:30",
+          "LayoutElem": "January",
+          "ValueElem": "Sep09:30",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor-Burner 2",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg LC-75-2-6",
+      "LaunchServiceProvider": "USAF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "DMSP-Block-4A 7 (OPS 6026)",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Unnamed Zenit-4 (Zenit-4 #40L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "16 Sep",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 Sep17:59",
+        "TimestampClean": "16 Sep17:59",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 16 Sep17:59",
+          "LayoutElem": "January",
+          "ValueElem": "Sep17:59",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 32 (OPS 1686)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "23 Sep",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4032",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 23 Sep",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "FANION 2",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "ELINT Reconnaissance",
+          "Decay": "9 May 1968",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "TRIPOS 2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "ELINT Reconnaissance",
+          "Decay": "9 May 1968",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 Sep22:35",
+        "TimestampClean": "17 Sep22:35",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 17 Sep22:35",
+          "LayoutElem": "January",
+          "ValueElem": "Sep22:35",
+          "Message": ""
+        }
+      },
+      "Rocket": "R-36O",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Cosmodrome Site 162/36",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "First attempted orbital Fractional Orbital Bombardment System test.",
+      "Payload": [
+        {
+          "Payload": "OGCh #05L",
+          "Operator": "RVSN",
+          "Orbit": "LEO",
+          "Function": "Missile test",
+          "Decay": "11 Nov",
+          "Outcome": "Partial launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 Sep12:32:00",
+        "TimestampClean": "20 Sep12:32:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 20 Sep12:32:00",
+          "LayoutElem": "January",
+          "ValueElem": "Sep12:32:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas LV-3C Centaur-D",
+      "FlightNumber": "",
+      "LaunchSite": "Canaveral LC-36A",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Mid-course correction failure resulted in the spacecraft losing control. Contact was lost with the spacecraft at 9:35 UTC, September 22.",
+      "Payload": [
+        {
+          "Payload": "Surveyor 2",
+          "Operator": "NASA",
+          "Orbit": "Highly elliptical",
+          "Function": "Lunar Lander",
+          "Decay": "23 Sep",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 Sep21:14:05",
+        "TimestampClean": "20 Sep21:14:05",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 20 Sep21:14:05",
+          "LayoutElem": "January",
+          "ValueElem": "Sep21:14:05",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor SLV-2A Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 3W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-4A Corona 1035 (OPS 1703)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "12 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1035-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 12 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 1035-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 12 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 Sep02:58",
+        "TimestampClean": "26 Sep02:58",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 26 Sep02:58",
+          "LayoutElem": "January",
+          "ValueElem": "Sep02:58",
+          "Message": ""
+        }
+      },
+      "Rocket": "Lambda 4S",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Pad L",
+      "LaunchServiceProvider": "JAXA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "L-4S-1",
+          "Operator": "JAXA",
+          "Orbit": "",
+          "Function": "",
+          "Decay": "26 Sep",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 Sep19:07",
+        "TimestampClean": "28 Sep19:07",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 28 Sep19:07",
+          "LayoutElem": "January",
+          "ValueElem": "Sep19:07",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan IIIB",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-8 Gambit #2 (OPS 4096)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "7 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4302-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 7 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 October10:39:03",
+        "TimestampClean": "2 October10:39:03",
+        "Timestamp": "1966-10-02T10:39:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta E",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg SLC 2E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "ESSA-3 (Tiros)",
+          "Operator": "ESSA",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 Oct22:00",
+        "TimestampClean": "5 Oct22:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 5 Oct22:00",
+          "LayoutElem": "January",
+          "ValueElem": "Oct22:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Vandenberg SLC 3E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Midas 12 (Midas RTS-I F3)",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Early Warning",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "EGRS VIII (SECOR Type II S/N 9 )",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geodetic",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 Oct19:15",
+        "TimestampClean": "12 Oct19:15",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 12 Oct19:15",
+          "LayoutElem": "January",
+          "ValueElem": "Oct19:15",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 33 (OPS 2055)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "20 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4033",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 20 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Space Ground Link System (SLGS) 1 (OPS 5345)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology",
+          "Decay": "21 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 Oct12:13:08",
+        "TimestampClean": "14 Oct12:13:08",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 14 Oct12:13:08",
+          "LayoutElem": "January",
+          "ValueElem": "Oct12:13:08",
+          "Message": ""
+        }
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 129 (Zenit-2 No. 33L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "21 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 Oct07:50",
+        "TimestampClean": "20 Oct07:50",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 20 Oct07:50",
+          "LayoutElem": "January",
+          "ValueElem": "Oct07:50",
+          "Message": ""
+        }
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Molniya-1 #7",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Communications technology",
+          "Decay": "11 Sep 1968",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 Oct08:46",
+        "TimestampClean": "20 Oct08:46",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 20 Oct08:46",
+          "LayoutElem": "January",
+          "ValueElem": "Oct08:46",
+          "Message": ""
+        }
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Baikonur Cosmodrome Site 31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 130 (Zenit-4 #24L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "28 Oct",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 Oct08:42:26",
+        "TimestampClean": "22 Oct08:42:26",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 22 Oct08:42:26",
+          "LayoutElem": "January",
+          "ValueElem": "Oct08:42:26",
+          "Message": ""
+        }
+      },
+      "Rocket": "Molniya 8K78M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "Took high-resolution photos of the Moon's surface from lunar orbit. Last contact: 19 Jan 1967",
+      "Payload": [
+        {
+          "Payload": "Luna 12",
+          "Operator": "",
+          "Orbit": "Lunar transfer",
+          "Function": "Lunar orbiter",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 Oct11:12:02",
+        "TimestampClean": "26 Oct11:12:02",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 26 Oct11:12:02",
+          "LayoutElem": "January",
+          "ValueElem": "Oct11:12:02",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas LV-3C Centaur-D",
+      "FlightNumber": "",
+      "LaunchSite": "Canaveral LC-36B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "Launch vehicle development flight. It carried a mass model of the Surveyor spacecraft.",
+      "Payload": [
+        {
+          "Payload": "Atlas Centaur 9 Surveyor SM-3",
+          "Operator": "NASA",
+          "Orbit": "Highly elliptical",
+          "Function": "Technology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 Oct23:05:00",
+        "TimestampClean": "26 Oct23:05:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 26 Oct23:05:00",
+          "LayoutElem": "January",
+          "ValueElem": "Oct23:05:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Delta E1",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral Space Launch Complex 17B",
+      "LaunchServiceProvider": "NASA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Intelsat II F-1 (Blue Bird)",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 Oct11:56:02",
+        "TimestampClean": "28 Oct11:56:02",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 28 Oct11:56:02",
+          "LayoutElem": "January",
+          "ValueElem": "Oct11:56:02",
+          "Message": ""
+        }
+      },
+      "Rocket": "Scout-B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 5",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV3-2",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "Radiation belt particle and fields experiments",
+          "Decay": "29 Sep 1971",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 Nov00:45:03",
+        "TimestampClean": "2 Nov00:45:03",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 2 Nov00:45:03",
+          "LayoutElem": "January",
+          "ValueElem": "Nov00:45:03",
+          "Message": ""
+        }
+      },
+      "Rocket": "R-36O",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Cosmodrome Site 162/36",
+      "LaunchServiceProvider": "RVSN",
+      "Notes": "Second attempted orbital Fractional Orbital Bombardment System test.",
+      "Payload": [
+        {
+          "Payload": "OGCh #06L",
+          "Operator": "RVSN",
+          "Orbit": "LEO",
+          "Function": "Missile test",
+          "Decay": "29 Nov",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 Nov20:24",
+        "TimestampClean": "2 Nov20:24",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 2 Nov20:24",
+          "LayoutElem": "January",
+          "ValueElem": "Nov20:24",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 34 (OPS 2070)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "10 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4034",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 10 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Space Ground Link System (SLGS) 2 (OPS 5424)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology",
+          "Decay": "16 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 Nov13:50:42",
+        "TimestampClean": "3 Nov13:50:42",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 3 Nov13:50:42",
+          "LayoutElem": "January",
+          "ValueElem": "Nov13:50:42",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan IIIC",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral Air Force Station Space Launch Complex 40",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Manned Orbiting Laboratory mockup",
+          "Operator": "USAF",
+          "Orbit": "Low Earth",
+          "Function": "MOL mockup",
+          "Decay": "9 Jan 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OV4-1R",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "5 Jan 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OV4-1T",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "11 Jan 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OV1-6S",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical target deployment",
+          "Decay": "31 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Gemini B",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geosynchronous Communications",
+          "Decay": "3 Nov (suborbital test)",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 Nov23:21:00",
+        "TimestampClean": "6 Nov23:21:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 6 Nov23:21:00",
+          "LayoutElem": "January",
+          "ValueElem": "Nov23:21:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3 Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral Launch Complex 13",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Lunar Orbiter 2",
+          "Operator": "",
+          "Orbit": "Lunar",
+          "Function": "Mapping",
+          "Decay": "11 Oct 67",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 Nov19:53:02",
+        "TimestampClean": "8 Nov19:53:02",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 8 Nov19:53:02",
+          "LayoutElem": "January",
+          "ValueElem": "Nov19:53:02",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thorad SLV-2G Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 1W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OPS 1866 CORONA J-38",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "29 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 727",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 29 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV 728",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "Before 29 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 Nov19:07:59",
+        "TimestampClean": "11 Nov19:07:59",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 11 Nov19:07:59",
+          "LayoutElem": "January",
+          "ValueElem": "Nov19:07:59",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-14",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "GATV-5007",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Docking target",
+          "Decay": "23 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 Nov20:46:33",
+        "TimestampClean": "11 Nov20:46:33",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 11 Nov20:46:33",
+          "LayoutElem": "January",
+          "ValueElem": "Nov20:46:33",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan II GLV",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-19",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "Final Gemini flight",
+      "Payload": [
+        {
+          "Payload": "Gemini XII",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Technology/Biological/Target",
+          "Decay": "15 Nov19:21:04",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 Nov09:50",
+        "TimestampClean": "12 Nov09:50",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 12 Nov09:50",
+          "LayoutElem": "January",
+          "ValueElem": "Nov09:50",
+          "Message": ""
+        }
+      },
+      "Rocket": "Voskhod 11A57",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 131 (Zenit-4 #25L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "20 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 Nov13:00",
+        "TimestampClean": "16 Nov13:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 16 Nov13:00",
+          "LayoutElem": "January",
+          "ValueElem": "Nov13:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Kosmos-3",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Strela-2 #2L",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "16 Nov",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 Nov08:00",
+        "TimestampClean": "19 Nov08:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 19 Nov08:00",
+          "LayoutElem": "January",
+          "ValueElem": "Nov08:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 132 (Zenit-4 #46L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "27 Nov",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 Nov11:00:00",
+        "TimestampClean": "28 Nov11:00:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 28 Nov11:00:00",
+          "LayoutElem": "January",
+          "ValueElem": "Nov11:00:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Soyuz (rocket)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "First test of Soyuz 7K-OK crewed spacecraft",
+      "Payload": [
+        {
+          "Payload": "Kosmos 133 (Soyuz 7K-OK No. 2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Crewed spacecraft",
+          "Decay": "30 Nov 10:21",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 Dec08:15",
+        "TimestampClean": "3 Dec08:15",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 3 Dec08:15",
+          "LayoutElem": "January",
+          "ValueElem": "Dec08:15",
+          "Message": ""
+        }
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 134 (Zenit-4 #26L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "11 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 Dec21:09",
+        "TimestampClean": "5 Dec21:09",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 5 Dec21:09",
+          "LayoutElem": "January",
+          "ValueElem": "Dec21:09",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas-SLV3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4E",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-7 35 (OPS 1890)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "14 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4035",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 14 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Agena Engine Diagnostic 1",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Technology",
+          "Decay": "8 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 Dec02:12:01",
+        "TimestampClean": "7 Dec02:12:01",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 7 Dec02:12:01",
+          "LayoutElem": "January",
+          "ValueElem": "Dec02:12:01",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3 Agena-D",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-12",
+      "LaunchServiceProvider": "",
+      "Notes": "The first experimental equatorial synchronous satellite.",
+      "Payload": [
+        {
+          "Payload": "ATS-1 (Applications Technology Satellite)",
+          "Operator": "NASA",
+          "Orbit": "Geostationary",
+          "Function": "Communications/weather",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 Dec21:09:57",
+        "TimestampClean": "11 Dec21:09:57",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 11 Dec21:09:57",
+          "LayoutElem": "January",
+          "ValueElem": "Dec21:09:57",
+          "Message": ""
+        }
+      },
+      "Rocket": "SM-65D Atlas D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg ABRES-B-3",
+      "LaunchServiceProvider": "US Air Force",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "OV1-9",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Radiation studies",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "OV1-10",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radiation studies",
+          "Decay": "30 Nov 2002",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 December20:38?",
+        "TimestampClean": "12 December20:38?",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 12 December20:38?",
+          "LayoutElem": "",
+          "ValueElem": "20:38?",
+          "Message": ": extra text: \"20:38?\""
+        }
+      },
+      "Rocket": "Kosmos-2I",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 135",
+          "Operator": "",
+          "Orbit": "Planned: Low Earth",
+          "Function": "Micrometeoroid",
+          "Decay": "12 April 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 Dec11:00:00",
+        "TimestampClean": "14 Dec11:00:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 14 Dec11:00:00",
+          "LayoutElem": "January",
+          "ValueElem": "Dec11:00:00",
+          "Message": ""
+        }
+      },
+      "Rocket": "Soyuz (rocket)",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur LC-31",
+      "LaunchServiceProvider": "",
+      "Notes": "Second test of Soyuz 7K-OK crewed spacecraft",
+      "Payload": [
+        {
+          "Payload": "Soyuz 7K-OK No.1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Crewed spacecraft",
+          "Decay": "14 Dec",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 Dec18:14",
+        "TimestampClean": "14 Dec18:14",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 14 Dec18:14",
+          "LayoutElem": "January",
+          "ValueElem": "Dec18:14",
+          "Message": ""
+        }
+      },
+      "Rocket": "Titan IIIB",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB Space Launch Complex 4W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "KH-8 Gambit #3 (OPS 8968)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "Optical Reconnaissance",
+          "Decay": "24 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SRV Mission 4303",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Film return",
+          "Decay": "before 24 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 December19:20:03",
+        "TimestampClean": "14 December19:20:03",
+        "Timestamp": "1966-12-14T19:20:03Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta G",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Biosatellite 1",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Bioscience",
+          "Decay": "15 February 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 Dec12:00:01",
+        "TimestampClean": "19 Dec12:00:01",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 19 Dec12:00:01",
+          "LayoutElem": "January",
+          "ValueElem": "Dec12:00:01",
+          "Message": ""
+        }
+      },
+      "Rocket": "Vostok-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk LC-41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 136 (Zenit-4 #47L)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Optical reconnaissance",
+          "Decay": "27 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 Dec02:20",
+        "TimestampClean": "20 Dec02:20",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 20 Dec02:20",
+          "LayoutElem": "January",
+          "ValueElem": "Dec02:20",
+          "Message": ""
+        }
+      },
+      "Rocket": "Lambda 4S",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Pad L",
+      "LaunchServiceProvider": "JAXA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "L-4S-2",
+          "Operator": "JAXA",
+          "Orbit": "",
+          "Function": "",
+          "Decay": "20 Dec",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 Dec10:17:08",
+        "TimestampClean": "21 Dec10:17:08",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 21 Dec10:17:08",
+          "LayoutElem": "January",
+          "ValueElem": "Dec10:17:08",
+          "Message": ""
+        }
+      },
+      "Rocket": "Molniya-M",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1",
+      "LaunchServiceProvider": "",
+      "Notes": "Last contact: 28 December 1966, 06:13",
+      "Payload": [
+        {
+          "Payload": "Luna 13",
+          "Operator": "",
+          "Orbit": "Lunar transfer",
+          "Function": "Lunar lander",
+          "Decay": "24 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 Dec13:12?",
+        "TimestampClean": "21 Dec13:12?",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 21 Dec13:12?",
+          "LayoutElem": "January",
+          "ValueElem": "Dec13:12?",
+          "Message": ""
+        }
+      },
+      "Rocket": "Kosmos-2I",
+      "FlightNumber": "",
+      "LaunchSite": "Kapustin Yar LC-86/1",
+      "LaunchServiceProvider": "",
+      "Notes": "Last contact: 12 May 1967",
+      "Payload": [
+        {
+          "Payload": "Kosmos 137",
+          "Operator": "",
+          "Orbit": "Planned: Low Earth",
+          "Function": "Magnetosphere",
+          "Decay": "23 Nov 1967",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 Dec22:15:02",
+        "TimestampClean": "21 Dec22:15:02",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 21 Dec22:15:02",
+          "LayoutElem": "January",
+          "ValueElem": "Dec22:15:02",
+          "Message": ""
+        }
+      },
+      "Rocket": "Atlas SLV-3",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral Vandenberg Space Launch Complex 3E",
+      "LaunchServiceProvider": "",
+      "Notes": "First test of PRIME",
+      "Payload": [
+        {
+          "Payload": "SV-5D FV-1",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Lifting body reentry test",
+          "Decay": "21 Dec",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 Dec12:00:06",
+        "TimestampClean": "29 Dec12:00:06",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 29 Dec12:00:06",
+          "LayoutElem": "January",
+          "ValueElem": "Dec12:00:06",
+          "Message": ""
+        }
+      },
+      "Rocket": "Thor SLV-2A Agena D",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg Space Launch Complex 2W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "MULTIGROUP 1/SETTER 1A (OPS 1584)",
+          "Operator": "NRO",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "5 Apr 1969",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "",
+        "TimestampClean": "",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": null
+      },
+      "Rocket": "",
+      "FlightNumber": "",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": null
+    }
+  ],
   "SuborbitalFlights": null
 }
