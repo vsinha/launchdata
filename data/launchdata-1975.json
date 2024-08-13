@@ -28,6 +28,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "24 February05:25",
+        "TimestampClean": "24 February05:25",
+        "Timestamp": "1975-02-24T05:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "M-3C",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Space Center LP-M",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SRATS (Taiyo)",
+          "Operator": "ISAS",
+          "Orbit": "Highly elliptical orbit",
+          "Function": "Ionosphere research",
+          "Decay": "29 June 1980",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "5 April11:04:54",
         "TimestampClean": "5 April11:04:54",
         "Timestamp": "1975-04-05T11:04:54Z",
@@ -247,6 +273,32 @@
           "Orbit": "Areocentric",
           "Function": "Mars lander",
           "Decay": "20 July 197611:53:06",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 September05:30",
+        "TimestampClean": "9 September05:30",
+        "Timestamp": "1975-09-09T05:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "N-I",
+      "FlightNumber": "N1F",
+      "LaunchSite": "Tanegashima Space Center LP-N (LA-Y1)",
+      "LaunchServiceProvider": "NASDA",
+      "Notes": "First flight of N-I, first satellite launched by NASDA",
+      "Payload": [
+        {
+          "Payload": "ETS 1 (Kiku 1)",
+          "Operator": "NASDA",
+          "Orbit": "Low Earth",
+          "Function": "Technology test",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }

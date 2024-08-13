@@ -1287,6 +1287,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "22 April04:22[15]",
+        "TimestampClean": "22 April04:22",
+        "Timestamp": "1971-04-22T04:22:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "K63D",
+      "FlightNumber": "",
+      "LaunchSite": "Vladimirovka test range, near Kapustin Yar",
+      "LaunchServiceProvider": "",
+      "Notes": "Subscale model of the Spiral spaceplane. Apogee: 100 km",
+      "Payload": [
+        {
+          "Payload": "BOR-2 No.103",
+          "Operator": "",
+          "Orbit": "Suborbital",
+          "Function": "Re-entry test for Spiral program",
+          "Decay": "22 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "22 April15:30",
         "TimestampClean": "22 April15:30",
         "Timestamp": "1971-04-22T15:30:00Z",

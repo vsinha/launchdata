@@ -887,6 +887,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "24 May02:00[1]",
+        "TimestampClean": "24 May02:00",
+        "Timestamp": "1973-05-24T02:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "K63D",
+      "FlightNumber": "",
+      "LaunchSite": "Vladimirovka test range, near Kapustin Yar",
+      "LaunchServiceProvider": "",
+      "Notes": "Subscale model of the Spiral spaceplane. Payload fairing failed at about 5 km altitude. Apogee: 20 km",
+      "Payload": [
+        {
+          "Payload": "BOR-3 No.301",
+          "Operator": "",
+          "Orbit": "Suborbital",
+          "Function": "Re-entry test for Spiral program",
+          "Decay": "22 May",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "25 May",
         "TimestampClean": "25 May",
         "Timestamp": "1973-05-25T00:00:00Z",

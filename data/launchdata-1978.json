@@ -80,6 +80,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "4 February07:00",
+        "TimestampClean": "4 February07:00",
+        "Timestamp": "1978-02-04T07:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "M-3H",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Space Center LP-M",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EXOS-A (Kyokko)",
+          "Operator": "ISAS",
+          "Orbit": "Highly elliptical orbit",
+          "Function": "Magnetosphere research",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "2 March15:28:10",
         "TimestampClean": "2 March15:28:10",
         "Timestamp": "1978-03-02T15:28:10Z",
@@ -317,6 +343,32 @@
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Salyut 6 EP-4",
           "Decay": "2 November11:04",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 September05:00",
+        "TimestampClean": "16 September05:00",
+        "Timestamp": "1978-09-16T05:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "M-3H",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Space Center LP-M",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "EXOS-B (Jikiken)",
+          "Operator": "ISAS",
+          "Orbit": "Highly elliptical orbit",
+          "Function": "Magnetosphere research",
+          "Decay": "23 April 2018",
           "Outcome": "Successful",
           "Cubesat": false
         }

@@ -13,6 +13,32 @@
       "FlightNumber": "",
       "LaunchSite": "",
       "LaunchServiceProvider": "",
+      "Notes": "First flight of M-3H",
+      "Payload": [
+        {
+          "Payload": "MS-T3 (Tansei 3)",
+          "Operator": "ISAS",
+          "Orbit": "Highly elliptical orbit",
+          "Function": "Technology test",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 June10:51:00",
+        "TimestampClean": "16 June10:51:00",
+        "Timestamp": "1977-06-16T10:51:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta 2914",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchServiceProvider": "",
       "Notes": "Retired on 5 May 2001 and moved to a graveyard orbit",
       "Payload": [
         {

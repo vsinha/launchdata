@@ -167,6 +167,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "16 February05:00",
+        "TimestampClean": "16 February05:00",
+        "Timestamp": "1974-02-16T05:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "M-3C",
+      "FlightNumber": "",
+      "LaunchSite": "Kagoshima Space Center LP-M",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "First flight of M-3C",
+      "Payload": [
+        {
+          "Payload": "MS T2 (Tansei 2)",
+          "Operator": "ISAS",
+          "Orbit": "Highly elliptical orbit",
+          "Function": "Technology test",
+          "Decay": "22 January 1983",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "18 February",
         "TimestampClean": "18 February",
         "Timestamp": "1974-02-18T00:00:00Z",
