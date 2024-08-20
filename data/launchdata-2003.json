@@ -1179,18 +1179,18 @@
         "ParseErr": null
       },
       "Rocket": "VLS-1",
-      "FlightNumber": "",
+      "FlightNumber": "V03",
       "LaunchSite": "Alcântara",
-      "LaunchServiceProvider": "",
-      "Notes": "Rocket had an SRB ignition and was destroyed on the launch pad 3 days before T-0. It never had a new attempt and its development was extinguished in 2016.",
+      "LaunchServiceProvider": "Brazilian Space Agency",
+      "Notes": "Solid rocket booster ignition 3 days before the launch resulted in the catastrophic explosion, destroying the launch pad and killing 21 people. VLS-1 never had a new attempt and its development was extinguished in 2016.",
       "Payload": [
         {
           "Payload": "SATEC",
           "Operator": "INPE",
           "Orbit": "Intended: Low Earth",
-          "Function": "",
+          "Function": "Launch vehicle evaluation",
           "Decay": "Never left ground",
-          "Outcome": "Launch failure",
+          "Outcome": "Precluded",
           "Cubesat": false
         },
         {
@@ -1199,7 +1199,7 @@
           "Orbit": "Intended: Low Earth",
           "Function": "",
           "Decay": "Never left ground",
-          "Outcome": "Launch failure",
+          "Outcome": "Precluded",
           "Cubesat": false
         }
       ]
