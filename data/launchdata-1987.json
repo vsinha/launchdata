@@ -219,6 +219,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "24 August16:30",
+        "TimestampClean": "24 August16:30",
+        "Timestamp": "1987-08-24T16:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Skylark 7",
+      "FlightNumber": "",
+      "LaunchSite": "Woomera Test Range LA2 D",
+      "LaunchServiceProvider": "MORABA",
+      "Notes": "Apogee: ~270 km",
+      "Payload": [
+        {
+          "Payload": "Supernova (W-GR-147)",
+          "Operator": "DFVLR",
+          "Orbit": "Suborbital",
+          "Function": "X-ray astronomy",
+          "Decay": "24 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "8 October",
         "TimestampClean": "8 October",
         "Timestamp": "1987-10-08T00:00:00Z",
