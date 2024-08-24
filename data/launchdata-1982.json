@@ -2095,6 +2095,84 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "21 July09:40",
+        "TimestampClean": "21 July09:40",
+        "Timestamp": "1982-07-21T09:40:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M/Blok ML",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Molniya-1K 55 (Molniya-1K 62L)",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Communications",
+          "Decay": "8 October 1992",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 July22:11",
+        "TimestampClean": "22 July22:11",
+        "Timestamp": "1982-07-22T22:11:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/Blok DM",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/40",
+      "LaunchServiceProvider": "",
+      "Notes": "Hydraulic system of the first stage failed, automatic flight termination at T+45 seconds.",
+      "Payload": [
+        {
+          "Payload": "Ekran 23L",
+          "Operator": "",
+          "Orbit": "Intended: Geostationary",
+          "Function": "Communications",
+          "Decay": "22 July",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 July12:30",
+        "TimestampClean": "27 July12:30",
+        "Timestamp": "1982-07-27T12:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Pleetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1396 (Zenit-6U/Argon #63)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "10 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "29 July19:40",
         "TimestampClean": "29 July19:40",
         "Timestamp": "1982-07-29T19:40:00Z",
@@ -2104,16 +2182,94 @@
       },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk LC132",
+      "LaunchSite": "Kapustin Yar Site 107/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos-1397(Romb class)",
-          "Operator": "military",
+          "Payload": "Kosmos 1397 (Taifun-2 #13) / 22 Romb subsatellites",
+          "Operator": "",
           "Orbit": "LEO, inclination 50.6 degrees",
-          "Function": "Calibration",
-          "Decay": "in orbit",
+          "Function": "Radar calibration",
+          "Decay": "18 May 1983",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 August11:30",
+        "TimestampClean": "3 August11:30",
+        "Timestamp": "1982-08-03T11:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1398 (Zenit-4MT/Orion #23)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "13 August",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 August11:30",
+        "TimestampClean": "4 August11:30",
+        "Timestamp": "1982-08-04T11:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1399 (Yantar-4K1/Oktan #5)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "16 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 August06:56",
+        "TimestampClean": "5 August06:56",
+        "Timestamp": "1982-08-05T06:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1400 (Tselina-D #37)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "13 September 2014",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2147,6 +2303,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "20 August09:50",
+        "TimestampClean": "20 August09:50",
+        "Timestamp": "1982-08-20T09:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1401 (Resurs-F1 (17F41) #9)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "3 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "26 August23:10",
         "TimestampClean": "26 August23:10",
         "Timestamp": "1982-08-26T23:10:00Z",
@@ -2154,7 +2336,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta 3920",
+      "Rocket": "Delta 3920/PAM-D",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral LC-17A",
       "LaunchServiceProvider": "",
@@ -2162,10 +2344,36 @@
       "Payload": [
         {
           "Payload": "Anik D1 (1238kg)",
-          "Operator": "Commercial",
-          "Orbit": "GTO",
-          "Function": "Communications satellite",
-          "Decay": "unknown",
+          "Operator": "Telesat Canada",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 August00:02",
+        "TimestampClean": "27 August00:02",
+        "Timestamp": "1982-08-27T00:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M/Blok ML",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Molniya-3 19 (Molniya-3 33L)",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Communications",
+          "Decay": "13 January 2002",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2182,15 +2390,15 @@
       },
       "Rocket": "Tsyklon-2",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur LC 90",
+      "LaunchSite": "Baikonur Site 90/19",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1402 (3800 kg)",
-          "Operator": "military",
+          "Payload": "Kosmos 1402 (US-A #22)",
+          "Operator": "",
           "Orbit": "LEO, inclination 65.0 degrees",
-          "Function": "Reconnaissance",
+          "Function": "Radar ocean surveillance",
           "Decay": "23 January 1983 (bus)7 February 1983 (nuclear core)",
           "Outcome": "Successful",
           "Cubesat": false
@@ -2199,32 +2407,61 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "30 Augustunknown",
-        "TimestampClean": "30 Augustunknown",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "30 August19:55",
+        "TimestampClean": "30 August19:55",
+        "Timestamp": "1982-08-30T19:55:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 30 Augustunknown",
-          "LayoutElem": "",
-          "ValueElem": "unknown",
-          "Message": ": extra text: \"unknown\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk LC132",
+      "LaunchSite": "Plesetsk Site 132/2",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "not assigned",
-          "Operator": "military",
-          "Orbit": "none",
-          "Function": "unknown",
+          "Payload": "Strela-2M #29",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
           "Decay": "30 August",
-          "Outcome": "Failure to orbit",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 September09:00",
+        "TimestampClean": "1 September09:00",
+        "Timestamp": "1982-09-01T09:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1403 (Zenit-6U/Argon #64)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "15 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 1404 (Zenit-6U/Argon #65)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "15 September",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2240,16 +2477,16 @@
       },
       "Rocket": "N-I",
       "FlightNumber": "",
-      "LaunchSite": "Osaki LC",
-      "LaunchServiceProvider": "",
-      "Notes": "",
+      "LaunchSite": "Tanegashima Space Center LA-N (LA-Y1)",
+      "LaunchServiceProvider": "NASDA",
+      "Notes": "Final flight of the N-I",
       "Payload": [
         {
-          "Payload": "Kiku 4 (ETS 3) (385 kg)",
-          "Operator": "civilian",
+          "Payload": "ETS 3 (Kiku 4) (385 kg)",
+          "Operator": "",
           "Orbit": "LEO, inclination 44.6 degrees",
-          "Function": "unknown",
-          "Decay": "unknown",
+          "Function": "Technology testing",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2266,16 +2503,42 @@
       },
       "Rocket": "Tsyklon-2",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur LC 90",
+      "LaunchSite": "Baikonur Site 90/20",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1405 (3000 kg)",
-          "Operator": "military",
+          "Payload": "Kosmos 1405 (US-P #15)",
+          "Operator": "",
           "Orbit": "LEO, inclination 65.0 degrees",
-          "Function": "ELINT",
+          "Function": "ELINT ocean surveillance",
           "Decay": "5 February 1984",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 September10:20",
+        "TimestampClean": "8 September10:20",
+        "Timestamp": "1982-09-08T10:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1406 (Zenit-4MKT/Fram #22)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "21 September",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2298,8 +2561,8 @@
       "Payload": [
         {
           "Payload": "MARECS B",
-          "Operator": "ESA",
-          "Orbit": "Intended: Geosynchronous",
+          "Operator": "Inmarsat",
+          "Orbit": "Intended: Geostationary",
           "Function": "Communications",
           "Decay": "9 September",
           "Outcome": "Launch Failure",
@@ -2308,10 +2571,36 @@
         {
           "Payload": "Sirio 2",
           "Operator": "",
-          "Orbit": "Intended: Geosynchronous",
-          "Function": "",
+          "Orbit": "Intended: Geostationary",
+          "Function": "Communications",
           "Decay": "9 September",
           "Outcome": "Launch Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 September07:19",
+        "TimestampClean": "9 September07:19",
+        "Timestamp": "1982-09-09T07:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2C",
+      "FlightNumber": "",
+      "LaunchSite": "Jiuquan Satellite Launch Center LA-2B (Site 138)",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Long March 2C",
+      "Payload": [
+        {
+          "Payload": "FSW-0 4",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "21 September",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2344,6 +2633,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "15 September15:30",
+        "TimestampClean": "15 September15:30",
+        "Timestamp": "1982-09-15T15:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1407 (Yantar-2K/Feniks #27)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "16 October",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "16 September04:55",
         "TimestampClean": "16 September04:55",
         "Timestamp": "1982-09-16T04:55:00Z",
@@ -2358,12 +2673,38 @@
       "Notes": "Satellite was destroyed by an anti-satellite missile test on 15 November 2021.",
       "Payload": [
         {
-          "Payload": "Kosmos 1408 (2500 kg)",
-          "Operator": "Ministry of Defense",
+          "Payload": "Kosmos 1408 (Tselina-D #38)",
+          "Operator": "",
           "Orbit": "LEO, inclination 82.6 degrees",
           "Function": "ELINT",
           "Decay": "Destroyed on 15 November 2021",
-          "Outcome": "Successful; later destroyed in ASAT test",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 September18:31",
+        "TimestampClean": "16 September18:31",
+        "Timestamp": "1982-09-16T18:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/Blok DM",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/40",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Ekran 9 (Ekran 24L)",
+          "Operator": "",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2396,6 +2737,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "22 September06:23",
+        "TimestampClean": "22 September06:23",
+        "Timestamp": "1982-09-22T06:23:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M/Blok 2BL",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 16/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1409 (US-K #28)",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Early warning",
+          "Decay": "8 June 2009",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "24 September09:15",
         "TimestampClean": "24 September09:15",
         "Timestamp": "1982-09-24T09:15:00Z",
@@ -2410,11 +2777,11 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos-1410 (2200 kg)",
-          "Operator": "Ministry of Defense",
+          "Payload": "Kosmos 1410 (Geo-IK/Musson #3)",
+          "Operator": "",
           "Orbit": "LEO, inclination 82.6 degrees",
           "Function": "Geodesy",
-          "Decay": "in orbit as in 2012",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2435,8 +2802,8 @@
           "Message": ": extra text: \"23:17[lower-alpha 1]\""
         }
       },
-      "Rocket": "Atlas-Centaur SLV-3D",
-      "FlightNumber": "",
+      "Rocket": "Atlas SLV-3D Centaur-D1AR",
+      "FlightNumber": "AC-60",
       "LaunchSite": "Cape Canaveral LC-36B",
       "LaunchServiceProvider": "",
       "Notes": "",
@@ -2444,7 +2811,7 @@
         {
           "Payload": "Intelsat V F-5",
           "Operator": "Intelsat",
-          "Orbit": "Geosynchronous",
+          "Orbit": "Geostationary",
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Successful",
@@ -2454,31 +2821,25 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "2 October??:??",
-        "TimestampClean": "2 October??:??",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "30 September11:50",
+        "TimestampClean": "30 September11:50",
+        "Timestamp": "1982-09-30T11:50:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 2 October??:??",
-          "LayoutElem": "",
-          "ValueElem": "??:??",
-          "Message": ": extra text: \"??:??\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Tsyklon-2",
+      "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur LC 90",
+      "LaunchSite": "Plesetsk Site 16/2",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1412 (3800 kg)",
-          "Operator": "military",
-          "Orbit": "LEO, inclination 64.8 degrees",
+          "Payload": "Kosmos 1411 (Zenit-6U/Argon #66)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
           "Function": "Reconnaissance",
-          "Decay": "4 December 1982",
+          "Decay": "14 October",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2486,31 +2847,147 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "19 October??:??",
-        "TimestampClean": "19 October??:??",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "2 October00:01",
+        "TimestampClean": "2 October00:01",
+        "Timestamp": "1982-10-02T00:01:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 19 October??:??",
-          "LayoutElem": "",
-          "ValueElem": "??:??",
-          "Message": ": extra text: \"??:??\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": "Tsyklon-2",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk LC132",
+      "LaunchSite": "Baikonur Site 90/20",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos-1417(Parus class)",
-          "Operator": "military",
+          "Payload": "Kosmos 1412 (US-A #23)",
+          "Operator": "",
+          "Orbit": "LEO, inclination 64.8 degrees",
+          "Function": "Radar ocean surveillance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 October14:56",
+        "TimestampClean": "12 October14:56",
+        "Timestamp": "1982-10-12T14:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/Blok DM-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "First flight of Blok DM-2 upper stage. First launch of GLONASS navigation system, with one operational satellite and two mass simulators to test the triple launch system",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1413 (Uragan-GVM #1)",
+          "Operator": "",
+          "Orbit": "Medium Earth orbit",
+          "Function": "Boilerplate",
+          "Decay": "In orbit",
+          "Outcome": "Succesful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 1414 (Uragan #1)",
+          "Operator": "",
+          "Orbit": "Medium Earth orbit",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Succesful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Kosmos 1415 (Uragan-GVM #2)",
+          "Operator": "",
+          "Orbit": "Medium Earth orbit",
+          "Function": "Boilerplate",
+          "Decay": "In orbit",
+          "Outcome": "Succesful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 October09:10",
+        "TimestampClean": "14 October09:10",
+        "Timestamp": "1982-10-14T09:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1416 (Zenit-6U/Argon #67)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "28 October",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 October05:58",
+        "TimestampClean": "19 October05:58",
+        "Timestamp": "1982-10-19T05:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1417(Parus #35)",
+          "Operator": "",
           "Orbit": "LEO, inclination 83.0 degrees",
           "Function": "navigation, Communication",
-          "Decay": "in orbit",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 October16:26",
+        "TimestampClean": "20 October16:26",
+        "Timestamp": "1982-10-20T16:26:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/Blok DM",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/40",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Gorizont 6 (Gorizont 16L)",
+          "Operator": "",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2527,15 +3004,15 @@
       },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Kapustin Yar LC 107",
+      "LaunchSite": "Kapustin Yar Site 107/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1418 (Taifun-1B class)",
-          "Operator": "military",
+          "Payload": "Kosmos 1418 (Taifun-1B #3)",
+          "Operator": "",
           "Orbit": "LEO",
-          "Function": "Radar target",
+          "Function": "Radar calibration",
           "Decay": "30 September 1983",
           "Outcome": "Successful",
           "Cubesat": false
@@ -2544,18 +3021,12 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "28 October??:??",
-        "TimestampClean": "28 October??:??",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "28 October01:27",
+        "TimestampClean": "28 October01:27",
+        "Timestamp": "1982-10-28T01:27:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 28 October??:??",
-          "LayoutElem": "",
-          "ValueElem": "??:??",
-          "Message": ": extra text: \"??:??\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
       "Rocket": "Delta 3924",
       "FlightNumber": "",
@@ -2564,11 +3035,11 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Aurora 1 (Satcom 5) (1102kg)",
-          "Operator": "Commercial",
+          "Payload": "Satcom 5 (Aurora 1) (1102kg)",
+          "Operator": "RCA Americom",
           "Orbit": "GTO",
           "Function": "Communications satellite",
-          "Decay": "unknown",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2590,9 +3061,9 @@
       "Notes": "Maiden flight of Titan 34D and Inertial Upper Stage",
       "Payload": [
         {
-          "Payload": "OPS-9945 (DSCS II F-16)",
+          "Payload": "OPS 9945 (DSCS II F-16)",
           "Operator": "US Air Force",
-          "Orbit": "Geosynchronous",
+          "Orbit": "Geostationary",
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Successful",
@@ -2601,7 +3072,7 @@
         {
           "Payload": "DSCS III A-1",
           "Operator": "US Air Force",
-          "Orbit": "Geosynchronous",
+          "Orbit": "Geostationary",
           "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Successful",
@@ -2620,9 +3091,9 @@
       },
       "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur",
+      "LaunchSite": "Baikonur Site 1/5",
       "LaunchServiceProvider": "",
-      "Notes": "",
+      "Notes": "Iskra 3 deployed through Salyut 7 airlock",
       "Payload": [
         {
           "Payload": "Progress 16",
@@ -2632,36 +3103,65 @@
           "Decay": "14 December17:17",
           "Outcome": "Successful",
           "Cubesat": false
+        },
+        {
+          "Payload": "Iskra 3 (RK 03)",
+          "Operator": "MAI",
+          "Orbit": "Low Earth",
+          "Function": "Amateur radio",
+          "Decay": "16 December",
+          "Outcome": "Successful",
+          "Cubesat": false
         }
       ]
     },
     {
       "Timestamp": {
-        "TimestampRaw": "11 November??:??",
-        "TimestampClean": "11 November??:??",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "2 November09:30",
+        "TimestampClean": "2 November09:30",
+        "Timestamp": "1982-11-02T09:30:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 11 November??:??",
-          "LayoutElem": "",
-          "ValueElem": "??:??",
-          "Message": ": extra text: \"??:??\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk LC132",
+      "LaunchSite": "Baikonur Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1420(Strela-2 class)",
-          "Operator": "military",
+          "Payload": "Kosmos 1419 (Zenit-6U/Argon #68)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "16 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 November06:14",
+        "TimestampClean": "11 November06:14",
+        "Timestamp": "1982-11-11T06:14:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1420 (Strela-2 #30)",
+          "Operator": "",
           "Orbit": "LEO, inclination 74.0 degrees",
           "Function": "Communication",
-          "Decay": "in orbit",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -2736,7 +3236,7 @@
       "Notes": "Final flight of Titan IIID",
       "Payload": [
         {
-          "Payload": "OPS-9627 (KH-11-5)",
+          "Payload": "OPS 9627 (KH-11-5)",
           "Operator": "NRO",
           "Orbit": "Sun-synchronous",
           "Function": "Reconnaissance",
@@ -2748,32 +3248,182 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "24 November??:??",
-        "TimestampClean": "24 November??:??",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "18 November09:25",
+        "TimestampClean": "18 November09:25",
+        "Timestamp": "1982-11-18T09:25:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 24 November??:??",
-          "LayoutElem": "",
-          "ValueElem": "??:??",
-          "Message": ": extra text: \"??:??\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": "Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk LC132",
+      "LaunchSite": "Baikonur Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "not assigned",
-          "Operator": "military",
-          "Orbit": "none",
-          "Function": "Communication",
+          "Payload": "Kosmos 1421 (Zenit-6U/Argon #69)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "2 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 November11:00",
+        "TimestampClean": "24 November11:00",
+        "Timestamp": "1982-11-24T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Strela-1M #249-#256",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Communications",
           "Decay": "24 November",
-          "Outcome": "Failure to orbit",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 November14:13",
+        "TimestampClean": "26 November14:13",
+        "Timestamp": "1982-11-26T14:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/Blok DM",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Raduga 11 (Gran 21L)",
+          "Operator": "",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 December12:00",
+        "TimestampClean": "3 December12:00",
+        "Timestamp": "1982-12-03T12:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1422 (Zenit-6U/Argon #70)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "17 December",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 December13:46",
+        "TimestampClean": "8 December13:46",
+        "Timestamp": "1982-12-08T13:46:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M/Blok ML",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1423 (Molniya-1K 60L)",
+          "Operator": "",
+          "Orbit": "Intended: MolniyaAchieved: Low Earth",
+          "Function": "",
+          "Decay": "18 January 1986",
+          "Outcome": "Partial failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 December22:30",
+        "TimestampClean": "14 December22:30",
+        "Timestamp": "1982-12-14T22:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Meteor-2 9",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Weather",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 December10:00",
+        "TimestampClean": "16 December10:00",
+        "Timestamp": "1982-12-16T10:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1424 (Yantar-4K1/Oktan #6)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "28 January 1983",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -2797,7 +3447,7 @@
           "Payload": "DMSP 5D-2 F6",
           "Operator": "US Air Force",
           "Orbit": "Sun-synchronous",
-          "Function": "Meteorology",
+          "Function": "Weather",
           "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
@@ -2806,30 +3456,102 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 December??:??",
-        "TimestampClean": "29 December??:??",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "23 December09:10",
+        "TimestampClean": "23 December09:10",
+        "Timestamp": "1982-12-23T09:10:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "1982 29 December??:??",
-          "LayoutElem": "",
-          "ValueElem": "??:??",
-          "Message": ": extra text: \"??:??\""
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchServiceProvider": "",
+      "Notes": "Maiden flight of Soyuz-U2, fuelled by syntin",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1425 (Zenit-6U/Argon #71)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "6 January 1983",
+          "Outcome": "Successful",
+          "Cubesat": false
         }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 December12:00",
+        "TimestampClean": "24 December12:00",
+        "Timestamp": "1982-12-24T12:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Proton-K/Blok DM",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "Second stage engine failure at T+230 seconds, due to high frequency vibrations.",
+      "Payload": [
+        {
+          "Payload": "Raduga (Gran 22L)",
+          "Operator": "",
+          "Orbit": "Intended: Geostationary",
+          "Function": "Communications",
+          "Decay": "24 December",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 December12:00",
+        "TimestampClean": "28 December12:00",
+        "Timestamp": "1982-12-28T12:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "First Soviet electro-optical reconnaissance satellite",
+      "Payload": [
+        {
+          "Payload": "Kosmos 1426 (Yantar-4KS1/Terilen #1)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "5 March 1983",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 December12:00",
+        "TimestampClean": "29 December12:00",
+        "Timestamp": "1982-12-29T12:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
       },
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk LC132",
+      "LaunchSite": "Plesetsk Site 132/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1427 (Tafun-1B class)",
-          "Operator": "military",
+          "Payload": "Kosmos 1427 (Tafun-1B #4)",
+          "Operator": "",
           "Orbit": "LEO, inclination 65.8 degrees",
-          "Function": "Radar target",
+          "Function": "Radar calibration",
           "Decay": "5 October 1989",
           "Outcome": "Successful",
           "Cubesat": false
