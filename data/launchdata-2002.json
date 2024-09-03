@@ -65,12 +65,12 @@
       "FlightNumber": "",
       "LaunchSite": "Tanegashima LA-Y1",
       "LaunchServiceProvider": "MHI",
-      "Notes": "Maiden flight of H-IIA 2024. DASH failed to separate from payload adapter.",
+      "Notes": "Maiden flight of H-IIA 2024. DASH failed to separate from VEP-3 instrumented payload adapter.",
       "Payload": [
         {
           "Payload": "MDS-1",
-          "Operator": "JAXA",
-          "Orbit": "Geosynchronous",
+          "Operator": "NASDA",
+          "Orbit": "Geostationary transfer orbit",
           "Function": "Technology demonstration",
           "Decay": "In orbit",
           "Outcome": "Successful",
@@ -78,11 +78,20 @@
         },
         {
           "Payload": "DASH",
-          "Operator": "JAXA",
-          "Orbit": "Geosynchronous",
+          "Operator": "ISAS",
+          "Orbit": "Geostationary transfer orbit",
           "Function": "Re-entry demonstration",
           "Decay": "In orbit",
           "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "VEP-3",
+          "Operator": "NASDA",
+          "Orbit": "Geostationary transfer orbit",
+          "Function": "Launch vehicle evaluation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -184,8 +193,8 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas IIIB",
-      "FlightNumber": "",
+      "Rocket": "Atlas IIIB-DEC",
+      "FlightNumber": "AC-204",
       "LaunchSite": "Cape Canaveral SLC-36B",
       "LaunchServiceProvider": "International Launch Services",
       "Notes": "Maiden flight of Atlas IIIB.",
@@ -243,8 +252,8 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2387",
-          "Operator": "VKS",
+          "Payload": "Kosmos 2387 (Yantar-4K2/Kobalt #81)",
+          "Operator": "GRU",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
           "Decay": "27 June02:30",
@@ -274,7 +283,7 @@
           "Orbit": "Sun-synchronous",
           "Function": "Environmental research",
           "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -504,7 +513,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2388",
+          "Payload": "Kosmos 2388 (US-K #81)",
           "Operator": "VKS",
           "Orbit": "Molniya",
           "Function": "Missile early warning",
@@ -611,13 +620,13 @@
         "ParseErr": null
       },
       "Rocket": "Ariane 4 42P",
-      "FlightNumber": "",
+      "FlightNumber": "V151",
       "LaunchSite": "Kourou ELA-2",
       "LaunchServiceProvider": "Arianespace",
-      "Notes": "Final flight of Ariane 4 42P",
+      "Notes": "Final flight of Ariane 4 42P. Both Indefix payloads were permanently attached to the third stage of Ariane 4",
       "Payload": [
         {
-          "Payload": "SPOT-5",
+          "Payload": "SPOT 5",
           "Operator": "CNES",
           "Orbit": "Low Earth",
           "Function": "Earth imaging",
@@ -629,7 +638,7 @@
           "Payload": "BreizhSat-Oscar 47 (Indefix)",
           "Operator": "AMSAT",
           "Orbit": "Low Earth",
-          "Function": "Communications",
+          "Function": "Amateur radio",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -638,7 +647,7 @@
           "Payload": "BreizhSat-Oscar 48 (Indefix)",
           "Operator": "AMSAT",
           "Orbit": "Low Earth",
-          "Function": "Communications",
+          "Function": "Amateur radio",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -655,7 +664,7 @@
         "ParseErr": null
       },
       "Rocket": "Delta II 7920-10L",
-      "FlightNumber": "",
+      "FlightNumber": "D-291",
       "LaunchSite": "Vandenberg SLC-2W",
       "LaunchServiceProvider": "Boeing IDS",
       "Notes": "",
@@ -680,7 +689,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM-2M",
+      "Rocket": "Proton-K/Blok DM3",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
       "LaunchServiceProvider": "International Launch Services",
@@ -707,8 +716,8 @@
         "ParseErr": null
       },
       "Rocket": "Long March 4B",
-      "FlightNumber": "",
-      "LaunchSite": "Taiyuan",
+      "FlightNumber": "Y5",
+      "LaunchSite": "Taiyuan LA-7",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
@@ -752,7 +761,7 @@
           "Operator": "",
           "Orbit": "Low Earth (retrograde)",
           "Function": "Reconnaissance",
-          "Decay": "In orbit",
+          "Decay": "21 February 2024",
           "Outcome": "Operational",
           "Cubesat": false
         }
@@ -774,10 +783,10 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2389",
+          "Payload": "Kosmos 2389 (Parus #93)",
           "Operator": "",
           "Orbit": "Low Earth",
-          "Function": "",
+          "Function": "Navigation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1014,7 +1023,7 @@
           "Orbit": "Intended: Heliocentric",
           "Function": "Comet probe",
           "Decay": "In orbit",
-          "Outcome": "Failure",
+          "Outcome": "Spacecraft failure",
           "Cubesat": false
         }
       ]
@@ -1070,7 +1079,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2390",
+          "Payload": "Kosmos 2390 (Strela-3 #131)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -1079,7 +1088,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2391",
+          "Payload": "Kosmos 2391 (Strela-3 #132)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -1098,14 +1107,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/17S40",
+      "Rocket": "Proton-K/Blok DM-5 (17S40)",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/24",
       "LaunchServiceProvider": "VKS",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2392",
+          "Payload": "Kosmos 2392 (Araks-N #2)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -1472,11 +1481,11 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/17S40",
+      "Rocket": "Proton-K/Blok DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
       "LaunchServiceProvider": "",
-      "Notes": "Final flight of 17S40 upper stage",
+      "Notes": "",
       "Payload": [
         {
           "Payload": "INTEGRAL",
@@ -1499,18 +1508,18 @@
         "ParseErr": null
       },
       "Rocket": "Long March 4B",
-      "FlightNumber": "",
-      "LaunchSite": "Taiyuan",
+      "FlightNumber": "Y6",
+      "LaunchSite": "Taiyuan LA-7",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Zi Yau 2",
+          "Payload": "Ziyuan II-02",
           "Operator": "CAST",
-          "Orbit": "Low Earth",
-          "Function": "Reconnaissance",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
+          "Orbit": "Sun-synchronous",
+          "Function": "Earth observationReconnaissance (alleged)",
+          "Decay": "22 January 2015",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
