@@ -1927,6 +1927,38 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "24 November 197011:00",
+        "TimestampClean": "24 November 197011:00",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1970 24 November 197011:00",
+          "LayoutElem": "",
+          "ValueElem": " 197011:00",
+          "Message": ": extra text: \" 197011:00\""
+        }
+      },
+      "Rocket": "Soyuz-L",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 379 (T2K No.1)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Uncrewed test flight of LK lunar lander",
+          "Decay": "21 September 1983",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "12 December10:54",
         "TimestampClean": "12 December10:54",
         "Timestamp": "1970-12-12T10:54:00Z",
