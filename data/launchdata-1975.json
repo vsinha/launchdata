@@ -28,6 +28,344 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "17 January09:00",
+        "TimestampClean": "17 January09:00",
+        "Timestamp": "1975-01-17T09:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 702 (Zenit-2M/Gektor #54)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "29 January",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 January11:04",
+        "TimestampClean": "21 January11:04",
+        "Timestamp": "1975-01-21T11:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 133/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 703 (DS-P1-Yu #74)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "20 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 January17:55",
+        "TimestampClean": "22 January17:55",
+        "Timestamp": "1975-01-22T17:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta 2910",
+      "FlightNumber": "Delta 107",
+      "LaunchSite": "Vandenberg AFB SLC-2W",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Landsat 2 (ERTS B)",
+          "Operator": "NASA",
+          "Orbit": "Sun-synchronous (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "23 January11:00",
+        "TimestampClean": "23 January11:00",
+        "Timestamp": "1975-01-23T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 704 (Zenit-4MK/Germes #35)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "6 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 January12:05",
+        "TimestampClean": "28 January12:05",
+        "Timestamp": "1975-01-28T12:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 133/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 705 (DS-P1-Yu #75)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "18 November",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 January15:02",
+        "TimestampClean": "30 January15:02",
+        "Timestamp": "1975-01-30T15:02:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M/Blok 2BL",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 706 (US-K #4)",
+          "Operator": "",
+          "Orbit": "Molniya orbit",
+          "Function": "Missile early warning",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 February13:15",
+        "TimestampClean": "5 February13:15",
+        "Timestamp": "1975-02-05T13:15:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 707 (Tselina-O #26)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "ELINT",
+          "Decay": "7 September 1980",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 February04:49",
+        "TimestampClean": "6 February04:49",
+        "Timestamp": "1975-02-06T04:49:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Molniya-M/Blok ML",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Molniya-2 12",
+          "Operator": "",
+          "Orbit": "Molniya orbit",
+          "Function": "Communications",
+          "Decay": "4 August 1985",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 February16:35",
+        "TimestampClean": "6 February16:35",
+        "Timestamp": "1975-02-06T16:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Diamant BP4",
+      "FlightNumber": "",
+      "LaunchSite": "Guiana Space Centre ELD",
+      "LaunchServiceProvider": "CNES",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Starlette",
+          "Operator": "CNES",
+          "Orbit": "Low Earth",
+          "Function": "Geodesy",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 February22:04",
+        "TimestampClean": "6 February22:04",
+        "Timestamp": "1975-02-06T22:04:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta 2914",
+      "FlightNumber": "Delta 108",
+      "LaunchSite": "Cape Canaveral SLC-17B",
+      "LaunchServiceProvider": "USAF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "SMS-2",
+          "Operator": "NASA",
+          "Orbit": "Geostationary",
+          "Function": "Weather",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 February03:30",
+        "TimestampClean": "12 February03:30",
+        "Timestamp": "1975-02-12T03:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 708 (Sfera #13)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Geodesy",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 February14:30",
+        "TimestampClean": "12 February14:30",
+        "Timestamp": "1975-02-12T14:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 709 (Zenit-4MK/Germes #36)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "25 February",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 February23:35",
+        "TimestampClean": "20 February23:35",
+        "Timestamp": "1975-02-20T23:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Atlas SLV-3D Centaur-D1A",
+      "FlightNumber": "AC-33",
+      "LaunchSite": "",
+      "LaunchServiceProvider": "",
+      "Notes": "Error during booster separation caused a reset of the guidance computer, leading to the loss of control. Range safety sent the flight termination command at T+413 seconds.",
+      "Payload": [
+        {
+          "Payload": "Intelsat IV F-6",
+          "Operator": "Intelsat",
+          "Orbit": "Intended: Geostationary",
+          "Function": "Communications",
+          "Decay": "20 February",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "24 February05:25",
         "TimestampClean": "24 February05:25",
         "Timestamp": "1975-02-24T05:25:00Z",
@@ -47,6 +385,272 @@
           "Orbit": "Highly elliptical orbit",
           "Function": "Ionosphere research",
           "Decay": "29 June 1980",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 February09:00",
+        "TimestampClean": "26 February09:00",
+        "Timestamp": "1975-02-26T09:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 710 (Zenit-4MK/Germes #37)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "12 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14:0128 February",
+        "TimestampClean": "14:0128 February",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1975 14:0128 February",
+          "LayoutElem": " ",
+          "ValueElem": ":0128 February",
+          "Message": ""
+        }
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 711 to 718 (Strela-1M × 8)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 March04:41",
+        "TimestampClean": "10 March04:41",
+        "Timestamp": "1975-03-10T04:41:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Titan III(34)B",
+      "FlightNumber": "",
+      "LaunchSite": "Vandenberg AFB SLC-4W",
+      "LaunchServiceProvider": "USAF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Jumpseat 4 (OPS 2439)",
+          "Operator": "NRO",
+          "Orbit": "Molniya orbit",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 March08:55",
+        "TimestampClean": "12 March08:55",
+        "Timestamp": "1975-03-12T08:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 719 (Zenit-4MK/Germes #38)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "25 March",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 March06:50",
+        "TimestampClean": "21 March06:50",
+        "Timestamp": "1975-03-21T06:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 720 (Zenit-4MT/Orion #8)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance, test spacecraft",
+          "Decay": "3 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 March08:50",
+        "TimestampClean": "26 March08:50",
+        "Timestamp": "1975-03-26T08:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "Nauka research payload carried inside Zenit-2M reentry capsule.",
+      "Payload": [
+        {
+          "Payload": "Kosmos 721 (Zenit-2M/Gektor #55) and Nauka-5KSA 1L",
+          "Operator": "GRU, AN SSSR",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance, research",
+          "Decay": "7 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 March08:00",
+        "TimestampClean": "27 March08:00",
+        "Timestamp": "1975-03-27T08:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Voskhod",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 722 (Zenit-4MK/Germes #39)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "9 April",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 March14:30",
+        "TimestampClean": "27 March14:30",
+        "Timestamp": "1975-03-27T14:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "Cooperative project of Czechoslovakia and the USSR",
+      "Payload": [
+        {
+          "Payload": "Interkosmos 13 (DS-U2-IK #6)",
+          "Operator": "Interkosmos",
+          "Orbit": "Low Earth",
+          "Function": "Radiation belts and upper atmosphere research",
+          "Decay": "2 September 1980",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 April12:30",
+        "TimestampClean": "1 April12:30",
+        "Timestamp": "1975-04-01T12:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Vostok-2M",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Meteor-1 21",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Weather",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 April11:00",
+        "TimestampClean": "2 April11:00",
+        "Timestamp": "1975-04-02T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Tsyklon-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 90/20",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 723 (US-A #9)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar ocean surveillance",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -74,6 +678,58 @@
           "Function": "Salyut expedition",
           "Decay": "11:26",
           "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 April11:00",
+        "TimestampClean": "7 April11:00",
+        "Timestamp": "1975-04-07T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Tsyklon-2",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Site 90/20",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 724 (US-A #10)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar ocean surveillance",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 April18:29",
+        "TimestampClean": "8 April18:29",
+        "Timestamp": "1975-04-08T18:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Kosmos-2",
+      "FlightNumber": "",
+      "LaunchSite": "Plesetsk Site 133/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Kosmos 725 (DS-P1-Yu #76)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "6 January 1976",
+          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -116,7 +772,7 @@
       "Rocket": "Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Kapustin Yar",
-      "LaunchServiceProvider": "Soviet Interkosmos programme",
+      "LaunchServiceProvider": "Interkosmos",
       "Notes": "First Indian satellite; payload failed 4–5 days after launch",
       "Payload": [
         {
