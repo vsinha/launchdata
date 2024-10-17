@@ -1224,7 +1224,7 @@
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 132/1",
       "LaunchServiceProvider": "",
-      "Notes": "",
+      "Notes": "Rubin 1 was permanently attached to the second stage of Kosmos-3M",
       "Payload": [
         {
           "Payload": "MITA [fr; gl]",
@@ -1245,7 +1245,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Rubin 1",
+          "Payload": "Rubin 1 (Bird-Rubin)",
           "Operator": "OHB-System",
           "Orbit": "Low Earth",
           "Function": "Monitor carrier rocket",
@@ -1567,7 +1567,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ziyuan-II 01",
+          "Payload": "Ziyuan-2 01",
           "Operator": "CAST",
           "Orbit": "Low Earth",
           "Function": "Imaging",
@@ -2040,14 +2040,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas IIA",
+      "Rocket": "Atlas IIA/IABS",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-36A",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-153 (DSCS III B-11",
+          "Payload": "USA 153 (DSCS III B-11)",
           "Operator": "US Air Force",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2085,27 +2085,21 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "21 October 200022:00[11]",
-        "TimestampClean": "21 October 200022:00",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "21 October22:00[11]",
+        "TimestampClean": "21 October22:00",
+        "Timestamp": "2000-10-21T22:00:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2000 21 October 200022:00",
-          "LayoutElem": "",
-          "ValueElem": " 200022:00",
-          "Message": ": extra text: \" 200022:00\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
-      "Rocket": "Proton_K (UR_500+11С861_DM3)",
+      "Rocket": "Proton-K/DM-2M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site military 81_23",
-      "LaunchServiceProvider": "International Launch Services (ILS)",
+      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchServiceProvider": "International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "GE 6 (Amiricom_6)",
+          "Payload": "GE 6",
           "Operator": "GE Americom",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2117,18 +2111,12 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "29 October 200005:59[3]",
-        "TimestampClean": "29 October 200005:59",
-        "Timestamp": "0001-01-01T00:00:00Z",
+        "TimestampRaw": "29 October05:59[3]",
+        "TimestampClean": "29 October05:59",
+        "Timestamp": "2000-10-29T05:59:00Z",
         "Tbd": false,
-        "ParsedOk": false,
-        "ParseErr": {
-          "Layout": "2006 2 January",
-          "Value": "2000 29 October 200005:59",
-          "LayoutElem": "",
-          "ValueElem": " 200005:59",
-          "Message": ": extra text: \" 200005:59\""
-        }
+        "ParsedOk": true,
+        "ParseErr": null
       },
       "Rocket": "Ariane 4 44LP",
       "FlightNumber": "",
