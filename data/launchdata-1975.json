@@ -901,6 +901,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "26 July13:28",
+        "TimestampClean": "26 July13:28",
+        "Timestamp": "1975-07-26T13:28:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Feng Bao 1",
+      "FlightNumber": "",
+      "LaunchSite": "Jiquan Satellite Launch Center, LA-2B (Site 138)",
+      "LaunchServiceProvider": "",
+      "Notes": "First successful orbital launch of Feng Bao 1.",
+      "Payload": [
+        {
+          "Payload": "JSSW 1 (CK 1)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Unknown",
+          "Decay": "14 September",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "20 August21:22:00",
         "TimestampClean": "20 August21:22:00",
         "Timestamp": "1975-08-20T21:22:00Z",
@@ -1016,6 +1042,32 @@
           "Orbit": "Geostationary",
           "Function": "Meteorology",
           "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 December09:19",
+        "TimestampClean": "16 December09:19",
+        "Timestamp": "1975-12-16T09:19:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Feng Bao 1",
+      "FlightNumber": "",
+      "LaunchSite": "Jiquan Satellite Launch Center, LA-2B (Site 138)",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "JSSW 2 (CK 2)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Unknown",
+          "Decay": "27 January 1976",
           "Outcome": "Successful",
           "Cubesat": false
         }

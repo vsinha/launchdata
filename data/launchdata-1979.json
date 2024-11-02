@@ -1831,17 +1831,35 @@
       },
       "Rocket": "Feng Bao 1",
       "FlightNumber": "",
-      "LaunchSite": "Jiquan Satellite Launch Center NLC",
+      "LaunchSite": "Jiquan Satellite Launch Center LA-2B (Site 138)",
       "LaunchServiceProvider": "",
-      "Notes": "Civilian payload (770 kg)",
+      "Notes": "Civilian payload (770 kg). Second stage malfunction",
       "Payload": [
         {
-          "Payload": "Shi Jian 2",
+          "Payload": "Shi Jian (2)",
           "Operator": "",
-          "Orbit": "",
-          "Function": "",
-          "Decay": "27 July 1979",
-          "Outcome": "Failure to reach orbit after 2nd stage malfunction",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Micrometeoroid research, electromagnetic background research",
+          "Decay": "27 July",
+          "Outcome": "Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Shi Jian (2A)",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Ionosphere research",
+          "Decay": "27 July",
+          "Outcome": "Failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Shi Jian (2B)",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Radar calibration",
+          "Decay": "27 July",
+          "Outcome": "Failure",
           "Cubesat": false
         }
       ]

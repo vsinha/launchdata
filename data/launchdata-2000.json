@@ -9,7 +9,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas IIA",
+      "Rocket": "Atlas IIA / IABS",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-36A",
       "LaunchServiceProvider": "",
@@ -35,7 +35,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 4 42L",
+      "Rocket": "Ariane-42L H10-3",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
       "LaunchServiceProvider": "Arianespace",
@@ -69,7 +69,7 @@
       "Payload": [
         {
           "Payload": "ChinaSat 22 (Feng Huo 1A)",
-          "Operator": "China Satcom/CAST",
+          "Operator": "ChinaSat / CAST",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "In orbit",
@@ -103,6 +103,24 @@
           "Cubesat": false
         },
         {
+          "Payload": "FalconSat 1",
+          "Operator": "USAF Academy",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "ASUSAT 1",
+          "Operator": "Arizona State",
+          "Orbit": "Low Earth",
+          "Function": "Imaging/Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
           "Payload": "OCSE",
           "Operator": "US Air Force",
           "Orbit": "Low Earth",
@@ -121,25 +139,25 @@
           "Cubesat": false
         },
         {
-          "Payload": "FalconSat 1",
-          "Operator": "USAF Academy",
+          "Payload": "STENSAT",
+          "Operator": "AMSAT",
           "Orbit": "Low Earth",
-          "Function": "Technology demonstration",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "MEMS 1A",
+          "Operator": "DARPA",
+          "Orbit": "Low Earth",
+          "Function": "Technology development",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
         },
         {
-          "Payload": "ASUSAT",
-          "Operator": "Arizona State",
-          "Orbit": "Low Earth",
-          "Function": "Imaging/Communications",
-          "Decay": "In orbit",
-          "Outcome": "Operational",
-          "Cubesat": false
-        },
-        {
-          "Payload": "Picosat 1/2",
+          "Payload": "MEMS 1B",
           "Operator": "DARPA",
           "Orbit": "Low Earth",
           "Function": "Technology development",
@@ -166,19 +184,10 @@
           "Cubesat": false
         },
         {
-          "Payload": "JAK",
+          "Payload": "JAK (MASAT)",
           "Operator": "Santa Clara",
           "Orbit": "Low Earth",
           "Function": "",
-          "Decay": "In orbit",
-          "Outcome": "Spacecraft failure",
-          "Cubesat": false
-        },
-        {
-          "Payload": "STENSAT",
-          "Operator": "AMSAT",
-          "Orbit": "Low Earth",
-          "Function": "Communications",
           "Decay": "In orbit",
           "Outcome": "Spacecraft failure",
           "Cubesat": false
@@ -253,7 +262,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Hispasat 1C",
+          "Payload": "Hispasat 1C (Hispasat 84W-1)",
           "Operator": "Hispasat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -279,7 +288,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Globalstar 63",
+          "Payload": "Globalstar 60",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -297,7 +306,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar 64",
+          "Payload": "Globalstar 63",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -306,7 +315,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar 60",
+          "Payload": "Globalstar 64",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -325,11 +334,11 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U/Fregat",
-      "FlightNumber": "",
+      "Rocket": "Soyuz-U / Fregat",
+      "FlightNumber": "ST-07",
       "LaunchSite": "Baikonur Site 31/6",
       "LaunchServiceProvider": "Starsem",
-      "Notes": "Maiden flight of Soyuz-U/Fregat Variant. Damage to the inflatable heat shield of IRDT led to high landing speed which damaged the spacecraft",
+      "Notes": "Maiden flight of Soyuz-U/Fregat Variant. First flight of the Fregat Upper stage. Damage to the inflatable heat shield of IRDT led to high landing speed which damaged the spacecraft. Mission Designated:Demonstrator.",
       "Payload": [
         {
           "Payload": "IRDT 1",
@@ -371,7 +380,7 @@
       },
       "Rocket": "M-V",
       "FlightNumber": "",
-      "LaunchSite": "Uchinoura",
+      "LaunchSite": "Uchinoura LP-M",
       "LaunchServiceProvider": "ISAS",
       "Notes": "Loss of control during first stage burn",
       "Payload": [
@@ -421,7 +430,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM-03",
+      "Rocket": "Proton-K / Block DM-03",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/23",
       "LaunchServiceProvider": "International Launch Services",
@@ -447,7 +456,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 4 44LP",
+      "Rocket": "Ariane-44LP H10-3",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELA-2",
       "LaunchServiceProvider": "Arianespace",
@@ -473,18 +482,18 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K / DM-2M",
+      "Rocket": "Proton-K / Blok DM-2",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
       "LaunchServiceProvider": "Khrunichev",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ekspress-A2 (Ekspress-6A №2)",
+          "Payload": "Ekspress-A2 (Ekspress-6A)",
           "Operator": "RSCC",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "In orbit",
+          "Decay": "2015",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -552,7 +561,7 @@
         "ParseErr": null
       },
       "Rocket": "Soyuz-U / Fregat",
-      "FlightNumber": "",
+      "FlightNumber": "ST-08",
       "LaunchSite": "Baikonur Site 31/6",
       "LaunchServiceProvider": "Starsem",
       "Notes": "",
@@ -584,8 +593,8 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "AsiaStar",
-          "Operator": "1worldspace",
+          "Payload": "INSAT-3B",
+          "Operator": "ISRO",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "In orbit",
@@ -593,8 +602,8 @@
           "Cubesat": false
         },
         {
-          "Payload": "INSAT-3B",
-          "Operator": "ISRO",
+          "Payload": "AsiaStar",
+          "Operator": "1worldspace",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
           "Decay": "In orbit",
@@ -664,7 +673,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM-2M",
+      "Rocket": "Proton-K / Blok-DM-2M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
       "LaunchServiceProvider": "International Launch Services",
@@ -675,8 +684,8 @@
           "Operator": "Eutelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "In orbit",
-          "Outcome": "Deactivated 13 February 2018",
+          "Decay": "13 February 2018",
+          "Outcome": "Deactivated",
           "Cubesat": false
         }
       ]
@@ -701,8 +710,8 @@
           "Operator": "PanAmSat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "In orbit",
-          "Outcome": "Deactivated April 2009",
+          "Decay": "April 2009",
+          "Outcome": "Deactivated",
           "Cubesat": false
         }
       ]
@@ -749,12 +758,12 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "GOES-11 (GOES-L)",
+          "Payload": "GOES 11 (GOES-L)",
           "Operator": "NOAA/NASA",
           "Orbit": "Geostationary",
-          "Function": "Weather satellite",
-          "Decay": "In orbit",
-          "Outcome": "Deactivated December 15, 2011",
+          "Function": "Meteorology",
+          "Decay": "15 December 2011",
+          "Outcome": "Deactivated",
           "Cubesat": false
         }
       ]
@@ -794,7 +803,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Titan IVB (402)/IUS",
+      "Rocket": "Titan IVB (402) / IUS",
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-40",
       "LaunchServiceProvider": "Lockheed Martin",
@@ -846,11 +855,11 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Rokot/Briz-KM",
+      "Rocket": "Rokot / Briz-KM",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 133/3",
       "LaunchServiceProvider": "Eurockot",
-      "Notes": "",
+      "Notes": "Maiden flight of Rokot / Briz-KM Variant. First launch of Eurockot. First launch of Rokot from the Plesetsk Cosmodrome. First launch of Rokot outside a silo.",
       "Payload": [
         {
           "Payload": "Simsat-1 (IKA-1)",
@@ -920,10 +929,10 @@
       "FlightNumber": "",
       "LaunchSite": "Cape Canaveral SLC-36B",
       "LaunchServiceProvider": "International Launch Services",
-      "Notes": "Maiden flight of Atlas IIIA",
+      "Notes": "Maiden flight of Atlas IIIA.",
       "Payload": [
         {
-          "Payload": "Eutelsat W4",
+          "Payload": "Eutelsat W4 (Eutelsat 36A/Eutelsat 70C)",
           "Operator": "Eutelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -942,14 +951,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/Briz-M",
+      "Rocket": "Proton-K / Briz-M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/24",
       "LaunchServiceProvider": "International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Gorizont 45",
+          "Payload": "Gorizont 33 (Gorizont 45L)",
           "Operator": "RSCC",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -970,13 +979,13 @@
       },
       "Rocket": "Pegasus-XL",
       "FlightNumber": "",
-      "LaunchSite": "Stargazer, Vandenberg",
+      "LaunchSite": "Vandenberg Stargazer",
       "LaunchServiceProvider": "Orbital Sciences",
       "Notes": "",
       "Payload": [
         {
           "Payload": "TSX-5",
-          "Operator": "US Air Force/Royal Air Force",
+          "Operator": "US Air Force / Royal Air Force",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
           "Decay": "In orbit",
@@ -994,19 +1003,19 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM-2M",
+      "Rocket": "Proton-K / Blok DM-2M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 200/39",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ekspress 3A",
+          "Payload": "Ekspress-A3 (Ekspress 3A)",
           "Operator": "Intersputnik",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "In orbit",
-          "Outcome": "Deactivated September 2009",
+          "Decay": "September 2009",
+          "Outcome": "Deactivated",
           "Cubesat": false
         }
       ]
@@ -1027,10 +1036,10 @@
       "Notes": "Final flight of Long March 3",
       "Payload": [
         {
-          "Payload": "Feng Yun 2B",
+          "Payload": "Fengyun 2B",
           "Operator": "CASC",
           "Orbit": "Geosynchronous",
-          "Function": "Weather satellite",
+          "Function": "Meteorology",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -1053,18 +1062,18 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Nadezhda №6",
+          "Payload": "Nadezhda 6 (Nadezhda №9)",
           "Operator": "MO RF",
-          "Orbit": "Sun-synchronous",
+          "Orbit": "Low Earth (SSO)",
           "Function": "Navigation",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
         },
         {
-          "Payload": "Tsinghua",
+          "Payload": "Tsinghua 1 (Hangtian Qinghua 1)",
           "Operator": "Tsinghua",
-          "Orbit": "Sun-synchronous",
+          "Orbit": "Low Earth (SSO)",
           "Function": "Technology development",
           "Decay": "In orbit",
           "Outcome": "Operational",
@@ -1072,8 +1081,8 @@
         },
         {
           "Payload": "SNAP 1",
-          "Operator": "Surrey Satellite Technology",
-          "Orbit": "Sun-synchronous",
+          "Operator": "SSTL",
+          "Orbit": "Low Earth (SSO)",
           "Function": "Technology development",
           "Decay": "In orbit",
           "Outcome": "Operational",
@@ -1097,7 +1106,7 @@
       "Notes": "First advanced TDRS satellite",
       "Payload": [
         {
-          "Payload": "TDRS-H (TDRS-8)",
+          "Payload": "TDRS-8 (TDRS-H)",
           "Operator": "NASA",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1116,19 +1125,19 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM-2M",
+      "Rocket": "Proton-K / Blok DM-2M",
       "FlightNumber": "",
       "LaunchSite": "Baikonur Site 81/24",
       "LaunchServiceProvider": "International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Radiosat 1",
+          "Payload": "Sirius FM-1 (Radiosat 1)",
           "Operator": "Sirius",
           "Orbit": "Tundra",
           "Function": "Communications",
-          "Decay": "In orbit",
-          "Outcome": "Deactivated 2016",
+          "Decay": "2016",
+          "Outcome": "Deactivated",
           "Cubesat": false
         }
       ]

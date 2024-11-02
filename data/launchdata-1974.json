@@ -245,6 +245,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "12 July13:55",
+        "TimestampClean": "12 July13:55",
+        "Timestamp": "1974-07-12T13:55:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Feng Bao 1",
+      "FlightNumber": "",
+      "LaunchSite": "Jiquan Satellite Launch Center, LA-2B (Site 138)",
+      "LaunchServiceProvider": "",
+      "Notes": "Carrier rocket lost attitude control.",
+      "Payload": [
+        {
+          "Payload": "JSSW",
+          "Operator": "",
+          "Orbit": "Intended: Low Earth",
+          "Function": "Unknown",
+          "Decay": "12 July",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "16 July",
         "TimestampClean": "16 July",
         "Timestamp": "1974-07-16T00:00:00Z",

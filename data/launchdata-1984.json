@@ -2,6 +2,58 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
+        "TimestampRaw": "23 January07:58",
+        "TimestampClean": "23 January07:58",
+        "Timestamp": "1984-01-23T07:58:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "N-II/Star-37E",
+      "FlightNumber": "N-12",
+      "LaunchSite": "Tanegashima Space Center, LP-N",
+      "LaunchServiceProvider": "Mitsubishi Heavy Industry (MHI)",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Yuri 2a (BS-2a)",
+          "Operator": "NHK",
+          "Orbit": "Geostationary",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 January12:25",
+        "TimestampClean": "29 January12:25",
+        "Timestamp": "1984-01-29T12:25:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 3",
+      "FlightNumber": "Y1",
+      "LaunchSite": "Xichang Satellite Launch Center, LC-3",
+      "LaunchServiceProvider": "MASI",
+      "Notes": "Third stage failed after restart, payload left in elliptical orbit much lower than planned geostationary transfer orbit. Many planned tests were still carried out.",
+      "Payload": [
+        {
+          "Payload": "DFH-2 1 (STTW T1)",
+          "Operator": "",
+          "Orbit": "Intended: Geostationary (GEO)Achieved: elliptical orbit",
+          "Function": "Communications, technology test",
+          "Decay": "In orbit",
+          "Outcome": "Partial failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "31 January03:08",
         "TimestampClean": "31 January03:08",
         "Timestamp": "1984-01-31T03:08:00Z",
@@ -133,6 +185,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "14 February08:00",
+        "TimestampClean": "14 February08:00",
+        "Timestamp": "1984-02-14T08:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "M-3S",
+      "FlightNumber": "4",
+      "LaunchSite": "Kagoshima Space Center, LP-M",
+      "LaunchServiceProvider": "ISAS",
+      "Notes": "Final flight of M-3S",
+      "Payload": [
+        {
+          "Payload": "EXOS C (Ohzora)",
+          "Operator": "ISAS",
+          "Orbit": "Low Earth",
+          "Function": "Upper atmosphere and ionosphere research",
+          "Decay": "26 December 1988",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "21 February06:46",
         "TimestampClean": "21 February06:46",
         "Timestamp": "1984-02-21T06:46:00Z",
@@ -239,6 +317,32 @@
           "Orbit": "Low Earth",
           "Function": "Material science",
           "Decay": "20 January 199006:35",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 April11:20",
+        "TimestampClean": "8 April11:20",
+        "Timestamp": "1984-04-08T11:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 3",
+      "FlightNumber": "Y2",
+      "LaunchSite": "Xichang SLC, LC-3",
+      "LaunchServiceProvider": "MASI",
+      "Notes": "First successful Chinese communications satellite on the geostationary orbit",
+      "Payload": [
+        {
+          "Payload": "DFH-2 2 (STTW T2)",
+          "Operator": "",
+          "Orbit": "Geostationary",
+          "Function": "Communications, technology test",
+          "Decay": "In orbit",
           "Outcome": "Successful",
           "Cubesat": false
         }
@@ -541,6 +645,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "2 August20:30",
+        "TimestampClean": "2 August20:30",
+        "Timestamp": "1984-08-02T20:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "N-II/Star 37E",
+      "FlightNumber": "N-13",
+      "LaunchSite": "Tanegashima Space Center, LP-N",
+      "LaunchServiceProvider": "MHI",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Himawari 3 (GMS-3)",
+          "Operator": "JMA",
+          "Orbit": "Geostationary",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "4 August13:32",
         "TimestampClean": "4 August13:32",
         "Timestamp": "1984-08-04T13:32:00Z",
@@ -709,6 +839,32 @@
           "Orbit": "Medium Earth",
           "Function": "Navigation",
           "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 September05:44",
+        "TimestampClean": "12 September05:44",
+        "Timestamp": "1984-09-12T05:44:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Long March 2C",
+      "FlightNumber": "Y3",
+      "LaunchSite": "Jiuquan Satellite Launch Center, LA-2B (Site 138)",
+      "LaunchServiceProvider": "MASI",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "FSW-0 6",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "29 September",
           "Outcome": "Successful",
           "Cubesat": false
         }

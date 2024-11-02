@@ -529,6 +529,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "10 August00:32",
+        "TimestampClean": "10 August00:32",
+        "Timestamp": "1972-08-10T00:32:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Feng Bao 1",
+      "FlightNumber": "701-02",
+      "LaunchSite": "Jiuquan Satellite Launch Center, LA-2B (Site 138)",
+      "LaunchServiceProvider": "",
+      "Notes": "First suborbital test flight of Feng Bao 1, apogee: 200 km.",
+      "Payload": [
+        {
+          "Payload": "Shiyan Peizhong",
+          "Operator": "",
+          "Orbit": "Suborbital",
+          "Function": "Test flight",
+          "Decay": "T+90 seconds",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "13 August15:10",
         "TimestampClean": "13 August15:10",
         "Timestamp": "1972-08-13T15:10:00Z",
