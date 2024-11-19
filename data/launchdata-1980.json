@@ -9,14 +9,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1149 (Zenit-6)",
+          "Payload": " Kosmos 1149 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -35,14 +35,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/ML",
+      "Rocket": " Molniya-M/ML",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Molniya 1-46",
+          "Payload": " Molniya 1-46",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Communications",
@@ -61,14 +61,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas SLV-3D Centaur-D1AR",
+      "Rocket": " Atlas SLV-3D Centaur-D1AR",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-36A",
+      "LaunchSite": " Cape Canaveral LC-36A",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OPS 6293 (FLTSATCOM 3)",
+          "Payload": " OPS 6293 (FLTSATCOM 3)",
           "Operator": "US Navy",
           "Orbit": "Geostationary",
           "Function": "Communication",
@@ -87,14 +87,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": " Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 132/2",
+      "LaunchSite": " Plesetsk Site 132/2",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1150 (Parus)",
+          "Payload": " Kosmos 1150 (Parus)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -113,14 +113,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Tsyklon-3",
+      "Rocket": " Tsyklon-3",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 32/1",
+      "LaunchSite": " Plesetsk Site 32/1",
       "LaunchServiceProvider": "",
       "Notes": "Prototype oceanography satellite, not equipped with radar",
       "Payload": [
         {
-          "Payload": "Kosmos 1151 (Okean-E No.2)",
+          "Payload": " Kosmos 1151 (Okean-E No.2)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Technology",
@@ -139,14 +139,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1152 (Yantar-2K No.928)",
+          "Payload": " Kosmos 1152 (Yantar-2K No.928)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -165,14 +165,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": " Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 132/2",
+      "LaunchSite": " Plesetsk Site 132/2",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1153 (Parus)",
+          "Payload": " Kosmos 1153 (Parus)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -191,14 +191,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-2M",
+      "Rocket": " Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
+      "LaunchSite": " Plesetsk Site 43/4",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1154 (Tselina-D)",
+          "Payload": " Kosmos 1154 (Tselina-D)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -210,6 +210,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nFebruary",
+        "TimestampClean": "\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 February",
+          "LayoutElem": "2",
+          "ValueElem": "February",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nFebruary",
+      "FlightNumber": "\n\nFebruary",
+      "LaunchSite": "\n\nFebruary",
+      "LaunchServiceProvider": "\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "7 February11:00",
         "TimestampClean": "7 February11:00",
         "Timestamp": "1980-02-07T11:00:00Z",
@@ -217,14 +239,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
+      "LaunchSite": " Plesetsk Site 43/4",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1155 (Zenit-6)",
+          "Payload": " Kosmos 1155 (Zenit-6)",
           "Operator": "GRU",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -243,14 +265,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Titan III(23)D",
+      "Rocket": " Titan III(23)D",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-4E",
+      "LaunchSite": " Vandenberg SLC-4E",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OPS 2581 (KH-11)",
+          "Payload": " OPS 2581 (KH-11)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -269,14 +291,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas E/F-SGS-1",
+      "Rocket": " Atlas E/F-SGS-1",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-3E",
+      "LaunchSite": " Vandenberg SLC-3E",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OPS 5117 (Navstar 5)",
+          "Payload": " OPS 5117 (Navstar 5)",
           "Operator": "",
           "Orbit": "Medium Earth",
           "Function": "Navigation",
@@ -302,7 +324,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1156 (Strela-1M)",
+          "Payload": " Kosmos 1156 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -311,7 +333,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1157 (Strela-1M)",
+          "Payload": " Kosmos 1157 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -320,7 +342,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1158 (Strela-1M)",
+          "Payload": " Kosmos 1158 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -329,7 +351,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1159 (Strela-1M)",
+          "Payload": " Kosmos 1159 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -338,7 +360,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1160 (Strela-1M)",
+          "Payload": " Kosmos 1160 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -347,7 +369,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1161 (Strela-1M)",
+          "Payload": " Kosmos 1161 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -356,7 +378,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1162 (Strela-1M)",
+          "Payload": " Kosmos 1162 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -365,7 +387,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1163 (Strela-1M)",
+          "Payload": " Kosmos 1163 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -391,7 +413,7 @@
       "Notes": "Upper stage malfunction",
       "Payload": [
         {
-          "Payload": "Kosmos 1164 (Oko)",
+          "Payload": " Kosmos 1164 (Oko)",
           "Operator": "",
           "Orbit": "Intended: MolniyaAchieved: Highly elliptical",
           "Function": "Missile defence",
@@ -410,14 +432,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta 3910",
+      "Rocket": " Delta 3910",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchSite": " Cape Canaveral LC-17A",
       "LaunchServiceProvider": "",
       "Notes": "Spacecraft's attitude control system malfunctioned ten months after launch, subsequently repaired by Space Shuttle Challenger during STS-41-C in April 1984",
       "Payload": [
         {
-          "Payload": "SolarMax",
+          "Payload": " SolarMax",
           "Operator": "NASA",
           "Orbit": "Low Earth",
           "Function": "Solar",
@@ -436,14 +458,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Mu-3S",
+      "Rocket": " Mu-3S",
       "FlightNumber": "",
-      "LaunchSite": "Kagoshima LA-M",
-      "LaunchServiceProvider": "ISAS",
+      "LaunchSite": " Kagoshima LA-M",
+      "LaunchServiceProvider": " ISAS",
       "Notes": "Maiden flight of Mu-3S",
       "Payload": [
         {
-          "Payload": "Tansei-4",
+          "Payload": " Tansei-4",
           "Operator": "ISAS",
           "Orbit": "Low Earth",
           "Function": "Technology",
@@ -488,14 +510,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
+      "LaunchSite": " Plesetsk Site 43/4",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1165 (Zenit-4MKM)",
+          "Payload": " Kosmos 1165 (Zenit-4MKM)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -514,14 +536,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "N-I",
+      "Rocket": " N-I",
       "FlightNumber": "",
-      "LaunchSite": "Tanagashima LA-O",
-      "LaunchServiceProvider": "NASDA",
+      "LaunchSite": " Tanagashima LA-O",
+      "LaunchServiceProvider": " NASDA",
       "Notes": "Spacecraft's apogee motor malfunctioned, leaving it with a perigee ~4,000 km (~2,500 mi) short of geostationary orbit.",
       "Payload": [
         {
-          "Payload": "Ayame-2",
+          "Payload": " Ayame-2",
           "Operator": "NASDA",
           "Orbit": "Intended: GeostationaryAchieved: Transfer",
           "Function": "Technology",
@@ -533,6 +555,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMarch",
+        "TimestampClean": "\n\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 March",
+          "LayoutElem": "2",
+          "ValueElem": "March",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMarch",
+      "FlightNumber": "\n\nMarch",
+      "LaunchSite": "\n\nMarch",
+      "LaunchServiceProvider": "\n\nMarch",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 March09:27",
         "TimestampClean": "3 March09:27",
         "Timestamp": "1980-03-03T09:27:00Z",
@@ -540,14 +584,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas E/F-MSD",
+      "Rocket": " Atlas E/F-MSD",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-3W",
+      "LaunchSite": " Vandenberg SLC-3W",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OPS 7245 (MSD)",
+          "Payload": " OPS 7245 (MSD)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Dispenser",
@@ -556,7 +600,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS 7245 SSU-1 (NOSS SSU)",
+          "Payload": " OPS 7245 SSU-1 (NOSS SSU)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -565,7 +609,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS 7245 SSU-2 (NOSS SSU)",
+          "Payload": " OPS 7245 SSU-2 (NOSS SSU)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -574,7 +618,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS 7245 SSU-3 (NOSS SSU)",
+          "Payload": " OPS 7245 SSU-3 (NOSS SSU)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -593,14 +637,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
+      "LaunchSite": " Plesetsk Site 43/4",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1166 (Zenit-6)",
+          "Payload": " Kosmos 1166 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -652,7 +696,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1168 (Tsikada)",
+          "Payload": " Kosmos 1168 (Tsikada)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -678,7 +722,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1169 (Taifun-1)",
+          "Payload": " Kosmos 1169 (Taifun-1)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -704,7 +748,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress 8",
+          "Payload": " Progress 8",
           "Operator": "",
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Station resupply",
@@ -716,6 +760,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nApril",
+        "TimestampClean": "\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 April",
+          "LayoutElem": "2",
+          "ValueElem": "April",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nApril",
+      "FlightNumber": "\n\nApril",
+      "LaunchSite": "\n\nApril",
+      "LaunchServiceProvider": "\n\nApril",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 April08:00",
         "TimestampClean": "1 April08:00",
         "Timestamp": "1980-04-01T08:00:00Z",
@@ -723,14 +789,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchSite": " Baikonur Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1170 (Zenit-4MKM)",
+          "Payload": " Kosmos 1170 (Zenit-4MKM)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -756,7 +822,7 @@
       "Notes": "Target for Kosmos 1174, which failed to intercept it",
       "Payload": [
         {
-          "Payload": "Kosmos 1171 (Lira)",
+          "Payload": " Kosmos 1171 (Lira)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "ASAT target",
@@ -808,7 +874,7 @@
       "Notes": "Replacement for Kosmos 1109",
       "Payload": [
         {
-          "Payload": "Kosmos 1172 (Oko)",
+          "Payload": " Kosmos 1172 (Oko)",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Missile defence",
@@ -827,14 +893,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchSite": " Baikonur Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1173 (Zenit-4MKM)",
+          "Payload": " Kosmos 1173 (Zenit-4MKM)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -886,7 +952,7 @@
       "Notes": "Upper stage malfunction",
       "Payload": [
         {
-          "Payload": "Kosmos 1175 (Molniya-3 No.26)",
+          "Payload": " Kosmos 1175 (Molniya-3 No.26)",
           "Operator": "",
           "Orbit": "Intended: MolniyaAchieved: Low Earth",
           "Function": "Communications",
@@ -905,7 +971,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas E/F-SGS-1",
+      "Rocket": " Atlas E/F-SGS-1",
       "FlightNumber": "",
       "LaunchSite": "Vandenberg SLC-3E",
       "LaunchServiceProvider": "",
@@ -938,7 +1004,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress 9",
+          "Payload": " Progress 9",
           "Operator": "",
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Station resupply",
@@ -983,14 +1049,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1177 (Yantar-4K1 No.2)",
+          "Payload": " Kosmos 1177 (Yantar-4K1 No.2)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1002,6 +1068,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMay",
+        "TimestampClean": "\n\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 May",
+          "LayoutElem": "2",
+          "ValueElem": "May",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMay",
+      "FlightNumber": "\n\nMay",
+      "LaunchSite": "\n\nMay",
+      "LaunchServiceProvider": "\n\nMay",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "7 May13:00",
         "TimestampClean": "7 May13:00",
         "Timestamp": "1980-05-07T13:00:00Z",
@@ -1009,14 +1097,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1178 (Zenit-6)",
+          "Payload": " Kosmos 1178 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1042,7 +1130,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1179 (Taifun-1Yu)",
+          "Payload": " Kosmos 1179 (Taifun-1Yu)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1061,14 +1149,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1180 (Zenit-4MT)",
+          "Payload": " Kosmos 1180 (Zenit-4MT)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1094,7 +1182,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1181 (Parus)",
+          "Payload": " Kosmos 1181 (Parus)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -1113,14 +1201,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1182 (Zenit-4MKT)",
+          "Payload": " Kosmos 1182 (Zenit-4MKT)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1245,14 +1333,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1183 (Zenit-6)",
+          "Payload": " Kosmos 1183 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1290,6 +1378,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nJune",
+        "TimestampClean": "\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 June",
+          "LayoutElem": "2",
+          "ValueElem": "June",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJune",
+      "FlightNumber": "\n\nJune",
+      "LaunchSite": "\n\nJune",
+      "LaunchServiceProvider": "\n\nJune",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "4 June07:34",
         "TimestampClean": "4 June07:34",
         "Timestamp": "1980-06-04T07:34:00Z",
@@ -1297,14 +1407,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-2M",
+      "Rocket": " Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1184 (Tselina-D)",
+          "Payload": " Kosmos 1184 (Tselina-D)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -1349,14 +1459,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1185 (Resurs-F1 No.12)",
+          "Payload": " Kosmos 1185 (Resurs-F1 No.12)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Remote sensing",
@@ -1382,7 +1492,7 @@
       "Notes": "Deployed 24 calibration spheres",
       "Payload": [
         {
-          "Payload": "Kosmos 1186 (Taifun-2)",
+          "Payload": " Kosmos 1186 (Taifun-2)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1391,7 +1501,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 1",
+          "Payload": " Kosmos 1204 Subsatellite 1",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1400,7 +1510,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 2",
+          "Payload": " Kosmos 1204 Subsatellite 2",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1409,7 +1519,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 3",
+          "Payload": " Kosmos 1204 Subsatellite 3",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1418,7 +1528,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 4",
+          "Payload": " Kosmos 1204 Subsatellite 4",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1427,7 +1537,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 5",
+          "Payload": " Kosmos 1204 Subsatellite 5",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1436,7 +1546,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 6",
+          "Payload": " Kosmos 1204 Subsatellite 6",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1445,7 +1555,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 7",
+          "Payload": " Kosmos 1204 Subsatellite 7",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1454,7 +1564,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 8",
+          "Payload": " Kosmos 1204 Subsatellite 8",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1463,7 +1573,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 9",
+          "Payload": " Kosmos 1204 Subsatellite 9",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1472,7 +1582,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 10",
+          "Payload": " Kosmos 1204 Subsatellite 10",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1481,7 +1591,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 11",
+          "Payload": " Kosmos 1204 Subsatellite 11",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1490,7 +1600,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 12",
+          "Payload": " Kosmos 1204 Subsatellite 12",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1499,7 +1609,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 13",
+          "Payload": " Kosmos 1204 Subsatellite 13",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1508,7 +1618,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 14",
+          "Payload": " Kosmos 1204 Subsatellite 14",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1517,7 +1627,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 15",
+          "Payload": " Kosmos 1204 Subsatellite 15",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1526,7 +1636,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 16",
+          "Payload": " Kosmos 1204 Subsatellite 16",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1535,7 +1645,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 17",
+          "Payload": " Kosmos 1204 Subsatellite 17",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1544,7 +1654,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 18",
+          "Payload": " Kosmos 1204 Subsatellite 18",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1553,7 +1663,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 19",
+          "Payload": " Kosmos 1204 Subsatellite 19",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1562,7 +1672,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 20",
+          "Payload": " Kosmos 1204 Subsatellite 20",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1571,7 +1681,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 21",
+          "Payload": " Kosmos 1204 Subsatellite 21",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1580,7 +1690,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 22",
+          "Payload": " Kosmos 1204 Subsatellite 22",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1589,7 +1699,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 23",
+          "Payload": " Kosmos 1204 Subsatellite 23",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1598,7 +1708,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 24",
+          "Payload": " Kosmos 1204 Subsatellite 24",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -1617,14 +1727,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1183 (Zenit-6)",
+          "Payload": " Kosmos 1183 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1676,7 +1786,7 @@
       "Notes": "Replacement for Kosmos 1024, operated for only four months",
       "Payload": [
         {
-          "Payload": "Kosmos 1188 (Oko)",
+          "Payload": " Kosmos 1188 (Oko)",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Missile defence",
@@ -1695,14 +1805,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-2M",
+      "Rocket": " Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur",
+      "LaunchSite": " Baikonur",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Meteor-Priroda No.3-1",
+          "Payload": " Meteor-Priroda No.3-1",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Remote sensing",
@@ -1792,14 +1902,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/ML",
+      "Rocket": " Molniya-M/ML",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Molniya 1-47",
+          "Payload": " Molniya 1-47",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Communications",
@@ -1818,14 +1928,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1189 (Zenit-6)",
+          "Payload": " Kosmos 1189 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -1851,7 +1961,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress 10",
+          "Payload": " Progress 10",
           "Operator": "",
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Station resupply",
@@ -1863,6 +1973,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nJuly",
+        "TimestampClean": "\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 July",
+          "LayoutElem": "2",
+          "ValueElem": "July",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJuly",
+      "FlightNumber": "\n\nJuly",
+      "LaunchSite": "\n\nJuly",
+      "LaunchServiceProvider": "\n\nJuly",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 July07:12",
         "TimestampClean": "1 July07:12",
         "Timestamp": "1980-07-01T07:12:00Z",
@@ -1870,14 +2002,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": " Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 132/2",
+      "LaunchSite": " Plesetsk Site 132/2",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1190 (Strela-2)",
+          "Payload": " Kosmos 1190 (Strela-2)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1903,7 +2035,7 @@
       "Notes": "Replacement for Kosmos 1124",
       "Payload": [
         {
-          "Payload": "Kosmos 1191 (Oko)",
+          "Payload": " Kosmos 1191 (Oko)",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Missile defence",
@@ -1922,14 +2054,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": " Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 132/2",
+      "LaunchSite": " Plesetsk Site 132/2",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1192 (Strela-1M)",
+          "Payload": " Kosmos 1192 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1938,7 +2070,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1193 (Strela-1M)",
+          "Payload": " Kosmos 1193 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1947,7 +2079,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1194 (Strela-1M)",
+          "Payload": " Kosmos 1194 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1956,7 +2088,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1195 (Strela-1M)",
+          "Payload": " Kosmos 1195 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1965,7 +2097,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1196 (Strela-1M)",
+          "Payload": " Kosmos 1196 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1974,7 +2106,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1197 (Strela-1M)",
+          "Payload": " Kosmos 1197 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1983,7 +2115,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1198 (Strela-1M)",
+          "Payload": " Kosmos 1198 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -1992,7 +2124,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1199 (Strela-1M)",
+          "Payload": " Kosmos 1199 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -2011,14 +2143,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1200 (Zenit-6)",
+          "Payload": " Kosmos 1200 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2037,14 +2169,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM",
+      "Rocket": " Proton-K/DM",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/40",
+      "LaunchSite": " Baikonur Site 200/40",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ekran No.19L",
+          "Payload": " Ekran No.19L",
           "Operator": "",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2089,14 +2221,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1201 (Zenit-4MKT)",
+          "Payload": " Kosmos 1201 (Zenit-4MKT)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2141,14 +2273,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/ML",
+      "Rocket": " Molniya-M/ML",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Molniya 3-13",
+          "Payload": " Molniya 3-13",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Communications",
@@ -2193,14 +2325,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1202 (Zenit-6)",
+          "Payload": " Kosmos 1202 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2219,14 +2351,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1203 (Resurs-F1 No.12)",
+          "Payload": " Kosmos 1203 (Resurs-F1 No.12)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Remote sensing",
@@ -2252,7 +2384,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1204 (Taifun-2)",
+          "Payload": " Kosmos 1204 (Taifun-2)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2261,7 +2393,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 1",
+          "Payload": " Kosmos 1204 Subsatellite 1",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2270,7 +2402,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 2",
+          "Payload": " Kosmos 1204 Subsatellite 2",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2279,7 +2411,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 3",
+          "Payload": " Kosmos 1204 Subsatellite 3",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2288,7 +2420,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 4",
+          "Payload": " Kosmos 1204 Subsatellite 4",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2297,7 +2429,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 5",
+          "Payload": " Kosmos 1204 Subsatellite 5",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2306,7 +2438,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 6",
+          "Payload": " Kosmos 1204 Subsatellite 6",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2315,7 +2447,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 7",
+          "Payload": " Kosmos 1204 Subsatellite 7",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2324,7 +2456,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 8",
+          "Payload": " Kosmos 1204 Subsatellite 8",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2333,7 +2465,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 9",
+          "Payload": " Kosmos 1204 Subsatellite 9",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2342,7 +2474,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 10",
+          "Payload": " Kosmos 1204 Subsatellite 10",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2351,7 +2483,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 11",
+          "Payload": " Kosmos 1204 Subsatellite 11",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2360,7 +2492,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 12",
+          "Payload": " Kosmos 1204 Subsatellite 12",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2369,7 +2501,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 13",
+          "Payload": " Kosmos 1204 Subsatellite 13",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2378,7 +2510,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 14",
+          "Payload": " Kosmos 1204 Subsatellite 14",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2387,7 +2519,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 15",
+          "Payload": " Kosmos 1204 Subsatellite 15",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2396,7 +2528,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 16",
+          "Payload": " Kosmos 1204 Subsatellite 16",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2405,7 +2537,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 17",
+          "Payload": " Kosmos 1204 Subsatellite 17",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2414,7 +2546,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 18",
+          "Payload": " Kosmos 1204 Subsatellite 18",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2423,7 +2555,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 19",
+          "Payload": " Kosmos 1204 Subsatellite 19",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2432,7 +2564,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 20",
+          "Payload": " Kosmos 1204 Subsatellite 20",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2441,7 +2573,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 21",
+          "Payload": " Kosmos 1204 Subsatellite 21",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2450,7 +2582,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1204 Subsatellite 22",
+          "Payload": " Kosmos 1204 Subsatellite 22",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Calibration",
@@ -2462,6 +2594,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nAugust",
+        "TimestampClean": "\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 August",
+          "LayoutElem": "2",
+          "ValueElem": "August",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nAugust",
+      "FlightNumber": "\n\nAugust",
+      "LaunchSite": "\n\nAugust",
+      "LaunchServiceProvider": "\n\nAugust",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "12 August11:50",
         "TimestampClean": "12 August11:50",
         "Timestamp": "1980-08-12T11:50:00Z",
@@ -2469,14 +2623,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1205 (Zenit-6)",
+          "Payload": " Kosmos 1205 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2495,14 +2649,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-2M",
+      "Rocket": " Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1206 (Tselina-D)",
+          "Payload": " Kosmos 1206 (Tselina-D)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -2521,14 +2675,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1207 (Zenit-4MKT)",
+          "Payload": " Kosmos 1207 (Zenit-4MKT)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2547,14 +2701,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1208 (Yantar-2K No.927)",
+          "Payload": " Kosmos 1208 (Yantar-2K No.927)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2573,14 +2727,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1236 (Yantar-2K No.941)",
+          "Payload": " Kosmos 1236 (Yantar-2K No.941)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2592,6 +2746,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nSeptember",
+        "TimestampClean": "\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 September",
+          "LayoutElem": "2",
+          "ValueElem": "September",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nSeptember",
+      "FlightNumber": "\n\nSeptember",
+      "LaunchSite": "\n\nSeptember",
+      "LaunchServiceProvider": "\n\nSeptember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 September10:20",
         "TimestampClean": "3 September10:20",
         "Timestamp": "1980-09-03T10:20:00Z",
@@ -2599,14 +2775,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1209 (Resurs-F1 No.14)",
+          "Payload": " Kosmos 1209 (Resurs-F1 No.14)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Remote sensing",
@@ -2625,14 +2801,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-2M",
+      "Rocket": " Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Meteor 2-06",
+          "Payload": " Meteor 2-06",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Weather",
@@ -2703,14 +2879,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1210 (Zenit-6)",
+          "Payload": " Kosmos 1210 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2729,14 +2905,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1211 (Zenit-4MT)",
+          "Payload": " Kosmos 1211 (Zenit-4MT)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2755,14 +2931,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1212 (Zenit-4MKT)",
+          "Payload": " Kosmos 1212 (Zenit-4MKT)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2781,14 +2957,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchSite": " Baikonur Site 1/5",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress 11",
+          "Payload": " Progress 11",
           "Operator": "",
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Station resupply",
@@ -2800,6 +2976,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nOctober",
+        "TimestampClean": "\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 October",
+          "LayoutElem": "2",
+          "ValueElem": "October",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nOctober",
+      "FlightNumber": "\n\nOctober",
+      "LaunchSite": "\n\nOctober",
+      "LaunchServiceProvider": "\n\nOctober",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 October12:00",
         "TimestampClean": "3 October12:00",
         "Timestamp": "1980-10-03T12:00:00Z",
@@ -2807,14 +3005,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1213 (Zenit-6)",
+          "Payload": " Kosmos 1213 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2833,14 +3031,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM",
+      "Rocket": " Proton-K/DM",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchSite": " Baikonur Site 200/39",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Gran' No.17L (Raduga)",
+          "Payload": " Gran' No.17L (Raduga)",
           "Operator": "",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2859,14 +3057,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "Final flight of Zenit-4MKM",
       "Payload": [
         {
-          "Payload": "Kosmos 1214 (Zenit-4MKM)",
+          "Payload": " Kosmos 1214 (Zenit-4MKM)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2885,14 +3083,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": " Kosmos-3M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 132/1",
+      "LaunchSite": " Plesetsk Site 132/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1215 (Tselina-O)",
+          "Payload": " Kosmos 1215 (Tselina-O)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -2911,14 +3109,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1216 (Zenit-6)",
+          "Payload": " Kosmos 1216 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2937,14 +3135,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1219 (Zenit-6)",
+          "Payload": " Kosmos 1219 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -2963,14 +3161,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/2BL",
+      "Rocket": " Molniya-M/2BL",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "Replacement for Kosmos 1188",
       "Payload": [
         {
-          "Payload": "Kosmos 1217 (Oko)",
+          "Payload": " Kosmos 1217 (Oko)",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Missile defence",
@@ -2989,14 +3187,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchSite": " Baikonur Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1218 (Yantar-4K1 No.3)",
+          "Payload": " Kosmos 1218 (Yantar-4K1 No.3)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -3034,6 +3232,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nNovember",
+        "TimestampClean": "\n\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 November",
+          "LayoutElem": "2",
+          "ValueElem": "November",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nNovember",
+      "FlightNumber": "\n\nNovember",
+      "LaunchSite": "\n\nNovember",
+      "LaunchServiceProvider": "\n\nNovember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "4 November15:04",
         "TimestampClean": "4 November15:04",
         "Timestamp": "1980-11-04T15:04:00Z",
@@ -3041,14 +3261,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Tsyklon-2",
+      "Rocket": " Tsyklon-2",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 90",
+      "LaunchSite": " Baikonur Site 90",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1220 (US-P)",
+          "Payload": " Kosmos 1220 (US-P)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -3067,14 +3287,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1221 (Zenit-6)",
+          "Payload": " Kosmos 1221 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -3093,14 +3313,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta 3910/PAM-D",
+      "Rocket": " Delta 3910/PAM-D",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-17A",
+      "LaunchSite": " Cape Canaveral LC-17A",
       "LaunchServiceProvider": "",
       "Notes": "Retired on 22 June 1990 and moved to graveyard orbit",
       "Payload": [
         {
-          "Payload": "SBS-1",
+          "Payload": " SBS-1",
           "Operator": "SBS",
           "Orbit": "Operational: GeostationaryCurrent: Graveyard",
           "Function": "Communications",
@@ -3119,14 +3339,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/ML",
+      "Rocket": " Molniya-M/ML",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Molniya 1-48",
+          "Payload": " Molniya 1-48",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Communications",
@@ -3145,14 +3365,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vostok-2M",
+      "Rocket": " Vostok-2M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1222 (Tselina-D)",
+          "Payload": " Kosmos 1222 (Tselina-D)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -3171,14 +3391,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/2BL",
+      "Rocket": " Molniya-M/2BL",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 41/1",
+      "LaunchSite": " Plesetsk Site 41/1",
       "LaunchServiceProvider": "",
       "Notes": "Replacement for Kosmos 903",
       "Payload": [
         {
-          "Payload": "Kosmos 1223 (Oko)",
+          "Payload": " Kosmos 1223 (Oko)",
           "Operator": "",
           "Orbit": "Molniya",
           "Function": "Missile defence",
@@ -3197,14 +3417,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
+      "LaunchSite": " Baikonur Site 1/5",
       "LaunchServiceProvider": "",
       "Notes": "Crewed flight with three cosmonauts, first three-man Soyuz flight since 1971",
       "Payload": [
         {
-          "Payload": "Soyuz T-3",
+          "Payload": " Soyuz T-3",
           "Operator": "",
           "Orbit": "Low Earth (Salyut 6)",
           "Function": "Salyut 6 EO-5",
@@ -3216,6 +3436,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nDecember",
+        "TimestampClean": "\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1980 December",
+          "LayoutElem": "2",
+          "ValueElem": "December",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nDecember",
+      "FlightNumber": "\n\nDecember",
+      "LaunchSite": "\n\nDecember",
+      "LaunchServiceProvider": "\n\nDecember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 December12:15",
         "TimestampClean": "1 December12:15",
         "Timestamp": "1980-12-01T12:15:00Z",
@@ -3223,14 +3465,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1224 (Zenit-6)",
+          "Payload": " Kosmos 1224 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -3256,7 +3498,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1225 (Parus)",
+          "Payload": " Kosmos 1225 (Parus)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -3308,7 +3550,7 @@
       "Notes": "Booster engine failure led to loss of control, rocket turned around and began flying backwards before exploding.",
       "Payload": [
         {
-          "Payload": "OPS 3255 (MSD)",
+          "Payload": " OPS 3255 (MSD)",
           "Operator": "NRO",
           "Orbit": "Intended: Low Earth",
           "Function": "Dispenser",
@@ -3317,7 +3559,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS 3255 SSU-1 (NOSS SSU)",
+          "Payload": " OPS 3255 SSU-1 (NOSS SSU)",
           "Operator": "NRO",
           "Orbit": "Intended: Low Earth",
           "Function": "ELINT",
@@ -3326,7 +3568,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS 3255 SSU-2 (NOSS SSU)",
+          "Payload": " OPS 3255 SSU-2 (NOSS SSU)",
           "Operator": "NRO",
           "Orbit": "Intended: Low Earth",
           "Function": "ELINT",
@@ -3335,7 +3577,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OPS 3255 SSU-3 (NOSS SSU)",
+          "Payload": " OPS 3255 SSU-3 (NOSS SSU)",
           "Operator": "NRO",
           "Orbit": "Intended: Low Earth",
           "Function": "ELINT",
@@ -3344,7 +3586,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "LIPS-1",
+          "Payload": " LIPS-1",
           "Operator": "NRL",
           "Orbit": "Intended: Low Earth",
           "Function": "Technoilogy",
@@ -3370,7 +3612,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1226 (Tsikada)",
+          "Payload": " Kosmos 1226 (Tsikada)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -3415,14 +3657,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/3",
+      "LaunchSite": " Plesetsk Site 43/3",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1227 (Zenit-6)",
+          "Payload": " Kosmos 1227 (Zenit-6)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Optical imaging",
@@ -3448,7 +3690,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 1228 (Strela-1M)",
+          "Payload": " Kosmos 1228 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3457,7 +3699,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1229 (Strela-1M)",
+          "Payload": " Kosmos 1229 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3466,7 +3708,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1230 (Strela-1M)",
+          "Payload": " Kosmos 1230 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3475,7 +3717,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1231 (Strela-1M)",
+          "Payload": " Kosmos 1231 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3484,7 +3726,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1232 (Strela-1M)",
+          "Payload": " Kosmos 1232 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3493,7 +3735,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1233 (Strela-1M)",
+          "Payload": " Kosmos 1233 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3502,7 +3744,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1234 (Strela-1M)",
+          "Payload": " Kosmos 1234 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3511,7 +3753,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 1235 (Strela-1M)",
+          "Payload": " Kosmos 1235 (Strela-1M)",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Communication",
@@ -3530,14 +3772,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M/SO-L",
+      "Rocket": " Molniya-M/SO-L",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchSite": " Baikonur Site 31/6",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Prognoz 8",
+          "Payload": " Prognoz 8",
           "Operator": "",
           "Orbit": "Highly elliptical",
           "Function": "SolarMagnetospheric",
@@ -3556,14 +3798,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM",
+      "Rocket": " Proton-K/DM",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/40",
+      "LaunchSite": " Baikonur Site 200/40",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ekran No.20L",
+          "Payload": " Ekran No.20L",
           "Operator": "",
           "Orbit": "Geosynchronous",
           "Function": "Communications",

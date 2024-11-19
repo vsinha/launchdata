@@ -325,6 +325,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nFebruary",
+        "TimestampClean": "\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 February",
+          "LayoutElem": "2",
+          "ValueElem": "February",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nFebruary",
+      "FlightNumber": "\n\nFebruary",
+      "LaunchSite": "\n\nFebruary",
+      "LaunchServiceProvider": "\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 February08:16",
         "TimestampClean": "3 February08:16",
         "Timestamp": "1976-02-03T08:16:00Z",
@@ -573,7 +595,7 @@
       "Notes": "First launch completed on February 29",
       "Payload": [
         {
-          "Payload": "Ionospheric Sounding Satellite (ISS) Ume",
+          "Payload": " Ionospheric Sounding Satellite (ISS) Ume",
           "Operator": "ISAS",
           "Orbit": "Low Earth",
           "Function": "Ionospheric research",
@@ -582,6 +604,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\nMarch",
+        "TimestampClean": "\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 March",
+          "LayoutElem": "2",
+          "ValueElem": "March",
+          "Message": ""
+        }
+      },
+      "Rocket": "\nMarch",
+      "FlightNumber": "\nMarch",
+      "LaunchSite": "\nMarch",
+      "LaunchServiceProvider": "\nMarch",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -670,14 +714,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Titan III(23)C",
+      "Rocket": " Titan III(23)C",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "NASA",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " NASA",
       "Notes": "LES-8 was decommissioned in 2004; LES-9, the last Lincoln Experimental Satellite, continued functioning for 44 years and was finally decommissioned in 2020.",
       "Payload": [
         {
-          "Payload": "LES-8",
+          "Payload": " LES-8",
           "Operator": "MIT Lincoln Laboratory",
           "Orbit": "Geostationary",
           "Function": "Technology demonstration",
@@ -686,7 +730,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "LES-9",
+          "Payload": " LES-9",
           "Operator": "MIT Lincoln Laboratory",
           "Orbit": "Geostationary",
           "Function": "Technology demonstration",
@@ -695,7 +739,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SOLRAD 11A",
+          "Payload": " SOLRAD 11A",
           "Operator": "NRL",
           "Orbit": "High Earth orbit",
           "Function": "Heliophysics",
@@ -704,7 +748,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SOLRAD 11B",
+          "Payload": " SOLRAD 11B",
           "Operator": "NRL",
           "Orbit": "High Earth orbit",
           "Function": "Heliophysics",
@@ -895,6 +939,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nApril",
+        "TimestampClean": "\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 April",
+          "LayoutElem": "2",
+          "ValueElem": "April",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nApril",
+      "FlightNumber": "\n\nApril",
+      "LaunchSite": "\n\nApril",
+      "LaunchServiceProvider": "\n\nApril",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1139,6 +1205,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\nMay",
+        "TimestampClean": "\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 May",
+          "LayoutElem": "2",
+          "ValueElem": "May",
+          "Message": ""
+        }
+      },
+      "Rocket": "\nMay",
+      "FlightNumber": "\nMay",
+      "LaunchSite": "\nMay",
+      "LaunchServiceProvider": "\nMay",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1425,6 +1513,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nJune",
+        "TimestampClean": "\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 June",
+          "LayoutElem": "2",
+          "ValueElem": "June",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJune",
+      "FlightNumber": "\n\nJune",
+      "LaunchSite": "\n\nJune",
+      "LaunchServiceProvider": "\n\nJune",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1806,6 +1916,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nJuly",
+        "TimestampClean": "\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 July",
+          "LayoutElem": "2",
+          "ValueElem": "July",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJuly",
+      "FlightNumber": "\n\nJuly",
+      "LaunchSite": "\n\nJuly",
+      "LaunchServiceProvider": "\n\nJuly",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -2269,6 +2401,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nAugust",
+        "TimestampClean": "\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 August",
+          "LayoutElem": "2",
+          "ValueElem": "August",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nAugust",
+      "FlightNumber": "\n\nAugust",
+      "LaunchSite": "\n\nAugust",
+      "LaunchServiceProvider": "\n\nAugust",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "4 August13:40",
         "TimestampClean": "4 August13:40",
         "Timestamp": "1976-08-04T13:40:00Z",
@@ -2328,9 +2482,9 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/D",
+      "Rocket": " Proton-K/D",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur 81/23",
+      "LaunchSite": " Baikonur 81/23",
       "LaunchServiceProvider": "",
       "Notes": "Third uncrewed lunar sample return, Third Soviet lunar sample return",
       "Payload": [
@@ -2509,6 +2663,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nSeptember",
+        "TimestampClean": "\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 September",
+          "LayoutElem": "2",
+          "ValueElem": "September",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nSeptember",
+      "FlightNumber": "\n\nSeptember",
+      "LaunchSite": "\n\nSeptember",
+      "LaunchServiceProvider": "\n\nSeptember",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -2798,6 +2974,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nOctober",
+        "TimestampClean": "\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 October",
+          "LayoutElem": "2",
+          "ValueElem": "October",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nOctober",
+      "FlightNumber": "\n\nOctober",
+      "LaunchSite": "\n\nOctober",
+      "LaunchServiceProvider": "\n\nOctober",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "4 October11:00",
         "TimestampClean": "4 October11:00",
         "Timestamp": "1976-10-04T11:00:00Z",
@@ -3084,6 +3282,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\nNovember",
+        "TimestampClean": "\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 November",
+          "LayoutElem": "2",
+          "ValueElem": "November",
+          "Message": ""
+        }
+      },
+      "Rocket": "\nNovember",
+      "FlightNumber": "\nNovember",
+      "LaunchSite": "\nNovember",
+      "LaunchServiceProvider": "\nNovember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 November11:20",
         "TimestampClean": "1 November11:20",
         "Timestamp": "1976-11-01T11:20:00Z",
@@ -3263,6 +3483,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nDecember",
+        "TimestampClean": "\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1976 December",
+          "LayoutElem": "2",
+          "ValueElem": "December",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nDecember",
+      "FlightNumber": "\n\nDecember",
+      "LaunchSite": "\n\nDecember",
+      "LaunchServiceProvider": "\n\nDecember",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {

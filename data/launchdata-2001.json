@@ -115,6 +115,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nFebruary",
+        "TimestampClean": "\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 February",
+          "LayoutElem": "2",
+          "ValueElem": "February",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nFebruary",
+      "FlightNumber": "\n\nFebruary",
+      "LaunchSite": "\n\nFebruary",
+      "LaunchServiceProvider": "\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "7 February23:05",
         "TimestampClean": "7 February23:05",
         "Timestamp": "2001-02-07T23:05:00Z",
@@ -263,6 +285,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMarch",
+        "TimestampClean": "\n\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 March",
+          "LayoutElem": "2",
+          "ValueElem": "March",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMarch",
+      "FlightNumber": "\n\nMarch",
+      "LaunchSite": "\n\nMarch",
+      "LaunchServiceProvider": "\n\nMarch",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "8 March11:42",
         "TimestampClean": "8 March11:42",
         "Timestamp": "2001-03-08T11:42:00Z",
@@ -356,6 +400,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nApril",
+        "TimestampClean": "\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 April",
+          "LayoutElem": "2",
+          "ValueElem": "April",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nApril",
+      "FlightNumber": "\n\nApril",
+      "LaunchSite": "\n\nApril",
+      "LaunchServiceProvider": "\n\nApril",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -507,6 +573,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMay",
+        "TimestampClean": "\n\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 May",
+          "LayoutElem": "2",
+          "ValueElem": "May",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMay",
+      "FlightNumber": "\n\nMay",
+      "LaunchSite": "\n\nMay",
+      "LaunchServiceProvider": "\n\nMay",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "8 May22:10",
         "TimestampClean": "8 May22:10",
         "Timestamp": "2001-05-08T22:10:00Z",
@@ -634,6 +722,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nJune",
+        "TimestampClean": "\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 June",
+          "LayoutElem": "2",
+          "ValueElem": "June",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJune",
+      "FlightNumber": "\n\nJune",
+      "LaunchSite": "\n\nJune",
+      "LaunchServiceProvider": "\n\nJune",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -767,6 +877,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nJuly",
+        "TimestampClean": "\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 July",
+          "LayoutElem": "2",
+          "ValueElem": "July",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJuly",
+      "FlightNumber": "\n\nJuly",
+      "LaunchSite": "\n\nJuly",
+      "LaunchServiceProvider": "\n\nJuly",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "12 July09:03",
         "TimestampClean": "12 July09:03",
         "Timestamp": "2001-07-12T09:03:00Z",
@@ -844,10 +976,10 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Molniya-M",
+      "Rocket": " Molniya-M",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
-      "LaunchServiceProvider": "VKS",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " VKS",
       "Notes": "",
       "Payload": [
         {
@@ -896,14 +1028,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Tsyklon-3",
+      "Rocket": " Tsyklon-3",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 32/2",
-      "LaunchServiceProvider": "VKS",
+      "LaunchSite": " Plesetsk Site 32/2",
+      "LaunchServiceProvider": " VKS",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Koronas F",
+          "Payload": " Koronas F",
           "Operator": "RAKA",
           "Orbit": "Sun-synchronous",
           "Function": "Solar observation",
@@ -912,6 +1044,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nAugust",
+        "TimestampClean": "\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 August",
+          "LayoutElem": "2",
+          "ValueElem": "August",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nAugust",
+      "FlightNumber": "\n\nAugust",
+      "LaunchSite": "\n\nAugust",
+      "LaunchServiceProvider": "\n\nAugust",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1124,6 +1278,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nSeptember",
+        "TimestampClean": "\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 September",
+          "LayoutElem": "2",
+          "ValueElem": "September",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nSeptember",
+      "FlightNumber": "\n\nSeptember",
+      "LaunchSite": "\n\nSeptember",
+      "LaunchServiceProvider": "\n\nSeptember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "8 September15:25",
         "TimestampClean": "8 September15:25",
         "Timestamp": "2001-09-08T15:25:00Z",
@@ -1131,14 +1307,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas IIAS",
+      "Rocket": " Atlas IIAS",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-3E",
+      "LaunchSite": " Vandenberg SLC-3E",
       "LaunchServiceProvider": "Lockheed Martin",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "NOSS C1-1 (USA-160)",
+          "Payload": " NOSS C1-1 (USA-160)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -1147,7 +1323,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "NOSS C1-1 (USA-160-2)",
+          "Payload": " NOSS C1-1 (USA-160-2)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "SIGINT",
@@ -1166,14 +1342,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "ISS flight 4R",
       "Payload": [
         {
-          "Payload": "Progress M-SO1",
+          "Payload": " Progress M-SO1",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "Space tug / ISS assembly",
@@ -1182,7 +1358,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Pirs",
+          "Payload": " Pirs",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS component",
@@ -1201,14 +1377,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Taurus 2110",
+      "Rocket": " Taurus 2110",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg LC-576E",
-      "LaunchServiceProvider": "Orbital Sciences",
+      "LaunchSite": " Vandenberg LC-576E",
+      "LaunchServiceProvider": " Orbital Sciences",
       "Notes": "Failed to reach orbit after control issues. SBD and Celestis-4 were hosted payloads on the third stage.",
       "Payload": [
         {
-          "Payload": "Orbview-4",
+          "Payload": " Orbview-4",
           "Operator": "OrbImage",
           "Orbit": "Intended: Low Earth (SSO)",
           "Function": "Earth observation",
@@ -1217,7 +1393,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "QuikTOMS",
+          "Payload": " QuikTOMS",
           "Operator": "NASA",
           "Orbit": "Intended: Low Earth (SSO)",
           "Function": "Ozone observation",
@@ -1226,7 +1402,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SBD / Celestis-4",
+          "Payload": " SBD / Celestis-4",
           "Operator": "Orbital Sciences / Celestis",
           "Orbit": "Intended: Low Earth (SSO)",
           "Function": "Technology demonstration / Space burial",
@@ -1245,14 +1421,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 4 44P",
+      "Rocket": " Ariane 4 44P",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA-2",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-2",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "Final flight of Ariane 4 44P.",
       "Payload": [
         {
-          "Payload": "Atlantic Bird 2",
+          "Payload": " Atlantic Bird 2",
           "Operator": "Eutelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1271,14 +1447,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Athena I",
+      "Rocket": " Athena I",
       "FlightNumber": "",
-      "LaunchSite": "Kodiak LP-1",
-      "LaunchServiceProvider": "Lockheed Martin",
+      "LaunchSite": " Kodiak LP-1",
+      "LaunchServiceProvider": " Lockheed Martin",
       "Notes": "Kodiak Star, Space Test Program mission. Final flight of Athena I, and at the time final flight of the Athena family, which was later reactivated. First orbital launch from Kodiak Island.",
       "Payload": [
         {
-          "Payload": "Starshine 3",
+          "Payload": " Starshine 3",
           "Operator": "NASA",
           "Orbit": "Low Earth",
           "Function": "Laser ranging",
@@ -1287,7 +1463,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Picosat 9",
+          "Payload": " Picosat 9",
           "Operator": "U.S. Air Force",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -1296,7 +1472,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "PCSat",
+          "Payload": " PCSat",
           "Operator": "U.S. Air Force",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -1305,7 +1481,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SAPPHIRE",
+          "Payload": " SAPPHIRE",
           "Operator": "Stanford University",
           "Orbit": "Low Earth",
           "Function": "Education",
@@ -1314,6 +1490,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nOctober",
+        "TimestampClean": "\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 October",
+          "LayoutElem": "2",
+          "ValueElem": "October",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nOctober",
+      "FlightNumber": "\n\nOctober",
+      "LaunchSite": "\n\nOctober",
+      "LaunchServiceProvider": "\n\nOctober",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1402,14 +1600,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta II 7320-10",
+      "Rocket": " Delta II 7320-10",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-2W",
-      "LaunchServiceProvider": "Boeing IDS",
+      "LaunchSite": " Vandenberg SLC-2W",
+      "LaunchServiceProvider": " Boeing IDS",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "QuickBird 2",
+          "Payload": " QuickBird 2",
           "Operator": "DigitalGlobe",
           "Orbit": "Low Earth",
           "Function": "Earth observation",
@@ -1517,6 +1715,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nNovember",
+        "TimestampClean": "\n\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 November",
+          "LayoutElem": "2",
+          "ValueElem": "November",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nNovember",
+      "FlightNumber": "\n\nNovember",
+      "LaunchSite": "\n\nNovember",
+      "LaunchServiceProvider": "\n\nNovember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "26 November18:24",
         "TimestampClean": "26 November18:24",
         "Timestamp": "2001-11-26T18:24:00Z",
@@ -1575,6 +1795,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nDecember",
+        "TimestampClean": "\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2001 December",
+          "LayoutElem": "2",
+          "ValueElem": "December",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nDecember",
+      "FlightNumber": "\n\nDecember",
+      "LaunchSite": "\n\nDecember",
+      "LaunchServiceProvider": "\n\nDecember",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1733,7 +1975,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Badr-B",
+          "Payload": " Badr-B",
           "Operator": "SUPARCO",
           "Orbit": "Low Earth",
           "Function": "Earth imaging",
@@ -1742,7 +1984,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Maroc-Tubsat",
+          "Payload": " Maroc-Tubsat",
           "Operator": "Centre Royal de Teledetection Spatiale/TU Berlin",
           "Orbit": "Low Earth",
           "Function": "Earth imaging/Communications",
@@ -1751,7 +1993,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Reflector",
+          "Payload": "  Reflector",
           "Operator": "Rosaviakosmos/US Air Force",
           "Orbit": "Low Earth",
           "Function": "Space debris research",
@@ -1770,9 +2012,9 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Tsyklon-2",
+      "Rocket": " Tsyklon-2",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 90/20",
+      "LaunchSite": " Baikonur Site 90/20",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [

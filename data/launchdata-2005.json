@@ -72,6 +72,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nFebruary",
+        "TimestampClean": "\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 February",
+          "LayoutElem": "2",
+          "ValueElem": "February",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nFebruary",
+      "FlightNumber": "\n\nFebruary",
+      "LaunchSite": "\n\nFebruary",
+      "LaunchServiceProvider": "\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 February02:27:32",
         "TimestampClean": "3 February02:27:32",
         "Timestamp": "2005-02-03T02:27:32Z",
@@ -238,6 +260,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMarch",
+        "TimestampClean": "\n\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 March",
+          "LayoutElem": "2",
+          "ValueElem": "March",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMarch",
+      "FlightNumber": "\n\nMarch",
+      "LaunchSite": "\n\nMarch",
+      "LaunchServiceProvider": "\n\nMarch",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 March03:50:59",
         "TimestampClean": "1 March03:50:59",
         "Timestamp": "2005-03-01T03:50:59Z",
@@ -319,6 +363,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nApril",
+        "TimestampClean": "\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 April",
+          "LayoutElem": "2",
+          "ValueElem": "April",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nApril",
+      "FlightNumber": "\n\nApril",
+      "LaunchSite": "\n\nApril",
+      "LaunchServiceProvider": "\n\nApril",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -478,6 +544,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMay",
+        "TimestampClean": "\n\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 May",
+          "LayoutElem": "2",
+          "ValueElem": "May",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMay",
+      "FlightNumber": "\n\nMay",
+      "LaunchSite": "\n\nMay",
+      "LaunchServiceProvider": "\n\nMay",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "5 May04:45",
         "TimestampClean": "5 May04:45",
         "Timestamp": "2005-05-05T04:45:00Z",
@@ -588,6 +676,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nJune",
+        "TimestampClean": "\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 June",
+          "LayoutElem": "2",
+          "ValueElem": "June",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJune",
+      "FlightNumber": "\n\nJune",
+      "LaunchSite": "\n\nJune",
+      "LaunchServiceProvider": "\n\nJune",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -721,6 +831,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nJuly",
+        "TimestampClean": "\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 July",
+          "LayoutElem": "2",
+          "ValueElem": "July",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJuly",
+      "FlightNumber": "\n\nJuly",
+      "LaunchSite": "\n\nJuly",
+      "LaunchServiceProvider": "\n\nJuly",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "5 July22:40",
         "TimestampClean": "5 July22:40",
         "Timestamp": "2005-07-05T22:40:00Z",
@@ -728,14 +860,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2D",
+      "Rocket": " Long March 2D",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan LA-4/SLS-1",
-      "LaunchServiceProvider": "CASC",
+      "LaunchSite": " Jiuquan LA-4/SLS-1",
+      "LaunchServiceProvider": " CASC",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Shijian 7",
+          "Payload": " Shijian 7",
           "Operator": "CASC",
           "Orbit": "Low Earth",
           "Function": "Scientific",
@@ -805,6 +937,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nAugust",
+        "TimestampClean": "\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 August",
+          "LayoutElem": "2",
+          "ValueElem": "August",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nAugust",
+      "FlightNumber": "\n\nAugust",
+      "LaunchSite": "\n\nAugust",
+      "LaunchServiceProvider": "\n\nAugust",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -954,14 +1108,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Rokot / Briz-KM",
+      "Rocket": " Rokot / Briz-KM",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 133/3",
-      "LaunchServiceProvider": "VKS",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": " VKS",
       "Notes": "Control issues shortly after launch, resolved within a few months.",
       "Payload": [
         {
-          "Payload": "Monitor-E",
+          "Payload": " Monitor-E",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -996,6 +1150,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nSeptember",
+        "TimestampClean": "\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 September",
+          "LayoutElem": "2",
+          "ValueElem": "September",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nSeptember",
+      "FlightNumber": "\n\nSeptember",
+      "LaunchSite": "\n\nSeptember",
+      "LaunchServiceProvider": "\n\nSeptember",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1135,6 +1311,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nOctober",
+        "TimestampClean": "\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 October",
+          "LayoutElem": "2",
+          "ValueElem": "October",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nOctober",
+      "FlightNumber": "\n\nOctober",
+      "LaunchSite": "\n\nOctober",
+      "LaunchServiceProvider": "\n\nOctober",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1375,6 +1573,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nNovember",
+        "TimestampClean": "\n\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 November",
+          "LayoutElem": "2",
+          "ValueElem": "November",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nNovember",
+      "FlightNumber": "\n\nNovember",
+      "LaunchSite": "\n\nNovember",
+      "LaunchServiceProvider": "\n\nNovember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "8 November14:06:59",
         "TimestampClean": "8 November14:06:59",
         "Timestamp": "2005-11-08T14:06:59Z",
@@ -1382,14 +1602,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Zenit-3SL",
+      "Rocket": " Zenit-3SL",
       "FlightNumber": "",
-      "LaunchSite": "Ocean Odyssey",
-      "LaunchServiceProvider": "Sea Launch",
+      "LaunchSite": " Ocean Odyssey",
+      "LaunchServiceProvider": " Sea Launch",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Inmarsat-4 F2",
+          "Payload": " Inmarsat-4 F2",
           "Operator": "Inmarsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1408,14 +1628,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-FG / Fregat",
+      "Rocket": " Soyuz-FG / Fregat",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
-      "LaunchServiceProvider": "Starsem",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": "  Starsem",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Venus Express",
+          "Payload": " Venus Express",
           "Operator": "ESA",
           "Orbit": "Cytherocentric",
           "Function": "Venus orbiter",
@@ -1434,14 +1654,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 5 ECA",
+      "Rocket": " Ariane 5 ECA",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA-3",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Spaceway-2",
+          "Payload": " Spaceway-2",
           "Operator": "DirecTV",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1450,7 +1670,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Telkom-2",
+          "Payload": " Telkom-2",
           "Operator": "PT Telkom",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1459,6 +1679,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nDecember",
+        "TimestampClean": "\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2005 December",
+          "LayoutElem": "2",
+          "ValueElem": "December",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nDecember",
+      "FlightNumber": "\n\nDecember",
+      "LaunchSite": "\n\nDecember",
+      "LaunchServiceProvider": "\n\nDecember",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {

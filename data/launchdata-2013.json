@@ -9,14 +9,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Rokot / Briz-KM",
+      "Rocket": " Rokot / Briz-KM",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 133/3",
-      "LaunchServiceProvider": "VKO",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": " VKO",
       "Notes": "Briz-KM failed around the time of spacecraft separation, resulting in the loss of one satellite.",
       "Payload": [
         {
-          "Payload": "Kosmos 2482 (Strela-3M)",
+          "Payload": " Kosmos 2482 (Strela-3M)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -25,7 +25,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2483 (Strela-3M)",
+          "Payload": " Kosmos 2483 (Strela-3M)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -34,7 +34,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2484 (Strela-3M)",
+          "Payload": " Kosmos 2484 (Strela-3M)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -53,14 +53,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "H-IIA 202",
+      "Rocket": " H-IIA 202",
       "FlightNumber": "",
-      "LaunchSite": "Tanegashima LA-Y1",
-      "LaunchServiceProvider": "Mitsubishi",
+      "LaunchSite": " Tanegashima LA-Y1",
+      "LaunchServiceProvider": " Mitsubishi",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "IGS Radar 4",
+          "Payload": " IGS Radar 4",
           "Operator": "CSIC",
           "Orbit": "Low Earth (SSO)",
           "Function": "Reconnaissance",
@@ -69,7 +69,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "IGS Optical 5V",
+          "Payload": " IGS Optical 5V",
           "Operator": "CSIC",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -88,14 +88,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Naro-1",
+      "Rocket": "  Naro-1",
       "FlightNumber": "",
-      "LaunchSite": "Naro LC-1",
-      "LaunchServiceProvider": "Khrunichev / KARI",
+      "LaunchSite": " Naro LC-1",
+      "LaunchServiceProvider": "  Khrunichev / KARI",
       "Notes": "First successful launch of Naro-1; first successful South Korean launch with Russian assistance; final flight of Naro-1.",
       "Payload": [
         {
-          "Payload": "STSAT-2C",
+          "Payload": " STSAT-2C",
           "Operator": "KARI",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -114,14 +114,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 401",
+      "Rocket": " Atlas V 401",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-41",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "TDRS-K (TDRS-11)",
+          "Payload": " TDRS-K (TDRS-11)",
           "Operator": "NASA",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -133,6 +133,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 February06:56:00",
         "TimestampClean": "1 February06:56:00",
         "Timestamp": "2013-02-01T06:56:00Z",
@@ -140,14 +162,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Zenit-3SL",
+      "Rocket": " Zenit-3SL",
       "FlightNumber": "",
-      "LaunchSite": "Odyssey",
-      "LaunchServiceProvider": "Sea Launch",
+      "LaunchSite": " Odyssey",
+      "LaunchServiceProvider": " Sea Launch",
       "Notes": "First stage failure, impacted ocean at 40 seconds after launch. Accident caused by failure of the first stage hydraulic power supply unit pump at T+3.9s, which lead to loss of engine gimbal control.",
       "Payload": [
         {
-          "Payload": "Intelsat 27",
+          "Payload": " Intelsat 27",
           "Operator": "Intelsat",
           "Orbit": "Intended: Geosynchronous",
           "Function": "Communications",
@@ -166,14 +188,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-2.1a / Fregat",
+      "Rocket": " Soyuz-2.1a / Fregat",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
-      "LaunchServiceProvider": "Starsem",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": "  Starsem",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Globalstar M078",
+          "Payload": " Globalstar M078",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -182,7 +204,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar M093",
+          "Payload": " Globalstar M093",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -191,7 +213,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar M094",
+          "Payload": " Globalstar M094",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -200,7 +222,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar M095",
+          "Payload": " Globalstar M095",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -209,7 +231,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar M096",
+          "Payload": " Globalstar M096",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -218,7 +240,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Globalstar M097",
+          "Payload": " Globalstar M097",
           "Operator": "Globalstar",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -237,14 +259,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 5 ECA",
+      "Rocket": " Ariane 5 ECA",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA-3",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Azerspace-1/Africasat-1a",
+          "Payload": " Azerspace-1/Africasat-1a",
           "Operator": "AMAKA",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -253,7 +275,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Amazonas 3",
+          "Payload": " Amazonas 3",
           "Operator": "Hispasat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -272,14 +294,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress M-18M / 50P",
+          "Payload": " Progress M-18M / 50P",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -298,14 +320,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 401",
+      "Rocket": " Atlas V 401",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-3E",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Vandenberg SLC-3E",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Landsat DCM",
+          "Payload": " Landsat DCM",
           "Operator": "USGS",
           "Orbit": "Low Earth (SSO)",
           "Function": "Remote sensing",
@@ -324,14 +346,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "PSLV-CA",
+      "Rocket": " PSLV-CA",
       "FlightNumber": "",
-      "LaunchSite": "Satish Dhawan FLP",
-      "LaunchServiceProvider": "ISRO",
+      "LaunchSite": " Satish Dhawan FLP",
+      "LaunchServiceProvider": " ISRO",
       "Notes": "TUGSAT-1 is the first Austrian satellite.",
       "Payload": [
         {
-          "Payload": "SARAL",
+          "Payload": "  SARAL",
           "Operator": "ISRO / CNES",
           "Orbit": "Low Earth (SSO)",
           "Function": "Oceanography",
@@ -340,7 +362,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Sapphire",
+          "Payload": " Sapphire",
           "Operator": "DND",
           "Orbit": "Low Earth (SSO)",
           "Function": "Space surveillance",
@@ -349,7 +371,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "NEOSSat",
+          "Payload": " NEOSSat",
           "Operator": "CSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Asteroid detection",
@@ -358,7 +380,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "UniBRITE-1",
+          "Payload": " UniBRITE-1",
           "Operator": "University of Vienna",
           "Orbit": "Low Earth (SSO)",
           "Function": "Optical astronomy",
@@ -367,7 +389,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "TUGSAT-1",
+          "Payload": " TUGSAT-1",
           "Operator": "TU Graz",
           "Orbit": "Low Earth (SSO)",
           "Function": "Optical astronomy",
@@ -397,6 +419,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 March15:10:13",
         "TimestampClean": "1 March15:10:13",
         "Timestamp": "2013-03-01T15:10:13Z",
@@ -404,14 +448,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Falcon 9 v1.0",
+      "Rocket": " Falcon 9 v1.0",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
       "Notes": "Final flight of Falcon 9 v1.0",
       "Payload": [
         {
-          "Payload": "SpaceX CRS-2",
+          "Payload": " SpaceX CRS-2",
           "Operator": "NASA",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -430,14 +474,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 401",
+      "Rocket": " Atlas V 401",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-41",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-241 (SBIRS-GEO 2)",
+          "Payload": " USA-241 (SBIRS-GEO 2)",
           "Operator": "US Air Force",
           "Orbit": "Geosynchronous",
           "Function": "Missile defense",
@@ -456,14 +500,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Satmex 8",
+          "Payload": " Satmex 8",
           "Operator": "Satmex",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -482,14 +526,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-FG",
+      "Rocket": " Soyuz-FG",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "Crewed flight",
       "Payload": [
         {
-          "Payload": "Soyuz TMA-08M",
+          "Payload": " Soyuz TMA-08M",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "Expedition 35/36",
@@ -501,6 +545,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "15 April18:36:00",
         "TimestampClean": "15 April18:36:00",
         "Timestamp": "2013-04-15T18:36:00Z",
@@ -508,14 +574,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Anik G1",
+          "Payload": " Anik G1",
           "Operator": "Telesat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -534,14 +600,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-2.1a",
+      "Rocket": " Soyuz-2.1a",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Bion-M No.1",
+          "Payload": " Bion-M No.1",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth",
           "Function": "Biological science",
@@ -550,7 +616,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "AIST No.2",
+          "Payload": " AIST No.2",
           "Operator": "SSAU",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -614,14 +680,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Antares 110",
+      "Rocket": " Antares 110",
       "FlightNumber": "",
-      "LaunchSite": "MARS LP-0A",
-      "LaunchServiceProvider": "Orbital Sciences",
+      "LaunchSite": " MARS LP-0A",
+      "LaunchServiceProvider": " Orbital Sciences",
       "Notes": "Maiden flight of Antares, COTS risk reduction flight.",
       "Payload": [
         {
-          "Payload": "Cygnus Mass Simulator",
+          "Payload": " Cygnus Mass Simulator",
           "Operator": "NASA",
           "Orbit": "Low Earth",
           "Function": "Test flight",
@@ -676,14 +742,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress M-19M / 51P",
+          "Payload": " Progress M-19M / 51P",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -702,14 +768,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2D",
+      "Rocket": " Long March 2D",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan SLS-2",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Jiuquan SLS-2",
+      "LaunchServiceProvider": " SAST",
       "Notes": "NEE-01 Pegaso is the first Ecuadorian satellite.",
       "Payload": [
         {
-          "Payload": "Gaofen 1",
+          "Payload": " Gaofen 1",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -755,14 +821,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-2.1b / Fregat",
+      "Rocket": " Soyuz-2.1b / Fregat",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
-      "LaunchServiceProvider": "RVSN RF",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " RVSN RF",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2485 (GLONASS-M 747)",
+          "Payload": " Kosmos 2485 (GLONASS-M 747)",
           "Operator": "VKO",
           "Orbit": "Medium Earth",
           "Function": "Navigation",
@@ -774,6 +840,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 May16:06:04",
         "TimestampClean": "1 May16:06:04",
         "Timestamp": "2013-05-01T16:06:04Z",
@@ -781,14 +869,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 3B/E",
+      "Rocket": " Long March 3B/E",
       "FlightNumber": "",
-      "LaunchSite": "Xichang LC-2",
-      "LaunchServiceProvider": "CALT",
+      "LaunchSite": " Xichang LC-2",
+      "LaunchServiceProvider": " CALT",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "ChinaSat 11",
+          "Payload": " ChinaSat 11",
           "Operator": "China Satcom",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -807,14 +895,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Vega",
+      "Rocket": " Vega",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELV",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELV",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "ESTCube-1 is the first Estonian satellite.",
       "Payload": [
         {
-          "Payload": "Proba-V",
+          "Payload": " Proba-V",
           "Operator": "ESA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -823,7 +911,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "VNREDSat 1A",
+          "Payload": " VNREDSat 1A",
           "Operator": "VAST",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -851,14 +939,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Eutelsat 3D",
+          "Payload": " Eutelsat 3D",
           "Operator": "Eutelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -877,14 +965,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 401",
+      "Rocket": " Atlas V 401",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-41",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-242 (GPS IIF-4)",
+          "Payload": " USA-242 (GPS IIF-4)",
           "Operator": "U.S. Air Force",
           "Orbit": "Medium Earth",
           "Function": "Navigation",
@@ -903,14 +991,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta IV-M+ (5,4)",
+      "Rocket": " Delta IV-M+ (5,4)",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-37B",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-37B",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-243 (WGS-5)",
+          "Payload": " USA-243 (WGS-5)",
           "Operator": "U.S. Air Force",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -929,14 +1017,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-FG",
+      "Rocket": " Soyuz-FG",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "Crewed flight",
       "Payload": [
         {
-          "Payload": "Soyuz TMA-09M",
+          "Payload": " Soyuz TMA-09M",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "Expedition 36/37",
@@ -948,6 +1036,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 June09:18:31",
         "TimestampClean": "3 June09:18:31",
         "Timestamp": "2013-06-03T09:18:31Z",
@@ -955,14 +1065,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "SES-6",
+          "Payload": " SES-6",
           "Operator": "SES S.A.",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -981,14 +1091,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 5 ES",
+      "Rocket": " Ariane 5 ES",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA-3",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Albert Einstein ATV",
+          "Payload": " Albert Einstein ATV",
           "Operator": "ESA",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -1007,14 +1117,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-2.1b",
+      "Rocket": " Soyuz-2.1b",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
-      "LaunchServiceProvider": "VKO",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " VKO",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2486 (Persona №2)",
+          "Payload": " Kosmos 2486 (Persona №2)",
           "Operator": "VKO",
           "Orbit": "Low Earth (SSO)",
           "Function": "Optical reconnaissance",
@@ -1033,14 +1143,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2F",
+      "Rocket": " Long March 2F",
       "FlightNumber": "Y10",
-      "LaunchSite": "Jiuquan SLS-1",
-      "LaunchServiceProvider": "CALT",
+      "LaunchSite": " Jiuquan SLS-1",
+      "LaunchServiceProvider": " CALT",
       "Notes": "China's fifth crewed spaceflight mission (2 men, 1 woman astronaut) to Tiangong-1 space lab.",
       "Payload": [
         {
-          "Payload": "Shenzhou 10",
+          "Payload": " Shenzhou 10",
           "Operator": "CMSA",
           "Orbit": "Low Earth (Tiangong-1)",
           "Function": "Technology demonstration",
@@ -1059,14 +1169,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-2.1b",
+      "Rocket": " Soyuz-2.1b",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Resurs-P No.1",
+          "Payload": " Resurs-P No.1",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (SSO)",
           "Function": "Remote sensing",
@@ -1085,14 +1195,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-STB / Fregat",
+      "Rocket": " Soyuz-STB / Fregat",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELS",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELS",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "O3b PFM",
+          "Payload": " O3b PFM",
           "Operator": "O3b Networks",
           "Orbit": "Medium Earth",
           "Function": "Communications",
@@ -1101,7 +1211,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "O3b FM2",
+          "Payload": " O3b FM2",
           "Operator": "O3b Networks",
           "Orbit": "Medium Earth",
           "Function": "Communications",
@@ -1110,7 +1220,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "O3b FM4",
+          "Payload": " O3b FM4",
           "Operator": "O3b Networks",
           "Orbit": "Medium Earth",
           "Function": "Communications",
@@ -1119,7 +1229,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "O3b FM5",
+          "Payload": " O3b FM5",
           "Operator": "O3b Networks",
           "Orbit": "Medium Earth",
           "Function": "Communications",
@@ -1138,14 +1248,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Strela",
+      "Rocket": " Strela",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 175/59",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 175/59",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2487 (Kondor No.202)",
+          "Payload": " Kosmos 2487 (Kondor No.202)",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth",
           "Function": "Radar imaging",
@@ -1164,14 +1274,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Pegasus-XL",
+      "Rocket": " Pegasus-XL",
       "FlightNumber": "",
-      "LaunchSite": "Stargazer, Vandenberg",
-      "LaunchServiceProvider": "Orbital Sciences",
+      "LaunchSite": " Stargazer, Vandenberg",
+      "LaunchServiceProvider": " Orbital Sciences",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "IRIS",
+          "Payload": " IRIS",
           "Operator": "NASA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Heliophysics",
@@ -1183,6 +1293,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 July18:11",
         "TimestampClean": "1 July18:11",
         "Timestamp": "2013-07-01T18:11:00Z",
@@ -1190,14 +1322,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "PSLV-XL",
+      "Rocket": " PSLV-XL",
       "FlightNumber": "",
-      "LaunchSite": "Satish Dhawan FLP",
-      "LaunchServiceProvider": "ISRO",
+      "LaunchSite": " Satish Dhawan FLP",
+      "LaunchServiceProvider": " ISRO",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "IRNSS-1A",
+          "Payload": " IRNSS-1A",
           "Operator": "ISRO",
           "Orbit": "Geosynchronous",
           "Function": "Navigation",
@@ -1216,14 +1348,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / DM-03 Enhanced",
+      "Rocket": " Proton-M / DM-03 Enhanced",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 81/24",
-      "LaunchServiceProvider": "RVSN RF",
+      "LaunchSite": " Baikonur Site 81/24",
+      "LaunchServiceProvider": " RVSN RF",
       "Notes": "First stage guidance failure due to angular velocity sensors installed upside down, rocket crashed near launch pad.",
       "Payload": [
         {
-          "Payload": "GLONASS-M 748",
+          "Payload": " GLONASS-M 748",
           "Operator": "VKO",
           "Orbit": "Intended: Medium Earth",
           "Function": "Navigation",
@@ -1232,7 +1364,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "GLONASS-M 749",
+          "Payload": " GLONASS-M 749",
           "Operator": "VKO",
           "Orbit": "Intended: Medium Earth",
           "Function": "Navigation",
@@ -1241,7 +1373,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "GLONASS-M 750",
+          "Payload": " GLONASS-M 750",
           "Operator": "VKO",
           "Orbit": "Intended: Medium Earth",
           "Function": "Navigation",
@@ -1260,14 +1392,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2C",
+      "Rocket": " Long March 2C",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan SLS-2",
-      "LaunchServiceProvider": "CALT",
+      "LaunchSite": " Jiuquan SLS-2",
+      "LaunchServiceProvider": " CALT",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Shijian 11-05",
+          "Payload": " Shijian 11-05",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -1286,14 +1418,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 551",
+      "Rocket": " Atlas V 551",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-41",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "MUOS-2",
+          "Payload": " MUOS-2",
           "Operator": "U.S. Navy",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1312,14 +1444,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 4C",
+      "Rocket": " Long March 4C",
       "FlightNumber": "",
-      "LaunchSite": "Taiyuan LC-9",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " SAST",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Shijian 15",
+          "Payload": " Shijian 15",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -1328,7 +1460,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Shiyan 7",
+          "Payload": " Shiyan 7",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -1337,7 +1469,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Chuang Xin 3",
+          "Payload": " Chuang Xin 3",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -1356,14 +1488,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 5 ECA",
+      "Rocket": " Ariane 5 ECA",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA-3",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "First Alphabus satellite.",
       "Payload": [
         {
-          "Payload": "Alphasat I-XL (Inmarsat-XL)",
+          "Payload": "  Alphasat I-XL (Inmarsat-XL)",
           "Operator": "ESA / Inmarsat",
           "Orbit": "Geosynchronous",
           "Function": "Technology demonstration / Communications",
@@ -1372,7 +1504,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "INSAT-3D",
+          "Payload": " INSAT-3D",
           "Operator": "ISRO",
           "Orbit": "Geosynchronous",
           "Function": "Meteorology",
@@ -1391,14 +1523,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress M-20M / 52P",
+          "Payload": " Progress M-20M / 52P",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -1410,6 +1542,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 August19:48:46",
         "TimestampClean": "3 August19:48:46",
         "Timestamp": "2013-08-03T19:48:46Z",
@@ -1417,14 +1571,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "H-IIB",
+      "Rocket": " H-IIB",
       "FlightNumber": "",
-      "LaunchSite": "Tanegashima LA-Y2",
-      "LaunchServiceProvider": "MHI",
+      "LaunchSite": " Tanegashima LA-Y2",
+      "LaunchServiceProvider": " MHI",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kounotori 4",
+          "Payload": " Kounotori 4",
           "Operator": "JAXA",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -1479,14 +1633,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta IV-M+ (5,4)",
+      "Rocket": " Delta IV-M+ (5,4)",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-37B",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-37B",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-244 (WGS-6)",
+          "Payload": " USA-244 (WGS-6)",
           "Operator": "U.S. Air Force",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1505,14 +1659,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Dnepr",
+      "Rocket": " Dnepr",
       "FlightNumber": "",
-      "LaunchSite": "Dombarovsky Site 13",
-      "LaunchServiceProvider": "ISC Kosmotras",
+      "LaunchSite": " Dombarovsky Site 13",
+      "LaunchServiceProvider": " ISC Kosmotras",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "KOMPSat-5 (Arirang-5)",
+          "Payload": " KOMPSat-5 (Arirang-5)",
           "Operator": "KARI",
           "Orbit": "Low Earth (SSO)",
           "Function": "Remote sensing",
@@ -1531,14 +1685,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta IV Heavy",
+      "Rocket": " Delta IV Heavy",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-6",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Vandenberg SLC-6",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "NRO Launch 65; final KH-11 satellite.",
       "Payload": [
         {
-          "Payload": "USA-245 (KH-11)",
+          "Payload": " USA-245 (KH-11)",
           "Operator": "NRO",
           "Orbit": "Low Earth (SSO)",
           "Function": "Optical Imaging",
@@ -1557,14 +1711,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 5 ECA",
+      "Rocket": " Ariane 5 ECA",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA-3",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Eutelsat 25B/Es'hail 1",
+          "Payload": "  Eutelsat 25B/Es'hail 1",
           "Operator": "Eutelsat / Es'hailSat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1573,7 +1727,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "GSAT-7",
+          "Payload": " GSAT-7",
           "Operator": "ISRO",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1592,14 +1746,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Zenit-3SLB",
+      "Rocket": "  Zenit-3SLB",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 45/1",
-      "LaunchServiceProvider": "SIS",
+      "LaunchSite": " Baikonur Site 45/1",
+      "LaunchServiceProvider": " SIS",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Amos-4",
+          "Payload": " Amos-4",
           "Operator": "SCL",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1611,6 +1765,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 September19:16",
         "TimestampClean": "1 September19:16",
         "Timestamp": "2013-09-01T19:16:00Z",
@@ -1618,14 +1794,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 4C",
+      "Rocket": " Long March 4C",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan SLS-2",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Jiuquan SLS-2",
+      "LaunchServiceProvider": " SAST",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yaogan 17A",
+          "Payload": " Yaogan 17A",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -1634,7 +1810,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan 17B",
+          "Payload": " Yaogan 17B",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -1643,7 +1819,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yaogan 17C",
+          "Payload": " Yaogan 17C",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "ELINT",
@@ -1662,14 +1838,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Minotaur V",
+      "Rocket": " Minotaur V",
       "FlightNumber": "",
-      "LaunchSite": "MARS LP-0B",
-      "LaunchServiceProvider": "Orbital Sciences",
+      "LaunchSite": " MARS LP-0B",
+      "LaunchServiceProvider": " Orbital Sciences",
       "Notes": "Maiden flight of Minotaur V, first Lunar launch from MARS.",
       "Payload": [
         {
-          "Payload": "LADEE",
+          "Payload": " LADEE",
           "Operator": "NASA",
           "Orbit": "Selenocentric",
           "Function": "Lunar orbiter",
@@ -1688,14 +1864,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Rokot / Briz-KM",
+      "Rocket": " Rokot / Briz-KM",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 133/3",
-      "LaunchServiceProvider": "VKO",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": " VKO",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Gonets-M 5",
+          "Payload": " Gonets-M 5",
           "Operator": "Gonets Satellite System",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -1704,7 +1880,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Gonets-M 6",
+          "Payload": " Gonets-M 6",
           "Operator": "Gonets Satellite System",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -1713,7 +1889,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Gonets-M 7",
+          "Payload": " Gonets-M 7",
           "Operator": "Gonets Satellite System",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -1732,14 +1908,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Epsilon",
+      "Rocket": " Epsilon",
       "FlightNumber": "Epsilon-1",
-      "LaunchSite": "Uchinoura",
-      "LaunchServiceProvider": "JAXA",
+      "LaunchSite": " Uchinoura",
+      "LaunchServiceProvider": " JAXA",
       "Notes": "Maiden flight of the Epsilon rocket.",
       "Payload": [
         {
-          "Payload": "Hisaki (SPRINT-A)",
+          "Payload": " Hisaki (SPRINT-A)",
           "Operator": "JAXA",
           "Orbit": "Low Earth",
           "Function": "Ultraviolet astronomy",
@@ -1758,14 +1934,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 531",
+      "Rocket": " Atlas V 531",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-41",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-246 (AEHF-3)",
+          "Payload": " USA-246 (AEHF-3)",
           "Operator": "U.S. Air Force",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1784,14 +1960,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Antares 110",
+      "Rocket": " Antares 110",
       "FlightNumber": "",
-      "LaunchSite": "MARS LP-0A",
-      "LaunchServiceProvider": "Orbital Sciences",
+      "LaunchSite": " MARS LP-0A",
+      "LaunchServiceProvider": " Orbital Sciences",
       "Notes": "Maiden flight of Cygnus; COTS demonstration flight; final flight of Antares 110.",
       "Payload": [
         {
-          "Payload": "Cygnus 1  S.S. G. David Low",
+          "Payload": " Cygnus 1  S.S. G. David Low",
           "Operator": "NASA",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics / Test flight",
@@ -1810,14 +1986,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 4C",
+      "Rocket": " Long March 4C",
       "FlightNumber": "",
-      "LaunchSite": "Taiyuan LC-9",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " SAST",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Fengyun 3C",
+          "Payload": " Fengyun 3C",
           "Operator": "CMA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Meteorology",
@@ -1836,14 +2012,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kuaizhou",
+      "Rocket": " Kuaizhou",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan LS-95A",
-      "LaunchServiceProvider": "CASIC",
+      "LaunchSite": " Jiuquan LS-95A",
+      "LaunchServiceProvider": " CASIC",
       "Notes": "Maiden flight of Kuaizhou.",
       "Payload": [
         {
-          "Payload": "Kuaizhou-1",
+          "Payload": " Kuaizhou-1",
           "Operator": "CAS",
           "Orbit": "Low Earth (SSO)",
           "Function": "Optical imaging",
@@ -1862,14 +2038,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-FG",
+      "Rocket": " Soyuz-FG",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "Crewed flight",
       "Payload": [
         {
-          "Payload": "Soyuz TMA-10M",
+          "Payload": " Soyuz TMA-10M",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "Expedition 37/38",
@@ -1888,14 +2064,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Falcon 9 v1.1",
+      "Rocket": " Falcon 9 v1.1",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-4E",
-      "LaunchServiceProvider": "SpaceX",
+      "LaunchSite": " Vandenberg SLC-4E",
+      "LaunchServiceProvider": " SpaceX",
       "Notes": "Maiden flight of Falcon 9 v1.1.",
       "Payload": [
         {
-          "Payload": "CASSIOPE",
+          "Payload": " CASSIOPE",
           "Operator": "MDA Corporation",
           "Orbit": "Low Earth",
           "Function": "Communications/science",
@@ -1904,7 +2080,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "CUSat",
+          "Payload": " CUSat",
           "Operator": "Cornell",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -1913,7 +2089,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "DANDE",
+          "Payload": " DANDE",
           "Operator": "CU-Boulder",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -1959,14 +2135,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Astra 2E",
+          "Payload": " Astra 2E",
           "Operator": "SES S.A.",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1978,6 +2154,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "25 October03:50:03",
         "TimestampClean": "25 October03:50:03",
         "Timestamp": "2013-10-25T03:50:03Z",
@@ -1985,14 +2183,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 4B",
+      "Rocket": " Long March 4B",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan SLS-2",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Jiuquan SLS-2",
+      "LaunchServiceProvider": " SAST",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Shijian 16-01",
+          "Payload": " Shijian 16-01",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -2011,14 +2209,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Sirius FM-6",
+          "Payload": " Sirius FM-6",
           "Operator": "Sirius Satellite Radio",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2037,14 +2235,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2C",
+      "Rocket": " Long March 2C",
       "FlightNumber": "",
-      "LaunchSite": "Taiyuan LC-9",
-      "LaunchServiceProvider": "CALT",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " CALT",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yaogan 18",
+          "Payload": " Yaogan 18",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Reconnaissance",
@@ -2056,6 +2254,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "5 November09:08[25]",
         "TimestampClean": "5 November09:08",
         "Timestamp": "2013-11-05T09:08:00Z",
@@ -2063,14 +2283,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "PSLV-XL",
+      "Rocket": " PSLV-XL",
       "FlightNumber": "",
-      "LaunchSite": "Satish Dhawan FLP",
-      "LaunchServiceProvider": "ISRO",
+      "LaunchSite": " Satish Dhawan FLP",
+      "LaunchServiceProvider": " ISRO",
       "Notes": "India's first interplanetary mission. Last contact with orbiter in April 2022.",
       "Payload": [
         {
-          "Payload": "Mars Orbiter Mission (Mangalyaan)",
+          "Payload": " Mars Orbiter Mission (Mangalyaan)",
           "Operator": "ISRO",
           "Orbit": "Areocentric",
           "Function": "Mars orbiter",
@@ -2089,14 +2309,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-FG",
+      "Rocket": " Soyuz-FG",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 1/5",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "Crewed flight",
       "Payload": [
         {
-          "Payload": "Soyuz TMA-11M",
+          "Payload": " Soyuz TMA-11M",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "Expedition 38/39",
@@ -2115,14 +2335,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 81/24",
-      "LaunchServiceProvider": "RVSN RF",
+      "LaunchSite": " Baikonur Site 81/24",
+      "LaunchServiceProvider": " RVSN RF",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Raduga-1M 3",
+          "Payload": " Raduga-1M 3",
           "Operator": "VKO",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2141,14 +2361,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 401",
+      "Rocket": " Atlas V 401",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-41",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "NASA space probe to study the Martian atmosphere.",
       "Payload": [
         {
-          "Payload": "MAVEN",
+          "Payload": " MAVEN",
           "Operator": "NASA",
           "Orbit": "Areocentric",
           "Function": "Martian atmospheric research",
@@ -2167,14 +2387,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Minotaur I",
+      "Rocket": " Minotaur I",
       "FlightNumber": "",
-      "LaunchSite": "MARS LP-0B",
-      "LaunchServiceProvider": "Orbital Sciences",
+      "LaunchSite": " MARS LP-0B",
+      "LaunchServiceProvider": " Orbital Sciences",
       "Notes": "Largest number of satellites launched on a single rocket (31). ORS-3 will remain attached to upper stage.",
       "Payload": [
         {
-          "Payload": "ORS-3",
+          "Payload": " ORS-3",
           "Operator": "ORS",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -2183,7 +2403,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "STPSat 3",
+          "Payload": " STPSat 3",
           "Operator": "USAF STP",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -2454,14 +2674,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 4C",
+      "Rocket": " Long March 4C",
       "FlightNumber": "",
-      "LaunchSite": "Taiyuan LC-9",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " SAST",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Yaogan 19",
+          "Payload": " Yaogan 19",
           "Operator": "CNSA",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -2480,14 +2700,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Dnepr",
+      "Rocket": " Dnepr",
       "FlightNumber": "",
-      "LaunchSite": "Dombarovsky Site 370/13",
-      "LaunchServiceProvider": "ISC Kosmotras",
+      "LaunchSite": " Dombarovsky Site 370/13",
+      "LaunchServiceProvider": " ISC Kosmotras",
       "Notes": "Largest number of satellites launched on a single rocket (32).",
       "Payload": [
         {
-          "Payload": "DubaiSat-2",
+          "Payload": " DubaiSat-2",
           "Operator": "EIAST",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -2496,7 +2716,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "STSAT-3",
+          "Payload": " STSAT-3",
           "Operator": "KARI",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -2505,7 +2725,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SkySat-1",
+          "Payload": " SkySat-1",
           "Operator": "Skybox Imaging",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -2532,7 +2752,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "AprizeSat-7",
+          "Payload": " AprizeSat-7",
           "Operator": "AprizeSat",
           "Orbit": "Low Earth (SSO)",
           "Function": "Communications",
@@ -2541,7 +2761,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "AprizeSat-8",
+          "Payload": " AprizeSat-8",
           "Operator": "AprizeSat",
           "Orbit": "Low Earth (SSO)",
           "Function": "Communications",
@@ -2550,7 +2770,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "UniSat-5",
+          "Payload": " UniSat-5",
           "Operator": "La Sapienza",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration, CubeSat deployment",
@@ -2694,7 +2914,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "Pocket-PUCP",
+          "Payload": " Pocket-PUCP",
           "Operator": "PUCP",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -2775,7 +2995,7 @@
           "Cubesat": true
         },
         {
-          "Payload": "BPA-3",
+          "Payload": " BPA-3",
           "Operator": "Hartron-Arkos",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -2794,14 +3014,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Rokot / Briz-KM",
+      "Rocket": " Rokot / Briz-KM",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 133/3",
-      "LaunchServiceProvider": "Eurockot",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": "  Eurockot",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Swarm A",
+          "Payload": " Swarm A",
           "Operator": "ESA",
           "Orbit": "Low Earth",
           "Function": "Magnetospheric",
@@ -2810,7 +3030,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Swarm B",
+          "Payload": " Swarm B",
           "Operator": "ESA",
           "Orbit": "Low Earth",
           "Function": "Magnetospheric",
@@ -2819,7 +3039,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Swarm C",
+          "Payload": " Swarm C",
           "Operator": "ESA",
           "Orbit": "Low Earth",
           "Function": "Magnetospheric",
@@ -2838,14 +3058,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 2D",
+      "Rocket": " Long March 2D",
       "FlightNumber": "",
-      "LaunchSite": "Jiuquan SLS-2",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Jiuquan SLS-2",
+      "LaunchServiceProvider": " SAST",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Shiyan 5",
+          "Payload": " Shiyan 5",
           "Operator": "CNSA",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -2864,14 +3084,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U",
+      "Rocket": " Soyuz-U",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
-      "LaunchServiceProvider": "Roscosmos",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Progress M-21M / 53P",
+          "Payload": " Progress M-21M / 53P",
           "Operator": "Roscosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS logistics",
@@ -2883,6 +3103,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2013 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 December17:30:00 [93]",
         "TimestampClean": "1 December17:30:00 ",
         "Timestamp": "2013-12-01T17:30:00Z",
@@ -2890,14 +3132,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 3B",
+      "Rocket": " Long March 3B",
       "FlightNumber": "",
-      "LaunchSite": "Xichang LC-2",
-      "LaunchServiceProvider": "CALT",
+      "LaunchSite": " Xichang LC-2",
+      "LaunchServiceProvider": " CALT",
       "Notes": "China's first lunar rover, and the first spacecraft to make a soft landing on the Moon since the Soviet Luna 24 mission in 1976.",
       "Payload": [
         {
-          "Payload": "Chang'e 3",
+          "Payload": " Chang'e 3",
           "Operator": "CNSA",
           "Orbit": "Selenocentric",
           "Function": "Lunar lander",
@@ -2906,7 +3148,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Yutu",
+          "Payload": " Yutu",
           "Operator": "CNSA",
           "Orbit": "Selenocentric",
           "Function": "Lunar rover",
@@ -2925,14 +3167,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Falcon 9 v1.1",
+      "Rocket": " Falcon 9 v1.1",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-40",
-      "LaunchServiceProvider": "SpaceX",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
       "Notes": "First launch of Falcon 9 v1.1 from CCAFS; first SpaceX launch targeting GEO.",
       "Payload": [
         {
-          "Payload": "SES-8",
+          "Payload": " SES-8",
           "Operator": "SES World Skies",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -2951,14 +3193,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas V 501",
+      "Rocket": " Atlas V 501",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-3E",
-      "LaunchServiceProvider": "United Launch Alliance",
+      "LaunchSite": " Vandenberg SLC-3E",
+      "LaunchServiceProvider": " United Launch Alliance",
       "Notes": "NROL-39 mission.",
       "Payload": [
         {
-          "Payload": "USA-247 (Topaz)",
+          "Payload": " USA-247 (Topaz)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -3085,14 +3327,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Inmarsat 5-F1",
+          "Payload": " Inmarsat 5-F1",
           "Operator": "Inmarsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -3111,14 +3353,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 4B",
+      "Rocket": " Long March 4B",
       "FlightNumber": "",
-      "LaunchSite": "Taiyuan LC-9",
-      "LaunchServiceProvider": "SAST",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " SAST",
       "Notes": "Third stage shutdown 11 seconds too early.",
       "Payload": [
         {
-          "Payload": "CBERS-3",
+          "Payload": "  CBERS-3",
           "Operator": "CASC/INPE",
           "Orbit": "Intended: Low Earth (SSO)",
           "Function": "Remote sensing",
@@ -3137,14 +3379,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz ST-B / Fregat-MT",
+      "Rocket": " Soyuz ST-B / Fregat-MT",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELS",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELS",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Gaia",
+          "Payload": " Gaia",
           "Operator": "ESA",
           "Orbit": "Sun–Earth L2",
           "Function": "Astrometric observatory",
@@ -3163,14 +3405,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Long March 3B/E",
+      "Rocket": " Long March 3B/E",
       "FlightNumber": "",
-      "LaunchSite": "Xichang LC-2",
-      "LaunchServiceProvider": "CALT",
+      "LaunchSite": " Xichang LC-2",
+      "LaunchServiceProvider": " CALT",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Túpac Katari 1",
+          "Payload": " Túpac Katari 1",
           "Operator": "Agencia Boliviana Espacial",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -3189,14 +3431,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Rokot / Briz-KM",
+      "Rocket": " Rokot / Briz-KM",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 133/3",
-      "LaunchServiceProvider": "VKO",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": " VKO",
       "Notes": "Kosmos 2491 broke up in orbit on 23 December 2019.",
       "Payload": [
         {
-          "Payload": "Kosmos 2488 (Strela-3M 7)",
+          "Payload": " Kosmos 2488 (Strela-3M 7)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -3205,7 +3447,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2489 (Strela-3M 8)",
+          "Payload": " Kosmos 2489 (Strela-3M 8)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -3214,7 +3456,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2490 (Strela-3M 9)",
+          "Payload": " Kosmos 2490 (Strela-3M 9)",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Communications",
@@ -3223,7 +3465,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2491",
+          "Payload": " Kosmos 2491",
           "Operator": "VKO",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration/Satellite inspection (?)",
@@ -3242,14 +3484,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-M / Briz-M",
+      "Rocket": " Proton-M / Briz-M",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 81/24",
-      "LaunchServiceProvider": "Khrunichev",
+      "LaunchSite": " Baikonur Site 81/24",
+      "LaunchServiceProvider": " Khrunichev",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Ekspress AM5",
+          "Payload": " Ekspress AM5",
           "Operator": "RSCC",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -3268,14 +3510,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-2-1v / Volga",
+      "Rocket": " Soyuz-2-1v / Volga",
       "FlightNumber": "",
-      "LaunchSite": "Plesetsk Site 43/4",
-      "LaunchServiceProvider": "RVSN RF",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " RVSN RF",
       "Notes": "Maiden flight of Soyuz-2-1v.",
       "Payload": [
         {
-          "Payload": "Aist 1",
+          "Payload": " Aist 1",
           "Operator": "SSAU",
           "Orbit": "Low Earth",
           "Function": "Technology demonstration",
@@ -3284,7 +3526,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2492 (SKRL-756-1)",
+          "Payload": " Kosmos 2492 (SKRL-756-1)",
           "Operator": "RVSN RF",
           "Orbit": "Low Earth",
           "Function": "Radar calibration",
@@ -3293,7 +3535,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Kosmos 2493 (SKRL-756-2)",
+          "Payload": " Kosmos 2493 (SKRL-756-2)",
           "Operator": "RVSN RF",
           "Orbit": "Low Earth",
           "Function": "Radar calibration",

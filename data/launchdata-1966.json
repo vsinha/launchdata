@@ -202,6 +202,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nFebruary",
+        "TimestampClean": "\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 February",
+          "LayoutElem": "2",
+          "ValueElem": "February",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nFebruary",
+      "FlightNumber": "\n\nFebruary",
+      "LaunchSite": "\n\nFebruary",
+      "LaunchServiceProvider": "\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "2 February21:32:13",
         "TimestampClean": "2 February21:32:13",
         "Timestamp": "1966-02-02T21:32:13Z",
@@ -567,6 +589,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nMarch",
+        "TimestampClean": "\n\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 March",
+          "LayoutElem": "2",
+          "ValueElem": "March",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nMarch",
+      "FlightNumber": "\n\nMarch",
+      "LaunchSite": "\n\nMarch",
+      "LaunchServiceProvider": "\n\nMarch",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 March11:03:49",
         "TimestampClean": "1 March11:03:49",
         "Timestamp": "1966-03-01T11:03:49Z",
@@ -807,7 +851,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Transit-O 8",
+          "Payload": " Transit-O 8",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Navigation",
@@ -859,7 +903,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OV1-4",
+          "Payload": " OV1-4",
           "Operator": "US Air Force",
           "Orbit": "Low Earth",
           "Function": "REV test",
@@ -868,7 +912,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OV1-5",
+          "Payload": " OV1-5",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "REV test",
@@ -932,6 +976,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nApril",
+        "TimestampClean": "\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 April",
+          "LayoutElem": "2",
+          "ValueElem": "April",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nApril",
+      "FlightNumber": "\n\nApril",
+      "LaunchSite": "\n\nApril",
+      "LaunchServiceProvider": "\n\nApril",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "6 April11:40",
         "TimestampClean": "6 April11:40",
         "Timestamp": "1966-04-06T11:40:00Z",
@@ -984,7 +1050,7 @@
           "Payload": "SRV 1031-1",
           "Operator": "",
           "Orbit": "Low Earth",
-          "Function": "???",
+          "Function": " ???",
           "Decay": "???",
           "Outcome": "Successful",
           "Cubesat": false
@@ -1190,6 +1256,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\nMay",
+        "TimestampClean": "\n\n\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 May",
+          "LayoutElem": "2",
+          "ValueElem": "May",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\nMay",
+      "FlightNumber": "\n\n\nMay",
+      "LaunchSite": "\n\n\nMay",
+      "LaunchServiceProvider": "\n\n\nMay",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -1477,7 +1565,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OPS 1778 KH-4A Corona 1033",
+          "Payload": " OPS 1778 KH-4A Corona 1033",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Optical Reconnaissance",
@@ -1588,6 +1676,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nJune",
+        "TimestampClean": "\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 June",
+          "LayoutElem": "2",
+          "ValueElem": "June",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJune",
+      "FlightNumber": "\n\nJune",
+      "LaunchSite": "\n\nJune",
+      "LaunchServiceProvider": "\n\nJune",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -2044,6 +2154,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nJuly",
+        "TimestampClean": "\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 July",
+          "LayoutElem": "2",
+          "ValueElem": "July",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nJuly",
+      "FlightNumber": "\n\nJuly",
+      "LaunchSite": "\n\nJuly",
+      "LaunchServiceProvider": "\n\nJuly",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "1 Jul16:02:25",
         "TimestampClean": "1 Jul16:02:25",
         "Timestamp": "0001-01-01T00:00:00Z",
@@ -2374,7 +2506,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "KH-8 Gambit #1 (OPS 3014)",
+          "Payload": " KH-8 Gambit #1 (OPS 3014)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Optical Reconnaissance",
@@ -2383,7 +2515,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SRV Mission 4301-1",
+          "Payload": " SRV Mission 4301-1",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Film return",
@@ -2392,6 +2524,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nAugust",
+        "TimestampClean": "\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 August",
+          "LayoutElem": "2",
+          "ValueElem": "August",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nAugust",
+      "FlightNumber": "\n\nAugust",
+      "LaunchSite": "\n\nAugust",
+      "LaunchServiceProvider": "\n\nAugust",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -2899,6 +3053,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nSeptember",
+        "TimestampClean": "\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 September",
+          "LayoutElem": "2",
+          "ValueElem": "September",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nSeptember",
+      "FlightNumber": "\n\nSeptember",
+      "LaunchSite": "\n\nSeptember",
+      "LaunchServiceProvider": "\n\nSeptember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "12 Sep13:05:02",
         "TimestampClean": "12 Sep13:05:02",
         "Timestamp": "0001-01-01T00:00:00Z",
@@ -3229,7 +3405,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "KH-8 Gambit #2 (OPS 4096)",
+          "Payload": " KH-8 Gambit #2 (OPS 4096)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Optical Reconnaissance",
@@ -3238,7 +3414,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SRV Mission 4302-1",
+          "Payload": " SRV Mission 4302-1",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Film return",
@@ -3247,6 +3423,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nOctober",
+        "TimestampClean": "\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 October",
+          "LayoutElem": "2",
+          "ValueElem": "October",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nOctober",
+      "FlightNumber": "\n\nOctober",
+      "LaunchSite": "\n\nOctober",
+      "LaunchServiceProvider": "\n\nOctober",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -3588,6 +3786,28 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\nNovember",
+        "TimestampClean": "\n\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 November",
+          "LayoutElem": "2",
+          "ValueElem": "November",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nNovember",
+      "FlightNumber": "\n\nNovember",
+      "LaunchSite": "\n\nNovember",
+      "LaunchServiceProvider": "\n\nNovember",
+      "Notes": "",
+      "Payload": null
     },
     {
       "Timestamp": {
@@ -4015,6 +4235,28 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "\n\nDecember",
+        "TimestampClean": "\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1966 December",
+          "LayoutElem": "2",
+          "ValueElem": "December",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\nDecember",
+      "FlightNumber": "\n\nDecember",
+      "LaunchSite": "\n\nDecember",
+      "LaunchServiceProvider": "\n\nDecember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "3 Dec08:15",
         "TimestampClean": "3 Dec08:15",
         "Timestamp": "0001-01-01T00:00:00Z",
@@ -4149,7 +4391,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "OV1-9",
+          "Payload": " OV1-9",
           "Operator": "US Air Force",
           "Orbit": "Low Earth",
           "Function": "Radiation studies",
@@ -4158,7 +4400,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "OV1-10",
+          "Payload": " OV1-10",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Radiation studies",
@@ -4254,7 +4496,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": "KH-8 Gambit #3 (OPS 8968)",
+          "Payload": " KH-8 Gambit #3 (OPS 8968)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Optical Reconnaissance",
@@ -4263,7 +4505,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "SRV Mission 4303",
+          "Payload": " SRV Mission 4303",
           "Operator": "",
           "Orbit": "Low Earth",
           "Function": "Film return",
