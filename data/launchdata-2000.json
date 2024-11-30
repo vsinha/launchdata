@@ -452,7 +452,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": " Proton-K / Block DM-03",
+      "Rocket": " Proton-K / Block-DM3",
       "FlightNumber": "",
       "LaunchSite": " Baikonur Site 81/23",
       "LaunchServiceProvider": " International Launch Services",
@@ -526,7 +526,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": " Proton-K / Blok DM-2",
+      "Rocket": " Proton-K / Blok-DM-2",
       "FlightNumber": "",
       "LaunchSite": " Baikonur Site 200/39",
       "LaunchServiceProvider": " Khrunichev",
@@ -765,7 +765,7 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": " Ariane 4 42L",
+      "Rocket": " Ariane-42L H10-3",
       "FlightNumber": "",
       "LaunchSite": " Kourou ELA-2",
       "LaunchServiceProvider": " Arianespace",
@@ -872,7 +872,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": " Kosmos 2370 (Yantar-4KS1M №9)",
+          "Payload": " Kosmos 2370 (Yantar-4KS1M №9/Neman №9)",
           "Operator": "MO RF",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -1283,14 +1283,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K/DM-2",
+      "Rocket": " Proton-K / Blok-DM-2",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 200/39",
+      "LaunchSite": " Baikonur Site 200/39",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Kosmos 2371 (Potok №10)",
+          "Payload": "Kosmos 2371 (Potok №10/Geizer 22L)",
           "Operator": "MO RF",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1309,14 +1309,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Proton-K",
+      "Rocket": " Proton-K",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 81/23",
+      "LaunchSite": " Baikonur Site 81/23",
       "LaunchServiceProvider": "Roskosmos",
       "Notes": "ISS flight 1R",
       "Payload": [
         {
-          "Payload": "Zvezda",
+          "Payload": " Zvezda",
           "Operator": "Roskosmos",
           "Orbit": "Low Earth (ISS)",
           "Function": "ISS component",
@@ -1335,14 +1335,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas IIAS",
+      "Rocket": " Atlas IIAS",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-36B",
-      "LaunchServiceProvider": "International Launch Services",
+      "LaunchSite": " Cape Canaveral SLC-36B",
+      "LaunchServiceProvider": " International Launch Services",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Echostar 6",
+          "Payload": "Echostar 6 (Bermudasat 1)",
           "Operator": "EchoStar",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1361,23 +1361,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Kosmos-3M",
+      "Rocket": " Kosmos-3M",
       "FlightNumber": "",
       "LaunchSite": "Plesetsk Site 132/1",
       "LaunchServiceProvider": "",
       "Notes": "Rubin 1 was permanently attached to the second stage of Kosmos-3M",
       "Payload": [
         {
-          "Payload": "MITA [fr; gl]",
-          "Operator": "ASI",
-          "Orbit": "Low Earth",
-          "Function": "Particle detection",
-          "Decay": "15 August 2001",
-          "Outcome": "Successful",
-          "Cubesat": false
-        },
-        {
-          "Payload": "CHAMP",
+          "Payload": " CHAMP",
           "Operator": "DLR",
           "Orbit": "Low Earth",
           "Function": "Geophysics",
@@ -1386,7 +1377,16 @@
           "Cubesat": false
         },
         {
-          "Payload": "Rubin 1 (Bird-Rubin)",
+          "Payload": " MITA",
+          "Operator": "ASI",
+          "Orbit": "Low Earth",
+          "Function": "Particle detection",
+          "Decay": "15 August 2001",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Rubin 1 (Bird-Rubin)",
           "Operator": "OHB-System",
           "Orbit": "Low Earth",
           "Function": "Monitor carrier rocket",
@@ -1405,14 +1405,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Delta II 7925-9.5",
+      "Rocket": " Delta II 7925-9.5",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral SLC-17A",
-      "LaunchServiceProvider": "Boeing IDS",
+      "LaunchSite": " Cape Canaveral SLC-17A",
+      "LaunchServiceProvider": " Boeing IDS",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-151 (GPS IIR-5)",
+          "Payload": " USA-151 (GPS IIR-5)",
           "Operator": "US Air Force",
           "Orbit": "Medium Earth",
           "Function": "Navigation",
@@ -1431,14 +1431,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Soyuz-U/Fregat",
+      "Rocket": " Soyuz-U/Fregat",
       "FlightNumber": "",
-      "LaunchSite": "Baikonur Site 31/6",
+      "LaunchSite": " Baikonur Site 31/6",
       "LaunchServiceProvider": "Starsem",
       "Notes": "Cluster II mission",
       "Payload": [
         {
-          "Payload": "Samba",
+          "Payload": "Cluster FM6 (Salsa)",
           "Operator": "ESA",
           "Orbit": "High Earth",
           "Function": "Magnetosphere research",
@@ -1447,7 +1447,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "Salsa",
+          "Payload": " Cluster FM7 (Samba)",
           "Operator": "ESA",
           "Orbit": "High Earth",
           "Function": "Magnetosphere research",
@@ -1466,9 +1466,9 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Minotaur I",
+      "Rocket": " Minotaur I",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-8",
+      "LaunchSite": " Vandenberg SLC-8",
       "LaunchServiceProvider": "Orbital Sciences",
       "Notes": "",
       "Payload": [
@@ -1482,7 +1482,16 @@
           "Cubesat": false
         },
         {
-          "Payload": "Picosat 7/8",
+          "Payload": " MEMS 2A",
+          "Operator": "US Air Force",
+          "Orbit": "Low Earth",
+          "Function": "Technology development",
+          "Decay": "7 November 2002",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " MEMS 2B",
           "Operator": "US Air Force",
           "Orbit": "Low Earth",
           "Function": "Technology development",
@@ -1501,14 +1510,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Zenit-3SL",
+      "Rocket": " Zenit-3SL",
       "FlightNumber": "",
-      "LaunchSite": "Ocean Odyssey + SL Comander (U.S.)",
-      "LaunchServiceProvider": "Sea Launch",
+      "LaunchSite": " Ocean Odyssey + SL Comander (U.S.)",
+      "LaunchServiceProvider": " Sea Launch",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "PAS-9",
+          "Payload": " PAS-9 (Intelsat 9)",
           "Operator": "PanAmSat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -1520,23 +1529,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nAugust",
-        "TimestampClean": "\n\nAugust",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "2000 August",
+          "Value": "2000 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
           "LayoutElem": "2",
-          "ValueElem": "August",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
           "Message": ""
         }
       },
-      "Rocket": "\n\nAugust",
-      "FlightNumber": "\n\nAugust",
-      "LaunchSite": "\n\nAugust",
-      "LaunchServiceProvider": "\n\nAugust",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
       "Notes": "",
       "Payload": null
     },
