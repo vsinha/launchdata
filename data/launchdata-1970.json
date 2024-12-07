@@ -437,32 +437,6 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "3 March21:15",
-        "TimestampClean": "3 March21:15",
-        "Timestamp": "1970-03-03T21:15:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": " Black Arrow",
-      "FlightNumber": "",
-      "LaunchSite": " Woomera",
-      "LaunchServiceProvider": " RAE",
-      "Notes": "",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "RAE",
-          "Orbit": "Low Earth",
-          "Function": "Test LV",
-          "Decay": "In orbit",
-          "Outcome": "Successful",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
         "TimestampRaw": "4 March",
         "TimestampClean": "4 March",
         "Timestamp": "1970-03-04T00:00:00Z",
@@ -507,9 +481,9 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 March",
-        "TimestampClean": "10 March",
-        "Timestamp": "1970-03-10T00:00:00Z",
+        "TimestampRaw": "10 March12:20",
+        "TimestampClean": "10 March12:20",
+        "Timestamp": "1970-03-10T12:20:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
@@ -517,25 +491,25 @@
       "Rocket": " Diamant B",
       "FlightNumber": "",
       "LaunchSite": "Kourou ELD",
-      "LaunchServiceProvider": "",
-      "Notes": "",
+      "LaunchServiceProvider": " CNES",
+      "Notes": "Maiden flight of Diamant B, the first orbital launch from Kourou and South America in general",
       "Payload": [
         {
-          "Payload": " Dial-WIKA",
+          "Payload": " DIAL-WIKA",
           "Operator": "DFVLR",
-          "Orbit": "",
-          "Function": "Technology Demonstration",
-          "Decay": "In orbit",
+          "Orbit": "Elliptical low Earth",
+          "Function": "Upper athmosphere research",
+          "Decay": "5 October 1978",
           "Outcome": "Successful",
           "Cubesat": false
         },
         {
-          "Payload": " Dial-MIKA",
+          "Payload": " DIAL-MIKA",
           "Operator": "DFVLR",
-          "Orbit": "",
-          "Function": "Technology Demonstration",
-          "Decay": "In orbit",
-          "Outcome": "Successful",
+          "Orbit": "Elliptical low Earth",
+          "Function": "Launch vehicle evaluation",
+          "Decay": "9 September 1974",
+          "Outcome": "Spacecraft failure",
           "Cubesat": false
         }
       ]
@@ -2022,6 +1996,32 @@
       "LaunchServiceProvider": "\n\nSeptember",
       "Notes": "",
       "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 September00:34",
+        "TimestampClean": "2 September00:34",
+        "Timestamp": "1970-09-02T00:34:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Black Arrow",
+      "FlightNumber": "R2",
+      "LaunchSite": " Woomera LA-5B",
+      "LaunchServiceProvider": " RAE",
+      "Notes": "First orbital launch attempt of Black Arrow. Second stage shut down 13 seconds earlier than intended.",
+      "Payload": [
+        {
+          "Payload": " Orba (X 2)",
+          "Operator": "RAE",
+          "Orbit": "Suborbital",
+          "Function": "Atmosheric density research",
+          "Decay": "2 September",
+          "Outcome": "Failure",
+          "Cubesat": false
+        }
+      ]
     },
     {
       "Timestamp": {
