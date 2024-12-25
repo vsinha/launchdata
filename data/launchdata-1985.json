@@ -9,19 +9,255 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "M-3SII",
+      "Rocket": " M-3SII / KM-P",
       "FlightNumber": "M-3SII-1",
-      "LaunchSite": "Kagoshima Space Center, LP-M",
-      "LaunchServiceProvider": "ISAS",
-      "Notes": "Maiden flight of M-3SII. First Japanese deep space probe",
+      "LaunchSite": " Kagoshima LP-M",
+      "LaunchServiceProvider": " ISAS",
+      "Notes": "Maiden flight of M-3SII. First Japanese deep space probe.",
       "Payload": [
         {
-          "Payload": "Sakigake (MS-T5)",
+          "Payload": " Sakigake (MS-T5)",
           "Operator": "ISAS",
           "Orbit": "Heliocentric",
           "Function": "1P/Halley comet flyby",
-          "Decay": "In orbit",
+          "Decay": "8 January 1999",
           "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 January10:45",
+        "TimestampClean": "9 January10:45",
+        "Timestamp": "1985-01-09T10:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz U",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1616 (Yantar-4K2 №12/Kobalt №12)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 January14:50",
+        "TimestampClean": "15 January14:50",
+        "Timestamp": "1985-01-15T14:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Tsyklon-3",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 32/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1617 (Strela-3 №1)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1618 (Strela-3 №2)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1619 (Strela-3 №3)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1620 (Strela-3 №4)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1621 (Strela-3 №5)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1622 (Strela-3 №6)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 January",
+        "TimestampClean": "16 January",
+        "Timestamp": "1985-01-16T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Molniya-M / Blok-ML",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Molniya-3 36L",
+          "Operator": "",
+          "Orbit": "Molniya",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1623 (Zenit-8 №10/Oblik №10)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 January",
+        "TimestampClean": "17 January",
+        "Timestamp": "1985-01-17T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 132/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1624 (Strela-2M №36)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Military communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 January",
+        "TimestampClean": "18 January",
+        "Timestamp": "1985-01-18T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Proton-K / Blok-DM",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Gorizont 11 (Gorizont 21L)",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "23 January",
+        "TimestampClean": "23 January",
+        "Timestamp": "1985-01-23T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Tsyklon-2",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur LC-90",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1625 (US-P №20)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 January",
+        "TimestampClean": "24 January",
+        "Timestamp": "1985-01-24T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Tsyklon-3",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 32/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1626 (Tselina-D №47)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "SIGINT",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
           "Cubesat": false
         }
       ]
@@ -35,14 +271,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Space Shuttle Discovery",
+      "Rocket": " Space Shuttle Discovery / IUS",
       "FlightNumber": "",
-      "LaunchSite": "Kennedy LC-39A",
-      "LaunchServiceProvider": "United Space Alliance",
+      "LaunchSite": " Kennedy LC-39A",
+      "LaunchServiceProvider": " United Space Alliance",
       "Notes": "Crewed orbital flight with five astronauts",
       "Payload": [
         {
-          "Payload": "STS-51-C",
+          "Payload": " STS-51-C",
           "Operator": "NASA",
           "Orbit": "Low Earth",
           "Function": "Satellite deployment",
@@ -51,7 +287,7 @@
           "Cubesat": false
         },
         {
-          "Payload": "USA-8 (Magnum 1)",
+          "Payload": " Orion 1 (USA-8/Magnum 1)",
           "Operator": "NRO",
           "Orbit": "Geosynchronous",
           "Function": "ELINT",
@@ -63,25 +299,86 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nFebruary",
-        "TimestampClean": "\n\nFebruary",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 February",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
           "LayoutElem": "2",
-          "ValueElem": "February",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
           "Message": ""
         }
       },
-      "Rocket": "\n\nFebruary",
-      "FlightNumber": "\n\nFebruary",
-      "LaunchSite": "\n\nFebruary",
-      "LaunchServiceProvider": "\n\nFebruary",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
       "Notes": "",
       "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 February19:36",
+        "TimestampClean": "1 February19:36",
+        "Timestamp": "1985-02-01T19:36:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Kosmos-3M",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 132/2",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1627 (Parus №48)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 February",
+        "TimestampClean": "6 February",
+        "Timestamp": "1985-02-06T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz U",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 41/1",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1628 (Zenit-8 №11/Oblik №11)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Meteor-2 12",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
     },
     {
       "Timestamp": {
@@ -92,15 +389,15 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Titan 34B",
+      "Rocket": " Titan 34B / Agena-D",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-4W",
+      "LaunchSite": " Vandenberg SLC-4W",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "USA-9 (SDS)",
-          "Operator": "US Air force",
+          "Payload": " Quasar 6 (SDS 6/USA-9)",
+          "Operator": "NRO",
           "Orbit": "Molniya",
           "Function": "Communications",
           "Decay": "In orbit",
@@ -118,23 +415,23 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Ariane 3",
+      "Rocket": " Ariane 3",
       "FlightNumber": "",
-      "LaunchSite": "Kourou ELA",
-      "LaunchServiceProvider": "Arianespace",
+      "LaunchSite": " Kourou ELA-1",
+      "LaunchServiceProvider": " Arianespace",
       "Notes": "Arabsat 1A failed in March 1992",
       "Payload": [
         {
-          "Payload": "Arabsat-1A",
+          "Payload": " Arabsat-1A",
           "Operator": "Arabsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
-          "Decay": "In orbit",
+          "Decay": "March 1992",
           "Outcome": "Successful",
           "Cubesat": false
         },
         {
-          "Payload": "Brasilsat-A1",
+          "Payload": " Brasilsat-A1",
           "Operator": "Embratel",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -146,23 +443,84 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nMarch",
-        "TimestampClean": "\n\nMarch",
+        "TimestampRaw": "21 February",
+        "TimestampClean": "21 February",
+        "Timestamp": "1985-02-21T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Proton-K Blok-DM",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1629 (US-KS №3)",
+          "Operator": "",
+          "Orbit": "Geosynchronous",
+          "Function": "Early warning",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 February",
+        "TimestampClean": "27 February",
+        "Timestamp": "1985-02-27T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz U",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": "",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 1630 (Yantar-4K2 №13/Kobalt №13)",
+          "Operator": "GRU",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Kosmos 1631 (Taifun-1 №18/Vektor №18)",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Radar Calibration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 March",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
           "LayoutElem": "2",
-          "ValueElem": "March",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
           "Message": ""
         }
       },
-      "Rocket": "\n\nMarch",
-      "FlightNumber": "\n\nMarch",
-      "LaunchSite": "\n\nMarch",
-      "LaunchServiceProvider": "\n\nMarch",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
       "Notes": "",
       "Payload": null
     },
@@ -175,9 +533,9 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas E/OIS",
+      "Rocket": " Atlas E / OIS",
       "FlightNumber": "",
-      "LaunchSite": "Vandenberg SLC-3W",
+      "LaunchSite": " Vandenberg SLC-3W",
       "LaunchServiceProvider": "",
       "Notes": "Mission ended in January 1990",
       "Payload": [
@@ -201,14 +559,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": "Atlas G",
+      "Rocket": " Atlas G",
       "FlightNumber": "",
-      "LaunchSite": "Cape Canaveral LC-36B",
+      "LaunchSite": " Cape Canaveral LC-36B",
       "LaunchServiceProvider": "",
       "Notes": "",
       "Payload": [
         {
-          "Payload": "Intelsat 510",
+          "Payload": " Intelsat 510",
           "Operator": "Intelsat",
           "Orbit": "Geosynchronous",
           "Function": "Communications",
@@ -220,23 +578,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nApril",
-        "TimestampClean": "\n\nApril",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 April",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
           "LayoutElem": "2",
-          "ValueElem": "April",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
           "Message": ""
         }
       },
-      "Rocket": "\n\nApril",
-      "FlightNumber": "\n\nApril",
-      "LaunchSite": "\n\nApril",
-      "LaunchServiceProvider": "\n\nApril",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
       "Notes": "",
       "Payload": null
     },
@@ -339,23 +697,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nMay",
-        "TimestampClean": "\n\nMay",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 May",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
           "LayoutElem": "2",
-          "ValueElem": "May",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
           "Message": ""
         }
       },
-      "Rocket": "\n\nMay",
-      "FlightNumber": "\n\nMay",
-      "LaunchSite": "\n\nMay",
-      "LaunchServiceProvider": "\n\nMay",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
       "Notes": "",
       "Payload": null
     },
@@ -396,23 +754,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nJune",
-        "TimestampClean": "\n\nJune",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 June",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
           "LayoutElem": "2",
-          "ValueElem": "June",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
           "Message": ""
         }
       },
-      "Rocket": "\n\nJune",
-      "FlightNumber": "\n\nJune",
-      "LaunchSite": "\n\nJune",
-      "LaunchServiceProvider": "\n\nJune",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
       "Notes": "",
       "Payload": null
     },
@@ -558,23 +916,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nJuly",
-        "TimestampClean": "\n\nJuly",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 July",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
           "LayoutElem": "2",
-          "ValueElem": "July",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
           "Message": ""
         }
       },
-      "Rocket": "\n\nJuly",
-      "FlightNumber": "\n\nJuly",
-      "LaunchSite": "\n\nJuly",
-      "LaunchServiceProvider": "\n\nJuly",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
       "Notes": "",
       "Payload": null
     },
@@ -676,23 +1034,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nAugust",
-        "TimestampClean": "\n\nAugust",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 August",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
           "LayoutElem": "2",
-          "ValueElem": "August",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
           "Message": ""
         }
       },
-      "Rocket": "\n\nAugust",
-      "FlightNumber": "\n\nAugust",
-      "LaunchSite": "\n\nAugust",
-      "LaunchServiceProvider": "\n\nAugust",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
       "Notes": "",
       "Payload": null
     },
@@ -777,23 +1135,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nSeptember",
-        "TimestampClean": "\n\nSeptember",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 September",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
           "LayoutElem": "2",
-          "ValueElem": "September",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
           "Message": ""
         }
       },
-      "Rocket": "\n\nSeptember",
-      "FlightNumber": "\n\nSeptember",
-      "LaunchSite": "\n\nSeptember",
-      "LaunchServiceProvider": "\n\nSeptember",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
       "Notes": "",
       "Payload": null
     },
@@ -828,32 +1186,6 @@
           "Function": "Communications",
           "Decay": "12 September",
           "Outcome": "Launch Failure",
-          "Cubesat": false
-        }
-      ]
-    },
-    {
-      "Timestamp": {
-        "TimestampRaw": "13 September",
-        "TimestampClean": "13 September",
-        "Timestamp": "1985-09-13T00:00:00Z",
-        "Tbd": false,
-        "ParsedOk": true,
-        "ParseErr": null
-      },
-      "Rocket": "ASM-135 ASAT",
-      "FlightNumber": "",
-      "LaunchSite": "Celestial Eagle, Vandenberg",
-      "LaunchServiceProvider": "US Air Force",
-      "Notes": "Successful intercept and destruction of Solwind P78-1.",
-      "Payload": [
-        {
-          "Payload": "",
-          "Operator": "US Air Force",
-          "Orbit": "Suborbital",
-          "Function": "Anti-satellite weapon",
-          "Decay": "13 September",
-          "Outcome": "Successful",
           "Cubesat": false
         }
       ]
@@ -938,23 +1270,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nOctober",
-        "TimestampClean": "\n\nOctober",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 October",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
           "LayoutElem": "2",
-          "ValueElem": "October",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
           "Message": ""
         }
       },
-      "Rocket": "\n\nOctober",
-      "FlightNumber": "\n\nOctober",
-      "LaunchSite": "\n\nOctober",
-      "LaunchServiceProvider": "\n\nOctober",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
       "Notes": "",
       "Payload": null
     },
@@ -1074,23 +1406,23 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "\n\nNovember",
-        "TimestampClean": "\n\nNovember",
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
         "Timestamp": "0001-01-01T00:00:00Z",
         "Tbd": false,
         "ParsedOk": false,
         "ParseErr": {
           "Layout": "2006 2 January",
-          "Value": "1985 November",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
           "LayoutElem": "2",
-          "ValueElem": "November",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
           "Message": ""
         }
       },
-      "Rocket": "\n\nNovember",
-      "FlightNumber": "\n\nNovember",
-      "LaunchSite": "\n\nNovember",
-      "LaunchServiceProvider": "\n\nNovember",
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
       "Notes": "",
       "Payload": null
     },
@@ -1164,6 +1496,50 @@
           "Cubesat": false
         }
       ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1985 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n",
+      "Notes": "",
+      "Payload": null
     }
   ],
   "SuborbitalFlights": null
