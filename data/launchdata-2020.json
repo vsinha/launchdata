@@ -2,15 +2,15 @@
   "OrbitalFlights": [
     {
       "Timestamp": {
-        "TimestampRaw": "7 January02:19:21[21][22]",
-        "TimestampClean": "7 January02:19:21",
+        "TimestampRaw": "7 January02:19:21 [21][22]",
+        "TimestampClean": "7 January02:19:21 ",
         "Timestamp": "2020-01-07T02:19:21Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": " Falcon 9 Block 5",
-      "FlightNumber": "Starlink V1.0-L2",
+      "FlightNumber": "Starlink V1.0 L2",
       "LaunchSite": " Cape Canaveral SLC-40",
       "LaunchServiceProvider": " SpaceX",
       "Notes": "",
@@ -42,10 +42,10 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": " TJSW-5",
+          "Payload": " TJS 5 (Huoyan-1 02)",
           "Operator": "Ministry of Agriculture and Rural Affairs",
           "Orbit": "Geosynchronous",
-          "Function": "Technology demonstration",
+          "Function": "Early warning",
           "Decay": "In orbit",
           "Outcome": "Operational",
           "Cubesat": false
@@ -68,7 +68,7 @@
       "Notes": "",
       "Payload": [
         {
-          "Payload": " Jilin-1 Kuanfu-01",
+          "Payload": " Jilin-1 Kuanfu-01 (Hongqi-1 H9)",
           "Operator": "Chang Guang Satellite Technology",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -77,7 +77,7 @@
           "Cubesat": false
         },
         {
-          "Payload": " ÑuSat 7 (Sophie)",
+          "Payload": " ÑuSat 7 (Aleph-1 07/Sophie)",
           "Operator": "Satellogic",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -86,7 +86,7 @@
           "Cubesat": false
         },
         {
-          "Payload": " ÑuSat 8 (Marie)",
+          "Payload": " ÑuSat 8 (Aleph-1 08/Marie)",
           "Operator": "Satellogic",
           "Orbit": "Low Earth (SSO)",
           "Function": "Earth observation",
@@ -95,7 +95,7 @@
           "Cubesat": false
         },
         {
-          "Payload": " Tianqi-5",
+          "Payload": " Tianqi 5 (Xinzhou/Yunjiang)",
           "Operator": "Guodian Gaoke",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -114,14 +114,14 @@
         "ParsedOk": true,
         "ParseErr": null
       },
-      "Rocket": " Kuaizhou 1A",
+      "Rocket": " Kuaizhou-1A",
       "FlightNumber": "Y9",
       "LaunchSite": " Jiuquan LS-95A",
       "LaunchServiceProvider": " ExPace",
       "Notes": "",
       "Payload": [
         {
-          "Payload": " Yinhe-1 / GS-SparkSat-03 / Galaxy-1",
+          "Payload": " Yinhe 1 (GS-SparkSat-03/Galaxy-1)",
           "Operator": "Galaxy Space",
           "Orbit": "Low Earth (SSO)",
           "Function": "Technology demonstration",
@@ -176,7 +176,7 @@
         "ParseErr": null
       },
       "Rocket": " Falcon 9 Block 5",
-      "FlightNumber": "Starlink V1.0-L3",
+      "FlightNumber": "Starlink V1.0 L3",
       "LaunchSite": " Cape Canaveral SLC-40",
       "LaunchServiceProvider": " SpaceX",
       "Notes": "",
@@ -194,8 +194,8 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "31 January02:56[41]",
-        "TimestampClean": "31 January02:56",
+        "TimestampRaw": "31 January02:56 [41]",
+        "TimestampClean": "31 January02:56 ",
         "Timestamp": "2020-01-31T02:56:00Z",
         "Tbd": false,
         "ParsedOk": true,
@@ -208,7 +208,7 @@
       "Notes": "NROL-151 Mission. First launch contracted via the NRO's Rapid Acquisition of a Small Rocket (RASR) program.",
       "Payload": [
         {
-          "Payload": " USA-294",
+          "Payload": " RASR-1 (USA-294)",
           "Operator": "NRO",
           "Orbit": "Low Earth",
           "Function": "Reconnaissance",
@@ -242,15 +242,15 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "6 February21:42:41[42][43]",
-        "TimestampClean": "6 February21:42:41",
+        "TimestampRaw": "6 February21:42:41\n[42][43]",
+        "TimestampClean": "6 February21:42:41\n",
         "Timestamp": "2020-02-06T21:42:41Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": " Soyuz-2.1b / Fregat",
-      "FlightNumber": "ST27",
+      "FlightNumber": "ST27 ",
       "LaunchSite": " Baikonur Site 31/6",
       "LaunchServiceProvider": " Arianespace /  Starsem",
       "Notes": "Second OneWeb mission. Baikonur flight 1.",
@@ -268,15 +268,15 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 February01:34[45]",
-        "TimestampClean": "9 February01:34",
+        "TimestampRaw": "9 February01:34 [45]",
+        "TimestampClean": "9 February01:34 ",
         "Timestamp": "2020-02-09T01:34:00Z",
         "Tbd": false,
         "ParsedOk": true,
         "ParseErr": null
       },
       "Rocket": " H-IIA 202",
-      "FlightNumber": "F41",
+      "FlightNumber": "F41 ",
       "LaunchSite": " Tanegashima LA-Y1",
       "LaunchServiceProvider": " MHI",
       "Notes": "",
@@ -294,8 +294,8 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "9 February15:45[47]",
-        "TimestampClean": "9 February15:45",
+        "TimestampRaw": "9 February15:45 [47]",
+        "TimestampClean": "9 February15:45 ",
         "Timestamp": "2020-02-09T15:45:00Z",
         "Tbd": false,
         "ParsedOk": true,
@@ -320,8 +320,8 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "10 February04:03[50]",
-        "TimestampClean": "10 February04:03",
+        "TimestampRaw": "10 February04:03 [50]",
+        "TimestampClean": "10 February04:03 ",
         "Timestamp": "2020-02-10T04:03:00Z",
         "Tbd": false,
         "ParsedOk": true,
@@ -346,8 +346,8 @@
     },
     {
       "Timestamp": {
-        "TimestampRaw": "15 February20:21:04[52]",
-        "TimestampClean": "15 February20:21:04",
+        "TimestampRaw": "15 February20:21:04 [52]",
+        "TimestampClean": "15 February20:21:04 ",
         "Timestamp": "2020-02-15T20:21:04Z",
         "Tbd": false,
         "ParsedOk": true,
