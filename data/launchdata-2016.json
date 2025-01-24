@@ -1,4 +1,3146 @@
 {
-  "OrbitalFlights": null,
+  "OrbitalFlights": [
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 January16:57:04",
+        "TimestampClean": "15 January16:57:04",
+        "Timestamp": "2016-01-15T16:57:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3B/E",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-3",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Belintersat 1",
+          "Operator": "Belarus",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 January18:42:18",
+        "TimestampClean": "17 January18:42:18",
+        "Timestamp": "2016-01-17T18:42:18Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 v1.1",
+      "FlightNumber": "F9-021",
+      "LaunchSite": " Vandenberg SLC-4E",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "Final flight of the standard Falcon 9 v1.1, future flights will use the upgraded Falcon 9 Full Thrust. Falcon 9's first stage performed a soft landing on an autonomous spaceport drone ship in the Pacific Ocean, but the failure of one landing leg to lock into position caused it to fall over and break apart.",
+      "Payload": [
+        {
+          "Payload": " Jason-3",
+          "Operator": "NOAA / EUMETSAT",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 January04:01:00",
+        "TimestampClean": "20 January04:01:00",
+        "Timestamp": "2016-01-20T04:01:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " PSLV-XL",
+      "FlightNumber": "C31",
+      "LaunchSite": " Satish Dhawan SLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " IRNSS-1E",
+          "Operator": "ISRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 January23:20:48",
+        "TimestampClean": "27 January23:20:48",
+        "Timestamp": "2016-01-27T23:20:48Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ECA",
+      "FlightNumber": "VA228",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Intelsat 29e",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure in 2019",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 January22:20:09",
+        "TimestampClean": "29 January22:20:09",
+        "Timestamp": "2016-01-29T22:20:09Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Proton-M / Briz-M",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": "  International Launch Services",
+      "Notes": "Carries the first laser communication node for the European Data Relay System",
+      "Payload": [
+        {
+          "Payload": " Eutelsat 9B",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nFebruary",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 February07:29:04",
+        "TimestampClean": "1 February07:29:04",
+        "Timestamp": "2016-02-01T07:29:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3C/E / YZ-1",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-3",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " BeiDou M3-S",
+          "Operator": "CNSA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 February13:38:00",
+        "TimestampClean": "5 February13:38:00",
+        "Timestamp": "2016-02-05T13:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 401",
+      "FlightNumber": "AV-057",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " USA-266 (GPS IIF-12)",
+          "Operator": "US Air Force",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 February00:21:07",
+        "TimestampClean": "7 February00:21:07",
+        "Timestamp": "2016-02-07T00:21:07Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-2.1b / Fregat",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " RVSN RF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 2514 (GLONASS-M 751)",
+          "Operator": "VKS",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 February00:30",
+        "TimestampClean": "7 February00:30",
+        "Timestamp": "2016-02-07T00:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Unha-3",
+      "FlightNumber": "",
+      "LaunchSite": " Sohae",
+      "LaunchServiceProvider": " NADA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kwangmyŏngsŏng-4",
+          "Operator": "NADA",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "30 June 2023",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 February11:40:32",
+        "TimestampClean": "10 February11:40:32",
+        "Timestamp": "2016-02-10T11:40:32Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Delta IV M+ (5,2)",
+      "FlightNumber": "",
+      "LaunchSite": " Vandenberg SLC-6",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "NROL-45 mission. Spacecraft launched in a retrograde orbit.",
+      "Payload": [
+        {
+          "Payload": " USA-267 / Topaz-4",
+          "Operator": "NRO",
+          "Orbit": "Retrograde LEO",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 February17:57:40",
+        "TimestampClean": "16 February17:57:40",
+        "Timestamp": "2016-02-16T17:57:40Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Rokot / Briz-KM",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": " /  Eurockot",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Sentinel-3A",
+          "Operator": "ESA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 February08:45:00",
+        "TimestampClean": "17 February08:45:00",
+        "Timestamp": "2016-02-17T08:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " H-IIA 202",
+      "FlightNumber": "F30",
+      "LaunchSite": " Tanegashima LA-Y1",
+      "LaunchServiceProvider": " MHI",
+      "Notes": "Hitomi malfunctioned after initial checkouts, and is believed to have lost attitude control and snapped off its solar array. 28 April, JAXA has abandoned efforts to recover the spacecraft.",
+      "Payload": [
+        {
+          "Payload": "  Hitomi (ASTRO-H)",
+          "Operator": "JAXA / NASA",
+          "Orbit": "Low Earth",
+          "Function": "X-ray astronomy",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": " ChubuSat-2",
+          "Operator": "Nagoya University",
+          "Orbit": "Low Earth",
+          "Function": "Radiation / Amateur radio",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " ChubuSat-3",
+          "Operator": "MHI",
+          "Orbit": "Low Earth",
+          "Function": "Remote sensing / Space debris monitor",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Horyu-4",
+          "Operator": "Kyushu Institute of Technology",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMarch",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 March23:35:00",
+        "TimestampClean": "4 March23:35:00",
+        "Timestamp": "2016-03-04T23:35:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-022",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "High-velocity landing test ended with a hard landing on the drone ship Of Course I Still Love You and destruction of the first stage.",
+      "Payload": [
+        {
+          "Payload": " SES-9",
+          "Operator": "SES S.A.",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 March05:20:07",
+        "TimestampClean": "9 March05:20:07",
+        "Timestamp": "2016-03-09T05:20:07Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ECA",
+      "FlightNumber": "VA229",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Eutelsat 65 West A",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 March10:31:00",
+        "TimestampClean": "10 March10:31:00",
+        "Timestamp": "2016-03-10T10:31:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " PSLV-XL",
+      "FlightNumber": "C32",
+      "LaunchSite": " Satish Dhawan SLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " IRNSS-1F",
+          "Operator": "ISRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 March18:56:00",
+        "TimestampClean": "13 March18:56:00",
+        "Timestamp": "2016-03-13T18:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-2.1b",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "The launch succeeded on its second attempt after a rare pad abort the day before.",
+      "Payload": [
+        {
+          "Payload": " Resurs-P No.3",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "17 October 2023",
+          "Outcome": "Partial spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 March09:31:42[6]",
+        "TimestampClean": "14 March09:31:42",
+        "Timestamp": "2016-03-14T09:31:42Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Proton-M / Briz-M",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 200/39",
+      "LaunchServiceProvider": " Khrunichev",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " /  ExoMars Trace Gas Orbiter",
+          "Operator": "ESA",
+          "Orbit": "Areocentric orbit",
+          "Function": "Mars orbiter",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Schiaparelli EDM lander",
+          "Operator": "ESA",
+          "Orbit": "TMI to Martian Surface",
+          "Function": "Mars lander",
+          "Decay": "19 October 2016",
+          "Outcome": "Landing failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 March21:26:38",
+        "TimestampClean": "18 March21:26:38",
+        "Timestamp": "2016-03-18T21:26:38Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-FG",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "Crewed flight with three cosmonauts. Final flight of the Soyuz TMA-M variant",
+      "Payload": [
+        {
+          "Payload": " Soyuz TMA-20M",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "Expedition 47/48",
+          "Decay": "7 September 201601:13",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "23 March03:05:52",
+        "TimestampClean": "23 March03:05:52",
+        "Timestamp": "2016-03-23T03:05:52Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 401",
+      "FlightNumber": "AV-064",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "Anomaly in the mixture ratio control valve assembly, causing the Atlas V booster engine to cut off five seconds early, resulting in a longer-than-usual Centaur orbital insertion burn.Cubesats deployed from the ISS and the Cygnus spacecraft at a later date.",
+      "Payload": [
+        {
+          "Payload": " Cygnus CRS OA-6 S.S. Rick Husband",
+          "Operator": "Orbital ATK / NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "22 June 201613:29",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "  Diwata-1",
+          "Operator": "DOST / TU",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "6 April 2020",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Flock-2e' × 20",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "First: 3 October 2017Last: 10 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-2 × 9",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "First: 27 February 2017Last: 7 April 2017",
+          "Outcome": "8 successful, 1 failed to deploy",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 March09:42:00",
+        "TimestampClean": "24 March09:42:00",
+        "Timestamp": "2016-03-24T09:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-2.1a",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " RVSN RF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 2515 (Bars-M 2L)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 March20:11:04",
+        "TimestampClean": "29 March20:11:04",
+        "Timestamp": "2016-03-29T20:11:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3A",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " BeiDou IGSO-6",
+          "Operator": "CNSA",
+          "Orbit": "IGSO",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 March16:23:57",
+        "TimestampClean": "31 March16:23:57",
+        "Timestamp": "2016-03-31T16:23:57Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-2.1a",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "Tomsk-TPU-120 is a CubeSat deployed into orbit from ISS by Russian astronauts spacewalk on 17 August 2017.",
+      "Payload": [
+        {
+          "Payload": " Progress MS-02 / 63P",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "14 October 201613:39",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Tomsk-TPU-120",
+          "Operator": "Tomsk Polytechnic University",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "20 October 2019",
+          "Outcome": "Successful",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nApril",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 April17:38:04",
+        "TimestampClean": "5 April17:38:04",
+        "Timestamp": "2016-04-05T17:38:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LA-4/SLS-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Shijian 10",
+          "Operator": "CAS",
+          "Orbit": "Low Earth",
+          "Function": "Microgravity Science",
+          "Decay": "18 April 201608:30",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 April20:43:31",
+        "TimestampClean": "8 April20:43:31",
+        "Timestamp": "2016-04-08T20:43:31Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-023",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "First stage landed successfully on drone ship Of Course I Still Love You for the first time, the second successful landing overall",
+      "Payload": [
+        {
+          "Payload": " SpaceX CRS-8",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "11 May 201618:31",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " BEAM",
+          "Operator": "Bigelow Aerospace / NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "Technology demonstration / ISS Assembly",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 April21:02:13",
+        "TimestampClean": "25 April21:02:13",
+        "Timestamp": "2016-04-25T21:02:13Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-STA / Fregat",
+      "FlightNumber": "",
+      "LaunchSite": " Kourou ELS",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Sentinel-1B",
+          "Operator": "ESA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " MICROSCOPE",
+          "Operator": "CNES",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Astrophysics",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "AAUSAT-4",
+          "Operator": "Aalborg",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "AIS ship tracking",
+          "Decay": "8 September 2023",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "e-st@r-II",
+          "Operator": "Polytechnic University of Turin",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "OUFTI-1",
+          "Operator": "Liège",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 April02:01:21",
+        "TimestampClean": "28 April02:01:21",
+        "Timestamp": "2016-04-28T02:01:21Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-2.1a / Volga",
+      "FlightNumber": "",
+      "LaunchSite": " Vostochny Site 1S",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "First orbital flight from Vostochny Cosmodrome.",
+      "Payload": [
+        {
+          "Payload": " Mikhailo Lomonosov",
+          "Operator": "MSU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Gamma-ray astronomy",
+          "Decay": "16 December 2023",
+          "Outcome": "Satellite malfunction",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Aist-2D",
+          "Operator": "SSAU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "SamSat 218",
+          "Operator": "SSAU",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "4 March 2022",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 April07:20:00",
+        "TimestampClean": "28 April07:20:00",
+        "Timestamp": "2016-04-28T07:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " PSLV-XL",
+      "FlightNumber": "C33",
+      "LaunchSite": " Satish Dhawan FLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " IRNSS-1G",
+          "Operator": "ISRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nMay",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "6 May05:21:00",
+        "TimestampClean": "6 May05:21:00",
+        "Timestamp": "2016-05-06T05:21:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-024",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "First stage landed on Of Course I Still Love You drone ship, the third successful landing and the first landing with a payload to geostationary transfer orbit.",
+      "Payload": [
+        {
+          "Payload": " JCSAT-14",
+          "Operator": "JSAT",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 May02:43",
+        "TimestampClean": "15 May02:43",
+        "Timestamp": "2016-05-15T02:43:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LA-4/SLS-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Yaogan 30",
+          "Operator": "CNSA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 May08:48:43",
+        "TimestampClean": "24 May08:48:43",
+        "Timestamp": "2016-05-24T08:48:43Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-STB / Fregat",
+      "FlightNumber": "",
+      "LaunchSite": " Kourou ELS",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Galileo FOC 10",
+          "Operator": "ESA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Galileo FOC 11",
+          "Operator": "ESA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "27 May21:39:00",
+        "TimestampClean": "27 May21:39:00",
+        "Timestamp": "2016-05-27T21:39:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-025",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "First stage landed on Of Course I Still Love You drone ship, the fourth successful landing and the second landing with a payload to geostationary transfer orbit.",
+      "Payload": [
+        {
+          "Payload": " Thaicom 8",
+          "Operator": "Thaicom",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 May08:44:35",
+        "TimestampClean": "29 May08:44:35",
+        "Timestamp": "2016-05-29T08:44:35Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-2.1b / Fregat",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 43/4",
+      "LaunchServiceProvider": " RVSN RF",
+      "Notes": "Kosmos 2516 experienced a depressurization event in November 2020, which permanently disabled the satellite after four years in operation. It was replaced by GLONASS-K 705.",
+      "Payload": [
+        {
+          "Payload": " Kosmos 2516 (GLONASS-M 753)",
+          "Operator": "VKS",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "30 May03:17:04",
+        "TimestampClean": "30 May03:17:04",
+        "Timestamp": "2016-05-30T03:17:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 4B",
+      "FlightNumber": "",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Ziyuan III-02",
+          "Operator": "CNSA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " ÑuSat-1/-2  (Aleph-1 constellation)",
+          "Operator": "Satellogic",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJune",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "4 June14:00:13",
+        "TimestampClean": "4 June14:00:13",
+        "Timestamp": "2016-06-04T14:00:13Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Rokot / Briz-KM",
+      "FlightNumber": "",
+      "LaunchSite": " Plesetsk Site 133/3",
+      "LaunchServiceProvider": " RVSN RF",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Kosmos 2517 (Geo-IK-2 No.12)",
+          "Operator": "VKS",
+          "Orbit": "Low Earth",
+          "Function": "Geodesy",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 June07:10:00",
+        "TimestampClean": "9 June07:10:00",
+        "Timestamp": "2016-06-09T07:10:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Proton-M / Briz-M",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 81/24",
+      "LaunchServiceProvider": "  International Launch Services",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Intelsat 31 / DLA-2",
+          "Operator": "Intelsat / DirecTV",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 June17:51:00",
+        "TimestampClean": "11 June17:51:00",
+        "Timestamp": "2016-06-11T17:51:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Delta IV Heavy",
+      "FlightNumber": "",
+      "LaunchSite": " Cape Canaveral SLC-37B",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "NROL-37 mission.",
+      "Payload": [
+        {
+          "Payload": " USA-268 (Orion 9)",
+          "Operator": "NRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "12 June15:30:04",
+        "TimestampClean": "12 June15:30:04",
+        "Timestamp": "2016-06-12T15:30:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3C/E",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-3",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " BeiDou G7",
+          "Operator": "CNSA",
+          "Orbit": "Geosynchronous",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 June14:29:00",
+        "TimestampClean": "15 June14:29:00",
+        "Timestamp": "2016-06-15T14:29:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-026",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "Satellites were successfully delivered to orbit, first stage landing on drone ship failed.",
+      "Payload": [
+        {
+          "Payload": " Eutelsat 117 West B",
+          "Operator": "Eutelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " ABS-2A",
+          "Operator": "ABS",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 June21:38:39",
+        "TimestampClean": "18 June21:38:39",
+        "Timestamp": "2016-06-18T21:38:39Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ECA",
+      "FlightNumber": "VA230",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " EchoStar 18",
+          "Operator": "EchoStar",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " BRIsat",
+          "Operator": "BRI",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 June03:56:00",
+        "TimestampClean": "22 June03:56:00",
+        "Timestamp": "2016-06-22T03:56:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " PSLV-XL",
+      "FlightNumber": "C34",
+      "LaunchSite": " Satish Dhawan SLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Cartosat-2C",
+          "Operator": "ISRO",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " BIROS",
+          "Operator": "DLR",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " GHGSat-D (Claire)",
+          "Operator": "GHGSat",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " LAPAN-A3",
+          "Operator": "LAPAN",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " M3MSat",
+          "Operator": "CSA",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " SkySat-C1",
+          "Operator": "Terra Bella",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "BeeSat 4",
+          "Operator": "TU Berlin",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Flock-2p × 12",
+          "Operator": "Planet Labs",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "First: 20 October 2022Last: 28 March 2023",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "SathyabamaSat",
+          "Operator": "Sathyabama University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Swayam",
+          "Operator": "College of Engineering, Pune",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 June14:30:00",
+        "TimestampClean": "24 June14:30:00",
+        "Timestamp": "2016-06-24T14:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 551",
+      "FlightNumber": "AV-063",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " MUOS-5",
+          "Operator": "US Navy",
+          "Orbit": "GSO",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational in off-nominal but usable orbit",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "25 June12:00:07",
+        "TimestampClean": "25 June12:00:07",
+        "Timestamp": "2016-06-25T12:00:07Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 7 / YZ-1A",
+      "FlightNumber": "Y1",
+      "LaunchSite": " Wenchang LC-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "Maiden flight of the Long March 7 rocket and the first launch from the Wenchang Satellite Launch Center.",
+      "Payload": [
+        {
+          "Payload": " Next-generation crew capsule scale model",
+          "Operator": "CMSA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstrationFlight test",
+          "Decay": "26 June 201607:41",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Star of Aoxiang",
+          "Operator": "NPU",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "29 September 2016",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": " Aolong-1",
+          "Operator": "CALT",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "27 August 2016",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Tiange-1",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "27 August 2016",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Tiange-2",
+          "Operator": "",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "24 August 2016",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "29 June03:21:04",
+        "TimestampClean": "29 June03:21:04",
+        "Timestamp": "2016-06-29T03:21:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 4B",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LA-4/SLS-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Shijian 16-02",
+          "Operator": "CNSA",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nJuly",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 July01:36:40",
+        "TimestampClean": "7 July01:36:40",
+        "Timestamp": "2016-07-07T01:36:40Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-FG",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "Crewed flight with three cosmonauts. Maiden flight of the modernized Soyuz MS spacecraft variant.",
+      "Payload": [
+        {
+          "Payload": " Soyuz MS-01",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "Expedition 48/49",
+          "Decay": "30 October 201603:58",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 July21:41:45",
+        "TimestampClean": "16 July21:41:45",
+        "Timestamp": "2016-07-16T21:41:45Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Progress MS-03 / 64P",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "1 February 201718:24",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 July04:45:29",
+        "TimestampClean": "18 July04:45:29",
+        "Timestamp": "2016-07-18T04:45:29Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-027",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "Delivering the IDA-2 segment of the NASA Docking System. Second successful return to launch site and vertical landing of a first stage, demonstrated as part of a controlled descent test.",
+      "Payload": [
+        {
+          "Payload": " SpaceX CRS-9",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "26 August15:47",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 July12:37:00",
+        "TimestampClean": "28 July12:37:00",
+        "Timestamp": "2016-07-28T12:37:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 421",
+      "FlightNumber": "AV-065",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " USA-269 (Quasar NROL-61)",
+          "Operator": "NRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nAugust",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 August16:22:04",
+        "TimestampClean": "5 August16:22:04",
+        "Timestamp": "2016-08-05T16:22:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3B",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-3",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Tiantong-1 01",
+          "Operator": "CAST",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 August22:55:25",
+        "TimestampClean": "9 August22:55:25",
+        "Timestamp": "2016-08-09T22:55:25Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 4C",
+      "FlightNumber": "",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Gaofen-3",
+          "Operator": "CAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "14 August05:26:00",
+        "TimestampClean": "14 August05:26:00",
+        "Timestamp": "2016-08-14T05:26:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "F9-028",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " JCSAT-16",
+          "Operator": "JSAT",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 August17:40:04",
+        "TimestampClean": "15 August17:40:04",
+        "Timestamp": "2016-08-15T17:40:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LA-4/SLS-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Quantum Experiments At Space Scale (QUESS)",
+          "Operator": "CAS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Lixing-1",
+          "Operator": "CAS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "19 August 2016",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "3Cat 2",
+          "Operator": "UPC",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "18 December 2023",
+          "Outcome": "Successful",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 August04:52:00",
+        "TimestampClean": "19 August04:52:00",
+        "Timestamp": "2016-08-19T04:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Delta IV M+ (4,2)",
+      "FlightNumber": "",
+      "LaunchSite": " Cape Canaveral SLC-37B",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " AFSPC 6 / USA-270 / GSSAP #3",
+          "Operator": "US Air Force",
+          "Orbit": "Geosynchronous",
+          "Function": "Space surveillance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " AFSPC 6 / USA-271 / GSSAP #4",
+          "Operator": "US Air Force",
+          "Orbit": "Geosynchronous",
+          "Function": "Space surveillance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "24 August22:16:01",
+        "TimestampClean": "24 August22:16:01",
+        "Timestamp": "2016-08-24T22:16:01Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ECA",
+      "FlightNumber": "VA232",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Intelsat 33e",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Intelsat 36",
+          "Operator": "Intelsat",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "31 August18:50:00",
+        "TimestampClean": "31 August18:50:00",
+        "Timestamp": "2016-08-31T18:50:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 4C",
+      "FlightNumber": "",
+      "LaunchSite": " Taiyuan LC-9",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Gaofen-10",
+          "Operator": "CAST",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "31 August 2016",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nSeptember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 September07:00–09:00 (scheduled)[54]",
+        "TimestampClean": "3 September07:00–09:00 (scheduled)",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 3 September07:00–09:00 (scheduled)",
+          "LayoutElem": "",
+          "ValueElem": "07:00–09:00 (scheduled)",
+          "Message": ": extra text: \"07:00\\xe2\\x80\\x9309:00 (scheduled)\""
+        }
+      },
+      "Rocket": " Falcon 9 Full Thrust",
+      "FlightNumber": "",
+      "LaunchSite": " Cape Canaveral SLC-40",
+      "LaunchServiceProvider": " SpaceX",
+      "Notes": "Launch pad explosion destroyed both the rocket and the satellite two days prior to scheduled launch, on 13:07, 1 September 2016 (UTC) (2016-09-01T13:07Z).",
+      "Payload": [
+        {
+          "Payload": " AMOS-6",
+          "Operator": "Spacecom",
+          "Orbit": "Planned: Geosynchronous",
+          "Function": "Communications",
+          "Decay": "N/A",
+          "Outcome": "Destroyed prior to launch",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 September11:20:00",
+        "TimestampClean": "8 September11:20:00",
+        "Timestamp": "2016-09-08T11:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " GSLV Mk II",
+      "FlightNumber": "F05",
+      "LaunchSite": " Satish Dhawan SLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " INSAT-3DR",
+          "Operator": "ISRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "8 September23:05:00",
+        "TimestampClean": "8 September23:05:00",
+        "Timestamp": "2016-09-08T23:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 411",
+      "FlightNumber": "AV-067",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "Reached asteroid Bennu in December 2018. Scheduled to return to Earth in September 2023.",
+      "Payload": [
+        {
+          "Payload": " OSIRIS-REx",
+          "Operator": "NASA",
+          "Orbit": "Heliocentric",
+          "Function": "Asteroid sample return",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "13 September14:38:00",
+        "TimestampClean": "13 September14:38:00",
+        "Timestamp": "2016-09-13T14:38:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Shavit-2",
+      "FlightNumber": "",
+      "LaunchSite": " Palmachim",
+      "LaunchServiceProvider": " Israel Aerospace Industries",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Ofeq 11",
+          "Operator": "Israel Defense Forces",
+          "Orbit": "Low Earth",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Satellite malfunction",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 September14:04:12",
+        "TimestampClean": "15 September14:04:12",
+        "Timestamp": "2016-09-15T14:04:12Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2F/G",
+      "FlightNumber": "T2",
+      "LaunchSite": " Jiuquan LA-4/SLS-1",
+      "LaunchServiceProvider": " CNSA",
+      "Notes": "Second Chinese space laboratory, BanXing 2 deployed 22 October",
+      "Payload": [
+        {
+          "Payload": " Tiangong-2",
+          "Operator": "CMSA",
+          "Orbit": "Low Earth",
+          "Function": "Space station",
+          "Decay": "19 July 201913:06",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " BanXing 2",
+          "Operator": "SAST",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "15 July 2019",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 September01:43:35",
+        "TimestampClean": "16 September01:43:35",
+        "Timestamp": "2016-09-16T01:43:35Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Vega",
+      "FlightNumber": "",
+      "LaunchSite": " Kourou ELV",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " PeruSat-1",
+          "Operator": "Peruvian Armed Forces",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " SkySat × 4",
+          "Operator": "Terra Bella",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "26 September03:42:00",
+        "TimestampClean": "26 September03:42:00",
+        "Timestamp": "2016-09-26T03:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " PSLV-G",
+      "FlightNumber": "C35",
+      "LaunchSite": " Satish Dhawan FLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "Final launch of the original Polar Satellite Launch Vehicle PSLV-G configuration with S9 solid rocket motors.",
+      "Payload": [
+        {
+          "Payload": " ScatSat-1",
+          "Operator": "ISRO",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Alsat-1B",
+          "Operator": "Algerian Space Agency",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Alsat-2B",
+          "Operator": "Algerian Space Agency",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Blacksky Pathfinder-1",
+          "Operator": "BlackSky Global",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Pratham",
+          "Operator": "IIT Bombay",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " PISat",
+          "Operator": "PES University",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Alsat-1N",
+          "Operator": "Algerian Space Agency",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "CanX-7",
+          "Operator": "UTIAS Space Flight Laboratory",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "21 April 2022",
+          "Outcome": "Successful",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nOctober",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 October20:30",
+        "TimestampClean": "5 October20:30",
+        "Timestamp": "2016-10-05T20:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ECA",
+      "FlightNumber": "VA231",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " NBN-Co 1B / Sky Muster II",
+          "Operator": "NBN",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " GSAT-18",
+          "Operator": "ISRO",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "16 October23:30",
+        "TimestampClean": "16 October23:30",
+        "Timestamp": "2016-10-16T23:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2F",
+      "FlightNumber": "Y11",
+      "LaunchSite": " Jiuquan LA-4 / SLS-1",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "Crewed flight with two astronauts",
+      "Payload": [
+        {
+          "Payload": " Shenzhou 11",
+          "Operator": "CMSA",
+          "Orbit": "Low Earth",
+          "Function": "Docking with Tiangong-2",
+          "Decay": "18 November 201606:15",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 October23:45",
+        "TimestampClean": "17 October23:45",
+        "Timestamp": "2016-10-17T23:45:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Antares 230",
+      "FlightNumber": "",
+      "LaunchSite": " MARS Pad 0A",
+      "LaunchServiceProvider": " Orbital ATK",
+      "Notes": "CubeSats were deployed from the ISS and Cygnus spacecraft at a later date.",
+      "Payload": [
+        {
+          "Payload": " Cygnus CRS OA-5",
+          "Operator": "NASA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "27 November 201623:36",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Lemur-2 × 4",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 October08:05",
+        "TimestampClean": "19 October08:05",
+        "Timestamp": "2016-10-19T08:05:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-FG",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 31/6",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "Crewed flight with three cosmonauts",
+      "Payload": [
+        {
+          "Payload": " Soyuz MS-02",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "Expedition 49/50",
+          "Decay": "10 April 201711:20",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nNovember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "2 November06:20:00",
+        "TimestampClean": "2 November06:20:00",
+        "Timestamp": "2016-11-02T06:20:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " H-IIA 202",
+      "FlightNumber": "F31",
+      "LaunchSite": " Tanegashima LA-Y1",
+      "LaunchServiceProvider": " MHI",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Himawari 9",
+          "Operator": "JMA",
+          "Orbit": "Geosynchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "3 November12:42",
+        "TimestampClean": "3 November12:42",
+        "Timestamp": "2016-11-03T12:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 5",
+      "FlightNumber": "",
+      "LaunchSite": " Wenchang LC-1",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "Maiden flight of the Long March 5 rocket. Chinese state media claims Shijian-17 is a test of electric propulsion, though this is disputed by outside analysts tracking the satellite's unusual space rendezvous movements.",
+      "Payload": [
+        {
+          "Payload": " Shijian 17",
+          "Operator": "CNSA",
+          "Orbit": "Geosynchronous",
+          "Function": "Technology demonstration / Space rendezvous",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 November23:42[67]",
+        "TimestampClean": "9 November23:42",
+        "Timestamp": "2016-11-09T23:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 11",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LS-95A",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " XPNAV 1",
+          "Operator": "CAS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "X-ray pulsar-based navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Xiaoxiang 1",
+          "Operator": "Changsha Gaoxinqu Tianyi Research Institute",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lishui 1-01",
+          "Operator": "Zhejiang LiTong Electronic Technology Co.",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Pina-2 × 2",
+          "Operator": "",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 November18:30",
+        "TimestampClean": "11 November18:30",
+        "Timestamp": "2016-11-11T18:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 401",
+      "FlightNumber": "AV-062",
+      "LaunchSite": " Vandenberg SLC-3E",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "CubeSats deployed after WorldView-4 separation as part of NRO-sponsored ENTERPRISE mission. WorldView-4 experienced a failure in one of its control moment gyroscopes in January 2019, making the spacecraft unrecoverable.",
+      "Payload": [
+        {
+          "Payload": " WorldView-4",
+          "Operator": "DigitalGlobe",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "30 November 202105:20",
+          "Outcome": "Spacecraft failure",
+          "Cubesat": false
+        },
+        {
+          "Payload": "CELTEE 1",
+          "Operator": "M42 Technologies",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Calibration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Prometheus-2 × 2",
+          "Operator": "LANL",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "AeroCube 8 × 2",
+          "Operator": "Aerospace",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "OptiCube 4",
+          "Operator": "NASA Orbital Debris Program Office",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Calibration",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        },
+        {
+          "Payload": "RAVAN",
+          "Operator": "JHU/APL",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration / Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "11 November23:14",
+        "TimestampClean": "11 November23:14",
+        "Timestamp": "2016-11-11T23:14:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LA-4/SLS-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Yunhai-1",
+          "Operator": "SAST",
+          "Orbit": "Low Earth",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 November13:06:48",
+        "TimestampClean": "17 November13:06:48",
+        "Timestamp": "2016-11-17T13:06:48Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ES",
+      "FlightNumber": "VA233",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "First Galileo launch with Ariane 5 (8th overall), carrying Antonianna, Lisa, Kimberley, and Tijmen.",
+      "Payload": [
+        {
+          "Payload": " Galileo FOC 7",
+          "Operator": "ESA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Galileo FOC 12",
+          "Operator": "ESA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Galileo FOC 13",
+          "Operator": "ESA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Galileo FOC 14",
+          "Operator": "ESA",
+          "Orbit": "Medium Earth",
+          "Function": "Navigation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "17 November20:20:14",
+        "TimestampClean": "17 November20:20:14",
+        "Timestamp": "2016-11-17T20:20:14Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-FG",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "Crewed flight with three cosmonauts. Peggy Whitson's mission was prolonged over Expedition 52 until September 2017.",
+      "Payload": [
+        {
+          "Payload": " Soyuz MS-03",
+          "Operator": "Roscosmos",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "Expedition 50/51/52",
+          "Decay": "2 June 2017",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "19 November23:42:00",
+        "TimestampClean": "19 November23:42:00",
+        "Timestamp": "2016-11-19T23:42:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 541",
+      "FlightNumber": "AV-069",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " GOES-R (GOES-16)",
+          "Operator": "NASA / NOAA",
+          "Orbit": "Geosynchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "22 November15:24:04",
+        "TimestampClean": "22 November15:24:04",
+        "Timestamp": "2016-11-22T15:24:04Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3C/E",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Tianlian I-04",
+          "Operator": "CNSA",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+        "TimestampClean": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "2016 ←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+          "LayoutElem": "2",
+          "ValueElem": "←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+          "Message": ""
+        }
+      },
+      "Rocket": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "FlightNumber": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "LaunchSite": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "LaunchServiceProvider": "\n\n\n←  Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec →\n\n\n\nDecember",
+      "Notes": "",
+      "Payload": null
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "1 December14:52",
+        "TimestampClean": "1 December14:52",
+        "Timestamp": "2016-12-01T14:52:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Soyuz-U",
+      "FlightNumber": "",
+      "LaunchSite": " Baikonur Site 1/5",
+      "LaunchServiceProvider": " Roscosmos",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Progress MS-04 / 65P",
+          "Operator": "Roscosmos",
+          "Orbit": "Planned: Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "1 December",
+          "Outcome": "Launch failure",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "5 December13:51:44",
+        "TimestampClean": "5 December13:51:44",
+        "Timestamp": "2016-12-05T13:51:44Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Vega",
+      "FlightNumber": "",
+      "LaunchSite": " Kourou ELV",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Göktürk-1",
+          "Operator": "Turkish Armed Forces",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Reconnaissance",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 December04:54",
+        "TimestampClean": "7 December04:54",
+        "Timestamp": "2016-12-07T04:54:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " PSLV-XL",
+      "FlightNumber": "C36",
+      "LaunchSite": " Satish Dhawan FLP",
+      "LaunchServiceProvider": " ISRO",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Resourcesat-2A",
+          "Operator": "ISRO",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Remote sensing",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "7 December23:53",
+        "TimestampClean": "7 December23:53",
+        "Timestamp": "2016-12-07T23:53:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Delta IV M+ (5,4)",
+      "FlightNumber": "",
+      "LaunchSite": " Cape Canaveral SLC-37B",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " USA-272 / WGS-8",
+          "Operator": "US Air Force",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "9 December13:26:47",
+        "TimestampClean": "9 December13:26:47",
+        "Timestamp": "2016-12-09T13:26:47Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " H-IIB",
+      "FlightNumber": "F6",
+      "LaunchSite": " Tanegashima LA-Y2",
+      "LaunchServiceProvider": " MHI",
+      "Notes": "CubeSats to be deployed at a later date.  Tancredo-1 and OSNSAT are carried inside TuPOD and to be deployed from it.  STARS-C was deployed on 19 December 2016.  ITF-2, WASEDA-SAT3, FREEDOM, EGG, AOBA-Velox III, and TuPOD were deployed on 16 January 2017.  Tancredo-1 and OSNSAT were released from TuPOD on 19 January 2017.  Lemur-2 and TechEdSat-5 were deployed on 6–7 March 2017.",
+      "Payload": [
+        {
+          "Payload": " HTV-6",
+          "Operator": "JAXA",
+          "Orbit": "Low Earth (ISS)",
+          "Function": "ISS logistics",
+          "Decay": "5 February 201715:06",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "EGG",
+          "Operator": "UTokyo",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration / Re-entry Demonstration",
+          "Decay": "15 May 2017",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "TuPOD",
+          "Operator": "GAUSS Srl",
+          "Orbit": "Low Earth",
+          "Function": "TubeSat Deployment / Amateur radio",
+          "Decay": "8 September 2017",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "/ AOBA-VELOX 3",
+          "Operator": "NTU / Kyutech",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "1 November 2018",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "STARS C",
+          "Operator": "Kagawa University",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "3 March 2018",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "FREEDOM",
+          "Operator": "Nakashimada Engineering Works / Tohoku University",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "5 February 2017",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "ITF-2",
+          "Operator": "University of Tsukuba",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "3 January 2019",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Waseda-SAT 3",
+          "Operator": "Waseda University",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "6 October 2018",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": " OSNSAT",
+          "Operator": "Open Space Network",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "11 January 2018",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Tancredo-1",
+          "Operator": "Escola Municipal Presidente Tancredo de Almeida Neves/INPE",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "18 October 2017",
+          "Outcome": "Successful",
+          "Cubesat": false
+        },
+        {
+          "Payload": "TechEdSat 5",
+          "Operator": "SJSU/UI",
+          "Orbit": "Low Earth",
+          "Function": "Technology demonstration",
+          "Decay": "29 July 2017",
+          "Outcome": "Successful",
+          "Cubesat": true
+        },
+        {
+          "Payload": "Lemur-2 × 4",
+          "Operator": "Spire Global",
+          "Orbit": "Low Earth",
+          "Function": "AIS",
+          "Decay": "First: 15 April 2018Last: 5 December 2018",
+          "Outcome": "Successful",
+          "Cubesat": true
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "10 December16:11:00",
+        "TimestampClean": "10 December16:11:00",
+        "Timestamp": "2016-12-10T16:11:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 3B",
+      "FlightNumber": "",
+      "LaunchSite": " Xichang LC-3",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Fengyun 4A",
+          "Operator": "CMA",
+          "Orbit": "Geosynchronous",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "15 December13:37:21",
+        "TimestampClean": "15 December13:37:21",
+        "Timestamp": "2016-12-15T13:37:21Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Pegasus-XL",
+      "FlightNumber": "",
+      "LaunchSite": " Stargazer, Cape Canaveral",
+      "LaunchServiceProvider": " Orbital ATK",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " CYGNSS × 8",
+          "Operator": "NASA",
+          "Orbit": "Low Earth",
+          "Function": "Meteorology",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "18 December19:13",
+        "TimestampClean": "18 December19:13",
+        "Timestamp": "2016-12-18T19:13:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Atlas V 431",
+      "FlightNumber": "AV-071",
+      "LaunchSite": " Cape Canaveral SLC-41",
+      "LaunchServiceProvider": " United Launch Alliance",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " EchoStar 19",
+          "Operator": "HughesNet",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "20 December11:00",
+        "TimestampClean": "20 December11:00",
+        "Timestamp": "2016-12-20T11:00:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Epsilon",
+      "FlightNumber": "Epsilon-2",
+      "LaunchSite": " Uchinoura",
+      "LaunchServiceProvider": " JAXA",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Arase (ERG)",
+          "Operator": "JAXA",
+          "Orbit": "Medium Earth (elliptical)",
+          "Function": "Magnetospherics",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 December19:22",
+        "TimestampClean": "21 December19:22",
+        "Timestamp": "2016-12-21T19:22:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": " Jiuquan LA-4/SLS-2",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " TanSat",
+          "Operator": "CAS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " Spark × 2",
+          "Operator": "CAS",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "21 December20:30",
+        "TimestampClean": "21 December20:30",
+        "Timestamp": "2016-12-21T20:30:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Ariane 5 ECA",
+      "FlightNumber": "VA234",
+      "LaunchSite": " Kourou ELA-3",
+      "LaunchServiceProvider": " Arianespace",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": " Star One D1",
+          "Operator": "Star One",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " JCSAT-15",
+          "Operator": "JSAT",
+          "Orbit": "Geosynchronous",
+          "Function": "Communications",
+          "Decay": "In orbit",
+          "Outcome": "Operational",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
+        "TimestampRaw": "28 December03:23:56",
+        "TimestampClean": "28 December03:23:56",
+        "Timestamp": "2016-12-28T03:23:56Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": " Long March 2D",
+      "FlightNumber": "",
+      "LaunchSite": " Taiyuan",
+      "LaunchServiceProvider": " CASC",
+      "Notes": "Launch vehicle problem deployed satellites in a lower than planned orbit. SuperView satellites raising their own orbits, but CubeSats cannot so may have short lifespan.",
+      "Payload": [
+        {
+          "Payload": " SuperView / Gaojing-1 01",
+          "Operator": "Beijing Space View Technology",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Partial launch failure;Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": " SuperView / Gaojing-1 02",
+          "Operator": "Beijing Space View Technology",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Earth observation",
+          "Decay": "In orbit",
+          "Outcome": "Partial launch failure;Operational",
+          "Cubesat": false
+        },
+        {
+          "Payload": "Bayi Kepu 1",
+          "Operator": "China Association for Science and Technology",
+          "Orbit": "Low Earth (SSO)",
+          "Function": "Technology demonstration",
+          "Decay": "18 February 2017",
+          "Outcome": "Partial launch failure;Successful",
+          "Cubesat": true
+        }
+      ]
+    }
+  ],
   "SuborbitalFlights": null
 }
