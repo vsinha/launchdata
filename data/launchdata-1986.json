@@ -597,6 +597,32 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "5 September15:08",
+        "TimestampClean": "5 September15:08",
+        "Timestamp": "1986-09-05T15:08:00Z",
+        "Tbd": false,
+        "ParsedOk": true,
+        "ParseErr": null
+      },
+      "Rocket": "Delta 3920",
+      "FlightNumber": "",
+      "LaunchSite": "Cape Canaveral LC-17B",
+      "LaunchServiceProvider": " NASA",
+      "Notes": "Satellite impactor test for the Strategic Defense Initiative.",
+      "Payload": [
+        {
+          "Payload": "USA-19 (Delta 180)",
+          "Operator": "SDIO",
+          "Orbit": "LEO",
+          "Function": "Sensor development",
+          "Decay": "28 October 1986",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "17 September15:52",
         "TimestampClean": "17 September15:52",
         "Timestamp": "1986-09-17T15:52:00Z",
