@@ -363,6 +363,38 @@
     },
     {
       "Timestamp": {
+        "TimestampRaw": "March 2704:15",
+        "TimestampClean": "March 2704:15",
+        "Timestamp": "0001-01-01T00:00:00Z",
+        "Tbd": false,
+        "ParsedOk": false,
+        "ParseErr": {
+          "Layout": "2006 2 January",
+          "Value": "1972 March 2704:15",
+          "LayoutElem": "2",
+          "ValueElem": "March 2704:15",
+          "Message": ""
+        }
+      },
+      "Rocket": "Molniya-M/MVL",
+      "FlightNumber": "",
+      "LaunchSite": "Baikonur Cosmodrome, 31/6",
+      "LaunchServiceProvider": "Soviet Union",
+      "Notes": "",
+      "Payload": [
+        {
+          "Payload": "Venera 8",
+          "Operator": "USSR",
+          "Orbit": "Heliocentric to Venus",
+          "Function": "Venus lander",
+          "Decay": "July 22, 1972 (on Venus)",
+          "Outcome": "Successful",
+          "Cubesat": false
+        }
+      ]
+    },
+    {
+      "Timestamp": {
         "TimestampRaw": "\nApril",
         "TimestampClean": "\nApril",
         "Timestamp": "0001-01-01T00:00:00Z",
